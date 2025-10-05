@@ -14,7 +14,8 @@ tags:
   - Language/Drow
   - Language/Elvish
   - Language/Draconic
-Relationship Status: Single
+Status:
+  - Alive
 Gender: Male?
 ---
 # Summary

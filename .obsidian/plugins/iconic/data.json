@@ -32,6 +32,10 @@
     "1- Party/Maelis Nighthollow.md": {
       "icon": "lucide-star"
     },
+    "Dead/Colt.md": {
+      "icon": "lucide-heart-crack",
+      "color": "pink"
+    },
     "Events/Maelis/Birth.md": {
       "icon": "lucide-baby"
     },
@@ -48,11 +52,18 @@
     "Factions/Families/Nighthollow/Nighthollow Family.md": {
       "icon": "lucide-users-2"
     },
+    "Home.md": {
+      "icon": "lucide-home"
+    },
+    "Resources/BG3 Drow name table.md": {
+      "icon": "lucide-book"
+    },
     "z_Templates": {
       "icon": "lucide-layout-template",
       "unsynced": [
         "261d0ee700dfe3a5",
-        "9c23d85943ac5f75"
+        "9c23d85943ac5f75",
+        "a2bedb56c4a49f6b"
       ]
     }
   },
