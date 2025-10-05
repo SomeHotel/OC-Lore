@@ -16,7 +16,7 @@ tags:
   - Language/Draconic
 Status:
   - Alive
-Gender: Male?
+Gender: Male
 ---
 # Summary
 ---
