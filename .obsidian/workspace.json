@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1- Party/Maelis Nighthollow.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Maelis Nighthollow"
+              "title": "README"
             }
           }
         ]
@@ -224,9 +224,9 @@
   },
   "active": "8becf2d67d4b22f7",
   "lastOpenFiles": [
-    "1- Party/Corelia.md",
     "1- Party/Maelis Nighthollow.md",
-    "Home.md",
+    "1- Party/Corelia.md",
+    "README.md",
     "z_Templates/Character Template.md",
     "z_Templates/Event Template.md",
     "z_Templates",
