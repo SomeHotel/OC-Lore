@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Events/Maelis/Escape from home.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Escape from home"
+              "title": "Home"
             }
           }
         ]
@@ -199,8 +199,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "e7589f619dd2584b",
   "lastOpenFiles": [
+    "1- Party/Maelis Nighthollow.md",
     "Home.md",
     "Events/Maelis/Escape from home.md",
     "Dead/Alye.md",

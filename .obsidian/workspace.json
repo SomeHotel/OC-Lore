@@ -11,24 +11,14 @@
             "id": "8becf2d67d4b22f7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "aFile": ".gitignore",
+                "bFile": ".gitignore",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "README"
+              "icon": "diff",
+              "title": "Diff: .gitignore"
             }
           }
         ]
@@ -222,43 +212,43 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "2325deaf5469eaca",
+  "active": "8becf2d67d4b22f7",
   "lastOpenFiles": [
-    "New Text Document.txt",
+    "Events/Maelis/Loss of hearing.sync-conflict-20251006-004422-M7QFWIS.md",
+    "z_Templates/Event Template.sync-conflict-20251006-004427-M7QFWIS.md",
+    "Events/Maelis/Maelis meets Corelia.sync-conflict-20251006-004426-M7QFWIS.md",
+    "Events/Maelis/Escape from home.sync-conflict-20251006-004414-M7QFWIS.md",
+    "Factions/Families/Nighthollow/Nighthollow Family.sync-conflict-20251006-004415-M7QFWIS.md",
+    "Resources/BG3 Drow name table.sync-conflict-20251006-004419-M7QFWIS.md",
+    "Events/Maelis/Birth.sync-conflict-20251006-004420-M7QFWIS.md",
+    "Dead/Alye.sync-conflict-20251006-004418-M7QFWIS.md",
+    "Events/Maelis/~syncthing~Loss of hearing.sync-conflict-20251006-004422-M7QFWIS.md.tmp",
+    "Factions/Families/Nighthollow/~syncthing~Nighthollow Family.sync-conflict-20251006-004415-M7QFWIS.md.tmp",
+    "Events/Maelis/~syncthing~Maelis meets Corelia.sync-conflict-20251006-004426-M7QFWIS.md.tmp",
+    "Events/Maelis/~syncthing~Escape from home.sync-conflict-20251006-004414-M7QFWIS.md.tmp",
+    "Resources/~syncthing~BG3 Drow name table.sync-conflict-20251006-004419-M7QFWIS.md.tmp",
+    "Events/Maelis/~syncthing~Birth.sync-conflict-20251006-004420-M7QFWIS.md.tmp",
+    "Dead/~syncthing~Alye.sync-conflict-20251006-004418-M7QFWIS.md.tmp",
+    "Dead/Colt.sync-conflict-20251006-004415-M7QFWIS.md",
+    "Factions/Families/Nighthollow/Filvrae Nighthollow.sync-conflict-20251006-004419-M7QFWIS.md",
+    "Dead/~syncthing~Colt.sync-conflict-20251006-004415-M7QFWIS.md.tmp",
+    "Factions/Families/Nighthollow/~syncthing~Filvrae Nighthollow.sync-conflict-20251006-004419-M7QFWIS.md.tmp",
+    "README.md",
+    "Home.md",
+    "~syncthing~Home.md.tmp",
     "1- Party/Maelis Nighthollow.md",
     "1- Party/Corelia.md",
-    "README.md",
     "z_Templates/Character Template.md",
     "z_Templates/Event Template.md",
-    "z_Templates",
     "Resources/BG3 Drow name table.md",
-    "Resources",
     "Factions/Families/Nighthollow/Nighthollow Family.md",
     "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
-    "Factions/Families/Nighthollow",
-    "Factions/Families",
-    "Factions",
     "Events/Maelis/Maelis meets Corelia.md",
     "Events/Maelis/Escape from home.md",
     "Events/Maelis/Loss of hearing.md",
     "Events/Maelis/Birth.md",
-    "Events/Maelis",
-    "Events",
     "Dead/Colt.md",
     "Dead/Alye.md",
-    "Dead",
-    "1- Party",
-    "OC-Lore",
-    "DnD/z_Templates/Quest Template.md",
-    "DnD/Campaigns/Party/Aurora.md",
-    "DnD/z_Templates/Group Template.md",
-    "DnD/Campaigns/Characters/NPCs/Nighthollow Patriarch.md",
-    "DnD/Campaigns/Characters/Factions/Families/NightHollow/Nighthollow Family.md",
-    "DnD/z_Templates/Session Template.md",
-    "DnD/README.md",
-    "DnD/Campaigns/Party/Anzia.md",
-    "Mire & Bone/Locations/Funeral home.md",
-    "Mire & Bone/PCs/Gorxs.md",
-    "Sara is Missing/Layton vs Phoenix.md"
+    "DnD/z_Templates/Quest Template.md"
   ]
 }
