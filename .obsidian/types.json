@@ -1,0 +1,16 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "Status": "multitext",
+    "Alive?": "multitext",
+    "Date": "date",
+    "statblock": "text",
+    "level": "number",
+    "modifier": "number",
+    "ac": "number",
+    "hp": "number",
+    "type": "multitext"
+  }
+}
