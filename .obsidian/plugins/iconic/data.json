@@ -45,12 +45,25 @@
     "Events/Maelis/Maelis meets Corelia.md": {
       "icon": "lucide-handshake"
     },
+    "Factions/Families/Nighthollow": {
+      "icon": "lucide-skull",
+      "color": "purple",
+      "unsynced": [
+        "a2bedb56c4a49f6b"
+      ]
+    },
     "Factions/Families/Nighthollow/Filvrae Nighthollow.md": {
       "icon": "lucide-crown",
       "color": "yellow"
     },
     "Factions/Families/Nighthollow/Nighthollow Family.md": {
       "icon": "lucide-users-2"
+    },
+    "Locations": {
+      "icon": "lucide-map",
+      "unsynced": [
+        "a2bedb56c4a49f6b"
+      ]
     },
     "README.md": {
       "icon": "lucide-home"
