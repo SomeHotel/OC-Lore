@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Locations/Yartar.md",
+                "file": "1- Party/Maelis Nighthollow.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Yartar"
+              "title": "Maelis Nighthollow"
             }
           }
         ]
@@ -222,8 +222,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "2325deaf5469eaca",
+  "active": "3432252ecf58ea8a",
   "lastOpenFiles": [
+    "1- Party/Corelia.md",
+    "Locations/Yartar.md",
     ".obsidian/themes/Things/theme.css",
     ".obsidian/themes/Terminal/theme.css",
     ".obsidian/themes/Terminal/manifest.json",
@@ -234,12 +236,9 @@
     ".obsidian/themes/Red Graphite/manifest.json",
     ".obsidian/plugins/templater-obsidian/main.js",
     ".obsidian/plugins/templater-obsidian/data.json",
-    ".obsidian/plugins/table-editor-obsidian/styles.css",
     ".trash/Home.md",
-    "Locations/Yartar.md",
     "Events/Maelis/Escape from home.md",
     "1- Party/Maelis Nighthollow.md",
-    "1- Party/Corelia.md",
     "Dead/Colt.md",
     "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
     "Factions/Families/Nighthollow/Nighthollow Family.md",
