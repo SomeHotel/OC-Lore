@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1- Party/Corelia.md",
+                "file": "Events/Characters/Maelis/Loss of hearing.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Corelia"
+              "title": "Loss of hearing"
             }
           }
         ],
@@ -298,16 +298,16 @@
   },
   "active": "6ab9c033f244e407",
   "lastOpenFiles": [
+    "Events/Characters/Colt/Colt Death.md",
+    "Events/Characters/Maelis/Maelis Birth.md",
+    "Events/Characters/Maelis/Loss of hearing.md",
+    "Events/Characters/Maelis/Escape from home.md",
+    "Events/Characters/Maelis/Maelis meets Corelia.md",
+    "1- Party/Corelia.md",
     "1- Party/Maelis Nighthollow.md",
     "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
     "Factions/Families/Nighthollow/Nighthollow Family.md",
-    "1- Party/Corelia.md",
-    "Events/Characters/Maelis/Maelis meets Corelia.md",
-    "Events/Characters/Maelis/Loss of hearing.md",
-    "Events/Characters/Maelis/Escape from home.md",
-    "Events/Characters/Maelis/Birth.md",
     "Events/Characters/Colt/Meeting Maelis.md",
-    "Events/Characters/Colt/Death of Colt.md",
     "Events/Characters",
     "Events/Characters/Corelia",
     "Events/Corelia.md",
