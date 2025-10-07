@@ -1,14 +1,16 @@
 ---
-type:
-  - Character
-Age:
 aliases:
   - Father
   - Nighthollow Patriarch
-Status: Alive
-Gender: Man
+  - Filvrae
+tags:
+  - Type/Character
+  - Status/Alive
+  - Gender/Man
+  - Race/Drow
+  - Background/Noble
 ---
 ## Background
-- Estranged father of [[Maelis Nighthollow|Maelis]]
+- Estranged father of [[Maelis Nighthollow]]
 - Patriarch of the [[Nighthollow Family]]
 - 

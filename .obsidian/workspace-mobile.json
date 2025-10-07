@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Events/Colt/Death.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Death"
-            }
-          },
-          {
             "id": "6c08d29d1ba99334",
             "type": "leaf",
             "state": {
@@ -59,10 +35,48 @@
             "id": "e692a8b0b7fa592b",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Dead/Colt.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Colt"
+            }
+          },
+          {
+            "id": "1e1f4d95e7689403",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "z_Templates/Character Template.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Character Template"
             }
           }
         ]
@@ -93,7 +107,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "death",
+            "query": "tag:Language/Common",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -142,7 +156,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
     "id": "a475a292c05e05a5",
@@ -223,14 +237,20 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "6c08d29d1ba99334",
   "lastOpenFiles": [
     "Dead/Colt.md",
+    "1- Party/Maelis Nighthollow.md",
     "Dead/Alye.md",
+    "Factions/Families/Nighthollow/Nighthollow Family.md",
+    "z_Templates/Character Template.md",
+    "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
+    "Events/Conversations",
+    "Events/Characters/Maelis/Escape from home.md",
+    "1- Party/Corelia.md",
     ".obsidian/.syncthing.workspace.json.tmp",
     ".stversions/Events/Maelis/Maelis meets Corelia.md",
     ".stversions/Ideas.excalidraw.md",
-    "1- Party/Maelis Nighthollow.md",
     ".stversions/Factions/Families/Nighthollow/Filvrae Nighthollow.md",
     ".stversions/Factions/Families/Nighthollow/Nighthollow Family.md",
     ".stversions/.obsidian/plugins/obsidian-meta-bind-plugin/styles.css",
@@ -241,7 +261,6 @@
     ".stversions/.obsidian/plugins/dataview/manifest.json",
     ".stversions/.obsidian/plugins/dataview/main.js",
     ".stversions/.obsidian/plugins/iconic/data.json",
-    ".obsidian/themes/Things/theme.css",
     ".stversions/Events/Maelis/Escape from home.md",
     ".stversions/Dead/Colt.md",
     ".stversions/Locations/Yartar.md",
@@ -255,10 +274,6 @@
     "Events/Maelis/Birth.md",
     "Ideas.excalidraw.md",
     "z_Templates/Event Template.md",
-    "README.md",
-    "Factions/Families/Nighthollow/Nighthollow Family.md",
-    "Events/Maelis/Escape from home.md",
-    "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
-    "Home.md"
+    "README.md"
   ]
 }

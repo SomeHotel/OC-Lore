@@ -1,9 +1,9 @@
 ---
 type:
   - Character
-Age:
 aliases:
 tags:
+Age:
 Status:
 Gender:
 ---

@@ -11,6 +11,7 @@
     "modifier": "number",
     "ac": "number",
     "hp": "number",
-    "type": "multitext"
+    "type": "multitext",
+    "Language": "multitext"
   }
 }

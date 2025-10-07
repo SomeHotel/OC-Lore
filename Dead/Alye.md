@@ -4,6 +4,7 @@ type:
 Status: Dead
 aliases:
 tags:
+
 Gender: Woman
 ---
 ## Background

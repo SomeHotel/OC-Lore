@@ -1,10 +1,10 @@
 ---
-type: Character
 aliases:
-Age: 20
 tags:
+  - Type/Character
+  - Age/20
+  - Status/Alive
+  - Gender/Woman
   - Language/Common
   - Race/Tiefling
-Status: Alive
-Gender: Woman
 ---
