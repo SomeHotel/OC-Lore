@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Dead/Colt.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,45 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Colt"
+            }
+          },
+          {
+            "id": "6c08d29d1ba99334",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1- Party/Maelis Nighthollow.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Maelis Nighthollow"
+            }
+          },
+          {
+            "id": "e692a8b0b7fa592b",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -59,7 +94,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "[\"Gender\"]",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -157,27 +192,17 @@
         }
       },
       {
-        "id": "426580e5dd8d9ef3",
+        "id": "03e35c4ee7fe3411",
         "type": "leaf",
         "state": {
-          "type": "DICE_ROLLER_VIEW",
+          "type": "git-view",
           "state": {},
-          "icon": "lucide-ghost",
-          "title": "DICE_ROLLER_VIEW"
-        }
-      },
-      {
-        "id": "501438ee1fa22b1a",
-        "type": "leaf",
-        "state": {
-          "type": "initiative-tracker-view",
-          "state": {},
-          "icon": "lucide-ghost",
-          "title": "initiative-tracker-view"
+          "icon": "git-pull-request",
+          "title": "Source Control"
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 3
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,17 +224,26 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "e7589f619dd2584b",
+  "active": "6c08d29d1ba99334",
   "lastOpenFiles": [
+    "Events/Maelis/Loss of hearing.md",
     "1- Party/Maelis Nighthollow.md",
-    "Home.md",
-    "Events/Maelis/Escape from home.md",
-    "Dead/Alye.md",
-    "Party/Maelis Nighthollow.md",
+    "Events/Colt/Death.md",
+    "Events/Maelis/Birth.md",
+    "Ideas.excalidraw.md",
+    "Untitled.base",
+    "Dead/Colt.md",
+    "z_Templates/Event Template.md",
+    "README.md",
+    "Events/Colt",
     "Factions/Families/Nighthollow/Nighthollow Family.md",
+    "Events/Maelis/Escape from home.md",
+    "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
+    "Dead/Alye.md",
+    "Home.md",
+    "Party/Maelis Nighthollow.md",
     "Events/Maelis/Maelis meets Corelia.md",
     "Party/Corelia.md",
-    "Dead/Colt.md",
     "Campaigns/Characters/Factions/Families/NightHollow/Nighthollow Family.md",
     "Campaigns/Party/Maelis Nighthollow.md",
     "Campaigns/Party/Anzia.md"

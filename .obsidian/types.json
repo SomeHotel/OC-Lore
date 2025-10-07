@@ -3,7 +3,7 @@
     "aliases": "aliases",
     "cssclasses": "multitext",
     "tags": "tags",
-    "Status": "multitext",
+    "Status": "text",
     "Alive?": "multitext",
     "Date": "date",
     "statblock": "text",

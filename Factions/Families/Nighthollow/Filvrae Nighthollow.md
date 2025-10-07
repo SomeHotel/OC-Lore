@@ -1,13 +1,15 @@
 ---
+type:
+  - Character
+Age:
 aliases:
   - Father
   - Nighthollow Patriarch
-Status:
-  - Alive
-Gender: Male
-type:
+Status: Alive
+Gender: Man
 ---
 ## Background
 - Estranged father of [[Maelis Nighthollow|Maelis]]
 - Patriarch of the [[Nighthollow Family]]
+- Keeps to himself
 - 

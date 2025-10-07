@@ -32,10 +32,6 @@
     "1- Party/Maelis Nighthollow.md": {
       "icon": "lucide-star"
     },
-    "Dead/Colt.md": {
-      "icon": "lucide-heart-crack",
-      "color": "pink"
-    },
     "Events/Maelis/Birth.md": {
       "icon": "lucide-baby"
     },
@@ -49,7 +45,8 @@
       "icon": "lucide-skull",
       "color": "purple",
       "unsynced": [
-        "a2bedb56c4a49f6b"
+        "a2bedb56c4a49f6b",
+        "/storage/6DFF-FD08/Documents/Obsidian/OC Lore"
       ]
     },
     "Factions/Families/Nighthollow/Filvrae Nighthollow.md": {
@@ -62,21 +59,23 @@
     "Locations": {
       "icon": "lucide-map",
       "unsynced": [
-        "a2bedb56c4a49f6b"
+        "a2bedb56c4a49f6b",
+        "/storage/6DFF-FD08/Documents/Obsidian/OC Lore"
       ]
+    },
+    "Locations/Yartar.md": {
+      "icon": "lucide-gem"
     },
     "README.md": {
       "icon": "lucide-home"
-    },
-    "Resources/BG3 Drow name table.md": {
-      "icon": "lucide-book"
     },
     "z_Templates": {
       "icon": "lucide-layout-template",
       "unsynced": [
         "261d0ee700dfe3a5",
         "9c23d85943ac5f75",
-        "a2bedb56c4a49f6b"
+        "a2bedb56c4a49f6b",
+        "/storage/6DFF-FD08/Documents/Obsidian/OC Lore"
       ]
     }
   },
@@ -249,6 +248,20 @@
       "enabled": true,
       "icon": "lucide-circle",
       "color": "orange"
+    },
+    {
+      "id": "3542V",
+      "name": "Resource",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "tree",
+          "operator": "contains",
+          "value": "Resources"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-book"
     }
   ],
   "folderRules": []

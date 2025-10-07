@@ -14,8 +14,7 @@ tags:
   - Language/Drow
   - Language/Elvish
   - Language/Draconic
-Status:
-  - Alive
+Status: Alive
 Gender: Male
 ---
 # Summary
@@ -24,26 +23,26 @@ Currently on the run from a group of bounty hunters after fleeing from their fam
 # Appearance
 ---
 - Shoulder-length brown hair tied into a small ponytail
-- Hair is going grey from trauma
-- Smallish scars on the face, bigger ones on the arms, torso and legs
+- Hair is going grey 
+- Big scars on the face, neck, arms, chest and legs
 - Wears makeup to hide the scars on their face and to look more androgynous
 - Has a light beard due to a lack of wanting to care for themselves
-- Has freckles on their face
+- (After a few years) Has freckles on their face
 - Generally wears whatever clothes can be easily stolen or found on the ground
 # Physical Characteristics
 ---
-- Wear glasses but broke their old pair and can't afford more
+- Wears glasses but lost their old pair and can't afford more
 - Lost the tip of their left ring finger
 - Fidgets a lot when they're alone
 - 
 # Background
 ---
 - Born from the [[Nighthollow Family|Nighthollow Noble Family]] and escaped from them recently
-- Went completely deaf from an [[Loss of hearing|incident]], however they were already partially deaf from birth
+- Went completely deaf from a certain [[Loss of hearing|incident]], however they were already partially deaf from birth
 - Is fluent in Common Sign Language, the Common Language and Drow, semi-fluent in Elvish, well-spoken in Draconic and can lip read in the spoken languages
 - Was raised by [[Alye]], one of the servants, on their [[Filvrae Nighthollow|father's]] orders
 - Struggling with their identity
-- Lost a close [[Colt|friend]] several years ago
+- Lost a close [[Colt|friend]] a few years ago
 - Is proficient in hunting rifles and rapiers
 - Tar'al is their given name
 - Worships [[Selûne]] in the hopes [[Shar]] won't harm them

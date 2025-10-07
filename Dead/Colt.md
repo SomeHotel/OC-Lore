@@ -5,7 +5,8 @@ Age: 13
 tags:
   - Race/Human
   - Background/Servant
-Status:
-  - Dead
-Gender: Male
+Status: Dead
+Gender: Man
+timelines:
+  - Colt timeline
 ---

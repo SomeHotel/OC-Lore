@@ -1,12 +1,12 @@
 ---
 type:
   - Faction
-  - Group
-  - Noble
+  - Family
 tags:
-  - Background/Noble
-  - Language/Elvish
   - Faith/Shar
+Status: Active
+timelines:
+  - Nighthollow timeline
 ---
 ## Background
 Not much is known about this group of nobles.
@@ -17,7 +17,7 @@ Not much is known about this group of nobles.
 | [[Filvrae Nighthollow]]        |      Alive |
 | [[Maelis Nighthollow\|Maelis]] |    Missing |
 | [[Alye]]                       |    Unknown |
-| Nighthollow "Heir"             |      Alive |
-| Nighthollow Prince             |      Alive |
-| Nighthollow Princess           |      Alive |
+| [[Nighthollow "Heir"]]         |      Alive |
+| [[Nighthollow Prince]]         |      Alive |
+| [[Nighthollow Princess]]       |      Alive |
 
