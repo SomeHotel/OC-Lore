@@ -12,12 +12,12 @@ timelines:
 Not much is known about this group of nobles.
 ## Members
 
-| **Name**                       | **Status** |
-| :----------------------------- | ---------: |
-| [[Filvrae Nighthollow]]        |      Alive |
-| [[Maelis Nighthollow\|Maelis]] |    Missing |
-| [[Alye]]                       |    Unknown |
-| [[Nighthollow "Heir"]]         |      Alive |
-| [[Nighthollow Prince]]         |      Alive |
-| [[Nighthollow Princess]]       |      Alive |
+| **Name**                       | **Status** | Role                |
+| :----------------------------- | ---------: | ------------------- |
+| [[Filvrae Nighthollow]]        |      Alive | Patriarch           |
+| [[Maelis Nighthollow\|Maelis]] |    Missing |                     |
+| [[Alye]]                       |    Unknown | Servant             |
+| [[Nighthollow 'Heir']]         |      Alive | Heir to the dynasty |
+| [[Nighthollow Prince]]         |      Alive | Prince              |
+| [[Nighthollow Princess]]       |      Alive | Princess            |
 

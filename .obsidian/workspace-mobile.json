@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dead/Colt.md",
+                "file": "Events/Colt/Death.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Colt"
+              "title": "Death"
             }
           },
           {
@@ -65,8 +65,7 @@
               "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +93,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "[\"Gender\"]",
+            "query": "death",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -143,7 +142,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "a475a292c05e05a5",
@@ -224,28 +223,42 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "6c08d29d1ba99334",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Events/Maelis/Loss of hearing.md",
+    "Dead/Colt.md",
+    "Dead/Alye.md",
+    ".obsidian/.syncthing.workspace.json.tmp",
+    ".stversions/Events/Maelis/Maelis meets Corelia.md",
+    ".stversions/Ideas.excalidraw.md",
     "1- Party/Maelis Nighthollow.md",
+    ".stversions/Factions/Families/Nighthollow/Filvrae Nighthollow.md",
+    ".stversions/Factions/Families/Nighthollow/Nighthollow Family.md",
+    ".stversions/.obsidian/plugins/obsidian-meta-bind-plugin/styles.css",
+    ".stversions/.obsidian/plugins/obsidian-meta-bind-plugin/manifest.json",
+    ".stversions/.obsidian/plugins/obsidian-meta-bind-plugin/main.js",
+    ".stversions/.obsidian/plugins/obsidian-meta-bind-plugin/data.json",
+    ".stversions/.obsidian/plugins/dataview/styles.css",
+    ".stversions/.obsidian/plugins/dataview/manifest.json",
+    ".stversions/.obsidian/plugins/dataview/main.js",
+    ".stversions/.obsidian/plugins/iconic/data.json",
+    ".obsidian/themes/Things/theme.css",
+    ".stversions/Events/Maelis/Escape from home.md",
+    ".stversions/Dead/Colt.md",
+    ".stversions/Locations/Yartar.md",
+    ".stversions/1- Party/Maelis Nighthollow.md",
+    ".stversions/z_Templates/Character Template.md",
+    ".stversions/Party/Maelis Nighthollow.md",
+    ".stversions/Party/Corelia.md",
+    ".trash/Home.md",
+    "Events/Maelis/Loss of hearing.md",
     "Events/Colt/Death.md",
     "Events/Maelis/Birth.md",
     "Ideas.excalidraw.md",
-    "Untitled.base",
-    "Dead/Colt.md",
     "z_Templates/Event Template.md",
     "README.md",
-    "Events/Colt",
     "Factions/Families/Nighthollow/Nighthollow Family.md",
     "Events/Maelis/Escape from home.md",
     "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
-    "Dead/Alye.md",
-    "Home.md",
-    "Party/Maelis Nighthollow.md",
-    "Events/Maelis/Maelis meets Corelia.md",
-    "Party/Corelia.md",
-    "Campaigns/Characters/Factions/Families/NightHollow/Nighthollow Family.md",
-    "Campaigns/Party/Maelis Nighthollow.md",
-    "Campaigns/Party/Anzia.md"
+    "Home.md"
   ]
 }
