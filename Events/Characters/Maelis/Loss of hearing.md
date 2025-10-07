@@ -8,5 +8,6 @@ aat-event-start-date: 9
 aat-render-enabled: true
 timelines:
   - Maelis timeline
+aat-event-picture: none
 ---
 [[Maelis Nighthollow|Maelis]] lost their hearing

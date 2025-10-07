@@ -15,7 +15,7 @@ tags:
   - Language/Elvish
   - Language/Draconic
 Status: Alive
-Gender: Male
+Gender: Man
 ---
 # Summary
 ---
@@ -58,7 +58,7 @@ Currently on the run from a group of bounty hunters after fleeing from their fam
 ## Friends
 [[Colt]]: Unknowingly had a crush on him when they knew him. When Maelis was 13, he was killed in front of them to show what happens when they act out.
 
-[[Corelia]]: Had a chance meeting with Maelis in an alleyway due to the both of them being on the run from separate organisations.
+[[1- Party/Corelia]]: Had a chance meeting with Maelis in an alleyway due to the both of them being on the run from separate organisations.
 ## Timeline
 ```aat-vertical
 Maelis timeline

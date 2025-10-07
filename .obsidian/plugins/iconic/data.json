@@ -30,15 +30,15 @@
   "tabIcons": {},
   "fileIcons": {
     "1- Party/Maelis Nighthollow.md": {
-      "icon": "lucide-star"
+      "icon": "lucide-stars"
     },
-    "Events/Maelis/Birth.md": {
+    "Events/Characters/Maelis/Birth.md": {
       "icon": "lucide-baby"
     },
-    "Events/Maelis/Loss of hearing.md": {
+    "Events/Characters/Maelis/Loss of hearing.md": {
       "icon": "lucide-ear-off"
     },
-    "Events/Maelis/Maelis meets Corelia.md": {
+    "Events/Characters/Maelis/Maelis meets Corelia.md": {
       "icon": "lucide-handshake"
     },
     "Factions/Families/Nighthollow": {

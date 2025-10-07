@@ -3,7 +3,7 @@
   "search": "-path:z_Templates -path:Resources ",
   "showTags": false,
   "showAttachments": false,
-  "hideUnresolved": false,
+  "hideUnresolved": true,
   "showOrphans": false,
   "collapse-color-groups": false,
   "colorGroups": [
@@ -20,6 +20,13 @@
         "a": 1,
         "rgb": 4210752
       }
+    },
+    {
+      "query": "[\"type\":Character]",
+      "color": {
+        "a": 1,
+        "rgb": 5431497
+      }
     }
   ],
   "collapse-display": false,
@@ -28,10 +35,10 @@
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 0.637280701754386,
   "collapse-forces": false,
-  "centerStrength": 0.1796875,
+  "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.7418333898843887,
-  "close": false
+  "scale": 1.458115104357241,
+  "close": true
 }

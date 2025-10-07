@@ -8,4 +8,5 @@ aat-render-enabled: true
 timelines:
   - Colt timeline
   - Maelis timeline
+aat-event-picture: none
 ---
