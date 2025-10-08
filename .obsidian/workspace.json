@@ -85,9 +85,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Events/Characters/Maelis/Loss of hearing.md",
-                "mode": "source",
-                "source": false,
+                "file": "README.md",
+                "mode": "preview",
+                "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Loss of hearing"
+              "title": "README"
             }
           }
         ],
@@ -292,14 +292,18 @@
       "obsidian-git:Open Git source control": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "obsidian-5e-statblocks:Open Creature pane": false
     }
   },
   "active": "6ab9c033f244e407",
   "lastOpenFiles": [
+    "z_Templates/Event Template.md",
+    "z_Templates/Event Template.sync-conflict-20251008-151440-M7QFWIS.md",
+    "README.md",
+    "Events/Characters/Maelis/Loss of hearing.md",
     "Events/Characters/Colt/Colt Death.md",
     "Events/Characters/Maelis/Maelis Birth.md",
-    "Events/Characters/Maelis/Loss of hearing.md",
     "Events/Characters/Maelis/Escape from home.md",
     "Events/Characters/Maelis/Maelis meets Corelia.md",
     "1- Party/Corelia.md",
@@ -310,7 +314,6 @@
     "Events/Characters",
     "Events/Characters/Corelia",
     "Events/Corelia.md",
-    "z_Templates/Event Template.md",
     "Resources/Maelis NightHollow.pdf",
     ".obsidian/plugins/syncthing-integration/data.json",
     ".obsidian/plugins/syncthing-integration/styles.css",
@@ -319,7 +322,6 @@
     ".obsidian/plugins/syncthing-integration",
     ".obsidian/plugins/aprils-automatic-timelines/data.json",
     "Resources/BG3 Drow name table.md",
-    "README.md",
     "Nighthollow 'Heir'.md",
     "z_Templates/Character Template.md",
     "Ideas.excalidraw.md",
