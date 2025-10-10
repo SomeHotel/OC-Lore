@@ -4,6 +4,12 @@ type:
 aliases:
   - Maelis
   - Tar'al
+tags:
+  - Profession/Assassin
+  - Race/Half-Elf/Wood-Elf
+  - Background/Noble
+  - Faith/Selûne
+  - Patron/Shar
 Age: 19
 Status: Alive
 Gender: Man
@@ -13,12 +19,6 @@ Language:
   - Elvish
   - Draconic
   -
-tags:
-  - Profession/Assassin
-  - Race/Half-Elf/Wood-Elf
-  - Background/Noble
-  - Faith/Selûne
-  - Patron/Shar
 ---
 # Current predicament
 ---
