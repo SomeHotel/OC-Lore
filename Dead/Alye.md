@@ -3,6 +3,7 @@ type:
   - Character
 aliases:
 tags:
+Birthday:
 Age:
 Status: Dead
 Gender: Woman

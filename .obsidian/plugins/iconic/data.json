@@ -1,7 +1,7 @@
 {
   "biggerIcons": "mobile",
   "clickableIcons": "desktop",
-  "showAllFileIcons": false,
+  "showAllFileIcons": true,
   "showAllFolderIcons": false,
   "minimalFolderIcons": true,
   "showMarkdownTabIcons": true,
@@ -24,15 +24,80 @@
   "dialogState": {
     "iconMode": true,
     "emojiMode": false,
-    "rulePage": "file"
+    "rulePage": "folder"
   },
   "appIcons": {},
   "tabIcons": {},
-  "fileIcons": {},
+  "fileIcons": {
+    "1- Party/Corelia.md": {
+      "icon": "lucide-star",
+      "color": "yellow"
+    },
+    "1- Party/Maelis Nighthollow.md": {
+      "icon": "lucide-star",
+      "color": "yellow"
+    },
+    "Dead/Alye.md": {
+      "icon": "lucide-user"
+    },
+    "Dead/Colt.md": {
+      "icon": "lucide-user"
+    },
+    "Events/Characters/Colt/Colt Death.md": {
+      "icon": "lucide-skull"
+    },
+    "Events/Characters/Colt/Meeting Maelis.md": {
+      "icon": "lucide-heart",
+      "color": "pink"
+    },
+    "Events/Characters/Maelis/Escape from home.md": {
+      "icon": "lucide-house"
+    },
+    "Events/Characters/Maelis/Loss of hearing.md": {
+      "icon": "lucide-ear-off"
+    },
+    "Events/Characters/Maelis/Maelis Birth.md": {
+      "icon": "lucide-baby"
+    },
+    "Events/Characters/Maelis/Maelis meets Corelia.md": {
+      "icon": "lucide-heart",
+      "color": "pink"
+    }
+  },
   "bookmarkIcons": {},
   "tagIcons": {},
   "propertyIcons": {},
   "ribbonIcons": {},
-  "fileRules": [],
-  "folderRules": []
+  "fileRules": [
+    {
+      "id": "KRswR",
+      "name": "Template",
+      "match": "any",
+      "conditions": [
+        {
+          "source": "path",
+          "operator": "contains",
+          "value": "z_Templates"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-layout-template"
+    }
+  ],
+  "folderRules": [
+    {
+      "id": "AFFAT",
+      "name": "Templates",
+      "match": "any",
+      "conditions": [
+        {
+          "source": "name",
+          "operator": "is",
+          "value": "z_Templates"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-layout-template"
+    }
+  ]
 }

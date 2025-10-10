@@ -297,9 +297,44 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "3d3412578b412982",
+            "type": "leaf",
+            "state": {
+              "type": "CALENDARIUM",
+              "icon": "CALENDARIUM",
+              "title": "Calendarium"
+            }
+          },
+          {
+            "id": "3f769d1505eae240",
+            "type": "leaf",
+            "state": {
+              "type": "CALENDARIUM",
+              "state": {
+                "calendar": "ID_0928eb0a7b78",
+                "ephemeral": {
+                  "viewState": 1,
+                  "displaying": {
+                    "day": 1,
+                    "month": 0,
+                    "year": 1491
+                  },
+                  "displayDayNumber": true,
+                  "displaySeasonColors": true,
+                  "interpolateColors": true,
+                  "displayMoons": true,
+                  "displayWeather": true
+                },
+                "id": "ID_98ba7b4b7aa8"
+              },
+              "icon": "CALENDARIUM",
+              "title": "Calendarium"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -323,17 +358,18 @@
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "calendarium:Open Calendarium": false
     }
   },
-  "active": "d4f9d174002d39c0",
+  "active": "77d516975204939f",
   "lastOpenFiles": [
-    "1- Party/Maelis Nighthollow.md",
+    "Dead/Alye.md",
     "z_Templates/Character Template.md",
+    "1- Party/Maelis Nighthollow.md",
+    "Dead/Colt.md",
     "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
     "1- Party/Corelia.md",
-    "Dead/Alye.md",
-    "Dead/Colt.md",
     "z_Templates/Event Template.md",
     "Factions/Families/Nighthollow/Nighthollow Family.md",
     "Resources/BG3 Drow name table.md",

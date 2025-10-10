@@ -10,6 +10,7 @@ tags:
   - Background/Noble
   - Faith/Selûne
   - Patron/Shar
+Birthday:
 Age: 19
 Status: Alive
 Gender: Man

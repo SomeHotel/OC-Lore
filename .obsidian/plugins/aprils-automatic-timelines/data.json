@@ -1,7 +1,7 @@
 {
-  "dateDisplayFormat": "{year}/{month}/{day}",
-  "dateParserGroupPriority": "year,month,day",
-  "dateParserRegex": "",
+  "dateDisplayFormat": "{day} {month} {year}D.R. {hour}:{minute}",
+  "dateParserGroupPriority": "year,month,day,hour,minute",
+  "dateParserRegex": "(?<year>-?[0-9]*)-(?<month>-?[0-9]*)-(?<day>-?[0-9]*)-(?<hour>-?[0-9]*)-(?<minute>-?[0-9]*)",
   "eventRenderToggleKey": "aat-render-enabled",
   "inlineEventEndOfBodyMarker": "%%aat-event-end-of-body%%",
   "markdownBlockTagsToFindSeparator": ",",
@@ -31,8 +31,33 @@
       "hideSign": false
     },
     {
-      "minLeght": 2,
       "name": "month",
+      "type": "STRING",
+      "dictionary": [
+        "Invalid",
+        "Hammer",
+        "Midwinter",
+        "Alturiak",
+        "Ches",
+        "Tarsakh",
+        "Greengrass",
+        "Mirtul",
+        "Kythorn",
+        "Flamerule",
+        "Midsummer",
+        "Eleasis",
+        "Elient",
+        "Highharvesttide",
+        "Marpenoth",
+        "Uktar",
+        "Feast of the Moon",
+        "Nightal"
+      ],
+      "formatting": []
+    },
+    {
+      "minLeght": 2,
+      "name": "day",
       "type": "NUMBER",
       "displayWhenZero": true,
       "formatting": [],
@@ -40,7 +65,15 @@
     },
     {
       "minLeght": 2,
-      "name": "day",
+      "name": "hour",
+      "type": "NUMBER",
+      "displayWhenZero": true,
+      "formatting": [],
+      "hideSign": false
+    },
+    {
+      "minLeght": 2,
+      "name": "minute",
       "type": "NUMBER",
       "displayWhenZero": true,
       "formatting": [],
