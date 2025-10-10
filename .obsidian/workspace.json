@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1- Party/Maelis Nighthollow.md",
+                "file": "Dead/Colt.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Maelis Nighthollow"
+              "title": "Colt"
             }
           }
         ],
@@ -298,7 +298,13 @@
   },
   "active": "d4f9d174002d39c0",
   "lastOpenFiles": [
+    "Dead/Colt.md",
+    "Dead/Alye.md",
+    "Factions/Families/Nighthollow/Nighthollow Family.md",
+    "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
+    "Resources/BG3 Drow name table.md",
     "1- Party/Maelis Nighthollow.md",
+    "1- Party/Corelia.md",
     "README.md",
     " - Copy.gitattributes",
     " - Copy.gitignore",
@@ -309,9 +315,6 @@
     "Events/Characters/Maelis/Maelis Birth.md",
     "Events/Characters/Maelis/Escape from home.md",
     "Events/Characters/Maelis/Maelis meets Corelia.md",
-    "1- Party/Corelia.md",
-    "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
-    "Factions/Families/Nighthollow/Nighthollow Family.md",
     "Events/Characters/Colt/Meeting Maelis.md",
     "Events/Characters",
     "Events/Characters/Corelia",
@@ -322,13 +325,11 @@
     ".obsidian/plugins/syncthing-integration/main.js",
     ".obsidian/plugins/syncthing-integration/manifest.json",
     ".obsidian/plugins/syncthing-integration",
-    "Resources/BG3 Drow name table.md",
     "Nighthollow 'Heir'.md",
     "z_Templates/Character Template.md",
     "Ideas.excalidraw.md",
     "Locations/Yartar.md",
     ".trash/Home.md",
-    "Dead/Colt.md",
     "Events/Maelis/Loss of hearing.sync-conflict-20251006-004422-M7QFWIS.md",
     "z_Templates/Event Template.sync-conflict-20251006-004427-M7QFWIS.md",
     "Events/Maelis/Maelis meets Corelia.sync-conflict-20251006-004426-M7QFWIS.md",

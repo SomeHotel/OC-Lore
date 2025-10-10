@@ -1,11 +1,11 @@
 ---
 type: Character
+Status: Dead
 aliases:
-Age: 13
 tags:
   - 
   - Race/Human
   - Background/Servant
-Status: Dead
 Gender: Man
+Age: 13
 ---
