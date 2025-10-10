@@ -8,10 +8,11 @@ Age: 19
 Status: Alive
 Gender: Man
 Language:
-  - Common Sign Language 
+  - Common Sign Language
   - Common
   - Elvish
   - Draconic
+  -
 tags:
   - Profession/Assassin
   - Race/Half-Elf/Wood-Elf

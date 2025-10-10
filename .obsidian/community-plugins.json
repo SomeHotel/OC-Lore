@@ -4,7 +4,6 @@
   "aprils-automatic-timelines",
   "obsidian-style-settings",
   "templater-obsidian",
-  "iconic",
   "obsidian-excalidraw-plugin",
   "homepage",
   "obsidian-git",
@@ -12,5 +11,6 @@
   "obsidian-dialogue-plugin",
   "omnisearch",
   "obsidian-tagfolder",
-  "obsidian-discordrpc"
+  "obsidian-discordrpc",
+  "iconic"
 ]

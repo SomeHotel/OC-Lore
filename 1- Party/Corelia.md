@@ -1,10 +1,13 @@
 ---
+type:
+  - Character
 aliases:
 tags:
-  - Type/Character
-  - Age/20
-  - Status/Alive
-  - Gender/Woman
-  - Language/Common
-  - Race/Tiefling
+  - Race/Tiefling/Zariel
+Age: 20
+Status: Alive
+Gender: Woman
+Language:
+  - Common
+  - Common Sign Language
 ---

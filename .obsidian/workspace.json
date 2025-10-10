@@ -4,6 +4,36 @@
     "type": "split",
     "children": [
       {
+        "id": "f4685be20ca92fa4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6ab9c033f244e407",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "z_Templates/Character Template.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Character Template"
+            }
+          }
+        ]
+      },
+      {
         "id": "195a70da2eab1b02",
         "type": "tabs",
         "children": [
@@ -80,13 +110,13 @@
             }
           },
           {
-            "id": "6ab9c033f244e407",
+            "id": "b85f25ea56e7267e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dead/Colt.md",
-                "mode": "preview",
+                "file": "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -100,7 +130,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Colt"
+              "title": "Filvrae Nighthollow"
             }
           }
         ],
@@ -296,19 +326,20 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d4f9d174002d39c0",
+  "active": "b85f25ea56e7267e",
   "lastOpenFiles": [
-    "Dead/Colt.md",
-    "Dead/Alye.md",
-    "Factions/Families/Nighthollow/Nighthollow Family.md",
-    "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
-    "Resources/BG3 Drow name table.md",
     "1- Party/Maelis Nighthollow.md",
+    "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
     "1- Party/Corelia.md",
+    "Dead/Alye.md",
+    "Dead/Colt.md",
+    "z_Templates/Event Template.md",
+    "z_Templates/Character Template.md",
+    "Factions/Families/Nighthollow/Nighthollow Family.md",
+    "Resources/BG3 Drow name table.md",
     "README.md",
     " - Copy.gitattributes",
     " - Copy.gitignore",
-    "z_Templates/Event Template.md",
     "z_Templates/Event Template.sync-conflict-20251008-151440-M7QFWIS.md",
     "Events/Characters/Maelis/Loss of hearing.md",
     "Events/Characters/Colt/Colt Death.md",
@@ -326,7 +357,6 @@
     ".obsidian/plugins/syncthing-integration/manifest.json",
     ".obsidian/plugins/syncthing-integration",
     "Nighthollow 'Heir'.md",
-    "z_Templates/Character Template.md",
     "Ideas.excalidraw.md",
     "Locations/Yartar.md",
     ".trash/Home.md",

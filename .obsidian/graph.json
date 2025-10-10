@@ -3,7 +3,7 @@
   "search": "-path:z_Templates -path:Resources ",
   "showTags": true,
   "showAttachments": false,
-  "hideUnresolved": false,
+  "hideUnresolved": true,
   "showOrphans": false,
   "collapse-color-groups": false,
   "colorGroups": [
@@ -22,7 +22,7 @@
       }
     },
     {
-      "query": "tag:#Type/Character  ",
+      "query": "tag:#Type/Character OR  [\"type\":Character]",
       "color": {
         "a": 1,
         "rgb": 5431497
@@ -39,6 +39,6 @@
   "repelStrength": 10,
   "linkStrength": 0.552631578947369,
   "linkDistance": 155,
-  "scale": 1.0390601438470253,
+  "scale": 0.7411361047950286,
   "close": true
 }

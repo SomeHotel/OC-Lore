@@ -1,11 +1,14 @@
 ---
 type:
   - Character
-Status: Dead
 aliases:
 tags:
-
+Age:
+Status: Dead
 Gender: Woman
+Language:
+  - Common
+  - Common Sign Language
 ---
 ## Background
 - [[Maelis Nighthollow|Maelis']] parental figure as a child
