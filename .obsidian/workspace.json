@@ -137,7 +137,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.5
+    "width": 256.5,
+    "collapsed": true
   },
   "right": {
     "id": "2dd58f2713fb86c3",
@@ -186,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Party/Maelis Nighthollow.md",
+                "file": "1- Party/Maelis Nighthollow.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -249,17 +250,20 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "1- Party/Maelis Nighthollow.md"
+              },
               "icon": "lucide-info",
-              "title": "File properties"
+              "title": "File properties for Maelis Nighthollow"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 445.5
+    "width": 445.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -283,19 +287,19 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "d4f9d174002d39c0",
+  "active": "b85f25ea56e7267e",
   "lastOpenFiles": [
+    "1- Party/Corelia.md",
     "1- Party/Maelis Nighthollow.md",
+    "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
     "1- Party/The Party.md",
     "1- Party/The Party.base",
-    "1- Party/Corelia.md",
     "z_Templates/Group Template.md",
     "z_Templates/Character Template.md",
     "Factions/Families/Nighthollow/Nighthollow Family.md",
     "Factions/Families/Nighthollow/Nighthollow Family.base",
     "Dead/Alye.md",
     "Untitled.base",
-    "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
     "z_Images/Corelia maybe_reference_cropped.webp",
     "z_Images/Maelis_reference_cropped.webp",
     "Untitled.md",

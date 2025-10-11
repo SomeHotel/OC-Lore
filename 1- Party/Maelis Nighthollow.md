@@ -11,7 +11,7 @@ tags:
   - Patron/Shar
 Profession:
   - Assassin
-Birthday: N/A
+Birthday:
 Age: 19
 Origin: Menzoberranzan
 Affiliation:
@@ -74,13 +74,15 @@ Currently on the run from a group of bounty hunters after fleeing from their fam
 - Refuses to use warlock spells and powers
 # Relationships
 ## Nighthollow Family
-[[Filvrae Nighthollow|Filvrae]]: Was a very absent father, even when he was around he was abusive and dismissive. Only saw Maelis to train them and to give discipline during exams.
-
-[[Alye]]: Basically raised them since birth due to their parents absence. Secretly taught Maelis how to use their wood elf heritage when their parents wouldn't let them. Helped them escape from their family, her fate is currently unknown.
+### [[Filvrae Nighthollow|Filvrae]]
+Was a very absent father, even when he was around he was abusive and dismissive. Only saw Maelis to train them and to give discipline during exams.
+### [[Alye]]
+Basically raised them since birth due to their parents absence. Secretly taught Maelis how to use their wood elf heritage when their parents wouldn't let them. Helped them escape from their family, her fate is currently unknown.
 ## Friends
-[[Colt]]: Unknowingly had a crush on him when they knew him. When Maelis was 13, he was killed in front of them to show what happens when they act out.
-
-[[Corelia]]: Had a chance meeting with Maelis in an alleyway due to the both of them being on the run from separate organisations.
+### [[Colt]]
+Unknowingly had a crush on him when they knew him. When Maelis was 13, he was killed in front of them to show what happens when they act out.
+### [[Corelia]]
+Had a chance meeting with Maelis in an alleyway due to the both of them being on the run from separate organisations.
 # Timeline
 ```aat-vertical
 Maelis timeline, Maelis event
