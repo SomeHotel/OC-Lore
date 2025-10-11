@@ -1,7 +1,7 @@
 {
   "collapse-filter": false,
   "search": "-path:z_Templates -path:Resources ",
-  "showTags": false,
+  "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": false,
@@ -22,13 +22,6 @@
       }
     },
     {
-      "query": "[\"age\":>18",
-      "color": {
-        "a": 1,
-        "rgb": 13193952
-      }
-    },
-    {
       "query": "[\"type\":Character]",
       "color": {
         "a": 1,
@@ -46,6 +39,6 @@
   "repelStrength": 10,
   "linkStrength": 0.552631578947369,
   "linkDistance": 155,
-  "scale": 0.7411361047950312,
+  "scale": 0.741136104795032,
   "close": true
 }

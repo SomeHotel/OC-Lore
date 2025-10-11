@@ -12,6 +12,8 @@ tags:
   - Patron/Shar
 Birthday:
 Age: 19
+Affiliation:
+  - The Party
 Status: Alive
 Gender: Man
 Language:
@@ -31,7 +33,7 @@ Currently on the run from a group of bounty hunters after fleeing from their fam
 - Has a light beard due to a lack of wanting to care for themselves
 - Has freckles on their face
 - Generally wears whatever clothes can be easily stolen or found on the ground
-- Slightly muscular but most slim
+- Slightly muscular but mostly slim
 - 165cm tall
 - 
 # Physical Characteristics

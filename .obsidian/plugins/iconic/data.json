@@ -37,6 +37,10 @@
       "icon": "lucide-star",
       "color": "yellow"
     },
+    "1- Party/The Party.md": {
+      "icon": "lucide-users",
+      "color": "yellow"
+    },
     "Dead/Alye.md": {
       "icon": "lucide-user"
     },
@@ -62,6 +66,14 @@
     "Events/Characters/Maelis/Maelis meets Corelia.md": {
       "icon": "lucide-heart",
       "color": "pink"
+    },
+    "Factions/Families/Nighthollow/Filvrae Nighthollow.md": {
+      "icon": "lucide-crown",
+      "color": "purple"
+    },
+    "Factions/Families/Nighthollow/Nighthollow Family.md": {
+      "icon": "lucide-users",
+      "color": "purple"
     }
   },
   "bookmarkIcons": {},

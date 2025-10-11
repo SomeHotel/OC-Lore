@@ -13,6 +13,7 @@
     "hp": "number",
     "type": "multitext",
     "Language": "multitext",
-    "Birthday": "date"
+    "Birthday": "date",
+    "Affiliation": "multitext"
   }
 }

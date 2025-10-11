@@ -1,5 +1,6 @@
 ---
-type: Character
+type:
+  - Character
 aliases:
 tags:
   - 

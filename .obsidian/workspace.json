@@ -85,9 +85,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1- Party/Maelis Nighthollow.md",
+                "file": "1- Party/The Party.md",
                 "mode": "source",
-                "source": false,
+                "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Maelis Nighthollow"
+              "title": "The Party"
             }
           }
         ],
@@ -295,11 +295,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 408.5
+    "width": 445.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -323,14 +323,17 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "2325deaf5469eaca",
+  "active": "b85f25ea56e7267e",
   "lastOpenFiles": [
     "1- Party/Maelis Nighthollow.md",
-    "z_Templates/Character Template.md",
-    "Dead/Alye.md",
+    "1- Party/The Party.md",
     "Dead/Colt.md",
-    "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
     "1- Party/Corelia.md",
+    "Dead/Alye.md",
+    "Untitled.base",
+    "Untitled.md",
+    "z_Templates/Character Template.md",
+    "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
     "z_Templates/Event Template.md",
     "Factions/Families/Nighthollow/Nighthollow Family.md",
     "Resources/BG3 Drow name table.md",
@@ -352,14 +355,10 @@
     ".obsidian/plugins/syncthing-integration/styles.css",
     ".obsidian/plugins/syncthing-integration/main.js",
     ".obsidian/plugins/syncthing-integration/manifest.json",
-    ".obsidian/plugins/syncthing-integration",
     "Nighthollow 'Heir'.md",
     "Ideas.excalidraw.md",
     "Locations/Yartar.md",
     ".trash/Home.md",
-    "Events/Maelis/Loss of hearing.sync-conflict-20251006-004422-M7QFWIS.md",
-    "z_Templates/Event Template.sync-conflict-20251006-004427-M7QFWIS.md",
-    "Events/Maelis/Maelis meets Corelia.sync-conflict-20251006-004426-M7QFWIS.md",
-    "Events/Maelis/Escape from home.sync-conflict-20251006-004414-M7QFWIS.md"
+    "Events/Maelis/Loss of hearing.sync-conflict-20251006-004422-M7QFWIS.md"
   ]
 }
