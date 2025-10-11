@@ -5,11 +5,12 @@ aliases:
   - Maelis
   - Tar'al
 tags:
-  - Profession/Assassin
   - Race/Half-Elf/Wood-Elf
   - Background/Noble
   - Faith/Selûne
   - Patron/Shar
+Profession:
+  - Assassin
 Birthday:
 Age: 19
 Affiliation:

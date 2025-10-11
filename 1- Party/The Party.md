@@ -7,6 +7,4 @@ Status: Active
 ---
 # Members
 ---
-```dataview
-TABLE #Profession 
-```
+![[The Party.base]]

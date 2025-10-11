@@ -1,0 +1,22 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - Affiliation == ["The Party"]
+    order:
+      - file.name
+      - aliases
+      - Profession
+      - Status
+      - Age
+      - Birthday
+      - Gender
+      - Language
+      - tags
+      - type
+  - type: cards
+    name: Party Members
+    filters:
+      and:
+        - Affiliation == ["The Party"]
