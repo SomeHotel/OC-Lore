@@ -10,11 +10,7 @@ views:
       - Profession
       - Status
       - Age
-      - Birthday
-      - Gender
-      - Language
       - tags
-      - type
   - type: cards
     name: Party Members
     filters:

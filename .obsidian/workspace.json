@@ -295,8 +295,7 @@
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "omnisearch:Omnisearch": false,
-      "calendarium:Open Calendarium": false
+      "omnisearch:Omnisearch": false
     }
   },
   "active": "77d516975204939f",

@@ -11,22 +11,35 @@ tags:
   - Patron/Shar
 Profession:
   - Assassin
+  - 
 Birthday:
 Age: 19
 Affiliation:
   - The Party
+  - Nighthollow Family (former)
 Status: Alive
-Gender: Man
+Gender: Other
 Language:
   - Common Sign Language
   - Common
   - Elvish
 ---
+>[!info] `= this.file.name`
+> ---
+>![[]]
+> ---
+> **Aliases**
+>> `= this.aliases`
+> ---
+>**Affiliations**
+> ---
+>> `= this.affiliation`
+> ---
+>> Status: `= this.status`
+> ---
 # Current predicament
----
 Currently on the run from a group of bounty hunters after fleeing from their family.
 # Appearance
----
 - Shoulder-length brown hair tied into a small ponytail
 - Hair is going grey 
 - Big scars on the face, neck, arms, chest and legs
@@ -38,16 +51,14 @@ Currently on the run from a group of bounty hunters after fleeing from their fam
 - 165cm tall
 - 
 # Physical Characteristics
----
 - Wears glasses but lost their old pair and can't afford more
 - Lost the tip of their left ring finger
 - Fidgets a lot when they're alone
 - 
 # Background
----
 - Born from the [[Nighthollow Family|Nighthollow Noble Family]] and escaped from them recently
 - Went completely deaf from a certain [[Loss of hearing|incident]], however they were already partially deaf from birth
-- Is fluent in Common Sign Language, the Common Language and Drow, semi-fluent in Elvish, well-spoken in Draconic and can lip read in the spoken languages
+- Is fluent in Common Sign Language, the Common Language and Drow, semi-fluent in Elvish and can lip read in the spoken languages
 - Was raised by [[Alye]], one of the servants, on their father's orders
 - Is proficient in hunting rifles and rapiers
 - Lost a close [[Colt|friend]] a few years ago
@@ -55,12 +66,10 @@ Currently on the run from a group of bounty hunters after fleeing from their fam
 - Trained to be an assassin as a child
 - Escaped their family a short time ago
 # Personality
----
 - Struggling with their identity
 - Worships [[Selûne]] in the hopes [[Shar]] won't harm them
 - Refuses to use warlock spells and powers
 # Relationships
----
 ## Nighthollow Family
 [[Filvrae Nighthollow|Filvrae]]: Was a very absent father, even when he was around he was abusive and dismissive. Only saw Maelis to train them and to give discipline during exams.
 
@@ -69,7 +78,7 @@ Currently on the run from a group of bounty hunters after fleeing from their fam
 [[Colt]]: Unknowingly had a crush on him when they knew him. When Maelis was 13, he was killed in front of them to show what happens when they act out.
 
 [[Corelia]]: Had a chance meeting with Maelis in an alleyway due to the both of them being on the run from separate organisations.
-## Timeline
+# Timeline
 ```aat-vertical
 Maelis timeline, Maelis event
 dateDisplayFormat: {year}

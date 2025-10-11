@@ -1,7 +1,7 @@
 {
   "collapse-filter": false,
   "search": "-path:z_Templates -path:Resources ",
-  "showTags": true,
+  "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": false,
@@ -39,6 +39,6 @@
   "repelStrength": 10,
   "linkStrength": 0.552631578947369,
   "linkDistance": 155,
-  "scale": 0.7411361047950321,
+  "scale": 1.6907579523645881,
   "close": true
 }

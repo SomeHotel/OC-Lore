@@ -10,3 +10,7 @@ Gender:
 Language:
 image:
 ---
+>[!info]
+>---
+>![[]]
+>**Example text**
