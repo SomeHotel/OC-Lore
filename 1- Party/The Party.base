@@ -1,3 +1,6 @@
+properties:
+  file.name:
+    displayName: Name
 views:
   - type: table
     name: Table
@@ -9,8 +12,9 @@ views:
       - aliases
       - Profession
       - Status
-      - Age
-      - tags
+    sort:
+      - property: file.name
+        direction: ASC
   - type: cards
     name: Party Members
     filters:

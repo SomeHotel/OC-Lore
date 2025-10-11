@@ -62,8 +62,8 @@
               "type": "markdown",
               "state": {
                 "file": "1- Party/Maelis Nighthollow.md",
-                "mode": "preview",
-                "source": true,
+                "mode": "source",
+                "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -245,38 +245,21 @@
             }
           },
           {
-            "id": "3f769d1505eae240",
+            "id": "55acff27b52100e9",
             "type": "leaf",
             "state": {
-              "type": "CALENDARIUM",
-              "state": {
-                "calendar": "ID_0928eb0a7b78",
-                "ephemeral": {
-                  "viewState": 1,
-                  "displaying": {
-                    "day": 1,
-                    "month": 0,
-                    "year": 1491
-                  },
-                  "displayDayNumber": true,
-                  "displaySeasonColors": true,
-                  "interpolateColors": true,
-                  "displayMoons": true,
-                  "displayWeather": true
-                },
-                "id": "ID_98ba7b4b7aa8"
-              },
-              "icon": "CALENDARIUM",
-              "title": "Calendarium"
+              "type": "file-properties",
+              "state": {},
+              "icon": "lucide-info",
+              "title": "File properties"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 445.5,
-    "collapsed": true
+    "width": 445.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -296,11 +279,16 @@
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "calendarium:Open Calendarium": false
     }
   },
-  "active": "b85f25ea56e7267e",
+  "active": "d4f9d174002d39c0",
   "lastOpenFiles": [
+    "1- Party/Maelis Nighthollow.md",
+    "1- Party/The Party.md",
+    "1- Party/The Party.base",
+    "1- Party/Corelia.md",
     "z_Templates/Group Template.md",
     "z_Templates/Character Template.md",
     "Factions/Families/Nighthollow/Nighthollow Family.md",
@@ -308,14 +296,10 @@
     "Dead/Alye.md",
     "Untitled.base",
     "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
-    "1- Party/The Party.md",
-    "1- Party/The Party.base",
-    "1- Party/Maelis Nighthollow.md",
     "z_Images/Corelia maybe_reference_cropped.webp",
     "z_Images/Maelis_reference_cropped.webp",
     "Untitled.md",
     "Untitled 1.base",
-    "1- Party/Corelia.md",
     "Dead/Colt.md",
     "z_Templates/Event Template.md",
     "Resources/BG3 Drow name table.md",
@@ -337,7 +321,6 @@
     "Nighthollow 'Heir'.md",
     "Ideas.excalidraw.md",
     "Locations/Yartar.md",
-    ".trash/Home.md",
-    "Events/Maelis/Loss of hearing.sync-conflict-20251006-004422-M7QFWIS.md"
+    ".trash/Home.md"
   ]
 }

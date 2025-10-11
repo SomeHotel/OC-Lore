@@ -24,6 +24,7 @@ Language:
   - Common
   - Elvish
 ---
+
 >[!info] `= this.file.name`
 >![[Maelis_reference_cropped.webp|]]
 >**Born** `= this.birthday` (age `= this.Age`)
