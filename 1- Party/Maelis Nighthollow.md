@@ -11,9 +11,9 @@ tags:
   - Patron/Shar
 Profession:
   - Assassin
-  - 
 Birthday:
 Age: 19
+Origin: Menzoberranzan
 Affiliation:
   - The Party
   - Nighthollow Family (former)
@@ -25,18 +25,17 @@ Language:
   - Elvish
 ---
 >[!info] `= this.file.name`
-> ---
->![[]]
-> ---
-> **Aliases**
->> `= this.aliases`
-> ---
->**Affiliations**
-> ---
->> `= this.affiliation`
-> ---
->> Status: `= this.status`
-> ---
+>![[Maelis_reference_cropped.webp|]]
+>**Born** `= this.birthday` (age `= this.Age`)
+>**Origin** `= this.Origin`
+>
+> **Aliases**  
+> `= this.aliases`
+>
+> **Affiliations**
+> `= this.affiliation`
+>
+> **Status**: `= this.status`
 # Current predicament
 Currently on the run from a group of bounty hunters after fleeing from their family.
 # Appearance

@@ -10,7 +10,16 @@ Gender:
 Language:
 image:
 ---
->[!info]
->---
+>[!info] `= this.file.name`
+> ---
 >![[]]
->**Example text**
+> ---
+> **Aliases**
+>> `= this.aliases`
+> ---
+>**Affiliations**
+> ---
+>> `= this.affiliation`
+> ---
+>> Status: `= this.status`
+> ---

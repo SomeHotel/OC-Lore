@@ -1,6 +1,7 @@
 {
   "cssTheme": "Wikipedia",
-  "accentColor": "#b573f7",
+  "accentColor": "#8a1be4",
   "nativeMenus": false,
-  "showViewHeader": true
+  "showViewHeader": true,
+  "theme": "system"
 }
