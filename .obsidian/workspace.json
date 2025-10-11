@@ -4,36 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "f5bb682476503108",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "bb412cab0d1cbf6e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "z_Templates/Character Template.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Character Template"
-            }
-          }
-        ]
-      },
-      {
         "id": "195a70da2eab1b02",
         "type": "tabs",
         "children": [
@@ -166,7 +136,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"aliases\"]",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -349,14 +319,15 @@
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "calendarium:Open Calendarium": false
     }
   },
-  "active": "d4f9d174002d39c0",
+  "active": "2325deaf5469eaca",
   "lastOpenFiles": [
     "1- Party/Maelis Nighthollow.md",
-    "Dead/Alye.md",
     "z_Templates/Character Template.md",
+    "Dead/Alye.md",
     "Dead/Colt.md",
     "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
     "1- Party/Corelia.md",

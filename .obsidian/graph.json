@@ -1,9 +1,9 @@
 {
   "collapse-filter": false,
   "search": "-path:z_Templates -path:Resources ",
-  "showTags": true,
+  "showTags": false,
   "showAttachments": false,
-  "hideUnresolved": true,
+  "hideUnresolved": false,
   "showOrphans": false,
   "collapse-color-groups": false,
   "colorGroups": [
@@ -22,7 +22,14 @@
       }
     },
     {
-      "query": "tag:#Type/Character OR  [\"type\":Character]",
+      "query": "[\"age\":>18",
+      "color": {
+        "a": 1,
+        "rgb": 13193952
+      }
+    },
+    {
+      "query": "[\"type\":Character]",
       "color": {
         "a": 1,
         "rgb": 5431497
@@ -39,6 +46,6 @@
   "repelStrength": 10,
   "linkStrength": 0.552631578947369,
   "linkDistance": 155,
-  "scale": 0.7411361047950306,
+  "scale": 0.7411361047950312,
   "close": true
 }

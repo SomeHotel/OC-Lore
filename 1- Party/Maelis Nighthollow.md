@@ -18,8 +18,6 @@ Language:
   - Common Sign Language
   - Common
   - Elvish
-  - Draconic
-  -
 ---
 # Current predicament
 ---
