@@ -3,7 +3,7 @@ views:
     name: Table
     filters:
       and:
-        - Affiliation == ["The Party"]
+        - Affiliation.contains("The Party")
     order:
       - file.name
       - aliases

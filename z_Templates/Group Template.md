@@ -1,21 +1,16 @@
 ---
 type:
-  - Character
+  - Group
 aliases:
 tags:
-Profession:
-Birthday:
 Age:
 Origin:
 Affiliation:
 Status:
-Gender:
-Language:
 ---
 >[!info] `= this.file.name`
 > ---
 >![[]]
->**Born** `= this.birthday` (age `= this.Age`)
 >**Origin** `= this.origin`
 >
 > **Aliases**  

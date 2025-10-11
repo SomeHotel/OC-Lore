@@ -1,0 +1,21 @@
+properties:
+  file.name:
+    displayName: Name
+views:
+  - type: table
+    name: Table
+    filters:
+      or:
+        - Affiliation.contains("Nighthollow Family")
+        - Affiliation.contains("Nighthollow Family (former)")
+    order:
+      - file.name
+      - Status
+      - Profession
+    sort:
+      - property: Status
+        direction: ASC
+      - property: file.name
+        direction: ASC
+      - property: Profession
+        direction: ASC

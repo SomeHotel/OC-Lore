@@ -11,7 +11,7 @@ tags:
   - Patron/Shar
 Profession:
   - Assassin
-Birthday:
+Birthday: N/A
 Age: 19
 Origin: Menzoberranzan
 Affiliation:
@@ -27,14 +27,17 @@ Language:
 >[!info] `= this.file.name`
 >![[Maelis_reference_cropped.webp|]]
 >**Born** `= this.birthday` (age `= this.Age`)
->**Origin** `= this.Origin`
+>**Origin** `= this.origin`
 >
 > **Aliases**  
 > `= this.aliases`
 >
 > **Affiliations**
 > `= this.affiliation`
->
+> 
+> **Languages**
+> `= this.language`
+> 
 > **Status**: `= this.status`
 # Current predicament
 Currently on the run from a group of bounty hunters after fleeing from their family.

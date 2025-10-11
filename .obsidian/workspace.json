@@ -62,8 +62,8 @@
               "type": "markdown",
               "state": {
                 "file": "1- Party/Maelis Nighthollow.md",
-                "mode": "source",
-                "source": false,
+                "mode": "preview",
+                "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -72,7 +72,7 @@
                   "showSearch": false,
                   "searchQuery": "",
                   "backlinkCollapsed": false,
-                  "unlinkedCollapsed": false
+                  "unlinkedCollapsed": true
                 }
               },
               "icon": "lucide-file",
@@ -137,8 +137,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.5,
-    "collapsed": true
+    "width": 256.5
   },
   "right": {
     "id": "2dd58f2713fb86c3",
@@ -300,72 +299,25 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "floating": {
-    "id": "a89edbfdd9e761ee",
-    "type": "floating",
-    "children": [
-      {
-        "id": "3e700fc95824807d",
-        "type": "window",
-        "children": [
-          {
-            "id": "b15ce3f19f5e6aa9",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "9ced98efc843483f",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "1- Party/Maelis Nighthollow.md",
-                    "mode": "preview",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Maelis Nighthollow"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 768,
-        "y": 0,
-        "width": 768,
-        "height": 864,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "9ced98efc843483f",
+  "active": "b85f25ea56e7267e",
   "lastOpenFiles": [
+    "z_Templates/Group Template.md",
     "z_Templates/Character Template.md",
+    "Factions/Families/Nighthollow/Nighthollow Family.md",
+    "Factions/Families/Nighthollow/Nighthollow Family.base",
+    "Dead/Alye.md",
+    "Untitled.base",
+    "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
+    "1- Party/The Party.md",
+    "1- Party/The Party.base",
     "1- Party/Maelis Nighthollow.md",
     "z_Images/Corelia maybe_reference_cropped.webp",
-    "1- Party/The Party.md",
     "z_Images/Maelis_reference_cropped.webp",
-    "1- Party/The Party.base",
     "Untitled.md",
-    "Untitled.base",
     "Untitled 1.base",
     "1- Party/Corelia.md",
     "Dead/Colt.md",
-    "Dead/Alye.md",
-    "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
     "z_Templates/Event Template.md",
-    "Factions/Families/Nighthollow/Nighthollow Family.md",
     "Resources/BG3 Drow name table.md",
     "README.md",
     " - Copy.gitattributes",
@@ -382,7 +334,6 @@
     "Events/Corelia.md",
     "Resources/Maelis NightHollow.pdf",
     ".obsidian/plugins/syncthing-integration/data.json",
-    ".obsidian/plugins/syncthing-integration/styles.css",
     "Nighthollow 'Heir'.md",
     "Ideas.excalidraw.md",
     "Locations/Yartar.md",

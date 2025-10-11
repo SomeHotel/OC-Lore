@@ -13,8 +13,28 @@ Gender: Man
 Language:
   - Common
   - Elvish
+Profession:
+Birthday:
+Origin: Menzoberranzan
+Affiliation:
+  - Nighthollow Family
 ---
-## Background
+>[!info] `= this.file.name`
+> ---
+>![[]]
+>**Born** `= this.birthday` (age `= this.Age`)
+>**Origin** `= this.origin`
+>
+> **Aliases**  
+> `= this.aliases`
+>
+> **Affiliations**
+> `= this.affiliation`
+> 
+> **Languages**
+> `= this.language`
+> 
+> **Status**: `= this.status`## Background
 - Estranged father of [[Maelis Nighthollow]]
 - Patriarch of the [[Nighthollow Family]]
 - 
