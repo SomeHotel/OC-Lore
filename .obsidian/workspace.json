@@ -299,15 +299,6 @@
             }
           },
           {
-            "id": "3d3412578b412982",
-            "type": "leaf",
-            "state": {
-              "type": "CALENDARIUM",
-              "icon": "CALENDARIUM",
-              "title": "Calendarium"
-            }
-          },
-          {
             "id": "3f769d1505eae240",
             "type": "leaf",
             "state": {
@@ -334,7 +325,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -358,15 +349,14 @@
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "omnisearch:Omnisearch": false,
-      "calendarium:Open Calendarium": false
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "77d516975204939f",
+  "active": "d4f9d174002d39c0",
   "lastOpenFiles": [
+    "1- Party/Maelis Nighthollow.md",
     "Dead/Alye.md",
     "z_Templates/Character Template.md",
-    "1- Party/Maelis Nighthollow.md",
     "Dead/Colt.md",
     "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
     "1- Party/Corelia.md",
