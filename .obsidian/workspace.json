@@ -258,12 +258,11 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 445.5,
-    "collapsed": true
+    "width": 445.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -287,7 +286,7 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "b85f25ea56e7267e",
+  "active": "77d516975204939f",
   "lastOpenFiles": [
     "1- Party/Corelia.md",
     "1- Party/Maelis Nighthollow.md",
