@@ -257,7 +257,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -285,8 +285,9 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "b85f25ea56e7267e",
+  "active": "77d516975204939f",
   "lastOpenFiles": [
+    "z_Resources/Dialogue/lu17268fo36r.tmp",
     "z_Resources/Dialogue/lu17268fo36o.tmp",
     "Events/Characters/Maelis/Maelis and Corelia meet for the first time.md",
     "z_Resources/Dialogue/lu17268fo36a.tmp",
@@ -318,7 +319,6 @@
     "Untitled.md",
     "Untitled 1.base",
     "z_Templates/Event Template.md",
-    " - Copy.gitattributes",
     "z_Templates/Event Template.sync-conflict-20251008-151440-M7QFWIS.md",
     "Events/Characters/Colt/Colt Death.md",
     "Events/Characters/Colt/Meeting Maelis.md",
