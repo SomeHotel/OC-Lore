@@ -281,12 +281,12 @@
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "omnisearch:Omnisearch": false,
-      "calendarium:Open Calendarium": false
+      "omnisearch:Omnisearch": false
     }
   },
   "active": "77d516975204939f",
   "lastOpenFiles": [
+    "z_Resources/Dialogue/lu18300lhj63.tmp",
     "z_Resources/Dialogue/lu17268fo36r.tmp",
     "z_Resources/Dialogue/lu17268fo36o.tmp",
     "Events/Characters/Maelis/Maelis and Corelia meet for the first time.md",
@@ -317,7 +317,6 @@
     "z_Images/Corelia maybe_reference_cropped.webp",
     "z_Images/Maelis_reference_cropped.webp",
     "Untitled.md",
-    "Untitled 1.base",
     "z_Templates/Event Template.md",
     "z_Templates/Event Template.sync-conflict-20251008-151440-M7QFWIS.md",
     "Events/Characters/Colt/Colt Death.md",
