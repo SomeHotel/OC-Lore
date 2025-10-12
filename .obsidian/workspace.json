@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Events/Characters/Maelis/Loss of hearing.md",
+                "file": "Events/Characters/Maelis/Maelis and Corelia meet for the first time.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Loss of hearing"
+              "title": "Maelis and Corelia meet for the first time"
             }
           }
         ],
@@ -286,9 +286,9 @@
   },
   "active": "d645a61c49dcfc4c",
   "lastOpenFiles": [
+    "Events/Characters/Maelis/Maelis and Corelia meet for the first time.md",
     "z_Resources/Dialogue/lu17268fo36a.tmp",
     "Events/Characters/Maelis/Loss of hearing.md",
-    "Events/Characters/Maelis/Maelis and Corelia meet for the first time.md",
     "Events/Characters/Maelis/Maelis Birth.md",
     "Events/Characters/Maelis/Maelis meets Corelia.md",
     "Events/Characters/Maelis/Escape from home.md",
@@ -317,7 +317,6 @@
     "Untitled 1.base",
     "z_Templates/Event Template.md",
     " - Copy.gitattributes",
-    " - Copy.gitignore",
     "z_Templates/Event Template.sync-conflict-20251008-151440-M7QFWIS.md",
     "Events/Characters/Colt/Colt Death.md",
     "Events/Characters/Colt/Meeting Maelis.md",
