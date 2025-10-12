@@ -186,12 +186,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Events/Characters/Maelis/Maelis and Corelia meet for the first time.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Maelis and Corelia meet for the first time"
             }
           },
           {
@@ -284,8 +285,9 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "d645a61c49dcfc4c",
+  "active": "b85f25ea56e7267e",
   "lastOpenFiles": [
+    "z_Resources/Dialogue/lu17268fo36o.tmp",
     "Events/Characters/Maelis/Maelis and Corelia meet for the first time.md",
     "z_Resources/Dialogue/lu17268fo36a.tmp",
     "Events/Characters/Maelis/Loss of hearing.md",
