@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1- Party/Maelis Nighthollow.md",
+                "file": "ideas.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Maelis Nighthollow"
+              "title": "ideas"
             }
           },
           {
@@ -211,8 +211,8 @@
         "state": {
           "type": "git-view",
           "state": {},
-          "icon": "git-pull-request",
-          "title": "Source Control"
+          "icon": "lucide-ghost",
+          "title": "git-view"
         }
       }
     ],
@@ -220,7 +220,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "omnisearch:Omnisearch": false,
       "bases:Create new base": false,
       "markdown-importer:Open format converter": false,
       "switcher:Open quick switcher": false,
@@ -230,19 +229,21 @@
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false,
-      "iconic:Open rulebook": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "homepage:Open homepage": false,
       "obsidian-git:Open Git source control": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
+      "omnisearch:Omnisearch": false,
+      "iconic:Open rulebook": false,
       "calendarium:Open Calendarium": false
     }
   },
   "active": "fb319414c6dd45e0",
   "lastOpenFiles": [
     "1- Party/Maelis Nighthollow.md",
+    "ideas.md",
     "z_Templates/Character Template.md",
     "z_Resources/Maelis NightHollow.pdf",
     "z_Images",
