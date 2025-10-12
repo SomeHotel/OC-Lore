@@ -2,6 +2,8 @@
 type:
   - Faction
   - Family
+aliases:
+  - Nighthollow Family (former)
 tags:
   - Faith/Shar
 Status: Active

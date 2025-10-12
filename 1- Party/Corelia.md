@@ -8,13 +8,14 @@ Birthday:
 Profession:
 Age: 20
 Affiliation:
-  - The Party
+  - "[[The Party]]"
 Status: Alive
 Gender: Woman
 Language:
   - Common
   - Common Sign Language
 Origin:
+image: "[[Corelia maybe_reference_cropped.webp]]"
 ---
 >[!info] `= this.file.name`
 > ---

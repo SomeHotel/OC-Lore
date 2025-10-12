@@ -1,6 +1,8 @@
 properties:
   file.name:
     displayName: Name
+  note.Profession:
+    displayName: Role
 views:
   - type: table
     name: Table
@@ -19,3 +21,9 @@ views:
         direction: ASC
       - property: Profession
         direction: ASC
+  - type: cards
+    name: View
+    filters:
+      and:
+        - Affiliation.contains(link("Nighthollow Family"))
+    image: note.image

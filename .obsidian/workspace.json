@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1- Party/Maelis Nighthollow.md",
+                "file": "Events/Characters/Maelis/Loss of hearing.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Maelis Nighthollow"
+              "title": "Loss of hearing"
             }
           }
         ],
@@ -137,8 +137,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.5,
-    "collapsed": true
+    "width": 256.5
   },
   "right": {
     "id": "2dd58f2713fb86c3",
@@ -187,13 +186,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1- Party/Maelis Nighthollow.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Maelis Nighthollow"
+              "title": "Outline"
             }
           },
           {
@@ -226,7 +224,7 @@
             }
           },
           {
-            "id": "d4f9d174002d39c0",
+            "id": "d645a61c49dcfc4c",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -258,7 +256,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -282,47 +280,48 @@
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "calendarium:Open Calendarium": false
     }
   },
-  "active": "77d516975204939f",
+  "active": "d645a61c49dcfc4c",
   "lastOpenFiles": [
-    "1- Party/Corelia.md",
+    "Events/Characters/Maelis/Loss of hearing.md",
+    "Events/Characters/Maelis/Maelis and Corelia meet for the first time.md",
+    "Events/Characters/Maelis/Maelis Birth.md",
+    "Events/Characters/Maelis/Maelis meets Corelia.md",
+    "Events/Characters/Maelis/Escape from home.md",
     "1- Party/Maelis Nighthollow.md",
-    "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
-    "1- Party/The Party.md",
-    "1- Party/The Party.base",
-    "z_Templates/Group Template.md",
-    "z_Templates/Character Template.md",
+    "z_Resources/Dialogue/Maelis meets Corelia.odt",
+    "z_Resources/Dialogue/lu17268fo35z.tmp",
+    "z_Resources/Dialogue",
+    "z_Resources/New folder",
+    "README.md",
+    "z_Resources/BG3 Drow name table.md",
+    "Resources/BG3 Drow name table.md",
+    "Dead/Colt.md",
+    "Dead/Alye.md",
     "Factions/Families/Nighthollow/Nighthollow Family.md",
     "Factions/Families/Nighthollow/Nighthollow Family.base",
-    "Dead/Alye.md",
+    "z_Templates/Character Template.md",
+    "1- Party/The Party.md",
+    "1- Party/Corelia.md",
+    "1- Party/The Party.base",
+    "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
     "Untitled.base",
+    "z_Templates/Group Template.md",
     "z_Images/Corelia maybe_reference_cropped.webp",
     "z_Images/Maelis_reference_cropped.webp",
     "Untitled.md",
     "Untitled 1.base",
-    "Dead/Colt.md",
     "z_Templates/Event Template.md",
-    "Resources/BG3 Drow name table.md",
-    "README.md",
     " - Copy.gitattributes",
     " - Copy.gitignore",
     "z_Templates/Event Template.sync-conflict-20251008-151440-M7QFWIS.md",
-    "Events/Characters/Maelis/Loss of hearing.md",
     "Events/Characters/Colt/Colt Death.md",
-    "Events/Characters/Maelis/Maelis Birth.md",
-    "Events/Characters/Maelis/Escape from home.md",
-    "Events/Characters/Maelis/Maelis meets Corelia.md",
     "Events/Characters/Colt/Meeting Maelis.md",
-    "Events/Characters",
-    "Events/Characters/Corelia",
     "Events/Corelia.md",
-    "Resources/Maelis NightHollow.pdf",
-    ".obsidian/plugins/syncthing-integration/data.json",
     "Nighthollow 'Heir'.md",
-    "Ideas.excalidraw.md",
-    "Locations/Yartar.md",
-    ".trash/Home.md"
+    "Ideas.excalidraw.md"
   ]
 }

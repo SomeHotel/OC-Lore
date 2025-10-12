@@ -11,6 +11,7 @@ Affiliation:
 Status:
 Gender:
 Language:
+image:
 ---
 >[!info] `= this.file.name`
 > ---

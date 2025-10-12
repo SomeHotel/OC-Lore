@@ -14,8 +14,9 @@ Language:
   - Common
   - Elvish
 Profession:
+  - Patriarch
 Birthday:
-Origin: Menzoberranzan
+Origin: "[[Menzoberranzan]]"
 Affiliation:
   - Nighthollow Family
 ---

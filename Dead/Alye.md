@@ -3,9 +3,10 @@ type:
   - Character
 aliases:
 tags:
+  - Race/Human
 Birthday:
-Age:
-Status: Dead
+Age: 42
+Status: Unknown
 Gender: Woman
 Language:
   - Common
@@ -14,10 +15,9 @@ Profession:
   - Servant
 Origin:
 Affiliation:
-  - Nighthollow Family (former)
+  - "[[Nighthollow Family|Nighthollow Family (former)]]"
 ---
 >[!info] `= this.file.name`
-> ---
 >![[]]
 >**Born** `= this.birthday` (age `= this.Age`)
 >**Origin** `= this.origin`
@@ -31,7 +31,9 @@ Affiliation:
 > **Languages**
 > `= this.language`
 > 
-> **Status**: `= this.status`## Background
+> **Status**: `= this.status`
+# Background
 - [[Maelis Nighthollow|Maelis']] parental figure as a child
 - Taught them how to read and write
+- Helped them escape from the [[Nighthollow Family]]
 - 

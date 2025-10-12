@@ -13,16 +13,17 @@ Profession:
   - Assassin
 Birthday:
 Age: 19
-Origin: Menzoberranzan
+Origin: "[[Menzoberranzan]]"
 Affiliation:
-  - The Party
-  - Nighthollow Family (former)
+  - "[[The Party]]"
+  - "[[Nighthollow Family|Nighthollow Family (former)]]"
 Status: Alive
 Gender: Other
 Language:
   - Common Sign Language
   - Common
   - Elvish
+image: "[[Maelis_reference_cropped.webp]]"
 ---
 
 >[!info] `= this.file.name`

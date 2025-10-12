@@ -15,7 +15,7 @@
       }
     },
     {
-      "query": "[\"status\":Dead] OR [\"status\":Inactive]",
+      "query": "[\"status\":Dead] [\"status\":Inactive]",
       "color": {
         "a": 1,
         "rgb": 6710886
@@ -39,6 +39,6 @@
   "repelStrength": 10,
   "linkStrength": 0.552631578947369,
   "linkDistance": 155,
-  "scale": 1.2059761606554287,
+  "scale": 2.3704137334941064,
   "close": true
 }

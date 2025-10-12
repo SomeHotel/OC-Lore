@@ -12,11 +12,10 @@ views:
       - aliases
       - Profession
       - Status
-    sort:
-      - property: file.name
-        direction: ASC
+    sort: []
   - type: cards
     name: Party Members
     filters:
       and:
-        - Affiliation == ["The Party"]
+        - Affiliation.contains(link("The Party"))
+    image: note.image
