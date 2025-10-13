@@ -12,6 +12,9 @@
     "ac": "number",
     "hp": "number",
     "type": "multitext",
-    "Language": "multitext"
+    "Language": "multitext",
+    "Birthday": "date",
+    "Affiliation": "multitext",
+    "Profession": "multitext"
   }
 }

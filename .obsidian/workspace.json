@@ -102,9 +102,23 @@
               "icon": "lucide-file",
               "title": "README"
             }
+          },
+          {
+            "id": "8a2deefd1af82325",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "conflict-files-obsidian-git.md",
+                "bFile": "conflict-files-obsidian-git.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -295,43 +309,44 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "6ab9c033f244e407",
+  "active": "8a2deefd1af82325",
   "lastOpenFiles": [
+    "ideas.md",
+    "conflict-files-obsidian-git.md",
+    "Resources/BG3 Drow name table.md",
+    "Factions/Families/Nighthollow/Nighthollow Family.sync-conflict-20251008-151442-WRVCPBB.md",
+    "Factions/Families/Nighthollow/Filvrae Nighthollow.sync-conflict-20251008-151441-WRVCPBB.md",
+    "Events/Maelis/Maelis meets Corelia.sync-conflict-20251008-151442-M7QFWIS.md",
+    "Events/Maelis/Loss of hearing.sync-conflict-20251008-151442-M7QFWIS.md",
+    "Events/Maelis/Birth.sync-conflict-20251008-151442-M7QFWIS.md",
+    "Events/Maelis",
+    "Events/Characters/Maelis/Maelis meets Corelia.md",
+    "Dead/Colt.sync-conflict-20251008-151437-WRVCPBB.md",
+    "Dead/Alye.sync-conflict-20251008-151438-WRVCPBB.md",
+    "README.md",
+    "z_Templates/Group Template.md",
+    "z_Resources/Dialogue/Maelis meets Corelia.odt",
+    "z_Resources/Maelis NightHollow.pdf",
+    "z_Resources/Dialogue",
+    "z_Resources/BG3 Drow name table.md",
+    "z_Resources",
+    "z_Images/Maelis_reference_cropped.webp",
+    "z_Images/Corelia maybe_reference_cropped.webp",
+    "z_Images",
+    "Factions/Families/Nighthollow/Nighthollow Family.base",
+    "Events/Characters/Maelis/Maelis and Corelia meet for the first time.md",
+    "1- Party/The Party.md",
+    "1- Party/The Party.base",
     "z_Templates/Event Template.md",
     "z_Templates/Event Template.sync-conflict-20251008-151440-M7QFWIS.md",
-    "README.md",
     "Events/Characters/Maelis/Loss of hearing.md",
     "Events/Characters/Colt/Colt Death.md",
     "Events/Characters/Maelis/Maelis Birth.md",
     "Events/Characters/Maelis/Escape from home.md",
-    "Events/Characters/Maelis/Maelis meets Corelia.md",
     "1- Party/Corelia.md",
     "1- Party/Maelis Nighthollow.md",
     "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
-    "Factions/Families/Nighthollow/Nighthollow Family.md",
-    "Events/Characters/Colt/Meeting Maelis.md",
     "Events/Characters",
-    "Events/Characters/Corelia",
-    "Events/Corelia.md",
-    "Resources/Maelis NightHollow.pdf",
-    ".obsidian/plugins/syncthing-integration/data.json",
-    ".obsidian/plugins/syncthing-integration/styles.css",
-    ".obsidian/plugins/syncthing-integration/main.js",
-    ".obsidian/plugins/syncthing-integration/manifest.json",
-    ".obsidian/plugins/syncthing-integration",
-    ".obsidian/plugins/aprils-automatic-timelines/data.json",
-    "Resources/BG3 Drow name table.md",
-    "Nighthollow 'Heir'.md",
-    "z_Templates/Character Template.md",
-    "Ideas.excalidraw.md",
-    ".obsidian/themes/Prism/theme.css",
-    "Locations/Yartar.md",
-    ".trash/Home.md",
-    "Dead/Colt.md",
-    "Events/Maelis/Loss of hearing.sync-conflict-20251006-004422-M7QFWIS.md",
-    "z_Templates/Event Template.sync-conflict-20251006-004427-M7QFWIS.md",
-    "Events/Maelis/Maelis meets Corelia.sync-conflict-20251006-004426-M7QFWIS.md",
-    "Events/Maelis/Escape from home.sync-conflict-20251006-004414-M7QFWIS.md",
-    "Factions/Families/Nighthollow/Nighthollow Family.sync-conflict-20251006-004415-M7QFWIS.md"
+    "Events/Characters/Corelia"
   ]
 }

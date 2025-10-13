@@ -1,7 +1,7 @@
 {
   "collapse-filter": false,
-  "search": "-path:z_Templates -path:Resources ",
-  "showTags": true,
+  "search": "-path:z_Images -path:z_Templates -path:z_Resources",
+  "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": false,
@@ -15,14 +15,14 @@
       }
     },
     {
-      "query": "[\"status\":Dead]",
+      "query": "[\"status\":Dead] [\"status\":Inactive]",
       "color": {
         "a": 1,
-        "rgb": 4210752
+        "rgb": 6710886
       }
     },
     {
-      "query": "tag:#Type/Character  ",
+      "query": "[\"type\":Character]",
       "color": {
         "a": 1,
         "rgb": 5431497
@@ -39,6 +39,6 @@
   "repelStrength": 10,
   "linkStrength": 0.552631578947369,
   "linkDistance": 155,
-  "scale": 1.456744551434302,
+  "scale": 1.2059761606554324,
   "close": true
 }
