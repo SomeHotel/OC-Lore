@@ -12,7 +12,7 @@ tags:
 Profession:
   - Assassin
 Birthday:
-Age: 19
+Age: 15
 Origin: "[[Menzoberranzan]]"
 Affiliation:
   - "[[The Party]]"
@@ -25,9 +25,8 @@ Language:
   - Elvish
 image: "[[Maelis_reference_cropped.webp]]"
 ---
-
 >[!info] `= this.file.name`
->![[Maelis_reference_cropped.webp|]]
+>![[Maelis_reference_cropped.webp]]
 >**Born** `= this.birthday` (age `= this.Age`)
 >**Origin** `= this.origin`
 >
@@ -74,7 +73,7 @@ Currently on the run from a group of bounty hunters after fleeing from their fam
 - Worships [[Selûne]] in the hopes [[Shar]] won't harm them
 - Refuses to use warlock spells and powers
 # Relationships
-## Nighthollow Family
+## [[Nighthollow Family]]
 ### [[Filvrae Nighthollow|Filvrae]]
 Was a very absent father, even when he was around he was abusive and dismissive. Only saw Maelis to train them and to give discipline during exams.
 ### [[Alye]]
@@ -86,6 +85,6 @@ Unknowingly had a crush on him when they knew him. When Maelis was 13, he was ki
 Had a chance meeting with Maelis in an alleyway due to the both of them being on the run from separate organisations.
 # Timeline
 ```aat-vertical
-Maelis timeline, Maelis event
+Maelis timeline, Maelis event,
 dateDisplayFormat: {year}
 ```

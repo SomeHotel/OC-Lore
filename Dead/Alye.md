@@ -5,7 +5,7 @@ aliases:
 tags:
   - Race/Human
 Birthday:
-Age: 42
+Age: 38
 Status: Unknown
 Gender: Woman
 Language:
@@ -13,7 +13,7 @@ Language:
   - Common Sign Language
 Profession:
   - Servant
-Origin:
+Origin: "[[Menzoberranzan]]"
 Affiliation:
   - "[[Nighthollow Family|Nighthollow Family (former)]]"
 ---

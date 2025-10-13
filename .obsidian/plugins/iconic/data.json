@@ -24,7 +24,7 @@
   "dialogState": {
     "iconMode": true,
     "emojiMode": false,
-    "rulePage": "folder"
+    "rulePage": "file"
   },
   "appIcons": {},
   "tabIcons": {},
@@ -86,6 +86,26 @@
       ],
       "enabled": true,
       "icon": "lucide-layout-template"
+    },
+    {
+      "id": "3roMv",
+      "name": "Party",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "tree",
+          "operator": "contains",
+          "value": "1- Party"
+        },
+        {
+          "source": "property:type",
+          "operator": "includes",
+          "value": "Group"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-users",
+      "color": "yellow"
     }
   ],
   "folderRules": [
@@ -102,6 +122,19 @@
       ],
       "enabled": true,
       "icon": "lucide-layout-template"
+    },
+    {
+      "id": "Y4GjF",
+      "name": "Party",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "name",
+          "operator": "contains"
+        }
+      ],
+      "enabled": true,
+      "color": "yellow"
     }
   ]
 }

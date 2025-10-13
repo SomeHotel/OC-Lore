@@ -6,7 +6,7 @@ tags:
   - Race/Tiefling/Zariel
 Birthday:
 Profession:
-Age: 20
+Age: 16
 Affiliation:
   - "[[The Party]]"
 Status: Alive

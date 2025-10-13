@@ -3,7 +3,7 @@ type:
   - Event
 aliases:
 aat-event-title:
-aat-event-start-date: 19
+aat-event-start-date: 13
 aat-render-enabled: true
 timelines:
   - Maelis event
