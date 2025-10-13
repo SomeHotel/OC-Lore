@@ -78,9 +78,33 @@
               "icon": "lucide-file",
               "title": "Maelis and Corelia meet for the first time"
             }
+          },
+          {
+            "id": "8905c4e7bbc47b93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -281,15 +305,18 @@
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "calendarium:Open Calendarium": false
     }
   },
-  "active": "77d516975204939f",
+  "active": "8905c4e7bbc47b93",
   "lastOpenFiles": [
+    "Events/Characters/Maelis/Maelis and Corelia meet for the first time.md",
+    "conflict-files-obsidian-git.md",
+    "ideas.md",
     "z_Resources/Dialogue/lu18300lhj63.tmp",
     "z_Resources/Dialogue/lu17268fo36r.tmp",
     "z_Resources/Dialogue/lu17268fo36o.tmp",
-    "Events/Characters/Maelis/Maelis and Corelia meet for the first time.md",
     "z_Resources/Dialogue/lu17268fo36a.tmp",
     "Events/Characters/Maelis/Loss of hearing.md",
     "Events/Characters/Maelis/Maelis Birth.md",
@@ -312,7 +339,6 @@
     "1- Party/Corelia.md",
     "1- Party/The Party.base",
     "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
-    "Untitled.base",
     "z_Templates/Group Template.md",
     "z_Images/Corelia maybe_reference_cropped.webp",
     "z_Images/Maelis_reference_cropped.webp",
@@ -322,7 +348,6 @@
     "Events/Characters/Colt/Colt Death.md",
     "Events/Characters/Colt/Meeting Maelis.md",
     "Events/Corelia.md",
-    "Nighthollow 'Heir'.md",
-    "Ideas.excalidraw.md"
+    "Nighthollow 'Heir'.md"
   ]
 }
