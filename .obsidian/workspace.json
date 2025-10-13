@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "ideas.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -100,49 +100,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "8a2deefd1af82325",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
-            }
-          },
-          {
-            "id": "078b33c3d9eb35ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "ideas"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -315,6 +277,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "omnisearch:Omnisearch": false,
       "graph:Open graph view": false,
       "bases:Create new base": false,
       "switcher:Open quick switcher": false,
@@ -330,11 +293,13 @@
       "obsidian-git:Open Git source control": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "calendarium:Open Calendarium": false
     }
   },
-  "active": "078b33c3d9eb35ff",
+  "active": "6ab9c033f244e407",
   "lastOpenFiles": [
+    "README.md",
     "conflict-files-obsidian-git.md",
     "ideas.md",
     "Resources/BG3 Drow name table.md",
@@ -347,7 +312,6 @@
     "Events/Characters/Maelis/Maelis meets Corelia.md",
     "Dead/Colt.sync-conflict-20251008-151437-WRVCPBB.md",
     "Dead/Alye.sync-conflict-20251008-151438-WRVCPBB.md",
-    "README.md",
     "z_Templates/Group Template.md",
     "z_Resources/Dialogue/Maelis meets Corelia.odt",
     "z_Resources/Maelis NightHollow.pdf",
