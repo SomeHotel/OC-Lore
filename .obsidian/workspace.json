@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ideas.md",
+                "file": "1- Party/Maelis Nighthollow.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ideas"
+              "title": "Maelis Nighthollow"
             }
           }
         ],
@@ -285,13 +285,16 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "77d516975204939f",
+  "active": "b85f25ea56e7267e",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "1- Party/The Party.md",
+    "Events/Characters/Maelis/Escape from home.md",
+    "1- Party/Maelis Nighthollow.md",
+    "Untitled.base",
     "ideas.md",
+    "conflict-files-obsidian-git.md",
     "Ideas.excalidraw.md",
     "z_Templates/Character Template.md",
-    "1- Party/Maelis Nighthollow.md",
     "1- Party/Corelia.md",
     "Events/Characters/Maelis/Maelis and Corelia meet for the first time.md",
     "z_Resources/Dialogue/lu18300lhj63.tmp",
@@ -301,7 +304,6 @@
     "Events/Characters/Maelis/Loss of hearing.md",
     "Events/Characters/Maelis/Maelis Birth.md",
     "Events/Characters/Maelis/Maelis meets Corelia.md",
-    "Events/Characters/Maelis/Escape from home.md",
     "z_Resources/Dialogue/Maelis meets Corelia.odt",
     "z_Resources/Dialogue/lu17268fo35z.tmp",
     "z_Resources/Dialogue",
@@ -313,8 +315,6 @@
     "Dead/Alye.md",
     "Factions/Families/Nighthollow/Nighthollow Family.md",
     "Factions/Families/Nighthollow/Nighthollow Family.base",
-    "1- Party/The Party.md",
-    "1- Party/The Party.base",
     "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
     "z_Templates/Group Template.md",
     "z_Images/Corelia maybe_reference_cropped.webp",
@@ -323,7 +323,6 @@
     "z_Templates/Event Template.md",
     "z_Templates/Event Template.sync-conflict-20251008-151440-M7QFWIS.md",
     "Events/Characters/Colt/Colt Death.md",
-    "Events/Characters/Colt/Meeting Maelis.md",
-    "Events/Corelia.md"
+    "Events/Characters/Colt/Meeting Maelis.md"
   ]
 }

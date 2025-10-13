@@ -4,5 +4,6 @@
   "promptDelete": false,
   "showLineNumber": false,
   "alwaysUpdateLinks": true,
-  "propertiesInDocument": "visible"
+  "propertiesInDocument": "visible",
+  "newFileLocation": "current"
 }
