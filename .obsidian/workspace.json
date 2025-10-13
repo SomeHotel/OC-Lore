@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Events/Characters/Maelis/Maelis and Corelia meet for the first time.md",
+                "file": "ideas.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,35 +76,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Maelis and Corelia meet for the first time"
-            }
-          },
-          {
-            "id": "8905c4e7bbc47b93",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "ideas"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -309,11 +285,15 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "8905c4e7bbc47b93",
+  "active": "77d516975204939f",
   "lastOpenFiles": [
-    "Events/Characters/Maelis/Maelis and Corelia meet for the first time.md",
     "conflict-files-obsidian-git.md",
     "ideas.md",
+    "Ideas.excalidraw.md",
+    "z_Templates/Character Template.md",
+    "1- Party/Maelis Nighthollow.md",
+    "1- Party/Corelia.md",
+    "Events/Characters/Maelis/Maelis and Corelia meet for the first time.md",
     "z_Resources/Dialogue/lu18300lhj63.tmp",
     "z_Resources/Dialogue/lu17268fo36r.tmp",
     "z_Resources/Dialogue/lu17268fo36o.tmp",
@@ -322,7 +302,6 @@
     "Events/Characters/Maelis/Maelis Birth.md",
     "Events/Characters/Maelis/Maelis meets Corelia.md",
     "Events/Characters/Maelis/Escape from home.md",
-    "1- Party/Maelis Nighthollow.md",
     "z_Resources/Dialogue/Maelis meets Corelia.odt",
     "z_Resources/Dialogue/lu17268fo35z.tmp",
     "z_Resources/Dialogue",
@@ -334,9 +313,7 @@
     "Dead/Alye.md",
     "Factions/Families/Nighthollow/Nighthollow Family.md",
     "Factions/Families/Nighthollow/Nighthollow Family.base",
-    "z_Templates/Character Template.md",
     "1- Party/The Party.md",
-    "1- Party/Corelia.md",
     "1- Party/The Party.base",
     "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
     "z_Templates/Group Template.md",
@@ -347,7 +324,6 @@
     "z_Templates/Event Template.sync-conflict-20251008-151440-M7QFWIS.md",
     "Events/Characters/Colt/Colt Death.md",
     "Events/Characters/Colt/Meeting Maelis.md",
-    "Events/Corelia.md",
-    "Nighthollow 'Heir'.md"
+    "Events/Corelia.md"
   ]
 }
