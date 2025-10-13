@@ -49,7 +49,7 @@ Currently on the run from a group of bounty hunters after fleeing from their fam
 - Big scars on the face, neck, arms, chest and legs
 - Wears makeup to hide the scars on their face and to look more androgynous
 - Has a light beard due to a lack of wanting to care for themselves
-- Has freckles on their faceb
+- Has freckles on their face
 - Generally wears whatever clothes can be easily stolen or found on the ground
 - Slightly muscular but mostly slim
 - 165cm tall
