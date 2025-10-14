@@ -293,8 +293,7 @@
       "obsidian-git:Open Git source control": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false,
-      "calendarium:Open Calendarium": false
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
   "active": "6ab9c033f244e407",
