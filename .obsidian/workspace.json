@@ -102,33 +102,9 @@
               "icon": "lucide-file",
               "title": "ideas"
             }
-          },
-          {
-            "id": "0637a302ed570a72",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -321,10 +297,10 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "0637a302ed570a72",
+  "active": "2325deaf5469eaca",
   "lastOpenFiles": [
-    "ideas.md",
     "conflict-files-obsidian-git.md",
+    "ideas.md",
     "z_Resources/Dialogue/Colt and Tar'al.odt",
     "README.md",
     "Resources/BG3 Drow name table.md",
