@@ -4,7 +4,7 @@ type:
 aliases:
   - The incident
 aat-event-title:
-aat-event-start-date: 9
+aat-event-start-date: 7
 aat-render-enabled: true
 timelines:
   - Maelis timeline

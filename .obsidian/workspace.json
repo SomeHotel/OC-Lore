@@ -102,9 +102,33 @@
               "icon": "lucide-file",
               "title": "ideas"
             }
+          },
+          {
+            "id": "0637a302ed570a72",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -293,14 +317,16 @@
       "obsidian-git:Open Git source control": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "calendarium:Open Calendarium": false
     }
   },
-  "active": "6ab9c033f244e407",
+  "active": "0637a302ed570a72",
   "lastOpenFiles": [
-    "README.md",
-    "conflict-files-obsidian-git.md",
     "ideas.md",
+    "conflict-files-obsidian-git.md",
+    "z_Resources/Dialogue/Colt and Tar'al.odt",
+    "README.md",
     "Resources/BG3 Drow name table.md",
     "Factions/Families/Nighthollow/Nighthollow Family.sync-conflict-20251008-151442-WRVCPBB.md",
     "Factions/Families/Nighthollow/Filvrae Nighthollow.sync-conflict-20251008-151441-WRVCPBB.md",
@@ -333,7 +359,6 @@
     "1- Party/Corelia.md",
     "1- Party/Maelis Nighthollow.md",
     "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
-    "Events/Characters",
-    "Events/Characters/Corelia"
+    "Events/Characters"
   ]
 }

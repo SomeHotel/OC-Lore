@@ -2,6 +2,7 @@
 type:
   - Faction
   - Family
+  - Group
 aliases:
   - Nighthollow Family (former)
 tags:
@@ -9,11 +10,25 @@ tags:
 Status: Active
 timelines:
   - Nighthollow timeline
+Age:
+Origin: "[[Menzoberranzan]]"
+Affiliation:
 ---
 ## Background
 Not much is known about this group of nobles.
 
-
+>[!info] `= this.file.name`
+> ---
+>![[]]
+>**Origin** `= this.origin`
+>
+> **Affiliations**
+> `= this.affiliation`
+> 
+> **Languages**
+> `= this.language`
+> 
+> **Status**: `= this.status`
 
 ## Members
 ![[Nighthollow Family.base]]

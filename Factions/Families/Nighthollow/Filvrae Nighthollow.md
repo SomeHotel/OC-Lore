@@ -35,7 +35,9 @@ Affiliation:
 > **Languages**
 > `= this.language`
 > 
-> **Status**: `= this.status`## Background
+> **Status**: `= this.status`
+
+## Background
 - Estranged father of [[Maelis Nighthollow]]
 - Patriarch of the [[Nighthollow Family]]
 - 
