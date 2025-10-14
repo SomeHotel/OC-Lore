@@ -9,7 +9,7 @@ tags:
   - Background/Noble
 Age:
 Status: Alive
-Gender: Man
+Gender: Cis Man
 Language:
   - Common
   - Elvish
@@ -19,7 +19,7 @@ Profession:
 Birthday:
 Origin: "[[Menzoberranzan]]"
 Affiliation:
-  - Nighthollow Family
+  - "[[Nighthollow Family]]"
 ---
 >[!info] `= this.file.name`
 > ---

@@ -22,10 +22,24 @@
       }
     },
     {
-      "query": "[\"type\":Character]",
+      "query": "[\"affiliation\":\"[[The Party]]\"]",
       "color": {
         "a": 1,
         "rgb": 5431497
+      }
+    },
+    {
+      "query": "[\"type\":Location]",
+      "color": {
+        "a": 1,
+        "rgb": 16754734
+      }
+    },
+    {
+      "query": "[\"affiliation\":\"[[Nighthollow Family]]\"]",
+      "color": {
+        "a": 1,
+        "rgb": 7536895
       }
     }
   ],
@@ -39,6 +53,6 @@
   "repelStrength": 10,
   "linkStrength": 0.552631578947369,
   "linkDistance": 155,
-  "scale": 1.05349794238683,
+  "scale": 0.5359795996225916,
   "close": true
 }

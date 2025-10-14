@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1- Party/Corelia.md",
+                "file": "z_Templates/Character Template.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,35 +52,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Corelia"
-            }
-          },
-          {
-            "id": "0ec7d38f2fc06d10",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1- Party/Corelia.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": false
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Corelia"
+              "title": "Character Template"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -186,13 +162,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1- Party/Corelia.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Corelia"
+              "title": "Outline"
             }
           },
           {
@@ -245,7 +220,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -273,16 +248,26 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "0ec7d38f2fc06d10",
+  "active": "d4f9d174002d39c0",
   "lastOpenFiles": [
+    "z_Templates/Character Template.md",
+    "Factions/Families/Nighthollow/Nighthollow Family.md",
+    "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
     "1- Party/Maelis Nighthollow.md",
     "1- Party/Corelia.md",
-    "Events/Characters/Colt/Colt Death.md",
-    "Ideas.excalidraw.md",
-    "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
-    "Factions/Families/Nighthollow/Nighthollow Family.md",
     "Factions/Families/Nighthollow/Nighthollow Family.base",
+    "z_Templates/Item Template.md",
     "ideas.md",
+    "Events/Characters/Maelis/Loss of hearing.md",
+    "Events/Characters/Colt/Colt Death.md",
+    "Events/Characters/Maelis/Escape from home.md",
+    "Factions/Families/Nighthollow/Alye.md",
+    "1- Party/The Party.md",
+    "Events/Characters/Maelis/Maelis and Corelia meet for the first time.md",
+    "1- Party/Items",
+    "z_Resources/BG3 Drow name table.md",
+    "Dead/Colt.md",
+    "Ideas.excalidraw.md",
     "conflict-files-obsidian-git.md",
     "z_Resources/Dialogue/Colt and Tar'al.odt",
     "README.md",
@@ -294,24 +279,13 @@
     "Events/Maelis/Birth.sync-conflict-20251008-151442-M7QFWIS.md",
     "Events/Maelis",
     "Events/Characters/Maelis/Maelis meets Corelia.md",
-    "Dead/Colt.sync-conflict-20251008-151437-WRVCPBB.md",
-    "Dead/Alye.sync-conflict-20251008-151438-WRVCPBB.md",
-    "z_Templates/Group Template.md",
     "z_Resources/Dialogue/Maelis meets Corelia.odt",
     "z_Resources/Maelis NightHollow.pdf",
     "z_Resources/Dialogue",
-    "z_Resources/BG3 Drow name table.md",
     "z_Resources",
     "z_Images/Maelis_reference_cropped.webp",
     "z_Images/Corelia maybe_reference_cropped.webp",
     "z_Images",
-    "Events/Characters/Maelis/Maelis and Corelia meet for the first time.md",
-    "1- Party/The Party.md",
-    "1- Party/The Party.base",
-    "z_Templates/Event Template.md",
-    "z_Templates/Event Template.sync-conflict-20251008-151440-M7QFWIS.md",
-    "Events/Characters/Maelis/Loss of hearing.md",
-    "Events/Characters/Maelis/Maelis Birth.md",
-    "Events/Characters"
+    "1- Party/The Party.base"
   ]
 }

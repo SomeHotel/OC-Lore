@@ -6,13 +6,13 @@ type:
 aliases:
   - Nighthollow Family (former)
 tags:
-  - Faith/Shar
 Status: Active
 timelines:
   - Nighthollow timeline
 Age:
 Origin: "[[Menzoberranzan]]"
 Affiliation:
+  - "[[Shar]]"
 ---
 ## Background
 Not much is known about this group of nobles.

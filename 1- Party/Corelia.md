@@ -6,6 +6,7 @@ tags:
   - Race/Tiefling/Zariel
 Birthday:
 Profession:
+  - Ranger
 Age: 16
 Affiliation:
   - "[[The Party]]"
@@ -37,20 +38,30 @@ image: "[[Corelia maybe_reference_cropped.webp]]"
 # Current Predicament
 Stuck in an alleyway running from slavers.
 # Appearance
-- look at the picture idfk???
+- look at the picture idfk how to describe shit 😭(also shut up abt maelis i didnt have a reference picture when i was doing the describing)
+- Has a small diamond scar on her left ring finger
+- Lost her right leg from the knee down after it wasn't treated for a serious injury
+- 
 # Physical Characteristics
 - Fiddles with her septum piercing
 - Rubs her horns against hard surfaces when no one's around
 - 
 # History
-- 
+- Raised among Wood elves and taught nature magic
+- Was captured by slavers as a child and has only recently escaped captivity
+- Never met her parents but knows they're alive somewhere
 # Personality
 - Extremely distrustful of humans
+- Doesn't like ice cream (thinks its too cold and sweet)
+- Lesbian (was deeply in denial about it before she met Maelis)
+- Will seduce anyone to get what she needs
+- Loves listening to bards when they're performing
+- When she was taken in by the Wood elves, all that was left was her name and a [[Corelia ring|ring]], which she carries with and treasures
 - 
 # Relationships
 ## Friends
 ### Maelis Nighthollow
-The first friend she ever properly made, and someone who saved her from going down a darker path in life, [[Maelis Nighthollow]] 
+The first friend(😏) she ever properly made, and someone who saved her from going down a darker path in life, [[Maelis Nighthollow]] 
 # Timeline
 
 ```aat-vertical

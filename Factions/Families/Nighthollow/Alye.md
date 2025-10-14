@@ -7,7 +7,7 @@ tags:
 Birthday:
 Age: 38
 Status: Unknown
-Gender: Woman
+Gender: Cis Woman
 Language:
   - Common
   - Common Sign Language
