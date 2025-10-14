@@ -15,6 +15,7 @@ Language:
   - Elvish
 Profession:
   - Patriarch
+  - Assassin
 Birthday:
 Origin: "[[Menzoberranzan]]"
 Affiliation:

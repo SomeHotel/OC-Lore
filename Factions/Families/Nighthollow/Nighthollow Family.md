@@ -18,7 +18,6 @@ Affiliation:
 Not much is known about this group of nobles.
 
 >[!info] `= this.file.name`
-> ---
 >![[]]
 >**Origin** `= this.origin`
 >

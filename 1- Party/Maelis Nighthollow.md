@@ -18,7 +18,7 @@ Affiliation:
   - "[[The Party]]"
   - "[[Nighthollow Family|Nighthollow Family (former)]]"
 Status: Alive
-Gender: Other
+Gender: Trans Woman
 Language:
   - Common Sign Language
   - Common
@@ -73,7 +73,7 @@ Currently on the run from a group of bounty hunters after fleeing from their fam
 - Worships [[Selûne]] in the hopes [[Shar]] won't harm them
 - Refuses to use warlock spells and powers
 # Relationships
-## [[Nighthollow Family]]
+## Nighthollow Family
 ### [[Filvrae Nighthollow|Filvrae]]
 Was a very absent father, even when he was around he was abusive and dismissive. Only saw Maelis to train them and to give discipline during exams.
 ### [[Alye]]
