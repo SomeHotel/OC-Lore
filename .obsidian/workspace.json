@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z_Templates/Character Template.md",
+                "file": "ideas.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -48,11 +48,11 @@
                   "showSearch": false,
                   "searchQuery": "",
                   "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
+                  "unlinkedCollapsed": false
                 }
               },
               "icon": "lucide-file",
-              "title": "Character Template"
+              "title": "ideas"
             }
           }
         ],
@@ -162,12 +162,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "ideas.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of ideas"
             }
           },
           {
@@ -220,7 +221,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -248,22 +249,22 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "d4f9d174002d39c0",
+  "active": "f797d746a0cafd11",
   "lastOpenFiles": [
-    "z_Templates/Character Template.md",
-    "Factions/Families/Nighthollow/Nighthollow Family.md",
-    "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
+    "Factions/Families/Nighthollow/Alye.md",
     "1- Party/Maelis Nighthollow.md",
     "1- Party/Corelia.md",
+    "1- Party/The Party.md",
+    "Events/Characters/Maelis/Escape from home.md",
+    "Events/Characters/Maelis/Maelis and Corelia meet for the first time.md",
+    "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
+    "z_Templates/Character Template.md",
+    "Factions/Families/Nighthollow/Nighthollow Family.md",
     "Factions/Families/Nighthollow/Nighthollow Family.base",
     "z_Templates/Item Template.md",
     "ideas.md",
     "Events/Characters/Maelis/Loss of hearing.md",
     "Events/Characters/Colt/Colt Death.md",
-    "Events/Characters/Maelis/Escape from home.md",
-    "Factions/Families/Nighthollow/Alye.md",
-    "1- Party/The Party.md",
-    "Events/Characters/Maelis/Maelis and Corelia meet for the first time.md",
     "1- Party/Items",
     "z_Resources/BG3 Drow name table.md",
     "Dead/Colt.md",
