@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1- Party/Corelia.md",
+                "file": "1- Party/Maelis Nighthollow.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -112,7 +112,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Corelia"
+              "title": "Maelis Nighthollow"
             }
           }
         ],
@@ -286,14 +286,14 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "1- Party/Corelia.md"
+                "file": "1- Party/Maelis Nighthollow.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Corelia"
+              "title": "File properties for Maelis Nighthollow"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -320,13 +320,13 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "c89258a6dcb64ce6",
+  "active": "351100ad724c1e8e",
   "lastOpenFiles": [
+    "1- Party/Corelia.md",
     "1- Party/The Party.md",
     "1- Party/Maelis Nighthollow.md",
     "Events/Characters/Colt/Meeting Maelis.md",
     "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
-    "1- Party/Corelia.md",
     "conflict-files-obsidian-git.md",
     "Dead/Colt.md",
     "z_Templates/Item Template.md",
