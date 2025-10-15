@@ -8,6 +8,18 @@
         "type": "tabs",
         "children": [
           {
+            "id": "8b75d4d7bc9956ac",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
             "id": "3432252ecf58ea8a",
             "type": "leaf",
             "state": {
@@ -78,9 +90,33 @@
               "icon": "lucide-file",
               "title": "Maelis Nighthollow"
             }
+          },
+          {
+            "id": "c89258a6dcb64ce6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1- Party/Corelia.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Corelia"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -225,7 +261,7 @@
             }
           },
           {
-            "id": "d645a61c49dcfc4c",
+            "id": "82d7f6f508bfa7b4",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -235,19 +271,29 @@
             }
           },
           {
+            "id": "351100ad724c1e8e",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
             "id": "55acff27b52100e9",
             "type": "leaf",
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "1- Party/Maelis Nighthollow.md"
+                "file": "1- Party/Corelia.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Maelis Nighthollow"
+              "title": "File properties for Corelia"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -264,21 +310,23 @@
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-git:Open Git source control": false,
       "templater-obsidian:Templater": false,
       "iconic:Open rulebook": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "homepage:Open homepage": false,
-      "obsidian-git:Open Git source control": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "b85f25ea56e7267e",
+  "active": "c89258a6dcb64ce6",
   "lastOpenFiles": [
-    "1- Party/Maelis Nighthollow.md",
-    "1- Party/Corelia.md",
     "1- Party/The Party.md",
+    "1- Party/Maelis Nighthollow.md",
+    "Events/Characters/Colt/Meeting Maelis.md",
+    "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
+    "1- Party/Corelia.md",
     "conflict-files-obsidian-git.md",
     "Dead/Colt.md",
     "z_Templates/Item Template.md",
@@ -290,10 +338,8 @@
     "Events/Characters/Colt/Colt Death.md",
     "z_Resources/Dialogue/Colt and Maelis.odt",
     "z_Resources/Dialogue/lu13680hjvyx.tmp",
-    "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
     "Factions/Families/Nighthollow/Nighthollow Family.md",
     "Events/Characters/Maelis/Maelis and Corelia meet for the first time.md",
-    "Events/Characters/Colt/Meeting Maelis.md",
     "Events/Characters/Maelis/Escape from home.md",
     "Events/Characters/Maelis/Loss of hearing.md",
     "z_Templates/Event Template.md",
