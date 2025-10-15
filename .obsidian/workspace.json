@@ -61,55 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dead/Alye.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": true,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Alye"
-            }
-          },
-          {
-            "id": "c7274f863ff4efac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dead/Colt.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Colt"
-            }
-          },
-          {
-            "id": "ef0536f0fafd8847",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "1- Party/Maelis Nighthollow.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,11 +76,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "Maelis Nighthollow"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -283,16 +235,6 @@
             }
           },
           {
-            "id": "77d516975204939f",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          },
-          {
             "id": "55acff27b52100e9",
             "type": "leaf",
             "state": {
@@ -305,7 +247,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -334,15 +276,15 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "ef0536f0fafd8847",
+  "active": "b85f25ea56e7267e",
   "lastOpenFiles": [
-    "Dead/Colt.md",
+    "1- Party/The Party.md",
+    "1- Party/Maelis Nighthollow.md",
     "conflict-files-obsidian-git.md",
+    "Dead/Colt.md",
     "z_Templates/Item Template.md",
     "Factions/Families/Nighthollow/Alye.md",
     "Dead/Alye.md",
-    "1- Party/Maelis Nighthollow.md",
-    "1- Party/The Party.md",
     "z_Resources/Dialogue/Colt and Tar'al.odt",
     "z_Resources/Dialogue/lu21500hm3q2.tmp",
     "1- Party/The Party.base",

@@ -66,7 +66,8 @@
     "Factions/Families/Nighthollow/Nighthollow Family.base": {
       "icon": "lucide-users",
       "unsynced": [
-        "a2bedb56c4a49f6b"
+        "a2bedb56c4a49f6b",
+        "5274c0d7ed07d6aa"
       ],
       "color": "purple"
     },
