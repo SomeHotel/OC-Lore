@@ -37,9 +37,6 @@
       "icon": "lucide-star",
       "color": "yellow"
     },
-    "Dead/Alye.md": {
-      "icon": "lucide-user"
-    },
     "Dead/Colt.md": {
       "icon": "lucide-user"
     },
@@ -59,8 +56,18 @@
     "Events/Characters/Maelis/Maelis Birth.md": {
       "icon": "lucide-baby"
     },
+    "Factions/Families/Nighthollow/Alye.md": {
+      "icon": "lucide-user"
+    },
     "Factions/Families/Nighthollow/Filvrae Nighthollow.md": {
       "icon": "lucide-crown",
+      "color": "purple"
+    },
+    "Factions/Families/Nighthollow/Nighthollow Family.base": {
+      "icon": "lucide-users",
+      "unsynced": [
+        "a2bedb56c4a49f6b"
+      ],
       "color": "purple"
     },
     "Factions/Families/Nighthollow/Nighthollow Family.md": {

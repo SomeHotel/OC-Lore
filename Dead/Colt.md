@@ -6,7 +6,7 @@ tags:
   - Race/Human
 Age: 9
 Status: Dead
-Gender: Man
+Gender: Cis Boy
 Language:
   - Common
   - Common Sign Language

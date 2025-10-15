@@ -102,9 +102,33 @@
               "icon": "lucide-file",
               "title": "Colt"
             }
+          },
+          {
+            "id": "ef0536f0fafd8847",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -306,13 +330,17 @@
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
       "omnisearch:Omnisearch": false,
-      "publish:Publish changes...": false
+      "publish:Publish changes...": false,
+      "calendarium:Open Calendarium": false
     }
   },
-  "active": "77d516975204939f",
+  "active": "ef0536f0fafd8847",
   "lastOpenFiles": [
-    "Dead/Alye.md",
     "Dead/Colt.md",
+    "conflict-files-obsidian-git.md",
+    "z_Templates/Item Template.md",
+    "Factions/Families/Nighthollow/Alye.md",
+    "Dead/Alye.md",
     "1- Party/Maelis Nighthollow.md",
     "1- Party/The Party.md",
     "z_Resources/Dialogue/Colt and Tar'al.odt",
@@ -332,7 +360,6 @@
     "z_Templates/Group Template.md",
     "Untitled.base",
     "ideas.md",
-    "conflict-files-obsidian-git.md",
     "Ideas.excalidraw.md",
     "z_Templates/Character Template.md",
     "z_Resources/Dialogue/lu18300lhj63.tmp",
@@ -346,7 +373,6 @@
     "Resources/BG3 Drow name table.md",
     "z_Images/Corelia maybe_reference_cropped.webp",
     "z_Images/Maelis_reference_cropped.webp",
-    "Untitled.md",
-    "z_Templates/Event Template.sync-conflict-20251008-151440-M7QFWIS.md"
+    "Untitled.md"
   ]
 }

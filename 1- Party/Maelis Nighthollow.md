@@ -18,7 +18,7 @@ Affiliation:
   - "[[The Party]]"
   - "[[Nighthollow Family|Nighthollow Family (former)]]"
 Status: Alive
-Gender: Other
+Gender: Trans Woman
 Language:
   - Common Sign Language
   - Common
@@ -41,48 +41,50 @@ image: "[[Maelis_reference_cropped.webp]]"
 > 
 > **Status**: `= this.status`
 # Current predicament
-Currently on the run from a group of bounty hunters after fleeing from their family.
+Currently on the run from a group of bounty hunters after fleeing from her family.
 # Appearance
 - Shoulder-length brown hair tied into a small ponytail
 - Hair is going grey 
 - Big scars on the face, neck, arms, chest and legs
-- Wears makeup to hide the scars on their face and to look more androgynous
+- Wears makeup to hide the scars on her face and to look more androgynous
 - Has a light beard due to a lack of wanting to care for themselves
-- Has freckles on their face
+- Has freckles on her face
 - Generally wears whatever clothes can be easily stolen or found on the ground
 - Slightly muscular but mostly slim
 - 165cm tall
 - 
 # Physical Characteristics
-- Wears glasses but lost their old pair and can't afford more
-- Lost the tip of their left ring finger
-- Fidgets a lot when they're alone
+- Wears glasses but lost her old pair and can't afford more
+- Lost the tip of her right ring finger
+- Fidgets a lot when she's alone
 - 
 # Background
 - Born from the [[Nighthollow Family|Nighthollow Noble Family]] and escaped from them recently
-- Went completely deaf from a certain [[Loss of hearing|incident]], however they were already partially deaf from birth
+- Went completely deaf from a certain [[Loss of hearing|incident]], however she was already partially deaf from birth
 - Is fluent in Common Sign Language, the Common Language and Drow, semi-fluent in Elvish and can lip read in the spoken languages
-- Was raised by [[Alye]], one of the servants, on their father's orders
+- Was raised by [[Alye]], one of the servants, on her father's orders
 - Is proficient in hunting rifles and rapiers
 - Lost a close [[Colt|friend]] a few years ago
-- Tar'al is their given name
+- Tar'al is her given name
 - Trained to be an assassin as a child
-- Escaped their family a short time ago
+- Escaped her family a short time ago
 # Personality
-- Struggling with their identity
+- Struggling with her identity
 - Worships [[Selûne]] in the hopes [[Shar]] won't harm them
 - Refuses to use warlock spells and powers
+- Struggles with abandonment issues after [[Alye]] seemingly died
+- Is self conscious about her hair
 # Relationships
-## [[Nighthollow Family]]
-### [[Filvrae Nighthollow|Filvrae]]
+## Nighthollow Family
+### Filvrae Nighthollow
 Was a very absent father, even when he was around he was abusive and dismissive. Only saw Maelis to train them and to give discipline during exams.
-### [[Alye]]
-Basically raised them since birth due to their parents absence. Secretly taught Maelis how to use their wood elf heritage when their parents wouldn't let them. Helped them escape from their family, her fate is currently unknown.
+### Alye
+Basically raised them since birth due to her parents absence. Secretly taught Maelis how to use her wood elf heritage when her parents wouldn't let her. Helped Maelis escape from her family, her fate is currently unknown.
 ## Friends
-### [[Colt]]
-Unknowingly had a crush on him when they knew him. When Maelis was 13, he was killed in front of them to show what happens when they act out.
-### [[Corelia]]
-Had a chance meeting with Maelis in an alleyway due to the both of them being on the run from separate organisations.
+### Colt
+Unknowingly had a crush on him when she knew him. When Maelis was 9, he was killed in front of them to show what happens when she acts out.
+### Corelia
+Had a chance meeting with Maelis in an alleyway due to the both of them being on the run from separate organisations. One of her closest friends. Helped Maelis pick her name and has been supporting her since she came out.
 # Timeline
 ```aat-vertical
 Maelis timeline, Maelis event,

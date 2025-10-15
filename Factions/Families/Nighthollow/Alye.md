@@ -7,7 +7,7 @@ tags:
 Birthday:
 Age: 38
 Status: Unknown
-Gender: Woman
+Gender: Cis Woman
 Language:
   - Common
   - Common Sign Language
@@ -33,7 +33,7 @@ Affiliation:
 > 
 > **Status**: `= this.status`
 # Background
-- [[Maelis Nighthollow|Maelis']] parental figure as a child
-- Taught them how to read and write
-- Helped them escape from the [[Nighthollow Family]]
+- [[Maelis Nighthollow|Maelis']] parental figure
+- Taught her how to read and write
+- Helped her escape from the [[Nighthollow Family]]
 - 
