@@ -38,7 +38,7 @@ image: "[[Corelia maybe_reference_cropped.webp]]"
 # Current Predicament
 Stuck in an alleyway running from slavers.
 # Appearance
-- look at the picture idfk how to describe shit 😭(also shut up abt maelis i didnt have a reference picture when i was doing the describing)
+- look at the picture idfk how to describe shit 😭(also shut up abt maelis i didnt have a reference picture when i was making that)
 - Has a small diamond scar on her left ring finger
 - Lost her right leg from the knee down after it wasn't treated for a serious injury
 - 
@@ -48,8 +48,9 @@ Stuck in an alleyway running from slavers.
 - 
 # History
 - Raised among Wood elves and taught nature magic
-- Was captured by slavers as a child and has only recently escaped captivity
+- Was captured by slavers as a child and escaped captivity when she was a teenager, where she met [[Maelis Nighthollow|Maelis]] shortly after
 - Never met her parents but knows they're alive somewhere
+- 
 # Personality
 - Extremely distrustful of humans
 - Doesn't like ice cream (thinks its too cold and sweet)
@@ -61,7 +62,11 @@ Stuck in an alleyway running from slavers.
 # Relationships
 ## Friends
 ### Maelis Nighthollow
-The first friend(😏) she ever properly made, and someone who saved her from going down a darker path in life, [[Maelis Nighthollow]] 
+- Unknowingly has a massive crush on her
+- The first friend she ever properly made
+- Saved her from going down a darker path in life
+- Sleep in a bed together to save money
+- 
 # Timeline
 
 ```aat-vertical
