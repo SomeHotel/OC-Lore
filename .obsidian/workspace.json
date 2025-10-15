@@ -281,7 +281,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -306,11 +306,10 @@
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
       "omnisearch:Omnisearch": false,
-      "calendarium:Open Calendarium": false,
       "publish:Publish changes...": false
     }
   },
-  "active": "c7274f863ff4efac",
+  "active": "77d516975204939f",
   "lastOpenFiles": [
     "Dead/Alye.md",
     "Dead/Colt.md",
