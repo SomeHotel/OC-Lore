@@ -114,6 +114,20 @@
       "enabled": true,
       "icon": "lucide-users",
       "color": "yellow"
+    },
+    {
+      "id": "CZXdg",
+      "name": "Locations",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "tree",
+          "operator": "contains",
+          "value": "Locations"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-mountain"
     }
   ],
   "folderRules": [
