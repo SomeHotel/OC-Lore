@@ -26,7 +26,7 @@ Language:
 image: "[[Maelis_reference_cropped.webp]]"
 ---
 >[!info] `= this.file.name`
->![[Maelis_reference_cropped.webp]]
+>![[Maelis_reference_cropped.webp|]]
 >**Born** `= this.birthday` (age `= this.Age`)
 >**Origin** `= this.origin`
 >

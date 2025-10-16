@@ -12,7 +12,9 @@ views:
       - aliases
       - Profession
       - Status
-    sort: []
+    sort:
+      - property: image
+        direction: ASC
   - type: cards
     name: Party Members
     filters:

@@ -20,6 +20,7 @@ Birthday:
 Origin: "[[Menzoberranzan]]"
 Affiliation:
   - "[[Nighthollow Family]]"
+  - "[[Shar]]"
 ---
 >[!info] `= this.file.name`
 > ---

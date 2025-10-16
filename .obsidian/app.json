@@ -4,7 +4,7 @@
   "promptDelete": false,
   "showLineNumber": false,
   "alwaysUpdateLinks": true,
-  "propertiesInDocument": "visible",
+  "propertiesInDocument": "hidden",
   "newFileLocation": "current",
   "attachmentFolderPath": "z_Images"
 }
