@@ -63,7 +63,7 @@
               "state": {
                 "file": "Dead/Colt.md",
                 "mode": "source",
-                "source": false,
+                "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -77,6 +77,30 @@
               },
               "icon": "lucide-file",
               "title": "Colt"
+            }
+          },
+          {
+            "id": "395c3a8c15fe0412",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1- Party/Corelia.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Corelia"
             }
           }
         ],
@@ -286,13 +310,14 @@
   },
   "active": "73b48d88010248a7",
   "lastOpenFiles": [
+    "1- Party/Corelia.md",
+    "Dead/Colt.md",
+    "ideas.md",
     "1- Party/Maelis Nighthollow.md",
     "z_Resources/Maelis NightHollow.pdf",
     "Resources/Maelis NightHollow.pdf",
     "Locations/Menzoberranzan.base",
-    "1- Party/Corelia.md",
     "z_Templates/Location Template.md",
-    "ideas.md",
     "Locations/Menzoberranzan.md",
     "Factions/Families/Nighthollow/Nighthollow Family.base",
     "Factions/Families/Nighthollow/Nighthollow Family.md",
@@ -309,7 +334,6 @@
     "Events/Characters/Colt/Colt Death.md",
     "1- Party/Items",
     "z_Resources/BG3 Drow name table.md",
-    "Dead/Colt.md",
     "Ideas.excalidraw.md",
     "conflict-files-obsidian-git.md",
     "z_Resources/Dialogue/Colt and Tar'al.odt",
