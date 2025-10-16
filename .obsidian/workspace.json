@@ -61,9 +61,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1- Party/Maelis Nighthollow.md",
-                "mode": "preview",
-                "source": true,
+                "file": "Dead/Colt.md",
+                "mode": "source",
+                "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Maelis Nighthollow"
+              "title": "Colt"
             }
           }
         ],
@@ -137,7 +137,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 281.5
+    "width": 287.5
   },
   "right": {
     "id": "2dd58f2713fb86c3",
@@ -250,14 +250,14 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "1- Party/Maelis Nighthollow.md"
+                "file": "Dead/Colt.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Maelis Nighthollow"
+              "title": "File properties for Colt"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -286,19 +286,21 @@
   },
   "active": "73b48d88010248a7",
   "lastOpenFiles": [
+    "1- Party/Maelis Nighthollow.md",
+    "z_Resources/Maelis NightHollow.pdf",
+    "Resources/Maelis NightHollow.pdf",
+    "Locations/Menzoberranzan.base",
+    "1- Party/Corelia.md",
     "z_Templates/Location Template.md",
     "ideas.md",
     "Locations/Menzoberranzan.md",
-    "Menzoberranzan.base",
     "Factions/Families/Nighthollow/Nighthollow Family.base",
     "Factions/Families/Nighthollow/Nighthollow Family.md",
     "1- Party/The Party.md",
-    "1- Party/Corelia.md",
     "z_Templates/Place Template.md",
     "z_Templates/Character Template.md",
     "README.md",
     "Factions/Families/Nighthollow/Alye.md",
-    "1- Party/Maelis Nighthollow.md",
     "Events/Characters/Maelis/Escape from home.md",
     "Events/Characters/Maelis/Maelis and Corelia meet for the first time.md",
     "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
@@ -317,11 +319,9 @@
     "Events/Maelis/Maelis meets Corelia.sync-conflict-20251008-151442-M7QFWIS.md",
     "Events/Maelis",
     "z_Resources/Dialogue/Maelis meets Corelia.odt",
-    "z_Resources/Maelis NightHollow.pdf",
     "z_Resources/Dialogue",
     "z_Resources",
     "z_Images/Maelis_reference_cropped.webp",
-    "z_Images/Corelia maybe_reference_cropped.webp",
-    "z_Images"
+    "z_Images/Corelia maybe_reference_cropped.webp"
   ]
 }
