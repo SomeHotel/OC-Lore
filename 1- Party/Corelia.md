@@ -41,7 +41,7 @@ Stuck in an alleyway running from slavers.
 - look at the picture idfk how to describe shit 😭(also shut up abt maelis i didnt have a reference picture when i was making that)
 - Has a small diamond scar on her left ring finger
 - Lost her right leg from the knee down after it wasn't treated for a serious injury
-- 
+- 183cm
 # Physical Characteristics
 - Fiddles with her septum piercing
 - Rubs her horns against hard surfaces when no one's around
