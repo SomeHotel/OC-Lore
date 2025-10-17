@@ -211,8 +211,8 @@
         "state": {
           "type": "git-view",
           "state": {},
-          "icon": "lucide-ghost",
-          "title": "git-view"
+          "icon": "git-pull-request",
+          "title": "Source Control"
         }
       }
     ],
@@ -236,7 +236,8 @@
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
       "omnisearch:Omnisearch": false,
-      "iconic:Open rulebook": false
+      "iconic:Open rulebook": false,
+      "calendarium:Open Calendarium": false
     }
   },
   "active": "fb319414c6dd45e0",
