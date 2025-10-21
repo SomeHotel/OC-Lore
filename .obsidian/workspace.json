@@ -104,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -308,10 +308,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "73b48d88010248a7",
+  "active": "f797d746a0cafd11",
   "lastOpenFiles": [
-    "1- Party/Maelis Nighthollow.md",
     "1- Party/Corelia.md",
+    "1- Party/Maelis Nighthollow.md",
     "Dead/Colt.md",
     "z_Resources/Dialogue/lu1850848t5i.tmp",
     "ideas.md",
