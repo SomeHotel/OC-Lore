@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1- Party/Maelis Nighthollow.md",
+                "file": "1- Party/Corelia.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Maelis Nighthollow"
+              "title": "Corelia"
             }
           }
         ],
@@ -257,7 +257,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -284,8 +284,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "d4f9d174002d39c0",
+  "active": "77d516975204939f",
   "lastOpenFiles": [
+    "z_Resources/Dialogue/lu3842k66l.tmp",
     "1- Party/Maelis Nighthollow.md",
     "Events/Characters/Maelis/Maelis and Corelia meet for the first time.md",
     "1- Party/Corelia.md",
@@ -318,7 +319,6 @@
     "Resources/BG3 Drow name table.md",
     "Factions/Families/Nighthollow/Nighthollow Family.sync-conflict-20251008-151442-WRVCPBB.md",
     "Factions/Families/Nighthollow/Filvrae Nighthollow.sync-conflict-20251008-151441-WRVCPBB.md",
-    "Events/Maelis/Maelis meets Corelia.sync-conflict-20251008-151442-M7QFWIS.md",
     "Events/Maelis",
     "z_Resources/Dialogue/Maelis meets Corelia.odt",
     "z_Resources/Dialogue",
