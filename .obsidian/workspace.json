@@ -61,8 +61,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1- Party/Corelia.md",
-                "mode": "source",
+                "file": "1- Party/Maelis Nighthollow.md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Corelia"
+              "title": "Maelis Nighthollow"
             }
           }
         ],
@@ -257,7 +257,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -284,12 +284,13 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "77d516975204939f",
+  "active": "d4f9d174002d39c0",
   "lastOpenFiles": [
+    "1- Party/Maelis Nighthollow.md",
+    "Events/Characters/Maelis/Maelis and Corelia meet for the first time.md",
+    "1- Party/Corelia.md",
     "excalibrain.md",
     "ideas.md",
-    "1- Party/Corelia.md",
-    "1- Party/Maelis Nighthollow.md",
     "Dead/Colt.md",
     "z_Resources/Dialogue/lu1850848t5i.tmp",
     "z_Resources/Maelis NightHollow.pdf",
@@ -305,7 +306,6 @@
     "README.md",
     "Factions/Families/Nighthollow/Alye.md",
     "Events/Characters/Maelis/Escape from home.md",
-    "Events/Characters/Maelis/Maelis and Corelia meet for the first time.md",
     "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
     "z_Templates/Item Template.md",
     "Events/Characters/Maelis/Loss of hearing.md",
