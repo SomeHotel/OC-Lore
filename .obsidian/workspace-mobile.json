@@ -239,8 +239,11 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "fb319414c6dd45e0",
+  "active": "e7589f619dd2584b",
   "lastOpenFiles": [
+    "/z_Resources/Dialogue/Tar'al meets Corelia.odt",
+    "/z_Resources/Dialogue",
+    "/z_Resources",
     "1- Party/Maelis Nighthollow.md",
     "ideas.md",
     "z_Templates/Character Template.md",
@@ -265,8 +268,6 @@
     "/z_Templates",
     "/Factions/Families/Nighthollow",
     "/Factions/Families",
-    "/Factions",
-    "/Events/Maelis",
     "Dead/Alye.md",
     "Factions/Families/Nighthollow/Nighthollow Family.md",
     "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
@@ -275,7 +276,6 @@
     ".stversions/Ideas.excalidraw.md",
     ".stversions/Factions/Families/Nighthollow/Filvrae Nighthollow.md",
     ".stversions/Factions/Families/Nighthollow/Nighthollow Family.md",
-    ".stversions/Events/Maelis/Escape from home.md",
-    ".stversions/Dead/Colt.md"
+    ".stversions/Events/Maelis/Escape from home.md"
   ]
 }
