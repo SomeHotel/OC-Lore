@@ -37,9 +37,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ideas.md",
+                "file": "1- Party/Corelia.md",
                 "mode": "source",
-                "source": true,
+                "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ideas"
+              "title": "Corelia"
             }
           },
           {
@@ -241,13 +241,20 @@
   },
   "active": "fb319414c6dd45e0",
   "lastOpenFiles": [
+    "Events/Characters/Maelis/Tar'al meets Corelia.md",
     "/z_Resources/Dialogue/Tar'al meets Corelia.odt",
     "/z_Resources/Dialogue",
     "/z_Resources",
-    "1- Party/Maelis Nighthollow.md",
-    "ideas.md",
-    "z_Templates/Character Template.md",
+    "/Events/Characters/Maelis/Tar'al meets Corelia.md",
+    "/Events/Characters/Maelis",
+    "/Events/Characters",
+    "/Events",
+    "Locations/Menzoberranzan.md",
+    "z_Resources/BG3 Drow name table.md",
     "z_Resources/Maelis NightHollow.pdf",
+    "ideas.md",
+    "1- Party/Maelis Nighthollow.md",
+    "z_Templates/Character Template.md",
     "z_Images",
     "Events/Characters/Maelis/Maelis and Corelia meet for the first time.md",
     "README.md",
@@ -263,19 +270,12 @@
     "/1- Party/The Party.md",
     "/1- Party/The Party.base",
     "1- Party/The Party.base",
-    "/1- Party",
     "/z_Templates/Event Template.md",
-    "/z_Templates",
-    "/Factions/Families/Nighthollow",
-    "/Factions/Families",
     "Dead/Alye.md",
     "Factions/Families/Nighthollow/Nighthollow Family.md",
     "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
     "Events/Characters/Maelis/Escape from home.md",
     ".stversions/Events/Maelis/Maelis meets Corelia.md",
-    ".stversions/Ideas.excalidraw.md",
-    ".stversions/Factions/Families/Nighthollow/Filvrae Nighthollow.md",
-    ".stversions/Factions/Families/Nighthollow/Nighthollow Family.md",
-    ".stversions/Events/Maelis/Escape from home.md"
+    ".stversions/Ideas.excalidraw.md"
   ]
 }
