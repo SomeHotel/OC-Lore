@@ -35,12 +35,24 @@
             "id": "f797d746a0cafd11",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Ideas.excalidraw.md"
+                "file": "ideas.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "Ideas.excalidraw"
+              "icon": "lucide-file",
+              "title": "ideas"
             }
           },
           {
@@ -262,10 +274,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Ideas.excalidraw.md"
+                "file": "ideas.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Ideas.excalidraw"
+              "title": "File properties for ideas"
             }
           }
         ],
@@ -298,8 +310,8 @@
   },
   "active": "f797d746a0cafd11",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Ideas.excalidraw.md",
+    "conflict-files-obsidian-git.md",
     "Events/Characters/Maelis/Tar'al meets Corelia.md",
     "ideas.md",
     "z_Resources/Dialogue/lu8683gw2p.tmp",
