@@ -44,6 +44,30 @@
             }
           },
           {
+            "id": "70491831d5b62dc4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
+          },
+          {
             "id": "73b48d88010248a7",
             "type": "leaf",
             "state": {
@@ -92,7 +116,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -262,10 +286,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Ideas.excalidraw.md"
+                "file": "conflict-files-obsidian-git.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Ideas.excalidraw"
+              "title": "File properties for conflict-files-obsidian-git"
             }
           }
         ],
@@ -296,8 +320,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "f797d746a0cafd11",
+  "active": "70491831d5b62dc4",
   "lastOpenFiles": [
+    "Ideas.excalidraw.md",
+    "conflict-files-obsidian-git.md",
     "Events/Characters/Maelis/Tar'al meets Corelia.md",
     "ideas.md",
     "z_Resources/Dialogue/lu8683gw2p.tmp",
@@ -327,8 +353,6 @@
     "Events/Characters/Maelis/Loss of hearing.md",
     "Events/Characters/Colt/Colt Death.md",
     "z_Resources/BG3 Drow name table.md",
-    "Ideas.excalidraw.md",
-    "conflict-files-obsidian-git.md",
     "Resources/BG3 Drow name table.md",
     "Factions/Families/Nighthollow/Nighthollow Family.sync-conflict-20251008-151442-WRVCPBB.md",
     "Factions/Families/Nighthollow/Filvrae Nighthollow.sync-conflict-20251008-151441-WRVCPBB.md",
