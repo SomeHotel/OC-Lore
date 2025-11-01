@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ideas.md",
+                "file": "1- Party/The Party.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ideas"
+              "title": "The Party"
             }
           },
           {
@@ -310,11 +310,11 @@
   },
   "active": "f797d746a0cafd11",
   "lastOpenFiles": [
+    "ideas.md",
     "z_Resources/Dialogue/lu7124ey15r.tmp",
     "Ideas.excalidraw.md",
     "conflict-files-obsidian-git.md",
     "Events/Characters/Maelis/Tar'al meets Corelia.md",
-    "ideas.md",
     "z_Resources/Dialogue/lu8683gw2p.tmp",
     "z_Resources/Dialogue/lu8683gw2i.tmp",
     "z_Resources/Dialogue/lu8683gw23.tmp",
@@ -327,7 +327,6 @@
     "1- Party/Corelia.md",
     "1- Party/Maelis Nighthollow.md",
     "Dead/Colt.md",
-    "z_Resources/Dialogue/lu1850848t5i.tmp",
     "z_Templates/Location Template.md",
     "Locations/Menzoberranzan.md",
     "Factions/Families/Nighthollow/Nighthollow Family.md",
