@@ -2,4 +2,6 @@
 - Alye isn't dead just missing somewhere, will exhaust all other options before using amnesia
 - might structure some stuff as a play
 - try writing a song 
+- 3d model the characters instead of a drawing
+- learn blender maybe
 - 

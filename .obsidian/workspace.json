@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1- Party/Maelis Nighthollow.md",
+                "file": "ideas.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Maelis Nighthollow"
+              "title": "ideas"
             }
           },
           {
@@ -274,14 +274,14 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "1- Party/Maelis Nighthollow.md"
+                "file": "ideas.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Maelis Nighthollow"
+              "title": "File properties for ideas"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -311,6 +311,8 @@
   "active": "f797d746a0cafd11",
   "lastOpenFiles": [
     "1- Party/Maelis Nighthollow.md",
+    "Dead/Colt.md",
+    "1- Party/Corelia.md",
     "1- Party/The Party.md",
     "Events/Characters/Maelis/Tar'al meets Corelia.md",
     "ideas.md",
@@ -326,8 +328,6 @@
     "z_Resources/Dialogue/Tar'al meets Corelia.odt",
     "z_Resources/Dialogue/lu178161g66.tmp",
     "z_Resources/Dialogue/lu178161g63.tmp",
-    "1- Party/Corelia.md",
-    "Dead/Colt.md",
     "z_Templates/Location Template.md",
     "Locations/Menzoberranzan.md",
     "Factions/Families/Nighthollow/Nighthollow Family.md",
