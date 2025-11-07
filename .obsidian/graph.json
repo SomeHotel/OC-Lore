@@ -3,7 +3,7 @@
   "search": "-path:z_Images -path:z_Templates -path:z_Resources",
   "showTags": false,
   "showAttachments": false,
-  "hideUnresolved": false,
+  "hideUnresolved": true,
   "showOrphans": false,
   "collapse-color-groups": false,
   "colorGroups": [
@@ -15,10 +15,10 @@
       }
     },
     {
-      "query": "[\"status\":Dead] [\"status\":Inactive]",
+      "query": "[\"status\":Dead] OR [\"status\":Inactive]",
       "color": {
         "a": 1,
-        "rgb": 6710886
+        "rgb": 4539717
       }
     },
     {
@@ -53,6 +53,6 @@
   "repelStrength": 10.4158004158004,
   "linkStrength": 0.641372141372141,
   "linkDistance": 340,
-  "scale": 0.751434232227755,
+  "scale": 0.382301096876996,
   "close": true
 }

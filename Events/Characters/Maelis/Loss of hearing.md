@@ -10,4 +10,4 @@ timelines:
   - Maelis timeline
 aat-event-picture: none
 ---
-[[Maelis Nighthollow|Maelis]] lost their hearing
+[[Maelis Nighthollow|Maelis]] completely lost her hearing

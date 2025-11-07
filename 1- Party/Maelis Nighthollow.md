@@ -40,8 +40,6 @@ image: "[[Maelis_reference_cropped.webp]]"
 > `= this.language`
 > 
 > **Status**: `= this.status`
-# Current predicament
-Currently on the run from a group of bounty hunters after fleeing from her family.
 # Appearance
 - Shoulder-length brown hair tied into a small ponytail
 - Hair is going grey 
@@ -90,3 +88,6 @@ Had a chance meeting with Maelis in an alleyway due to the both of them being on
 Maelis timeline, Maelis event
 dateDisplayFormat: {year}
 ```
+# Quotes
+> "I've heard many a tales of the sultry sounds of people's voices, and even when I was able to hear, never tickled my fancy"
+# Trivia

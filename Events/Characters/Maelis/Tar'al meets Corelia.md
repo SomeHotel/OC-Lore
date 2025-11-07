@@ -11,8 +11,3 @@ timelines:
 aat-event-picture: none
 ---
 # Summary
-##  Maelis
-After escaping from the [[Nighthollow Family]], [[Maelis Nighthollow|Tar'al]] has now managed to end up in an unknown alley in a new place, unsure of what to do from here.
-
-## Corelia
-After escaping from bad people, [[Corelia]] gets to a town 

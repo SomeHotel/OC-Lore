@@ -11,12 +11,24 @@
             "id": "3432252ecf58ea8a",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "z_Resources/Dialogue/Timeline.excalidraw.md"
+                "file": "Dead/Colt.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "Timeline.excalidraw"
+              "icon": "lucide-file",
+              "title": "Colt"
             }
           },
           {
@@ -197,13 +209,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ideas.md",
+                "file": "Dead/Colt.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ideas"
+              "title": "Outline of Colt"
             }
           },
           {
@@ -261,10 +273,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "ideas.md"
+                "file": "Dead/Colt.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for ideas"
+              "title": "File properties for Colt"
             }
           }
         ],
@@ -295,26 +307,32 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "3432252ecf58ea8a",
+  "active": "77d516975204939f",
   "lastOpenFiles": [
+    "1- Party/Maelis Nighthollow.md",
+    "Dead/Colt.md",
+    "Events/Characters/Maelis/Tar'al meets Corelia.md",
+    "Events/Characters/Maelis/Maelis Birth.md",
+    "Events/Characters/Maelis/Loss of hearing.md",
+    "Events/Characters/Maelis/Escape from home.md",
+    "Events/Characters/Colt/Colt Death.md",
+    "Events/Characters/Colt/Meeting Maelis.md",
+    "Factions/Families/Nighthollow/Alye.md",
+    "1- Party/Corelia.md",
+    "1- Party/The Party.md",
     "z_Resources/Dialogue/Timeline.excalidraw.md",
+    "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
     "z_Resources/Dialogue/lu16656c6v1.tmp",
     "z_Resources/Dialogue/lu16656c6uy.tmp",
     "z_Resources/Dialogue/lu16656c6uv.tmp",
     "z_Resources/Dialogue/lu16656c6us.tmp",
-    "1- Party/Corelia.md",
     "z_Resources/Dialogue/lu16656c6ul.tmp",
-    "1- Party/Maelis Nighthollow.md",
     "z_Resources/Dialogue/lu16656c6ug.tmp",
-    "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
     "Ideas.excalidraw.md",
     "ideas.md",
     "z_Resources/Dialogue/lu16656c6ub.tmp",
     "1- Party/The Party.base",
     "z_Resources/Dialogue/lu7304ckorz.tmp",
-    "Dead/Colt.md",
-    "1- Party/The Party.md",
-    "Events/Characters/Maelis/Tar'al meets Corelia.md",
     "z_Resources/Dialogue/lu7124ey15r.tmp",
     "conflict-files-obsidian-git.md",
     "z_Templates/Location Template.md",
@@ -323,15 +341,10 @@
     "z_Templates/Place Template.md",
     "z_Templates/Character Template.md",
     "README.md",
-    "Factions/Families/Nighthollow/Alye.md",
-    "Events/Characters/Maelis/Escape from home.md",
     "z_Templates/Item Template.md",
-    "Events/Characters/Maelis/Loss of hearing.md",
-    "Events/Characters/Colt/Colt Death.md",
     "z_Resources/BG3 Drow name table.md",
     "Resources/BG3 Drow name table.md",
     "Factions/Families/Nighthollow/Nighthollow Family.sync-conflict-20251008-151442-WRVCPBB.md",
-    "Factions/Families/Nighthollow/Filvrae Nighthollow.sync-conflict-20251008-151441-WRVCPBB.md",
     "z_Images/Maelis_reference_cropped.webp",
     "z_Images/Corelia maybe_reference_cropped.webp"
   ]

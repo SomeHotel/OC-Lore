@@ -9,4 +9,4 @@ timelines:
   - Maelis timeline
 aat-event-picture: none
 ---
-[[Maelis Nighthollow]] is born
+[[Maelis Nighthollow|Tar'al Nighthollow]] is born

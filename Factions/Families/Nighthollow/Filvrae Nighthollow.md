@@ -42,4 +42,6 @@ Affiliation:
 ## Background
 - Estranged father of [[Maelis Nighthollow]]
 - Patriarch of the [[Nighthollow Family]]
+- Put out a bounty for her when she escaped
+- Not very nice
 - 
