@@ -8,31 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3432252ecf58ea8a",
+            "id": "a7fe9bfe3ad19c1f",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dead/Colt.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Colt"
+              "type": "graph",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
-            "id": "71e3fbd6d22ab1d0",
+            "id": "3432252ecf58ea8a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -62,8 +50,8 @@
               "type": "markdown",
               "state": {
                 "file": "1- Party/Corelia.md",
-                "mode": "preview",
-                "source": true,
+                "mode": "source",
+                "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -80,7 +68,31 @@
             }
           },
           {
-            "id": "395c3a8c15fe0412",
+            "id": "f688ba20ca26d3de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Factions/Families/Nighthollow/Alye.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Alye"
+            }
+          },
+          {
+            "id": "675938c8c811b062",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -103,7 +115,8 @@
               "title": "Corelia"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -273,14 +286,14 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Dead/Colt.md"
+                "file": "1- Party/Corelia.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Colt"
+              "title": "File properties for Corelia"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -307,8 +320,13 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "77d516975204939f",
+  "active": "675938c8c811b062",
   "lastOpenFiles": [
+    "1- Party/The Party.md",
+    "1- Party/The Party.base",
+    "Factions/Families/Nighthollow/Alye.md",
+    "1- Party/Corelia.md",
+    "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
     "1- Party/Maelis Nighthollow.md",
     "Dead/Colt.md",
     "Events/Characters/Maelis/Tar'al meets Corelia.md",
@@ -317,11 +335,7 @@
     "Events/Characters/Maelis/Escape from home.md",
     "Events/Characters/Colt/Colt Death.md",
     "Events/Characters/Colt/Meeting Maelis.md",
-    "Factions/Families/Nighthollow/Alye.md",
-    "1- Party/Corelia.md",
-    "1- Party/The Party.md",
     "z_Resources/Dialogue/Timeline.excalidraw.md",
-    "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
     "z_Resources/Dialogue/lu16656c6v1.tmp",
     "z_Resources/Dialogue/lu16656c6uy.tmp",
     "z_Resources/Dialogue/lu16656c6uv.tmp",
@@ -331,7 +345,6 @@
     "Ideas.excalidraw.md",
     "ideas.md",
     "z_Resources/Dialogue/lu16656c6ub.tmp",
-    "1- Party/The Party.base",
     "z_Resources/Dialogue/lu7304ckorz.tmp",
     "z_Resources/Dialogue/lu7124ey15r.tmp",
     "conflict-files-obsidian-git.md",
@@ -344,7 +357,6 @@
     "z_Templates/Item Template.md",
     "z_Resources/BG3 Drow name table.md",
     "Resources/BG3 Drow name table.md",
-    "Factions/Families/Nighthollow/Nighthollow Family.sync-conflict-20251008-151442-WRVCPBB.md",
     "z_Images/Maelis_reference_cropped.webp",
     "z_Images/Corelia maybe_reference_cropped.webp"
   ]

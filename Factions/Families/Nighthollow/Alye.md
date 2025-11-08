@@ -36,5 +36,6 @@ Affiliation:
 - [[Maelis Nighthollow|Maelis']] parental figure
 - Taught her how to read and write
 - Helped her escape from the [[Nighthollow Family]]
+- Had a family before she had to leave them for unknown reasons
 - Presumed dead
 - 

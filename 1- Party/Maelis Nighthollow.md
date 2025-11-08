@@ -62,7 +62,7 @@ image: "[[Maelis_reference_cropped.webp]]"
 - Is fluent in Common Sign Language, the Common Language and Drow, semi-fluent in Elvish and can lip read in the spoken languages
 - Was raised by [[Alye]], one of the servants, on her father's orders
 - Is proficient in hunting rifles and rapiers
-- Lost a close [[Colt|friend]] a few years ago
+- Lost her [[Colt|first friend]] when she was a child
 - Tar'al is her given name
 - Trained to be an assassin as a child
 - Escaped her family a short time ago
@@ -83,6 +83,9 @@ Basically raised them since birth due to her parents absence. Secretly taught Ma
 Unknowingly had a crush on him when she knew him. When Maelis was 9, he was killed in front of them to show what happens when she acts out.
 ### Corelia
 Had a chance meeting with Maelis in an alleyway due to the both of them being on the run from separate organisations. One of her closest friends. Helped Maelis pick her name and has been supporting her since she came out.
+
+# Biological Family
+Doesn't know if her biological family is alive. [[Maelis Biological Father]], [[Maelis Biological Mother]]
 # Timeline
 ```aat-vertical
 Maelis timeline, Maelis event
