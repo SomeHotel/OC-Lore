@@ -29,12 +29,12 @@ Not much is known about this group of nobles.
 > 
 > **Status**: `= this.status`
 
-## Members
+## Current Members
 ![[Nighthollow Family.base]]
+## Planned members
 
-| **Name**                       | **Status** | Role                |
-| :----------------------------- | ---------: | ------------------- |
-| [[Nighthollow 'Heir']]         |      Alive | Heir to the dynasty |
-| [[Nighthollow Prince]]         |      Alive | Prince              |
-| [[Nighthollow Princess]]       |      Alive | Princess            |
-
+| **Name**                 | **Status** | Role                |
+| :----------------------- | ---------: | ------------------- |
+| [[Nighthollow 'Heir']]   |      Alive | Heir to the dynasty |
+| [[Nighthollow Prince]]   |      Alive | Prince              |
+| [[Nighthollow Princess]] |      Alive | Princess            |

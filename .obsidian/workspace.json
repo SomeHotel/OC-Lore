@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1- Party/Maelis Nighthollow.md",
+                "file": "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Maelis Nighthollow"
+              "title": "Filvrae Nighthollow"
             }
           },
           {
@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Factions/Families/Nighthollow/Alye.md",
+                "file": "ideas.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -88,7 +88,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Alye"
+              "title": "ideas"
             }
           },
           {
@@ -116,7 +116,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -286,10 +286,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "1- Party/Corelia.md"
+                "file": "Factions/Families/Nighthollow/Filvrae Nighthollow.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Corelia"
+              "title": "File properties for Filvrae Nighthollow"
             }
           }
         ],
@@ -320,14 +320,18 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "675938c8c811b062",
+  "active": "3432252ecf58ea8a",
   "lastOpenFiles": [
+    "Factions/Families/Nighthollow/Nighthollow Family.md",
+    "Factions/Families/Nighthollow/Alye.md",
+    "1- Party/Maelis Nighthollow.md",
+    "ideas.md",
+    "z_Resources/Dialogue/Alye and Tar'al.odt",
+    "z_Resources/Dialogue/New OpenDocument Text.odt",
+    "1- Party/Corelia.md",
     "1- Party/The Party.md",
     "1- Party/The Party.base",
-    "Factions/Families/Nighthollow/Alye.md",
-    "1- Party/Corelia.md",
     "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
-    "1- Party/Maelis Nighthollow.md",
     "Dead/Colt.md",
     "Events/Characters/Maelis/Tar'al meets Corelia.md",
     "Events/Characters/Maelis/Maelis Birth.md",
@@ -343,14 +347,10 @@
     "z_Resources/Dialogue/lu16656c6ul.tmp",
     "z_Resources/Dialogue/lu16656c6ug.tmp",
     "Ideas.excalidraw.md",
-    "ideas.md",
     "z_Resources/Dialogue/lu16656c6ub.tmp",
-    "z_Resources/Dialogue/lu7304ckorz.tmp",
-    "z_Resources/Dialogue/lu7124ey15r.tmp",
     "conflict-files-obsidian-git.md",
     "z_Templates/Location Template.md",
     "Locations/Menzoberranzan.md",
-    "Factions/Families/Nighthollow/Nighthollow Family.md",
     "z_Templates/Place Template.md",
     "z_Templates/Character Template.md",
     "README.md",
