@@ -42,12 +42,11 @@ image:
 - Light scars on his hands
 - Average height for a child
 - Has clothes befitting a peasant child
-- Has rosy red cheeks
-- 
+- Has rosy cheeks
 # Physical Characteristics
 - Has a birthmark in the shape of a hand on his left shin
 - Chipped his left front tooth
-- 
+- Missing his right pinkie toe
 # Background
 - Had a [[Colt's sister|sister]] who was born completely deaf so he learned Sign language
 - Worked for the [[Nighthollow Family]] to help support his [[Colt mother|mother]] and [[Colt's sister|sister]] because his [[Colt father|father]] had died of a disease a few years earlier
