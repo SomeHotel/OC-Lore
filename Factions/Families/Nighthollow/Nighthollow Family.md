@@ -10,7 +10,7 @@ Status: Active
 timelines:
   - Nighthollow timeline
 Age:
-Origin: "[[Menzoberranzan]]"
+Origin: "[[Dark elf place]]"
 Affiliation:
   - "[[Shar]]"
 ---

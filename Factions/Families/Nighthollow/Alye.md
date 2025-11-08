@@ -13,7 +13,7 @@ Language:
   - Common Sign Language
 Profession:
   - Servant
-Origin: "[[Menzoberranzan]]"
+Origin: "[[Dark elf place]]"
 Affiliation:
   - "[[Nighthollow Family|Nighthollow Family (former)]]"
 ---

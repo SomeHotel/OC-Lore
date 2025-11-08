@@ -13,7 +13,7 @@ Language:
 Profession:
   - Servant
 Birthday:
-Origin: "[[Menzoberranzan]]"
+Origin: "[[Dark elf place]]"
 Affiliation:
   - "[[Nighthollow Family|Nighthollow Family (former)]]"
 image:

@@ -13,7 +13,7 @@ Profession:
   - Assassin
 Birthday:
 Age: 15
-Origin: "[[Menzoberranzan]]"
+Origin: "[[Dark elf place]]"
 Affiliation:
   - "[[The Party]]"
   - "[[Nighthollow Family|Nighthollow Family (former)]]"
