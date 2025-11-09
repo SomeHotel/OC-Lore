@@ -103,8 +103,7 @@
               "title": "Corelia"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -308,7 +307,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "71190cfe24026fb4",
+  "active": "ce692a2a8e03e85f",
   "lastOpenFiles": [
     "z_Resources/Dialogue/Timeline.excalidraw.md",
     "z_Resources/Dialogue/lu156606o3jn.tmp",
