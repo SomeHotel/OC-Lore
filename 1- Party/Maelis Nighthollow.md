@@ -68,7 +68,7 @@ image: "[[Maelis_reference_cropped.webp]]"
 - Escaped her family a short time ago
 # Personality
 - Struggling with her identity
-- Worships [[Selûne]] in the hopes [[Shar]] won't harm them
+- Is afraid of [[Mór-ríoghan]]
 - Refuses to use warlock spells and powers
 - Struggles with abandonment issues after [[Alye]] seemingly died
 - Is self conscious about her hair
