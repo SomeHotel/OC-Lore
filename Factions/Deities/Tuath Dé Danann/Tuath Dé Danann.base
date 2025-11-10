@@ -1,0 +1,19 @@
+properties:
+  file.name:
+    displayName: Name
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - Affiliation.contains(link("Tuath Dé Danann"))
+    order:
+      - file.name
+      - aliases
+      - Status
+  - type: cards
+    name: Card
+    filters:
+      and:
+        - Affiliation.contains(link("Tuath Dé Danann"))
+    image: note.image

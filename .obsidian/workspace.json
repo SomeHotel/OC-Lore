@@ -45,36 +45,36 @@
             }
           },
           {
-            "id": "f688ba20ca26d3de",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ideas.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "ideas"
-            }
-          },
-          {
             "id": "675938c8c811b062",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1- Party/Corelia.md",
+                "file": "1- Party/Maelis Nighthollow.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Maelis Nighthollow"
+            }
+          },
+          {
+            "id": "a39fd64b2c9a5415",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Factions/Deities/Tuath Dé Danann/Tuath Dé Danann.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -89,11 +89,34 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Corelia"
+              "title": "Tuath Dé Danann"
+            }
+          },
+          {
+            "id": "19e905f3e688d00c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Filvrae Nighthollow"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -125,7 +148,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nighthollow family",
+                "query": ".base",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -146,8 +169,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -263,15 +285,13 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "z_Resources/Dialogue/Timeline.excalidraw.md"
-              },
+              "state": {},
               "icon": "lucide-info",
-              "title": "File properties for Timeline.excalidraw"
+              "title": "File properties"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -298,30 +318,32 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "a30d6edb3065edc9",
+  "active": "2325deaf5469eaca",
   "lastOpenFiles": [
+    "Factions/Deities/Tuath Dé Danann/Tuath Dé Danann.md",
+    "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
     "Factions/Families/Nighthollow/Nighthollow Family.md",
-    "Factions/Families/Nighthollow/Alye.md",
+    "Factions/Deities/Tuath Dé Danann/Mór-ríoghan.md",
+    "Factions/Deities/Tuath Dé Danann/Tuath Dé Danann.base",
+    "1- Party/The Party.base",
+    "1- Party/The Party.md",
     "1- Party/Maelis Nighthollow.md",
+    "1- Party/Corelia.md",
+    "Locations/Dark elf place.md",
+    "z_Images/Mór-ríoghan.webp",
+    "z_Resources/Dialogue/Timeline.excalidraw.md",
+    "Factions/Families/Nighthollow/Nighthollow Family.base",
+    "Dead/Colt.md",
+    "Factions/Families/Nighthollow/Alye.md",
     "Factions/Deities/Tuath Dé Danann",
     "Factions/Deities",
-    "z_Images/mór-ríoghan.webp",
     "z_Images/Adventure Time - S05E10 - Little Dude.mkv_snapshot_04.34.481.jpg",
-    "1- Party/Corelia.md",
-    "z_Resources/Dialogue/Timeline.excalidraw.md",
     "z_Resources/Dialogue/lu156606o3jn.tmp",
     "z_Resources/Dialogue/lu156606o3jk.tmp",
     "z_Resources/Dialogue/lu156606o3jh.tmp",
     "z_Resources/Dialogue/lu156606o3j8.tmp",
-    "Dead/Colt.md",
     "z_Resources/Dialogue/lu156606o3iu.tmp",
-    "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
     "ideas.md",
-    "Locations/Dark elf place.md",
-    "z_Resources/Dialogue/Alye and Tar'al.odt",
-    "z_Resources/Dialogue/New OpenDocument Text.odt",
-    "1- Party/The Party.md",
-    "1- Party/The Party.base",
     "Events/Characters/Maelis/Tar'al meets Corelia.md",
     "Events/Characters/Maelis/Maelis Birth.md",
     "Events/Characters/Maelis/Loss of hearing.md",
@@ -335,8 +357,6 @@
     "z_Templates/Character Template.md",
     "README.md",
     "z_Templates/Item Template.md",
-    "z_Resources/BG3 Drow name table.md",
-    "Resources/BG3 Drow name table.md",
     "z_Images/Maelis_reference_cropped.webp",
     "z_Images/Corelia maybe_reference_cropped.webp"
   ]

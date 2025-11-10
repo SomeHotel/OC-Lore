@@ -12,7 +12,7 @@ timelines:
 Age:
 Origin: "[[Dark elf place]]"
 Affiliation:
-  - "[[Shar]]"
+  - "[[Mór-ríoghan]]"
 ---
 ## Background
 Not much is known about this group of nobles.

@@ -20,7 +20,7 @@ Birthday:
 Origin: "[[Dark elf place]]"
 Affiliation:
   - "[[Nighthollow Family]]"
-  - "[[Shar]]"
+  - "[[Mór-ríoghan]]"
 ---
 >[!info] `= this.file.name`
 > ---
