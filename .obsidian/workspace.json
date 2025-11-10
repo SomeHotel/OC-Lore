@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "3432252ecf58ea8a",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "z_Resources/Dialogue/Timeline.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Timeline.excalidraw"
-            }
-          },
-          {
             "id": "73b48d88010248a7",
             "type": "leaf",
             "state": {
@@ -291,7 +279,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -318,12 +306,14 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "2325deaf5469eaca",
+  "active": "77d516975204939f",
   "lastOpenFiles": [
+    "Factions/Deities/Tuath Dé Danann/Mór-ríoghan.md",
+    "Factions/Families/Nighthollow/Nighthollow Family.base",
+    "z_Resources/Dialogue/Timeline.excalidraw.md",
     "Factions/Deities/Tuath Dé Danann/Tuath Dé Danann.md",
     "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
     "Factions/Families/Nighthollow/Nighthollow Family.md",
-    "Factions/Deities/Tuath Dé Danann/Mór-ríoghan.md",
     "Factions/Deities/Tuath Dé Danann/Tuath Dé Danann.base",
     "1- Party/The Party.base",
     "1- Party/The Party.md",
@@ -331,8 +321,6 @@
     "1- Party/Corelia.md",
     "Locations/Dark elf place.md",
     "z_Images/Mór-ríoghan.webp",
-    "z_Resources/Dialogue/Timeline.excalidraw.md",
-    "Factions/Families/Nighthollow/Nighthollow Family.base",
     "Dead/Colt.md",
     "Factions/Families/Nighthollow/Alye.md",
     "Factions/Deities/Tuath Dé Danann",

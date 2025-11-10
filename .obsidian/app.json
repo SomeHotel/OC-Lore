@@ -11,7 +11,6 @@
     "z_Images/",
     "z_Resources/",
     "z_Templates/",
-    "/\\w.base/",
-    "/\\w.excalidraw/"
+    "/\\w.base/"
   ]
 }
