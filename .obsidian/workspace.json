@@ -35,24 +35,13 @@
             "id": "73b48d88010248a7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "1- Party/Maelis Nighthollow.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Factions/Families/Nighthollow/Nighthollow Family.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-file",
-              "title": "Maelis Nighthollow"
+              "icon": "lucide-table",
+              "title": "Nighthollow Family"
             }
           },
           {
@@ -136,7 +125,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "place",
+                "query": "nighthollow family",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -157,7 +146,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -308,10 +298,16 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "73b48d88010248a7",
+  "active": "a30d6edb3065edc9",
   "lastOpenFiles": [
-    "1- Party/Corelia.md",
+    "Factions/Families/Nighthollow/Nighthollow Family.md",
+    "Factions/Families/Nighthollow/Alye.md",
     "1- Party/Maelis Nighthollow.md",
+    "Factions/Deities/Tuath Dé Danann",
+    "Factions/Deities",
+    "z_Images/mór-ríoghan.webp",
+    "z_Images/Adventure Time - S05E10 - Little Dude.mkv_snapshot_04.34.481.jpg",
+    "1- Party/Corelia.md",
     "z_Resources/Dialogue/Timeline.excalidraw.md",
     "z_Resources/Dialogue/lu156606o3jn.tmp",
     "z_Resources/Dialogue/lu156606o3jk.tmp",
@@ -322,8 +318,6 @@
     "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
     "ideas.md",
     "Locations/Dark elf place.md",
-    "Factions/Families/Nighthollow/Nighthollow Family.md",
-    "Factions/Families/Nighthollow/Alye.md",
     "z_Resources/Dialogue/Alye and Tar'al.odt",
     "z_Resources/Dialogue/New OpenDocument Text.odt",
     "1- Party/The Party.md",
@@ -334,8 +328,6 @@
     "Events/Characters/Maelis/Escape from home.md",
     "Events/Characters/Colt/Colt Death.md",
     "Events/Characters/Colt/Meeting Maelis.md",
-    "z_Resources/Dialogue/lu16656c6v1.tmp",
-    "z_Resources/Dialogue/lu16656c6uy.tmp",
     "Ideas.excalidraw.md",
     "conflict-files-obsidian-git.md",
     "z_Templates/Location Template.md",
