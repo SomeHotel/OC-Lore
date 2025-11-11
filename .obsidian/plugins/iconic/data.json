@@ -56,13 +56,6 @@
     "Events/Characters/Maelis/Maelis Birth.md": {
       "icon": "lucide-baby"
     },
-    "Factions/Deities/Tuath Dé Danann/Mór-ríoghan.md": {
-      "icon": "lucide-bird",
-      "color": "#000000"
-    },
-    "Factions/Deities/Tuath Dé Danann/Tuath Dé Danann.md": {
-      "icon": "lucide-users"
-    },
     "Factions/Families/Nighthollow/Alye.md": {
       "icon": "lucide-user"
     },
@@ -86,7 +79,8 @@
     "z_Resources": {
       "icon": "lucide-inbox",
       "unsynced": [
-        "5274c0d7ed07d6aa"
+        "5274c0d7ed07d6aa",
+        "a2bedb56c4a49f6b"
       ]
     }
   },

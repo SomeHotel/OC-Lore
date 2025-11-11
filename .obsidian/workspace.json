@@ -8,80 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a7fe9bfe3ad19c1f",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true,
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "73b48d88010248a7",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "Factions/Families/Nighthollow/Nighthollow Family.base",
-                "viewName": "Table"
-              },
-              "icon": "lucide-table",
-              "title": "Nighthollow Family"
-            }
-          },
-          {
-            "id": "675938c8c811b062",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1- Party/Maelis Nighthollow.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Maelis Nighthollow"
-            }
-          },
-          {
-            "id": "a39fd64b2c9a5415",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Factions/Deities/Tuath Dé Danann/Tuath Dé Danann.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Tuath Dé Danann"
-            }
-          },
-          {
-            "id": "19e905f3e688d00c",
+            "id": "3432252ecf58ea8a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -105,13 +32,13 @@
             }
           },
           {
-            "id": "4a36e681e4a89cc3",
+            "id": "f797d746a0cafd11",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "ideas.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -127,9 +54,57 @@
               "icon": "lucide-file",
               "title": "ideas"
             }
+          },
+          {
+            "id": "73b48d88010248a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1- Party/Corelia.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Corelia"
+            }
+          },
+          {
+            "id": "395c3a8c15fe0412",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1- Party/Corelia.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Corelia"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -161,7 +136,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": ".base",
+                "query": "place",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -186,7 +161,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.5
+    "width": 287.5
   },
   "right": {
     "id": "2dd58f2713fb86c3",
@@ -235,13 +210,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dead/Colt.md",
+                "file": "ideas.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Colt"
+              "title": "Outline of ideas"
             }
           },
           {
@@ -306,7 +281,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -333,45 +308,45 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "4a36e681e4a89cc3",
+  "active": "f797d746a0cafd11",
   "lastOpenFiles": [
     "Factions/Deities/Tuath Dé Danann/Tuath Dé Danann.md",
-    "Factions/Deities/Tuath Dé Danann/Mór-ríoghan.md",
-    "Factions/Families/Nighthollow/Nighthollow Family.base",
-    "z_Resources/Dialogue/Timeline.excalidraw.md",
-    "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
-    "Factions/Families/Nighthollow/Nighthollow Family.md",
     "Factions/Deities/Tuath Dé Danann/Tuath Dé Danann.base",
-    "1- Party/The Party.base",
-    "1- Party/The Party.md",
-    "1- Party/Maelis Nighthollow.md",
-    "1- Party/Corelia.md",
-    "Locations/Dark elf place.md",
-    "z_Images/Mór-ríoghan.webp",
-    "Dead/Colt.md",
-    "Factions/Families/Nighthollow/Alye.md",
+    "Factions/Deities/Tuath Dé Danann/Mór-ríoghan.md",
     "Factions/Deities/Tuath Dé Danann",
     "Factions/Deities",
-    "z_Images/Adventure Time - S05E10 - Little Dude.mkv_snapshot_04.34.481.jpg",
-    "z_Resources/Dialogue/lu156606o3jn.tmp",
-    "z_Resources/Dialogue/lu156606o3jk.tmp",
-    "z_Resources/Dialogue/lu156606o3jh.tmp",
-    "z_Resources/Dialogue/lu156606o3j8.tmp",
-    "z_Resources/Dialogue/lu156606o3iu.tmp",
-    "ideas.md",
-    "Events/Characters/Maelis/Tar'al meets Corelia.md",
-    "Events/Characters/Maelis/Maelis Birth.md",
-    "Events/Characters/Maelis/Loss of hearing.md",
-    "Events/Characters/Maelis/Escape from home.md",
-    "Events/Characters/Colt/Colt Death.md",
-    "Events/Characters/Colt/Meeting Maelis.md",
+    "z_Resources/Dialogue/Timeline.excalidraw.md",
+    "z_Resources/Dialogue/Alye and Tar'al.odt",
+    "z_Images/mór-ríoghan.webp",
+    "z_Resources/Dialogue/lu7124ey15r.tmp",
     "Ideas.excalidraw.md",
     "conflict-files-obsidian-git.md",
+    "Events/Characters/Maelis/Tar'al meets Corelia.md",
+    "ideas.md",
+    "z_Resources/Dialogue/lu8683gw2p.tmp",
+    "z_Resources/Dialogue/lu8683gw2i.tmp",
+    "z_Resources/Dialogue/lu8683gw23.tmp",
+    "z_Resources/Dialogue/lu78723zm6.tmp",
+    "z_Resources/Dialogue/lu178161g6x.tmp",
+    "1- Party/Corelia.md",
+    "1- Party/Maelis Nighthollow.md",
+    "Dead/Colt.md",
     "z_Templates/Location Template.md",
+    "Locations/Menzoberranzan.md",
+    "Factions/Families/Nighthollow/Nighthollow Family.md",
+    "1- Party/The Party.md",
     "z_Templates/Place Template.md",
     "z_Templates/Character Template.md",
     "README.md",
+    "Factions/Families/Nighthollow/Alye.md",
+    "Events/Characters/Maelis/Escape from home.md",
+    "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
     "z_Templates/Item Template.md",
+    "Events/Characters/Maelis/Loss of hearing.md",
+    "Events/Characters/Colt/Colt Death.md",
+    "z_Resources/BG3 Drow name table.md",
+    "Resources/BG3 Drow name table.md",
+    "Factions/Families/Nighthollow/Nighthollow Family.sync-conflict-20251008-151442-WRVCPBB.md",
     "z_Images/Maelis_reference_cropped.webp",
     "z_Images/Corelia maybe_reference_cropped.webp"
   ]
