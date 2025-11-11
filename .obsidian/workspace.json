@@ -103,8 +103,33 @@
               "icon": "lucide-file",
               "title": "Filvrae Nighthollow"
             }
+          },
+          {
+            "id": "4a36e681e4a89cc3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ideas.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "ideas"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -273,13 +298,15 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "ideas.md"
+              },
               "icon": "lucide-info",
-              "title": "File properties"
+              "title": "File properties for ideas"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -306,12 +333,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "77d516975204939f",
+  "active": "4a36e681e4a89cc3",
   "lastOpenFiles": [
+    "Factions/Deities/Tuath Dé Danann/Tuath Dé Danann.md",
     "Factions/Deities/Tuath Dé Danann/Mór-ríoghan.md",
     "Factions/Families/Nighthollow/Nighthollow Family.base",
     "z_Resources/Dialogue/Timeline.excalidraw.md",
-    "Factions/Deities/Tuath Dé Danann/Tuath Dé Danann.md",
     "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
     "Factions/Families/Nighthollow/Nighthollow Family.md",
     "Factions/Deities/Tuath Dé Danann/Tuath Dé Danann.base",

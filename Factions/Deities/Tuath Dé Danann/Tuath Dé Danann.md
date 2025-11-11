@@ -3,10 +3,8 @@ type:
   - Group
 aliases:
 tags:
-Age:
 Origin:
-Affiliation:
-Status:
+Status: Active
 ---
 >[!info] `= this.file.name`
 > ---
