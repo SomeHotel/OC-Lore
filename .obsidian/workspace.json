@@ -80,6 +80,18 @@
             }
           },
           {
+            "id": "0811dda172df634a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.3"
+            }
+          },
+          {
             "id": "395c3a8c15fe0412",
             "type": "leaf",
             "state": {
@@ -104,7 +116,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -308,8 +320,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "a2cc86482cd061d0",
+  "active": "0811dda172df634a",
   "lastOpenFiles": [
+    "1- Party/Maelis Nighthollow.md",
+    "z_Resources/Dialogue/lu798429ef4.tmp",
     "ideas.md",
     "1- Party/Corelia.md",
     "Factions/Deities/Tuath Dé Danann/Tuath Dé Danann.md",
@@ -328,8 +342,6 @@
     "z_Resources/Dialogue/lu8683gw2i.tmp",
     "z_Resources/Dialogue/lu8683gw23.tmp",
     "z_Resources/Dialogue/lu78723zm6.tmp",
-    "z_Resources/Dialogue/lu178161g6x.tmp",
-    "1- Party/Maelis Nighthollow.md",
     "Dead/Colt.md",
     "z_Templates/Location Template.md",
     "Locations/Menzoberranzan.md",
@@ -346,7 +358,6 @@
     "Events/Characters/Colt/Colt Death.md",
     "z_Resources/BG3 Drow name table.md",
     "Resources/BG3 Drow name table.md",
-    "Factions/Families/Nighthollow/Nighthollow Family.sync-conflict-20251008-151442-WRVCPBB.md",
     "z_Images/Maelis_reference_cropped.webp",
     "z_Images/Corelia maybe_reference_cropped.webp"
   ]
