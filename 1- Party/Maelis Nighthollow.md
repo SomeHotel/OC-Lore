@@ -72,6 +72,7 @@ image: "[[Maelis_reference_cropped.webp]]"
 - Refuses to use warlock spells and powers
 - Struggles with abandonment issues after [[Alye]] seemingly died
 - Is self conscious about her hair
+- 
 # Relationships
 ## Nighthollow Family
 ### Filvrae Nighthollow
