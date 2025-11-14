@@ -64,7 +64,8 @@
       "icon": "lucide-baby"
     },
     "Factions/Deities/Tuath Dé Danann/Mór-ríoghan.md": {
-      "icon": "lucide-bird"
+      "icon": "lucide-bird",
+      "color": "purple"
     },
     "Factions/Deities/Tuath Dé Danann/Tuath Dé Danann.base": {
       "icon": "lucide-users",

@@ -281,7 +281,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -308,12 +308,14 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "f797d746a0cafd11",
+  "active": "d4f9d174002d39c0",
   "lastOpenFiles": [
+    "ideas.md",
+    "Locations/Dark elf place.md",
+    "Locations/Dark elf place.base",
     "1- Party/Maelis Nighthollow.md",
     "1- Party/Corelia.md",
     "z_Resources/Dialogue/lu798429ef4.tmp",
-    "ideas.md",
     "Factions/Deities/Tuath Dé Danann/Tuath Dé Danann.md",
     "Factions/Deities/Tuath Dé Danann/Tuath Dé Danann.base",
     "Factions/Deities/Tuath Dé Danann/Mór-ríoghan.md",
@@ -329,7 +331,6 @@
     "z_Resources/Dialogue/lu8683gw2p.tmp",
     "z_Resources/Dialogue/lu8683gw2i.tmp",
     "z_Resources/Dialogue/lu8683gw23.tmp",
-    "z_Resources/Dialogue/lu78723zm6.tmp",
     "Dead/Colt.md",
     "z_Templates/Location Template.md",
     "Locations/Menzoberranzan.md",
@@ -345,7 +346,6 @@
     "Events/Characters/Maelis/Loss of hearing.md",
     "Events/Characters/Colt/Colt Death.md",
     "z_Resources/BG3 Drow name table.md",
-    "Resources/BG3 Drow name table.md",
     "z_Images/Maelis_reference_cropped.webp",
     "z_Images/Corelia maybe_reference_cropped.webp"
   ]
