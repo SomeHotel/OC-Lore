@@ -80,18 +80,6 @@
             }
           },
           {
-            "id": "0811dda172df634a",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.10.3"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.3"
-            }
-          },
-          {
             "id": "395c3a8c15fe0412",
             "type": "leaf",
             "state": {
@@ -116,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -320,12 +308,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "0811dda172df634a",
+  "active": "f797d746a0cafd11",
   "lastOpenFiles": [
     "1- Party/Maelis Nighthollow.md",
+    "1- Party/Corelia.md",
     "z_Resources/Dialogue/lu798429ef4.tmp",
     "ideas.md",
-    "1- Party/Corelia.md",
     "Factions/Deities/Tuath Dé Danann/Tuath Dé Danann.md",
     "Factions/Deities/Tuath Dé Danann/Tuath Dé Danann.base",
     "Factions/Deities/Tuath Dé Danann/Mór-ríoghan.md",

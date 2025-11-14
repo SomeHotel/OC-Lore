@@ -1,6 +1,6 @@
 - SLOW burn romance with maelis and corelia (probably 10 year slow burn, not sure how ill make it work but fuck it we ball)
-- Alye isn't dead just missing somewhere, will exhaust all other options before using amnesia
-- might structure some stuff as a play
+- Alye isn't dead just missing somewhere, will exhaust all other options before using amnesia to explain her absence 
+- might structure some stuff as a play?
 - try writing a song (very unlikely)
 - 3d model the characters instead of a drawing
 - 

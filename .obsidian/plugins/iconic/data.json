@@ -37,6 +37,13 @@
       "icon": "lucide-star",
       "color": "yellow"
     },
+    "1- Party/The Party.base": {
+      "icon": "lucide-users",
+      "unsynced": [
+        "5274c0d7ed07d6aa"
+      ],
+      "color": "yellow"
+    },
     "Dead/Colt.md": {
       "icon": "lucide-user"
     },
@@ -55,6 +62,18 @@
     },
     "Events/Characters/Maelis/Maelis Birth.md": {
       "icon": "lucide-baby"
+    },
+    "Factions/Deities/Tuath Dé Danann/Mór-ríoghan.md": {
+      "icon": "lucide-bird"
+    },
+    "Factions/Deities/Tuath Dé Danann/Tuath Dé Danann.base": {
+      "icon": "lucide-users",
+      "unsynced": [
+        "5274c0d7ed07d6aa"
+      ]
+    },
+    "Factions/Deities/Tuath Dé Danann/Tuath Dé Danann.md": {
+      "icon": "lucide-users"
     },
     "Factions/Families/Nighthollow/Alye.md": {
       "icon": "lucide-user"
