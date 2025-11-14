@@ -63,6 +63,9 @@
     "Events/Characters/Maelis/Maelis Birth.md": {
       "icon": "lucide-baby"
     },
+    "Events/Characters/Maelis/Tar'al meets Corelia.md": {
+      "icon": "lucide-handshake"
+    },
     "Factions/Deities/Tuath Dé Danann/Mór-ríoghan.md": {
       "icon": "lucide-bird",
       "color": "purple"
@@ -156,6 +159,20 @@
       ],
       "enabled": true,
       "icon": "lucide-mountain"
+    },
+    {
+      "id": "6SET2",
+      "name": "Dialogue",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "tree",
+          "operator": "contains",
+          "value": "Dialogue"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-book"
     }
   ],
   "folderRules": [
