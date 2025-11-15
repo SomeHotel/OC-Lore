@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1- Party/Maelis Nighthollow.md",
+                "file": "z_Resources/Séimhiú.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Maelis Nighthollow"
+              "title": "Séimhiú"
             }
           }
         ],
@@ -308,9 +308,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "395c3a8c15fe0412",
+  "active": "2325deaf5469eaca",
   "lastOpenFiles": [
     "1- Party/Maelis Nighthollow.md",
+    "z_Resources/Séimhiú.md",
     "Factions/Deities/Tuath Dé Danann/Mór-ríoghan.md",
     "Events/Characters/Maelis/Loss of hearing.md",
     "Events/Characters/Maelis/Escape from home.md",
