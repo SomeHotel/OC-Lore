@@ -50,7 +50,7 @@ image: "[[Maelis_reference_cropped.webp]]"
 - Generally wears whatever clothes can be easily stolen or found on the ground
 - Slightly muscular but mostly slim
 - 165cm tall
-- 
+- ṁ
 # Physical Characteristics
 - Wears glasses but lost her old pair and can't afford more
 - Lost the tip of her right ring finger
