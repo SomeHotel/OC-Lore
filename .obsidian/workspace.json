@@ -59,24 +59,12 @@
             "id": "a2cc86482cd061d0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Events/Characters/Maelis/Tar'al meets Corelia.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": false
-                }
+                "file": "z_Resources/Dialogue/Timeline.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "Tar'al meets Corelia"
+              "icon": "excalidraw-icon",
+              "title": "Timeline.excalidraw"
             }
           }
         ],
@@ -249,11 +237,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "Events/Characters/Maelis/Tar'al meets Corelia.md"
-              },
+              "state": {},
               "icon": "lucide-info",
-              "title": "File properties for Tar'al meets Corelia"
+              "title": "File properties"
             }
           },
           {
@@ -267,7 +253,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -285,7 +271,6 @@
       "markdown-importer:Open format converter": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false,
-      "iconic:Open rulebook": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "homepage:Open homepage": false,
       "obsidian-git:Open Git source control": false,
@@ -294,13 +279,16 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "a2cc86482cd061d0",
+  "active": "77d516975204939f",
   "lastOpenFiles": [
-    "z_Resources/Dialogue/Tar'al meets Corelia.md",
-    "Events/Characters/Maelis/Tar'al meets Corelia.md",
-    "z_Resources/Dialogue/lu185602p8oe.tmp",
+    "z_Resources/Dialogue/Timeline.excalidraw.md",
+    "z_Resources/Dialogue/lu185602p8om.tmp",
     "1- Party/Corelia.md",
+    "Factions/Families/Nighthollow/Nighthollow Family.base",
     "1- Party/Maelis Nighthollow.md",
+    "Events/Characters/Maelis/Tar'al meets Corelia.md",
+    "z_Resources/Dialogue/Tar'al meets Corelia.md",
+    "z_Resources/Dialogue/lu185602p8oe.tmp",
     "Events/Characters/Maelis/Maelis Birth.md",
     "Events/Characters/Maelis/Escape from home.md",
     "1- Party/Marceline.md",
@@ -319,20 +307,16 @@
     "Factions/Deities/Tuath Dé Danann/Tuath Dé Danann.base",
     "Factions/Deities/Tuath Dé Danann",
     "Factions/Deities",
-    "z_Resources/Dialogue/Timeline.excalidraw.md",
     "z_Resources/Dialogue/Alye and Tar'al.odt",
     "z_Images/mór-ríoghan.webp",
-    "z_Resources/Dialogue/lu7124ey15r.tmp",
     "Ideas.excalidraw.md",
     "conflict-files-obsidian-git.md",
-    "z_Resources/Dialogue/lu8683gw2p.tmp",
     "Dead/Colt.md",
     "z_Templates/Location Template.md",
     "Locations/Menzoberranzan.md",
     "Factions/Families/Nighthollow/Nighthollow Family.md",
     "z_Templates/Place Template.md",
     "README.md",
-    "Factions/Families/Nighthollow/Alye.md",
     "z_Images/Maelis_reference_cropped.webp",
     "z_Images/Corelia maybe_reference_cropped.webp"
   ]
