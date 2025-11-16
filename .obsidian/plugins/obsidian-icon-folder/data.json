@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiSkull",
       "RiGroupLine",
       "SiGithub",
       "TiNotes",
-      "FarFilePdf",
-      "LiTable"
+      "FarFilePdf"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -114,5 +114,6 @@
   "Factions/Deities/Tuath Dé Danann/Tuath Dé Danann.base": {
     "iconName": "RiGroupLine",
     "iconColor": "#28bd32"
-  }
+  },
+  "Events/Characters/Colt/Colt Death.md": "LiSkull"
 }

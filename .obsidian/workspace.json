@@ -59,12 +59,24 @@
             "id": "a2cc86482cd061d0",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "z_Resources/Dialogue/Timeline.excalidraw.md"
+                "file": "Events/Characters/Maelis/Tar'al meets Corelia.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "Timeline.excalidraw"
+              "icon": "lucide-file",
+              "title": "Tar'al meets Corelia"
             }
           }
         ],
@@ -136,39 +148,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a0ffc2d9e09d4e4e",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "1- Party/Maelis Nighthollow.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for Maelis Nighthollow"
-            }
-          },
-          {
-            "id": "aaa09f6905487831",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "1- Party/Maelis Nighthollow.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Maelis Nighthollow"
-            }
-          },
-          {
             "id": "da2e8baa315ed6e8",
             "type": "leaf",
             "state": {
@@ -237,9 +216,11 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "Events/Characters/Maelis/Tar'al meets Corelia.md"
+              },
               "icon": "lucide-info",
-              "title": "File properties"
+              "title": "File properties for Tar'al meets Corelia"
             }
           },
           {
@@ -253,7 +234,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
