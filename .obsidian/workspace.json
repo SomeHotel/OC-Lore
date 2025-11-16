@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1- Party/Maelis Nighthollow.md",
+                "file": "Events/Characters/Maelis/Tar'al meets Corelia.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -72,11 +72,11 @@
                   "showSearch": false,
                   "searchQuery": "",
                   "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
+                  "unlinkedCollapsed": false
                 }
               },
               "icon": "lucide-file",
-              "title": "Maelis Nighthollow"
+              "title": "Tar'al meets Corelia"
             }
           }
         ],
@@ -186,13 +186,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ideas.md",
+                "file": "Events/Characters/Maelis/Tar'al meets Corelia.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ideas"
+              "title": "Outline of Tar'al meets Corelia"
             }
           },
           {
@@ -249,9 +249,11 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "z_Resources/Dialogue/Tar'al meets Corelia.md"
+              },
               "icon": "lucide-info",
-              "title": "File properties"
+              "title": "File properties for Tar'al meets Corelia"
             }
           },
           {
@@ -265,7 +267,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -292,18 +294,22 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "d4f9d174002d39c0",
+  "active": "2325deaf5469eaca",
   "lastOpenFiles": [
-    "1- Party/Maelis Nighthollow.md",
-    "Factions/Deities/Tuath Dé Danann/Mór-ríoghan.md",
+    "Events/Characters/Maelis/Tar'al meets Corelia.md",
+    "z_Resources/Dialogue/Tar'al meets Corelia.md",
+    "z_Resources/Dialogue/lu185602p8oe.tmp",
     "1- Party/Corelia.md",
+    "1- Party/Maelis Nighthollow.md",
+    "Events/Characters/Maelis/Maelis Birth.md",
+    "Events/Characters/Maelis/Escape from home.md",
     "1- Party/Marceline.md",
+    "Factions/Deities/Tuath Dé Danann/Mór-ríoghan.md",
     "1- Party/The Party.md",
     "1- Party/The Party.base",
     "z_Templates/Character Template.md",
     "z_Resources/Séimhiú.md",
     "Events/Characters/Maelis/Loss of hearing.md",
-    "Events/Characters/Maelis/Escape from home.md",
     "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
     "ideas.md",
     "Locations/Dark elf place.md",
@@ -319,9 +325,7 @@
     "z_Resources/Dialogue/lu7124ey15r.tmp",
     "Ideas.excalidraw.md",
     "conflict-files-obsidian-git.md",
-    "Events/Characters/Maelis/Tar'al meets Corelia.md",
     "z_Resources/Dialogue/lu8683gw2p.tmp",
-    "z_Resources/Dialogue/lu8683gw2i.tmp",
     "Dead/Colt.md",
     "z_Templates/Location Template.md",
     "Locations/Menzoberranzan.md",
@@ -329,7 +333,6 @@
     "z_Templates/Place Template.md",
     "README.md",
     "Factions/Families/Nighthollow/Alye.md",
-    "z_Templates/Item Template.md",
     "z_Images/Maelis_reference_cropped.webp",
     "z_Images/Corelia maybe_reference_cropped.webp"
   ]

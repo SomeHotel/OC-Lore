@@ -43,5 +43,19 @@
   "fancy-a-story@@fas-skin-select": "none",
   "fancy-a-story@@fas-statblocks-custom": true,
   "fancy-a-story@@fas-statblocks-accent-class": "fas-statblocks-accent",
-  "fancy-a-story@@art-deco-color": "var(--art-deco-color-custom)"
+  "fancy-a-story@@art-deco-color": "var(--art-deco-color-custom)",
+  "fancy-a-story@@fas-bg-textures": false,
+  "fancy-a-story@@fas-vault-menu-top": false,
+  "fancy-a-story@@show-note-header-on-hover": "enable",
+  "fancy-a-story@@crop-root-corners": "disable",
+  "fancy-a-story@@fas-workspace-foreground-contrast": true,
+  "fancy-a-story@@fas-workspace-foreground-no-fading": true,
+  "fancy-a-story@@fas-tab-header-inverted": true,
+  "fancy-a-story@@fas-background-image": false,
+  "fancy-a-story@@fas-rainbow-folders": "enable",
+  "fancy-a-story@@fas-bookmark-tabs": "flat",
+  "fancy-a-story@@rainbow-brightness": 1,
+  "fancy-a-story@@rainbow-saturation": 2,
+  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-pink-topaz",
+  "Blue-Topaz-Codebox-Highlight@@code-theme-selection": "code-theme-material-palenight"
 }
