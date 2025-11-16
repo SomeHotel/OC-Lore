@@ -33,5 +33,15 @@
   "wikipedia-theme@@custom-accent": true,
   "wikipedia-theme@@ribbon-style": "ribbon-hover",
   "wikipedia-theme@@hide-frontmatter": true,
-  "wikipedia-theme@@frontmatter-style": "frontmatter-blockquote"
+  "wikipedia-theme@@frontmatter-style": "frontmatter-blockquote",
+  "fancy-a-story@@fas-adaptive-accent": true,
+  "fancy-a-story@@fas-theme-dark-print": "fas-theme-dark-print",
+  "fancy-a-story@@theme-variant-dark": "fas-art-deco",
+  "fancy-a-story@@fas-opposite-bg": false,
+  "fancy-a-story@@fas-accessibility": false,
+  "fancy-a-story@@fas-sans-serif": false,
+  "fancy-a-story@@fas-skin-select": "none",
+  "fancy-a-story@@fas-statblocks-custom": true,
+  "fancy-a-story@@fas-statblocks-accent-class": "fas-statblocks-accent",
+  "fancy-a-story@@art-deco-color": "var(--art-deco-color-custom)"
 }

@@ -1,7 +1,7 @@
 {
   "biggerIcons": "mobile",
   "clickableIcons": "desktop",
-  "showAllFileIcons": true,
+  "showAllFileIcons": false,
   "showAllFolderIcons": false,
   "minimalFolderIcons": true,
   "showMarkdownTabIcons": true,
@@ -37,11 +37,18 @@
       "icon": "lucide-star",
       "color": "yellow"
     },
+    "1- Party/Marceline.md": {
+      "icon": "lucide-star",
+      "color": "yellow"
+    },
     "1- Party/The Party.base": {
       "icon": "lucide-users",
       "unsynced": [
         "5274c0d7ed07d6aa"
       ],
+      "color": "yellow"
+    },
+    "1- Party/The Party.md": {
       "color": "yellow"
     },
     "Dead/Colt.md": {
@@ -74,10 +81,12 @@
       "icon": "lucide-users",
       "unsynced": [
         "5274c0d7ed07d6aa"
-      ]
+      ],
+      "color": "green"
     },
     "Factions/Deities/Tuath Dé Danann/Tuath Dé Danann.md": {
-      "icon": "lucide-users"
+      "icon": "lucide-users",
+      "color": "green"
     },
     "Factions/Families/Nighthollow/Alye.md": {
       "icon": "lucide-user"
@@ -99,11 +108,23 @@
       "icon": "lucide-users",
       "color": "purple"
     },
+    "Locations/Dark elf place.md": {
+      "color": "purple"
+    },
+    "README.md": {
+      "icon": "lucide-notebook"
+    },
     "z_Resources": {
       "icon": "lucide-inbox",
       "unsynced": [
         "5274c0d7ed07d6aa",
         "a2bedb56c4a49f6b"
+      ]
+    },
+    "z_Resources/Dialogue": {
+      "icon": "lucide-message-circle",
+      "unsynced": [
+        "5274c0d7ed07d6aa"
       ]
     }
   },
@@ -132,14 +153,14 @@
       "match": "all",
       "conditions": [
         {
-          "source": "tree",
-          "operator": "contains",
-          "value": "1- Party"
-        },
-        {
           "source": "property:type",
           "operator": "includes",
           "value": "Group"
+        },
+        {
+          "source": "tree",
+          "operator": "contains",
+          "value": "Party"
         }
       ],
       "enabled": true,
@@ -166,13 +187,13 @@
       "match": "all",
       "conditions": [
         {
-          "source": "tree",
+          "source": "extension",
           "operator": "contains",
-          "value": "Dialogue"
+          "value": "ODT"
         }
       ],
       "enabled": true,
-      "icon": "lucide-book"
+      "icon": "lucide-messages-square"
     }
   ],
   "folderRules": [
@@ -197,11 +218,13 @@
       "conditions": [
         {
           "source": "name",
-          "operator": "contains"
+          "operator": "contains",
+          "value": "Party"
         }
       ],
       "enabled": true,
-      "color": "yellow"
+      "color": "yellow",
+      "icon": "lucide-star"
     }
   ]
 }

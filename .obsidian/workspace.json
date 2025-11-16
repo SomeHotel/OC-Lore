@@ -78,33 +78,9 @@
               "icon": "lucide-file",
               "title": "Maelis Nighthollow"
             }
-          },
-          {
-            "id": "395c3a8c15fe0412",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1- Party/Maelis Nighthollow.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Maelis Nighthollow"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -273,11 +249,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "1- Party/Maelis Nighthollow.md"
-              },
+              "state": {},
               "icon": "lucide-info",
-              "title": "File properties for Maelis Nighthollow"
+              "title": "File properties"
             }
           },
           {
@@ -291,7 +265,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -318,12 +292,16 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "395c3a8c15fe0412",
+  "active": "d4f9d174002d39c0",
   "lastOpenFiles": [
-    "1- Party/Corelia.md",
     "1- Party/Maelis Nighthollow.md",
-    "z_Resources/Séimhiú.md",
     "Factions/Deities/Tuath Dé Danann/Mór-ríoghan.md",
+    "1- Party/Corelia.md",
+    "1- Party/Marceline.md",
+    "1- Party/The Party.md",
+    "1- Party/The Party.base",
+    "z_Templates/Character Template.md",
+    "z_Resources/Séimhiú.md",
     "Events/Characters/Maelis/Loss of hearing.md",
     "Events/Characters/Maelis/Escape from home.md",
     "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
@@ -344,19 +322,14 @@
     "Events/Characters/Maelis/Tar'al meets Corelia.md",
     "z_Resources/Dialogue/lu8683gw2p.tmp",
     "z_Resources/Dialogue/lu8683gw2i.tmp",
-    "z_Resources/Dialogue/lu8683gw23.tmp",
     "Dead/Colt.md",
     "z_Templates/Location Template.md",
     "Locations/Menzoberranzan.md",
     "Factions/Families/Nighthollow/Nighthollow Family.md",
-    "1- Party/The Party.md",
     "z_Templates/Place Template.md",
-    "z_Templates/Character Template.md",
     "README.md",
     "Factions/Families/Nighthollow/Alye.md",
     "z_Templates/Item Template.md",
-    "Events/Characters/Colt/Colt Death.md",
-    "z_Resources/BG3 Drow name table.md",
     "z_Images/Maelis_reference_cropped.webp",
     "z_Images/Corelia maybe_reference_cropped.webp"
   ]

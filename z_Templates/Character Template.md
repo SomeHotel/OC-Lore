@@ -14,7 +14,6 @@ Language:
 image:
 ---
 >[!info] `= this.file.name`
-> ---
 >![[]]
 >**Born** `= this.birthday` (age `= this.Age`)
 >**Origin** `= this.origin`

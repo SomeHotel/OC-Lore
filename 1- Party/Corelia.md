@@ -20,7 +20,6 @@ image: "[[Corelia maybe_reference_cropped.webp]]"
 ---
 >[!info] `=this.file.name`
 >![[Corelia maybe_reference_cropped.webp|]]
-> ---
 >**Born** `=this.birthday` (age `= this.Age`)
 >**Origin** `=this.origin`
 >
@@ -60,12 +59,16 @@ Stuck in an alleyway running from slavers.
 - 
 # Relationships
 ## Friends
+---
 ### Maelis Nighthollow
 - Unknowingly has a massive crush on her
 - The first friend she ever properly made
 - Saved her from going down a darker path in life
 - Sleep in a bed together to save money
 - 
+## Marceline
+- 
+
 # Timeline
 
 ```aat-vertical
