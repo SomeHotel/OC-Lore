@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1- Party/Corelia.md",
+                "file": "1- Party/Maelis Nighthollow.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -71,12 +71,12 @@
                   "sortOrder": "alphabetical",
                   "showSearch": false,
                   "searchQuery": "",
-                  "backlinkCollapsed": false,
+                  "backlinkCollapsed": true,
                   "unlinkedCollapsed": true
                 }
               },
               "icon": "lucide-file",
-              "title": "Corelia"
+              "title": "Maelis Nighthollow"
             }
           }
         ],
@@ -217,10 +217,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "1- Party/Corelia.md"
+                "file": "1- Party/Maelis Nighthollow.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Corelia"
+              "title": "File properties for Maelis Nighthollow"
             }
           },
           {
@@ -232,42 +232,9 @@
               "icon": "quote-glyph",
               "title": "Dictionary"
             }
-          },
-          {
-            "id": "a96d29eb3824cc5b",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "1- Party/Corelia.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for Corelia"
-            }
-          },
-          {
-            "id": "b993ceff70f41c7b",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "1- Party/Corelia.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Corelia"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -295,14 +262,15 @@
   },
   "active": "a2cc86482cd061d0",
   "lastOpenFiles": [
-    "1- Party/Aiden.md",
+    "Factions/Deities/Tuath Dé Danann/Mór-ríoghan.md",
+    "1- Party/Maelis Nighthollow.md",
+    "1- Party/Marceline.md",
+    "1- Party/The Party.md",
     "1- Party/Corelia.md",
+    "1- Party/Aiden.md",
     "z_Resources/Dialogue/lu105881wyx3.tmp",
     "z_Resources/Dialogue/lu105881wyx0.tmp",
     "z_Resources/Dialogue/lu105881wywv.tmp",
-    "1- Party/The Party.md",
-    "1- Party/Marceline.md",
-    "1- Party/Maelis Nighthollow.md",
     "z_Images/Mór-ríoghan.webp",
     "z_Images/Mór-ríoghan_spotted.webp",
     "z_Resources/Dialogue/Timeline.excalidraw.md",
@@ -316,7 +284,6 @@
     "z_Resources/Dialogue/lu185602p8oe.tmp",
     "Events/Characters/Maelis/Maelis Birth.md",
     "Events/Characters/Maelis/Escape from home.md",
-    "Factions/Deities/Tuath Dé Danann/Mór-ríoghan.md",
     "1- Party/The Party.base",
     "z_Templates/Character Template.md",
     "Events/Characters/Maelis/Loss of hearing.md",

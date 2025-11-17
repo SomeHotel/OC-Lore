@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiHandshake",
       "LiUsers",
       "LiSkull",
       "RiGroupLine",
-      "SiGithub",
-      "TiNotes"
+      "SiGithub"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -126,5 +126,6 @@
   "Factions/Families/Nighthollow/Nighthollow Family.base": {
     "iconName": "LiUsers",
     "iconColor": "#79147b"
-  }
+  },
+  "Events/Characters/Colt/Meeting Maelis.md": "LiHandshake"
 }
