@@ -6,7 +6,8 @@ tags:
   - Race/Tiefling/Zariel
 Birthday:
 Profession:
-  - Ranger
+  - Paladin
+  - Hunter
 Age: 16
 Affiliation:
   - "[[The Party]]"
@@ -40,6 +41,8 @@ Stuck in an alleyway running from slavers.
 - look at the picture idfk how to describe shit 😭(also shut up abt maelis i didnt have a reference picture when i was making that)
 - Has a small diamond scar on her left ring finger
 - 183cm
+- Muscular
+- 
 # Physical Characteristics
 - Fiddles with her septum piercing
 - Rubs her horns against hard surfaces when no one's around
@@ -56,6 +59,7 @@ Stuck in an alleyway running from slavers.
 - Will seduce anyone to get what she needs
 - Loves listening to bards when they're performing
 - When she was taken in by the Wood elves, all that was left was her name and a [[Corelia ring|ring]], which she carries with and treasures
+- Likes to pick up [[Maelis Nighthollow|Maelis]]
 - 
 # Relationships
 ## Friends
@@ -67,6 +71,8 @@ Stuck in an alleyway running from slavers.
 - Sleep in a bed together to save money
 - 
 ## Marceline
+- Didn't trust them at first due to being a human
+- Started trusting them after they saved her life
 - 
 
 # Timeline

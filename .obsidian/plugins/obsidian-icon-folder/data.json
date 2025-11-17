@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiUsers",
       "LiSkull",
       "RiGroupLine",
       "SiGithub",
-      "TiNotes",
-      "FarFilePdf"
+      "TiNotes"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -100,7 +100,10 @@
     "iconColor": "#5900ff"
   },
   "Factions/Families/Nighthollow/Alye.md": "LiUser",
-  "Factions/Families/Nighthollow/Filvrae Nighthollow.md": "LiCrown",
+  "Factions/Families/Nighthollow/Filvrae Nighthollow.md": {
+    "iconName": "LiCrown",
+    "iconColor": "#79147b"
+  },
   "z_Resources/Dialogue/Timeline.excalidraw.md": "SiExcalidraw",
   "z_Resources/BG3 Drow name table.md": "LiTable",
   "z_Resources/Séimhiú.md": "LiTable",
@@ -115,5 +118,13 @@
     "iconName": "RiGroupLine",
     "iconColor": "#28bd32"
   },
-  "Events/Characters/Colt/Colt Death.md": "LiSkull"
+  "Events/Characters/Colt/Colt Death.md": "LiSkull",
+  "Factions/Families/Nighthollow/Nighthollow Family.md": {
+    "iconName": "LiUsers",
+    "iconColor": "#79147b"
+  },
+  "Factions/Families/Nighthollow/Nighthollow Family.base": {
+    "iconName": "LiUsers",
+    "iconColor": "#79147b"
+  }
 }

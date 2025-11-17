@@ -86,7 +86,7 @@ Unknowingly had a crush on him when she knew him. When Maelis was 9, he was kill
 Had a chance meeting with Maelis in an alleyway due to the both of them being on the run from separate organisations. One of her closest friends. Helped Maelis pick her name and has been supporting her since she came out.
 
 # Biological Family
-Doesn't know if her biological family is alive. [[Maelis Biological Father]], [[Maelis Biological Mother]]
+Doesn't know if her biological family is alive. [[Maelis Biological Father]], [[Maelis Biological Mother]], [[Maelis twin sibling]]
 # Timeline
 ```aat-vertical
 Maelis timeline, Maelis event
