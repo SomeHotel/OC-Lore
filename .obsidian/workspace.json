@@ -232,6 +232,39 @@
               "icon": "quote-glyph",
               "title": "Dictionary"
             }
+          },
+          {
+            "id": "101ad38cb2335b64",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Events/Characters/Maelis/Tar'al meets Corelia.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Tar'al meets Corelia"
+            }
+          },
+          {
+            "id": "7794288a44900da1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Events/Characters/Maelis/Tar'al meets Corelia.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Tar'al meets Corelia"
+            }
           }
         ],
         "currentTab": 4
