@@ -232,6 +232,39 @@
               "icon": "quote-glyph",
               "title": "Dictionary"
             }
+          },
+          {
+            "id": "3582974dd38bd445",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "1- Party/Maelis Nighthollow.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Maelis Nighthollow"
+            }
+          },
+          {
+            "id": "ebc19ac3d61ff3c4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "1- Party/Maelis Nighthollow.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Maelis Nighthollow"
+            }
           }
         ],
         "currentTab": 5
