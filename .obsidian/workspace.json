@@ -232,42 +232,9 @@
               "icon": "quote-glyph",
               "title": "Dictionary"
             }
-          },
-          {
-            "id": "101ad38cb2335b64",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "1- Party/Corelia.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for Corelia"
-            }
-          },
-          {
-            "id": "7794288a44900da1",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "1- Party/Corelia.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Corelia"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -293,8 +260,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "a2cc86482cd061d0",
+  "active": "77d516975204939f",
   "lastOpenFiles": [
+    "z_Resources/Dialogue/lu105881wyx3.tmp",
+    "z_Resources/Dialogue/lu105881wyx0.tmp",
     "z_Resources/Dialogue/lu105881wywv.tmp",
     "1- Party/The Party.md",
     "1- Party/Marceline.md",
@@ -324,8 +293,6 @@
     "z_Resources/Dialogue/lu798429ef4.tmp",
     "Factions/Deities/Tuath Dé Danann/Tuath Dé Danann.md",
     "Factions/Deities/Tuath Dé Danann/Tuath Dé Danann.base",
-    "Factions/Deities/Tuath Dé Danann",
-    "Factions/Deities",
     "z_Images/mór-ríoghan.webp",
     "Ideas.excalidraw.md",
     "conflict-files-obsidian-git.md",
