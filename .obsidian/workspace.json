@@ -59,24 +59,12 @@
             "id": "a2cc86482cd061d0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "1- Party/Maelis Nighthollow.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": true,
-                  "unlinkedCollapsed": true
-                }
+                "file": "z_Images/Possible_character_names.webp"
               },
-              "icon": "lucide-file",
-              "title": "Maelis Nighthollow"
+              "icon": "lucide-image",
+              "title": "Possible_character_names"
             }
           }
         ],
@@ -153,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1- Party/Maelis Nighthollow.md",
+                "file": "z_Images/Possible_character_names.webp",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Maelis Nighthollow"
+              "title": "Outline of Possible_character_names"
             }
           },
           {
@@ -266,7 +254,8 @@
               "title": "Outgoing links from Maelis Nighthollow"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -292,15 +281,15 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "2325deaf5469eaca",
+  "active": "77d516975204939f",
   "lastOpenFiles": [
-    "z_Images/Possible_character_names.jpg",
+    "1- Party/Maelis Nighthollow.md",
+    "z_Images/Possible_character_names.webp",
     "z_Images/20251123162643_1.jpg",
     "z_Resources/Dialogue/lu7464l80u.tmp",
     "z_Resources/Séimhiú.md",
     "1- Party/Marceline.md",
     "1- Party/The Party.md",
-    "1- Party/Maelis Nighthollow.md",
     "1- Party/Aiden.md",
     "z_Resources/Dialogue/lu8488gkwg.tmp",
     "z_Resources/Dialogue/lu8488gkwd.tmp",
