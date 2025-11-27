@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1- Party/Corelia.md",
+                "file": "Events/Characters/Maelis/Tar'al meets Corelia.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Corelia"
+              "title": "Tar'al meets Corelia"
             }
           },
           {
@@ -54,21 +54,8 @@
               "icon": "lucide-file",
               "title": "ideas"
             }
-          },
-          {
-            "id": "a2cc86482cd061d0",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "z_Images/Possible_character_names.webp"
-              },
-              "icon": "lucide-image",
-              "title": "Possible_character_names"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,6 +106,16 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "06b0f5631a95b76f",
+            "type": "leaf",
+            "state": {
+              "type": "vertical-tabs",
+              "state": {},
+              "icon": "vertical-tabs",
+              "title": "Vertical tabs"
             }
           }
         ]
@@ -281,10 +278,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "77d516975204939f",
+  "active": "2325deaf5469eaca",
   "lastOpenFiles": [
-    "1- Party/Maelis Nighthollow.md",
+    "1- Party/Corelia.md",
+    "ideas.md",
     "z_Images/Possible_character_names.webp",
+    "1- Party/Maelis Nighthollow.md",
     "z_Images/20251123162643_1.jpg",
     "z_Resources/Dialogue/lu7464l80u.tmp",
     "z_Resources/Séimhiú.md",
@@ -294,7 +293,6 @@
     "z_Resources/Dialogue/lu8488gkwg.tmp",
     "z_Resources/Dialogue/lu8488gkwd.tmp",
     "Factions/Deities/Tuath Dé Danann/Mór-ríoghan.md",
-    "1- Party/Corelia.md",
     "z_Resources/Dialogue/lu105881wyx3.tmp",
     "z_Resources/Dialogue/lu105881wyx0.tmp",
     "z_Resources/Dialogue/lu105881wywv.tmp",
@@ -312,7 +310,6 @@
     "Events/Characters/Maelis/Escape from home.md",
     "z_Templates/Character Template.md",
     "Events/Characters/Maelis/Loss of hearing.md",
-    "ideas.md",
     "Locations/Dark elf place.md",
     "Factions/Deities/Tuath Dé Danann/Tuath Dé Danann.md",
     "z_Images/mór-ríoghan.webp",
