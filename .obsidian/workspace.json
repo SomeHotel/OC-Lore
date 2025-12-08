@@ -66,9 +66,21 @@
               "icon": "lucide-image",
               "title": "Possible_character_names"
             }
+          },
+          {
+            "id": "83e1fb72514d741a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.6"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -281,10 +293,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "77d516975204939f",
+  "active": "83e1fb72514d741a",
   "lastOpenFiles": [
-    "1- Party/Maelis Nighthollow.md",
     "z_Images/Possible_character_names.webp",
+    "1- Party/Maelis Nighthollow.md",
     "z_Images/20251123162643_1.jpg",
     "z_Resources/Dialogue/lu7464l80u.tmp",
     "z_Resources/Séimhiú.md",
