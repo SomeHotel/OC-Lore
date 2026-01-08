@@ -131,7 +131,8 @@
               "title": "Vertical tabs"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -291,7 +292,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "a2cc86482cd061d0",
+  "active": "77d516975204939f",
   "lastOpenFiles": [
     "Ideas.excalidraw.md",
     "z_Images/Possible_character_names.webp",
