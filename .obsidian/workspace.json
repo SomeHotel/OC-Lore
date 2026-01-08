@@ -54,8 +54,21 @@
               "icon": "lucide-file",
               "title": "ideas"
             }
+          },
+          {
+            "id": "8b242c1bde1923b5",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.6"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -118,7 +131,8 @@
               "title": "Vertical tabs"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -278,8 +292,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "2325deaf5469eaca",
+  "active": "06b0f5631a95b76f",
   "lastOpenFiles": [
+    "Events/Characters/Maelis/Tar'al meets Corelia.md",
     "1- Party/Corelia.md",
     "ideas.md",
     "z_Images/Possible_character_names.webp",
@@ -301,7 +316,6 @@
     "z_Resources/Dialogue/Timeline.excalidraw.md",
     "z_Resources/Dialogue/lu428xuul.tmp",
     "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
-    "Events/Characters/Maelis/Tar'al meets Corelia.md",
     "z_Resources/Dialogue/lu185602p8om.tmp",
     "Factions/Families/Nighthollow/Nighthollow Family.base",
     "z_Resources/Dialogue/Tar'al meets Corelia.md",
