@@ -59,40 +59,16 @@
             "id": "a2cc86482cd061d0",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "excalidraw",
               "state": {
-                "file": "z_Images/Possible_character_names.webp"
+                "file": "Ideas.excalidraw.md"
               },
-              "icon": "lucide-image",
-              "title": "Possible_character_names"
-            }
-          },
-          {
-            "id": "83e1fb72514d741a",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.10.6"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.6"
-            }
-          },
-          {
-            "id": "243bbb0b0f9b79df",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "z_Images/Possible_character_names.webp"
-              },
-              "icon": "lucide-image",
-              "title": "Possible_character_names"
+              "icon": "excalidraw-icon",
+              "title": "Ideas.excalidraw"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -155,8 +131,7 @@
               "title": "Vertical tabs"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -316,10 +291,13 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "243bbb0b0f9b79df",
+  "active": "a2cc86482cd061d0",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Ideas.excalidraw.md",
     "z_Images/Possible_character_names.webp",
+    "ideas.md",
+    "Songs",
+    "conflict-files-obsidian-git.md",
     "1- Party/Maelis Nighthollow.md",
     "z_Images/20251123162643_1.jpg",
     "z_Resources/Dialogue/lu7464l80u.tmp",
@@ -343,16 +321,13 @@
     "z_Resources/Dialogue/lu185602p8om.tmp",
     "Factions/Families/Nighthollow/Nighthollow Family.base",
     "z_Resources/Dialogue/Tar'al meets Corelia.md",
-    "z_Resources/Dialogue/lu185602p8oe.tmp",
     "Events/Characters/Maelis/Maelis Birth.md",
     "Events/Characters/Maelis/Escape from home.md",
     "z_Templates/Character Template.md",
     "Events/Characters/Maelis/Loss of hearing.md",
-    "ideas.md",
     "Locations/Dark elf place.md",
     "Factions/Deities/Tuath Dé Danann/Tuath Dé Danann.md",
     "z_Images/mór-ríoghan.webp",
-    "Ideas.excalidraw.md",
     "Dead/Colt.md",
     "z_Templates/Location Template.md",
     "Locations/Menzoberranzan.md",
