@@ -78,9 +78,21 @@
               "icon": "lucide-book-up",
               "title": "Release Notes 1.10.6"
             }
+          },
+          {
+            "id": "243bbb0b0f9b79df",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "z_Images/Possible_character_names.webp"
+              },
+              "icon": "lucide-image",
+              "title": "Possible_character_names"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -132,8 +144,19 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "cffa509228c1ec77",
+            "type": "leaf",
+            "state": {
+              "type": "vertical-tabs",
+              "state": {},
+              "icon": "vertical-tabs",
+              "title": "Vertical tabs"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -293,8 +316,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "83e1fb72514d741a",
+  "active": "243bbb0b0f9b79df",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "z_Images/Possible_character_names.webp",
     "1- Party/Maelis Nighthollow.md",
     "z_Images/20251123162643_1.jpg",
@@ -329,7 +353,6 @@
     "Factions/Deities/Tuath Dé Danann/Tuath Dé Danann.md",
     "z_Images/mór-ríoghan.webp",
     "Ideas.excalidraw.md",
-    "conflict-files-obsidian-git.md",
     "Dead/Colt.md",
     "z_Templates/Location Template.md",
     "Locations/Menzoberranzan.md",
