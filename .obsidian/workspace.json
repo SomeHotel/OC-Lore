@@ -107,7 +107,8 @@
               "title": "Vertical tabs"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -267,8 +268,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "f797d746a0cafd11",
+  "active": "06b0f5631a95b76f",
   "lastOpenFiles": [
+    "Ideas.excalidraw.md",
     "ideas.md",
     "Events/Characters/Maelis/Tar'al meets Corelia.md",
     "1- Party/Corelia.md",
@@ -302,7 +304,6 @@
     "Locations/Dark elf place.md",
     "Factions/Deities/Tuath Dé Danann/Tuath Dé Danann.md",
     "z_Images/mór-ríoghan.webp",
-    "Ideas.excalidraw.md",
     "conflict-files-obsidian-git.md",
     "Dead/Colt.md",
     "z_Templates/Location Template.md",
