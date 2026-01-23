@@ -68,6 +68,18 @@
             }
           },
           {
+            "id": "1f77eaccbc1e7a87",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.5"
+            }
+          },
+          {
             "id": "8e85afd77f4055f0",
             "type": "leaf",
             "state": {
@@ -92,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "ec713f9b83aa0a54",
@@ -307,7 +319,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -333,7 +345,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "42cb460011586bc8",
+  "active": "77d516975204939f",
   "lastOpenFiles": [
     "Dead/Jennifer Mossgrove.md",
     "1- Hero's Party/Maelis Nighthollow.md",
