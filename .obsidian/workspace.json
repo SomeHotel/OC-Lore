@@ -32,12 +32,12 @@
             }
           },
           {
-            "id": "f797d746a0cafd11",
+            "id": "a2cc86482cd061d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ideas.md",
+                "file": "Iseabail.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,47 +52,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ideas"
-            }
-          },
-          {
-            "id": "a2cc86482cd061d0",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Ideas.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Ideas.excalidraw"
-            }
-          },
-          {
-            "id": "7921a125e4364562",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "z_Images/Possible_character_names.webp"
-              },
-              "icon": "lucide-image",
-              "title": "Possible_character_names"
-            }
-          },
-          {
-            "id": "b8765a150ece40da",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.11.5"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.5"
+              "title": "Iseabail"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -124,7 +88,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "place",
+                "query": "aiden",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -143,16 +107,6 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
-            }
-          },
-          {
-            "id": "cffa509228c1ec77",
-            "type": "leaf",
-            "state": {
-              "type": "vertical-tabs",
-              "state": {},
-              "icon": "vertical-tabs",
-              "title": "Vertical tabs"
             }
           }
         ]
@@ -317,11 +271,17 @@
   },
   "active": "a2cc86482cd061d0",
   "lastOpenFiles": [
-    "ideas.md",
-    "conflict-files-obsidian-git.md",
     "1- Party/Corelia.md",
-    "z_Images/Possible_character_names.webp",
+    "Iseabail.md",
+    "Kaili.md",
+    "Morgan.md",
+    "Robyn.md",
+    "Cildrh.md",
+    "1- Party/Aiden.md",
+    "ideas.md",
     "Ideas.excalidraw.md",
+    "z_Images/Possible_character_names.webp",
+    "conflict-files-obsidian-git.md",
     "Songs",
     "1- Party/Maelis Nighthollow.md",
     "z_Images/20251123162643_1.jpg",
@@ -329,7 +289,6 @@
     "z_Resources/Séimhiú.md",
     "1- Party/Marceline.md",
     "1- Party/The Party.md",
-    "1- Party/Aiden.md",
     "z_Resources/Dialogue/lu8488gkwg.tmp",
     "z_Resources/Dialogue/lu8488gkwd.tmp",
     "Factions/Deities/Tuath Dé Danann/Mór-ríoghan.md",
@@ -353,10 +312,6 @@
     "Factions/Deities/Tuath Dé Danann/Tuath Dé Danann.md",
     "z_Images/mór-ríoghan.webp",
     "Dead/Colt.md",
-    "z_Templates/Location Template.md",
-    "Locations/Menzoberranzan.md",
-    "Factions/Families/Nighthollow/Nighthollow Family.md",
-    "z_Templates/Place Template.md",
     "z_Images/Maelis_reference_cropped.webp",
     "z_Images/Corelia maybe_reference_cropped.webp"
   ]
