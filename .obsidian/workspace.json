@@ -56,6 +56,30 @@
             }
           },
           {
+            "id": "d6353b8b689c867e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
+          },
+          {
             "id": "a2cc86482cd061d0",
             "type": "leaf",
             "state": {
@@ -65,6 +89,30 @@
               },
               "icon": "excalidraw-icon",
               "title": "Ideas.excalidraw"
+            }
+          },
+          {
+            "id": "7921a125e4364562",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "z_Images/Possible_character_names.webp"
+              },
+              "icon": "lucide-image",
+              "title": "Possible_character_names"
+            }
+          },
+          {
+            "id": "b8765a150ece40da",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.5"
             }
           }
         ],
@@ -291,14 +339,14 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "a2cc86482cd061d0",
+  "active": "2325deaf5469eaca",
   "lastOpenFiles": [
-    "1- Party/Corelia.md",
-    "Ideas.excalidraw.md",
-    "z_Images/Possible_character_names.webp",
     "ideas.md",
-    "Songs",
     "conflict-files-obsidian-git.md",
+    "1- Party/Corelia.md",
+    "z_Images/Possible_character_names.webp",
+    "Ideas.excalidraw.md",
+    "Songs",
     "1- Party/Maelis Nighthollow.md",
     "z_Images/20251123162643_1.jpg",
     "z_Resources/Dialogue/lu7464l80u.tmp",
