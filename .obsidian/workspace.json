@@ -8,36 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3432252ecf58ea8a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1- Party/Corelia.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Corelia"
-            }
-          },
-          {
             "id": "a2cc86482cd061d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Iseabail.md",
+                "file": "Dead/Iseabail.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,9 +30,87 @@
               "icon": "lucide-file",
               "title": "Iseabail"
             }
+          },
+          {
+            "id": "78000712347c8933",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dead/Jennifer Mossgrove.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Jennifer Mossgrove"
+            }
+          },
+          {
+            "id": "8e85afd77f4055f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1- Hero's Party/Hero's Party.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Hero's Party"
+            }
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "ec713f9b83aa0a54",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "797d88891429f6ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1- Hero's Party/Maelis Nighthollow.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Maelis Nighthollow"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -88,7 +142,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "aiden",
+                "query": "tag:Race/Miqote",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -129,13 +183,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z_Images/Possible_character_names.webp",
+                "file": "Dead/Jennifer Mossgrove.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Possible_character_names"
+              "title": "Outline of Jennifer Mossgrove"
             }
           },
           {
@@ -193,10 +247,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "1- Party/Maelis Nighthollow.md"
+                "file": "Dead/Jennifer Mossgrove.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Maelis Nighthollow"
+              "title": "File properties for Jennifer Mossgrove"
             }
           },
           {
@@ -243,7 +297,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -269,49 +323,49 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "a2cc86482cd061d0",
+  "active": "78000712347c8933",
   "lastOpenFiles": [
-    "1- Party/Corelia.md",
-    "Iseabail.md",
-    "Kaili.md",
-    "Morgan.md",
-    "Robyn.md",
-    "Cildrh.md",
-    "1- Party/Aiden.md",
+    "1- Hero's Party/Maelis Nighthollow.md",
+    "Dead/Jennifer Mossgrove.md",
+    "2- Best friends/Kaili Mossgrove.md",
+    "1- Hero's Party/Aiden Mossgrove.md",
+    "2- Best friends/Alderick Mossgrove.md",
+    "2- Best friends/Robyn.md",
+    "2- Best friends/Best friends.md",
+    "2- Best friends/Cildrh.md",
+    "1- Hero's Party/Hero's Party.md",
+    "Dead/Iseabail.md",
+    "Events/Characters/Jenny/Jennifer Death.md",
+    "2- Best friends/Best friends.base",
+    "1- Hero's Party/Hero's Party.base",
+    "Events/Characters/Maelis/Escape from home.md",
+    "Events/Characters/Jenny",
+    "Dead/Colt.md",
+    "Events/Characters/Iseabail",
+    "2- Best friends/Morgan.md",
+    "1- Hero's Party/Corelia.md",
+    "2- Best friends",
+    "README.md",
+    "Untitled",
     "ideas.md",
     "Ideas.excalidraw.md",
     "z_Images/Possible_character_names.webp",
     "conflict-files-obsidian-git.md",
     "Songs",
-    "1- Party/Maelis Nighthollow.md",
     "z_Images/20251123162643_1.jpg",
     "z_Resources/Dialogue/lu7464l80u.tmp",
     "z_Resources/Séimhiú.md",
-    "1- Party/Marceline.md",
-    "1- Party/The Party.md",
+    "1- Hero's Party/Marceline.md",
     "z_Resources/Dialogue/lu8488gkwg.tmp",
     "z_Resources/Dialogue/lu8488gkwd.tmp",
     "Factions/Deities/Tuath Dé Danann/Mór-ríoghan.md",
-    "z_Resources/Dialogue/lu105881wyx3.tmp",
-    "z_Resources/Dialogue/lu105881wyx0.tmp",
-    "z_Resources/Dialogue/lu105881wywv.tmp",
     "z_Images/Mór-ríoghan.webp",
     "z_Images/Mór-ríoghan_spotted.webp",
     "z_Resources/Dialogue/Timeline.excalidraw.md",
-    "z_Resources/Dialogue/lu428xuul.tmp",
     "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
     "Events/Characters/Maelis/Tar'al meets Corelia.md",
-    "z_Resources/Dialogue/lu185602p8om.tmp",
-    "Factions/Families/Nighthollow/Nighthollow Family.base",
     "z_Resources/Dialogue/Tar'al meets Corelia.md",
-    "Events/Characters/Maelis/Maelis Birth.md",
-    "Events/Characters/Maelis/Escape from home.md",
-    "z_Templates/Character Template.md",
-    "Events/Characters/Maelis/Loss of hearing.md",
-    "Locations/Dark elf place.md",
-    "Factions/Deities/Tuath Dé Danann/Tuath Dé Danann.md",
     "z_Images/mór-ríoghan.webp",
-    "Dead/Colt.md",
     "z_Images/Maelis_reference_cropped.webp",
     "z_Images/Corelia maybe_reference_cropped.webp"
   ]

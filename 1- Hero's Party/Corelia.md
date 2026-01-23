@@ -10,7 +10,7 @@ Profession:
   - Hunter
 Age: 16
 Affiliation:
-  - "[[The Party]]"
+  - "[[Hero's Party]]"
 Status: Alive
 Gender: Cis Woman
 Language:

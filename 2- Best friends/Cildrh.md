@@ -3,14 +3,21 @@ type:
   - Character
 aliases:
 tags:
+  - Race/Miqote
+  - Panycc
 Profession:
+  - Adventurer (former)
+  - Waiter
 Birthday:
-Age:
-Origin:
+Age: 23
+Origin: "[[Cildrh village]]"
 Affiliation:
-Status:
-Gender:
+  - "[[Iseabail]]"
+  - "[[Best friends]]"
+Status: Alive
+Gender: Cis Man
 Language:
+  - Common
 image:
 ---
 >[!info] `= this.file.name`

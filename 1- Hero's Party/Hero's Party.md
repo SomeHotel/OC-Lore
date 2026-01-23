@@ -6,5 +6,5 @@ tags:
 Status: Active
 ---
 # Members
-![[The Party.base]]
+![[Hero's Party.base]]
   

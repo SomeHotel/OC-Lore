@@ -4,6 +4,7 @@ type:
 aliases:
 tags:
   - Race/Human
+  - Gwen
 Age: 9
 Status: Dead
 Gender: Cis Boy

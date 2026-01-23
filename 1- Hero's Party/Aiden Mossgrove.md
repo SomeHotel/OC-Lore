@@ -7,10 +7,10 @@ Profession:
   - Fighter
   - Cleric
 Birthday:
-Age: 17
+Age: 29
 Origin: "[[Aiden Village]]"
 Affiliation:
-  - "[[The Party]]"
+  - "[[Hero's Party]]"
 Status: Alive
 Gender: Cis Man
 Language:

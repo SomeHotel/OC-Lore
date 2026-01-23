@@ -1,0 +1,38 @@
+---
+type:
+  - Character
+aliases:
+  - Ish
+tags:
+  - Race/Miqote
+  - Panycc
+Profession:
+  - Adventurer (former)
+  - Tutor (former)
+Birthday:
+Age: 25
+Origin: "[[Cildrh village]]"
+Affiliation:
+  - "[[Cildrh]]"
+  - "[[Best friends]]"
+Status: Dead
+Gender: Cis Woman
+Language:
+  - Common
+image:
+---
+>[!info] `= this.file.name`
+>![[]]
+>**Born** `= this.birthday` (age `= this.Age`)
+>**Origin** `= this.origin`
+>
+> **Aliases**  
+> `= this.aliases`
+>
+> **Affiliations**
+> `= this.affiliation`
+> 
+> **Languages**
+> `= this.language`
+> 
+> **Status**: `= this.status`

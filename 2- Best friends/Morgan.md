@@ -4,13 +4,16 @@ type:
 aliases:
 tags:
 Profession:
+  - Self Defence Teacher
+  - Monk (former)
 Birthday:
 Age:
 Origin:
 Affiliation:
-Status:
-Gender:
+Status: Alive
+Gender: Cis Woman
 Language:
+  - Common
 image:
 ---
 >[!info] `= this.file.name`

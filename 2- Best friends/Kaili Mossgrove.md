@@ -3,14 +3,17 @@ type:
   - Character
 aliases:
 tags:
+  - Race/Human
+  - Gwen
 Profession:
 Birthday:
-Age:
-Origin:
+Age: 30
+Origin: "[[Aiden Village]]"
 Affiliation:
-Status:
-Gender:
+Status: Alive
+Gender: Cis Woman
 Language:
+  - Common
 image:
 ---
 >[!info] `= this.file.name`

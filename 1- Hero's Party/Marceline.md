@@ -2,15 +2,20 @@
 type:
   - Character
 aliases:
+  - Marcy
 tags:
+  - Race/Human
 Profession:
+  - Hunter
 Birthday:
-Age:
-Origin:
+Age: 16
+Origin: "[[Marceline Village]]"
 Affiliation:
-Status:
-Gender:
+  - "[[Hero's Party]]"
+Status: Alive
+Gender: Non Binary
 Language:
+  - Common
 image:
 ---
 >[!info] `= this.file.name`

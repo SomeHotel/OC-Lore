@@ -2,18 +2,17 @@
 type:
   - Character
 aliases:
-  - Marcy
 tags:
-  - Race/Human
+  - Gwen
 Profession:
-  - Hunter
+  - Bounty Hunter
 Birthday:
-Age: 16
-Origin: "[[Marceline Village]]"
+Age: 31
+Origin: "[[Cildrh village]]"
 Affiliation:
-  - "[[The Party]]"
+  - "[[Iseabail]]"
 Status: Alive
-Gender: Non Binary
+Gender: Trans Man
 Language:
   - Common
 image:

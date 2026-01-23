@@ -1,0 +1,18 @@
+properties:
+  file.name:
+    displayName: Name
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - Affiliation == ["[[Best friends]]"]
+    order:
+      - file.name
+      - aliases
+      - Profession
+      - Affiliation
+      - Status
+    sort:
+      - property: file.name
+        direction: DESC

@@ -22,7 +22,7 @@
         "useFilePath": true
       },
       {
-        "rule": "1- Party/",
+        "rule": "1-",
         "icon": "LiStar",
         "for": "files",
         "order": 1,
@@ -30,44 +30,52 @@
         "color": "#fff700"
       },
       {
+        "rule": "2- ",
+        "icon": "LiStar",
+        "for": "files",
+        "order": 2,
+        "useFilePath": true,
+        "color": "#fff700"
+      },
+      {
         "rule": "z_Templates/",
         "icon": "TiTemplate",
         "for": "everything",
-        "order": 2,
+        "order": 3,
         "useFilePath": true
       },
       {
         "rule": "Dead/",
         "icon": "TiGrave2",
         "for": "everything",
-        "order": 3,
+        "order": 4,
         "useFilePath": true
       },
       {
         "rule": "z_Images/",
         "icon": "LiImage",
         "for": "everything",
-        "order": 4,
+        "order": 5,
         "useFilePath": true
       },
       {
         "rule": "Locations/",
         "icon": "LiMountain",
         "for": "everything",
-        "order": 5,
+        "order": 6,
         "useFilePath": true
       },
       {
         "rule": "Family/",
         "icon": "RiGroupLine",
         "for": "everything",
-        "order": 6
+        "order": 7
       },
       {
         "rule": "Dialogue/",
         "icon": "IbMessageBubble",
         "for": "everything",
-        "order": 7,
+        "order": 8,
         "useFilePath": true
       }
     ],

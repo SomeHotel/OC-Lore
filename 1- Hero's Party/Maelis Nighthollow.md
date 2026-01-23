@@ -15,7 +15,7 @@ Birthday:
 Age: 15
 Origin: "[[Dark elf place]]"
 Affiliation:
-  - "[[The Party]]"
+  - "[[Hero's Party]]"
   - "[[Nighthollow Family|Nighthollow Family (former)]]"
 Status: Alive
 Gender: Trans Woman
@@ -76,7 +76,7 @@ image: "[[Maelis_reference_cropped.webp]]"
 # Relationships
 ## Nighthollow Family
 ### Filvrae Nighthollow
-Was a very absent father, even when he was around he was abusive and dismissive. Only saw Maelis to train them and to give discipline during exams.
+Was an absent father, even when he was around he was abusive and dismissive. Only saw Maelis to train them and to give discipline during exams.
 ### Alye
 Basically raised them since birth due to her parents absence. Secretly taught Maelis how to use her wood elf heritage when her parents wouldn't let her. Helped Maelis escape from her family, her fate is currently unknown.
 ## Friends
