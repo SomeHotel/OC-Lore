@@ -56,6 +56,18 @@
             }
           },
           {
+            "id": "42cb460011586bc8",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.4"
+            }
+          },
+          {
             "id": "8e85afd77f4055f0",
             "type": "leaf",
             "state": {
@@ -80,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "ec713f9b83aa0a54",
@@ -246,11 +258,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "Dead/Jennifer Mossgrove.md"
-              },
+              "state": {},
               "icon": "lucide-info",
-              "title": "File properties for Jennifer Mossgrove"
+              "title": "File properties"
             }
           },
           {
@@ -323,10 +333,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "78000712347c8933",
+  "active": "42cb460011586bc8",
   "lastOpenFiles": [
-    "1- Hero's Party/Maelis Nighthollow.md",
     "Dead/Jennifer Mossgrove.md",
+    "1- Hero's Party/Maelis Nighthollow.md",
     "2- Best friends/Kaili Mossgrove.md",
     "1- Hero's Party/Aiden Mossgrove.md",
     "2- Best friends/Alderick Mossgrove.md",
