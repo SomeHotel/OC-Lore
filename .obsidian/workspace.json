@@ -283,6 +283,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-kanban:Create new board": false,
       "omnisearch:Omnisearch": false,
       "graph:Open graph view": false,
       "bases:Create new base": false,
