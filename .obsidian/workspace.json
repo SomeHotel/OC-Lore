@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2- Best friends/Alderick Mossgrove.md",
+                "file": "2- Best friends/Robyn Cianain.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Alderick Mossgrove"
+              "title": "Robyn Cianain"
             }
           }
         ],
@@ -217,10 +217,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2- Best friends/Alderick Mossgrove.md"
+                "file": "2- Best friends/Robyn Cianain.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Alderick Mossgrove"
+              "title": "File properties for Robyn Cianain"
             }
           },
           {
@@ -267,7 +267,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -294,11 +294,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "7fb026f154a7d6b3",
+  "active": "5f3c22eb4f8558bc",
   "lastOpenFiles": [
     "Dead/Jennifer Mossgrove.md",
-    "Dead/Iseabail Cianain.md",
     "2- Best friends/Alderick Mossgrove.md",
+    "Dead/Iseabail Cianain.md",
     "2- Best friends/Best friends.md",
     "1- Hero's Party/Maelis Nighthollow.md",
     "2- Best friends/Morgan.md",
