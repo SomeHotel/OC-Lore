@@ -56,24 +56,12 @@
             }
           },
           {
-            "id": "42cb460011586bc8",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.11.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.4"
-            }
-          },
-          {
             "id": "8e85afd77f4055f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1- Hero's Party/Hero's Party.md",
+                "file": "2- Best friends/Cildrh.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -88,41 +76,21 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Hero's Party"
+              "title": "Cildrh"
+            }
+          },
+          {
+            "id": "9818213231ecc396",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
         "currentTab": 3
-      },
-      {
-        "id": "ec713f9b83aa0a54",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "797d88891429f6ed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1- Hero's Party/Maelis Nighthollow.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Maelis Nighthollow"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -307,7 +275,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -333,26 +301,26 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "77d516975204939f",
+  "active": "9818213231ecc396",
   "lastOpenFiles": [
-    "Dead/Jennifer Mossgrove.md",
-    "1- Hero's Party/Maelis Nighthollow.md",
-    "2- Best friends/Kaili Mossgrove.md",
-    "1- Hero's Party/Aiden Mossgrove.md",
-    "2- Best friends/Alderick Mossgrove.md",
-    "2- Best friends/Robyn.md",
-    "2- Best friends/Best friends.md",
     "2- Best friends/Cildrh.md",
-    "1- Hero's Party/Hero's Party.md",
-    "Dead/Iseabail.md",
-    "Events/Characters/Jenny/Jennifer Death.md",
+    "2- Best friends/Best friends.md",
+    "2- Best friends/Robyn.md",
+    "2- Best friends/Morgan.md",
+    "2- Best friends/Kaili Mossgrove.md",
     "2- Best friends/Best friends.base",
     "1- Hero's Party/Hero's Party.base",
+    "2- Best friends/Alderick Mossgrove.md",
+    "1- Hero's Party/Hero's Party.md",
+    "Dead/Jennifer Mossgrove.md",
+    "1- Hero's Party/Maelis Nighthollow.md",
+    "1- Hero's Party/Aiden Mossgrove.md",
+    "Dead/Iseabail.md",
+    "Events/Characters/Jenny/Jennifer Death.md",
     "Events/Characters/Maelis/Escape from home.md",
     "Events/Characters/Jenny",
     "Dead/Colt.md",
     "Events/Characters/Iseabail",
-    "2- Best friends/Morgan.md",
     "1- Hero's Party/Corelia.md",
     "2- Best friends",
     "README.md",
@@ -374,7 +342,6 @@
     "z_Resources/Dialogue/Timeline.excalidraw.md",
     "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
     "Events/Characters/Maelis/Tar'al meets Corelia.md",
-    "z_Resources/Dialogue/Tar'al meets Corelia.md",
     "z_Images/mór-ríoghan.webp",
     "z_Images/Maelis_reference_cropped.webp",
     "z_Images/Corelia maybe_reference_cropped.webp"

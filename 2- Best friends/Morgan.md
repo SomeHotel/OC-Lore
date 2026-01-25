@@ -10,6 +10,7 @@ Birthday:
 Age:
 Origin:
 Affiliation:
+  - "[[Best friends]]"
 Status: Alive
 Gender: Cis Woman
 Language:

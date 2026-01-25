@@ -10,6 +10,7 @@ Birthday:
 Age: 30
 Origin: "[[Aiden Village]]"
 Affiliation:
+  - "[[Best friends]]"
 Status: Alive
 Gender: Cis Woman
 Language:

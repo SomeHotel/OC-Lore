@@ -11,6 +11,7 @@ Age: 31
 Origin: "[[Cildrh village]]"
 Affiliation:
   - "[[Iseabail]]"
+  - "[[Best friends]]"
 Status: Alive
 Gender: Trans Man
 Language:

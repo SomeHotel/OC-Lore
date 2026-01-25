@@ -6,7 +6,7 @@ views:
     name: Table
     filters:
       and:
-        - Affiliation == ["[[Best friends]]"]
+        - Affiliation.contains(link("Best friends"))
     order:
       - file.name
       - aliases
@@ -16,3 +16,15 @@ views:
     sort:
       - property: file.name
         direction: DESC
+  - type: cards
+    name: Party Members
+    filters:
+      and:
+        - Affiliation.contains(link("Best friends"))
+    image: note.image
+  - type: list
+    name: Party List
+    filters:
+      and:
+        - Affiliation.contains(link("Best friends"))
+    indentProperties: false
