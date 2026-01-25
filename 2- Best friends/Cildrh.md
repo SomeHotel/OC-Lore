@@ -4,7 +4,7 @@ type:
 aliases:
 tags:
   - Race/Miqote
-  - Panycc
+  - Creator/Panycc
 Profession:
   - Adventurer (former)
   - Waiter

@@ -1,21 +1,16 @@
 ---
 type:
-  - Character
+  - Location
 aliases:
 tags:
-Profession:
-Birthday:
 Age:
 Origin:
 Affiliation:
-Status:
-Gender:
-Language:
-image:
+Status: Active
 ---
 >[!info] `= this.file.name`
+> ---
 >![[]]
->**Born** `= this.birthday` (age `= this.Age`)
 >**Origin** `= this.origin`
 >
 > **Aliases**  
@@ -28,20 +23,25 @@ image:
 > `= this.language`
 > 
 > **Status**: `= this.status`
-# Appearance
 
-# Physical Characteristics
+# Current predicament
 
-# Background
+# Geography
 
-# Personality
+# Structure
 
-# Relationships
+# History
+
+# Inhabitants
+![[Mossgrove Village.base]]
+# Culture 
+
+# Areas of Interest
+
+
 
 # Timeline
 ```aat-vertical
-
+Ethel timeline, Ethel event
+dateDisplayFormat: {year}
 ```
-# Quotes
-
-# Trivia

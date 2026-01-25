@@ -5,7 +5,7 @@ aliases:
   - Ish
 tags:
   - Race/Miqote
-  - Panycc
+  - Creator/Panycc
 Profession:
   - Adventurer (former)
   - Tutor (former)

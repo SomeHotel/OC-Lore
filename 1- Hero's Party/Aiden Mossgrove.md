@@ -2,13 +2,14 @@
 type:
   - Character
 aliases:
+  - Aiden
 tags:
 Profession:
   - Fighter
   - Cleric
 Birthday:
 Age: 29
-Origin: "[[Aiden Village]]"
+Origin: "[[Mossgrove Village]]"
 Affiliation:
   - "[[Hero's Party]]"
 Status: Alive

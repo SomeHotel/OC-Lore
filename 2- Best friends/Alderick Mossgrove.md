@@ -2,12 +2,13 @@
 type:
   - Character
 aliases:
+  - Alderick
   - Al
   - Rick
   - Ricky
 tags:
   - Race/Human
-  - Gwen
+  - Creator/Gwen
 Profession:
   - Adventurer (former)
   - Chef (former)
@@ -17,7 +18,7 @@ Profession:
   - Gardener
 Birthday:
 Age: 65
-Origin: "[[Aiden Village]]"
+Origin: "[[Mossgrove Village]]"
 Affiliation:
   - "[[Jennifer Mossgrove]]"
   - "[[Best friends]]"

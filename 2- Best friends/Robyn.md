@@ -3,14 +3,15 @@ type:
   - Character
 aliases:
 tags:
-  - Gwen
+  - Creator/Gwen
 Profession:
   - Bounty Hunter
 Birthday:
 Age: 31
 Origin: "[[Cildrh village]]"
 Affiliation:
-  - "[[Iseabail]]"
+  - "[[Iseabail|Ish]]"
+  - "[[Alderick Mossgrove|Alderick]]"
   - "[[Best friends]]"
 Status: Alive
 Gender: Trans Man

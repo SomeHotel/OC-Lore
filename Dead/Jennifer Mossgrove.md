@@ -5,13 +5,13 @@ aliases:
   - Jenny
   - Jen
 tags:
-  - Gwen
+  - Creator/Gwen
 Profession:
   - Adventurer (former)
   - Nurse (former)
 Birthday:
 Age: 44
-Origin: "[[Aiden Village]]"
+Origin: "[[Mossgrove Village]]"
 Affiliation:
   - "[[Alderick Mossgrove]]"
 Status: Dead
