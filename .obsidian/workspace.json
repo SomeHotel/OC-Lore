@@ -56,12 +56,12 @@
             }
           },
           {
-            "id": "78000712347c8933",
+            "id": "7fb026f154a7d6b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2- Best friends/Kaili Mossgrove.md",
+                "file": "2- Best friends/Alderick Mossgrove.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,17 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Kaili Mossgrove"
-            }
-          },
-          {
-            "id": "b27f83c86faaf163",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Alderick Mossgrove"
             }
           }
         ],
@@ -123,7 +113,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -227,10 +217,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2- Best friends/Kaili Mossgrove.md"
+                "file": "2- Best friends/Alderick Mossgrove.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Kaili Mossgrove"
+              "title": "File properties for Alderick Mossgrove"
             }
           },
           {
@@ -277,7 +267,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -304,24 +294,27 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "77d516975204939f",
+  "active": "7fb026f154a7d6b3",
   "lastOpenFiles": [
-    "2- Best friends/Robyn Cianain.md",
-    "Dead/Iseabail Cianain.md",
-    "2- Best friends/Kaili Mossgrove.md",
-    "2- Best friends/Cildrh Laan.md",
-    "Events/Characters/Kaili",
     "1- Hero's Party/Maelis Nighthollow.md",
+    "2- Best friends/Alderick Mossgrove.md",
+    "2- Best friends/Morgan.md",
+    "2- Best friends/Kaili Mossgrove.md",
     "z_Templates/Character Template.md",
+    "1- Hero's Party/Corelia.md",
+    "ideas.md",
+    "2- Best friends/Cildrh Laan.md",
+    "2- Best friends/Robyn Cianain.md",
+    "1- Hero's Party/Marceline.md",
+    "Dead/Iseabail Cianain.md",
+    "Events/Characters/Kaili",
     "2- Best friends/Best friends.md",
     "2- Best friends/Best friends.base",
     "1- Hero's Party/Aiden Mossgrove.md",
-    "2- Best friends/Alderick Mossgrove.md",
     "Locations/Mossgrove Village.md",
     "Locations/Dark elf place.base",
     "Locations/Mossgrove Village.base",
     "Dead/Jennifer Mossgrove.md",
-    "2- Best friends/Morgan.md",
     "1- Hero's Party/Hero's Party.base",
     "1- Hero's Party/Hero's Party.md",
     "Events/Characters/Jenny/Jennifer Death.md",
@@ -329,18 +322,15 @@
     "Events/Characters/Jenny",
     "Dead/Colt.md",
     "Events/Characters/Iseabail",
-    "1- Hero's Party/Corelia.md",
     "2- Best friends",
     "README.md",
     "Untitled",
-    "ideas.md",
     "Ideas.excalidraw.md",
     "z_Images/Possible_character_names.webp",
     "conflict-files-obsidian-git.md",
     "Songs",
     "z_Images/20251123162643_1.jpg",
     "z_Resources/Séimhiú.md",
-    "1- Hero's Party/Marceline.md",
     "Factions/Deities/Tuath Dé Danann/Mór-ríoghan.md",
     "z_Images/Mór-ríoghan.webp",
     "z_Images/Mór-ríoghan_spotted.webp",

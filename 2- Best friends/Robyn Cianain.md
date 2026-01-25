@@ -2,6 +2,7 @@
 type:
   - Character
 aliases:
+  - Robyn
 tags:
   - Creator/Gwen
 Profession:
@@ -12,6 +13,7 @@ Origin: "[[Cildrh village]]"
 Affiliation:
   - "[[Iseabail Cianain|Ish]]"
   - "[[Alderick Mossgrove|Alderick]]"
+  - "[[Kaili Mossgrove|Kaili]]"
   - "[[Best friends]]"
 Status: Alive
 Gender: Trans Man
@@ -34,3 +36,20 @@ image:
 > `= this.language`
 > 
 > **Status**: `= this.status`
+# Appearance
+
+# Physical Characteristics
+
+# Background
+
+# Personality
+
+# Relationships
+
+# Timeline
+```aat-vertical
+
+```
+# Quotes
+
+# Trivia

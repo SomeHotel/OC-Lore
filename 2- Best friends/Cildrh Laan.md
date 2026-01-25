@@ -36,3 +36,20 @@ image:
 > `= this.language`
 > 
 > **Status**: `= this.status`
+# Appearance
+
+# Physical Characteristics
+
+# Background
+
+# Personality
+
+# Relationships
+
+# Timeline
+```aat-vertical
+
+```
+# Quotes
+
+# Trivia
