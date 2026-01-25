@@ -2,20 +2,21 @@
 type:
   - Character
 aliases:
+  - Ish
 tags:
   - Race/Miqote
   - Creator/Panycc
 Profession:
   - Adventurer (former)
-  - Waiter
+  - Tutor (former)
 Birthday:
-Age: 23
+Age: 25
 Origin: "[[Cildrh village]]"
 Affiliation:
-  - "[[Iseabail]]"
+  - "[[Cildrh Laan]]"
   - "[[Best friends]]"
-Status: Alive
-Gender: Cis Man
+Status: Dead
+Gender: Cis Woman
 Language:
   - Common
 image:

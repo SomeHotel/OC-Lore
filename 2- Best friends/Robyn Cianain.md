@@ -10,7 +10,7 @@ Birthday:
 Age: 31
 Origin: "[[Cildrh village]]"
 Affiliation:
-  - "[[Iseabail|Ish]]"
+  - "[[Iseabail Cianain|Ish]]"
   - "[[Alderick Mossgrove|Alderick]]"
   - "[[Best friends]]"
 Status: Alive
