@@ -76,7 +76,7 @@ Loves her dad dearly. Was always close due to her mother being busy with school 
 Loved Ish like a younger sister, would always look out for her. When she died, she swore 2 oaths at her funeral: one; to pick a weapon up and two; to protect and preserve life. She became and nurse and paladin due to said oaths. Goes to her funeral every birthday and her death, leaves her favourite flowers there too.
 ### [[Robyn Cianain|Robyn]]
 While they're not that far apart in age, she saw him as an older brother figure and thought he was the coolest person she knew. Didn't know he was trans until he asked about where to get top surgery.
-## Friends
+## Laans
 ### Cildrh
 
 # Timeline

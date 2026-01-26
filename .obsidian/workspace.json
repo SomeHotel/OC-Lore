@@ -78,6 +78,16 @@
               "icon": "lucide-file",
               "title": "Robyn Cianain"
             }
+          },
+          {
+            "id": "ba3805109f563717",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
         ],
         "currentTab": 2
@@ -192,16 +202,6 @@
             }
           },
           {
-            "id": "d4f9d174002d39c0",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
             "id": "77d516975204939f",
             "type": "leaf",
             "state": {
@@ -267,7 +267,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -294,20 +294,20 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "5f3c22eb4f8558bc",
+  "active": "77d516975204939f",
   "lastOpenFiles": [
+    "2- Best friends/Robyn Cianain.md",
+    "2- Best friends/Kaili Mossgrove.md",
     "Dead/Jennifer Mossgrove.md",
     "2- Best friends/Alderick Mossgrove.md",
     "Dead/Iseabail Cianain.md",
     "2- Best friends/Best friends.md",
     "1- Hero's Party/Maelis Nighthollow.md",
     "2- Best friends/Morgan.md",
-    "2- Best friends/Kaili Mossgrove.md",
     "z_Templates/Character Template.md",
     "1- Hero's Party/Corelia.md",
     "ideas.md",
     "2- Best friends/Cildrh Laan.md",
-    "2- Best friends/Robyn Cianain.md",
     "1- Hero's Party/Marceline.md",
     "Events/Characters/Kaili",
     "2- Best friends/Best friends.base",
