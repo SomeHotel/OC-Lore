@@ -46,9 +46,13 @@ image:
 > 
 > **Status**: `= this.status`
 # Appearance
-- Large black man with no sign of ageing 
+- 2m tall
+- Large black man with no sign of ageing
+- Very hairy body
+- Long dreadlocks tied into a ponytail, wears a bonnet when
 # Physical Characteristics
-
+- Wears his wedding ring even after [[Jennifer Mossgrove|Jenny]] died
+- 
 # Background
 - Raised in an abusive household, his [[Alderick father|father]] was alcoholic and would beat him and his [[Alderick mother|mother]] would berate him
 - Had an older [[Alderick sister|sister]] but she committed suicide when Alderick was young
@@ -61,7 +65,13 @@ image:
 - When he was between the ages of 18 and 21 he did a lot of drugs, mainly heroin. He passed out in an alleyway and woke up in someone's house. Right as he's about to leave, he not only sees the most beautiful woman in his life, she seems oddly familiar. She then says "So you never met me at that bridge, did you?" He proceeds to breakdown crying at her door as she runs to him and holds him.
 - 
 # Personality
-
+- Very perceptive and can read people well
+- Loves his [[Best friends|Family]]
+- Very very rarely gets angry, but always feels guilty afterwards
+- Always tries to uplift people
+- Wears his heart on his sleeve
+- Will punch a bigot
+- 
 # Relationships
 ## Mossgroves
 ### [[Jennifer Mossgrove|Jenny]]

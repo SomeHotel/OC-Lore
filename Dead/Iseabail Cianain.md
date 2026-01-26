@@ -10,7 +10,7 @@ Profession:
   - Adventurer (former)
   - Tutor (former)
 Birthday:
-Age: 25
+Age: 19
 Origin: "[[Cildrh village]]"
 Affiliation:
   - "[[Cildrh Laan]]"

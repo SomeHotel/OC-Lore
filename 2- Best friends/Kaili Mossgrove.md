@@ -49,10 +49,11 @@ image:
 # Physical Characteristics
 
 # Background
-- Daughter of [[Alderick Mossgrove|Alderick]] and [[Jennifer Mossgrove|Jenny]] Mossgrove, sister of [[Aiden Mossgrove]].
+- Daughter of [[Alderick Mossgrove|Alderick]] and [[Jennifer Mossgrove|Jenny]] Mossgrove, older sister of [[Aiden Mossgrove]].
 - Was an accident
 - Childhood friends with [[Cildrh Laan]], [[Iseabail Cianain|Ish]] and [[Robyn Cianain]]
 - Was a field nurse during [[Major War|a war]]
+- 
 # Personality
 - She's pretty sweet but can be assertive when needed
 - Soft spoken most of the time but can raise her voice when she's in an emotional pit

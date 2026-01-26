@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2- Best friends/Robyn Cianain.md",
+                "file": "2- Best friends/Alderick Mossgrove.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,17 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Robyn Cianain"
-            }
-          },
-          {
-            "id": "ba3805109f563717",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Alderick Mossgrove"
             }
           }
         ],
@@ -122,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Creator/Panycc  ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -217,10 +207,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2- Best friends/Robyn Cianain.md"
+                "file": "2- Best friends/Alderick Mossgrove.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Robyn Cianain"
+              "title": "File properties for Alderick Mossgrove"
             }
           },
           {
@@ -271,11 +261,10 @@
       }
     ],
     "direction": "horizontal",
-    "width": 382.5
+    "width": 439.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-kanban:Create new board": false,
       "omnisearch:Omnisearch": false,
       "graph:Open graph view": false,
       "bases:Create new base": false,
@@ -291,19 +280,21 @@
       "obsidian-git:Open Git source control": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "obsidian-kanban:Create new board": false
     }
   },
   "active": "77d516975204939f",
   "lastOpenFiles": [
-    "2- Best friends/Robyn Cianain.md",
-    "2- Best friends/Kaili Mossgrove.md",
-    "Dead/Jennifer Mossgrove.md",
-    "2- Best friends/Alderick Mossgrove.md",
-    "Dead/Iseabail Cianain.md",
     "2- Best friends/Best friends.md",
-    "1- Hero's Party/Maelis Nighthollow.md",
+    "2- Best friends/Alderick Mossgrove.md",
+    "2- Best friends/Robyn Cianain.md",
+    "Dead/Iseabail Cianain.md",
+    "z_Images/Possible_character_names.webp",
     "2- Best friends/Morgan.md",
+    "2- Best friends/Kaili Mossgrove.md",
+    "1- Hero's Party/Maelis Nighthollow.md",
+    "Dead/Jennifer Mossgrove.md",
     "z_Templates/Character Template.md",
     "1- Hero's Party/Corelia.md",
     "ideas.md",
@@ -326,7 +317,6 @@
     "README.md",
     "Untitled",
     "Ideas.excalidraw.md",
-    "z_Images/Possible_character_names.webp",
     "conflict-files-obsidian-git.md",
     "Songs",
     "z_Images/20251123162643_1.jpg",
