@@ -13,7 +13,9 @@ Birthday:
 Age: 23
 Origin: "[[Cildrh village]]"
 Affiliation:
-  - "[[Iseabail Cianain]]"
+  - "[[Iseabail Cianain|Ish]]"
+  - "[[Kaili Mossgrove|Kaili]]"
+  - "[[Robyn Cianain|Robyn]]"
   - "[[Best friends]]"
 Status: Alive
 Gender: Cis Man
@@ -37,17 +39,17 @@ image:
 > 
 > **Status**: `= this.status`
 # Appearance
-- short, 5'6-ish.
+- Short, 5'6-ish.
 - Shoulder length slightly wavy deep teal hair
 - Deep amber/yellow eyes with slitted pupils
-- deep reddish markings under his eyes
-- lots of freckles
-- tanned skin
-- lean and muscular (ABS<3)
+- Deep reddish markings under his eyes
+- Lots of freckles
+- Tanned skin
+- Lean and muscular (ABS<3)
 # Physical Characteristics
-- healed scars on neck from the day he killed [[Iseabail Cianain|Ish]] (monster they were fighting caused it)
-- eyes take longer to adjust to light changes due to his race (Miqo'te)
-- slight loss of motor function in his hands due to being reckless when he was first learning to fight weaponless
+- Healed scars on neck from the day he killed [[Iseabail Cianain|Ish]] (monster they were fighting caused it)
+- Eyes take longer to adjust to light changes due to his race (Miqo'te)
+- Slight loss of motor function in his hands due to being reckless when he was first learning to fight weaponless
 # Background
 - His father was harsh on him growing up, especially when it came to swordplay.
 - His mother was very distant, never having showed much interest in having children, only ending up doing so to get his father off her ass.
