@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2- Best friends/Alderick Mossgrove.md",
+                "file": "2- Best friends/Cildrh Laan.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Alderick Mossgrove"
+              "title": "Cildrh Laan"
             }
           }
         ],
@@ -207,10 +207,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2- Best friends/Alderick Mossgrove.md"
+                "file": "2- Best friends/Cildrh Laan.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Alderick Mossgrove"
+              "title": "File properties for Cildrh Laan"
             }
           },
           {
@@ -257,7 +257,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -284,12 +284,13 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "77d516975204939f",
+  "active": "7fb026f154a7d6b3",
   "lastOpenFiles": [
-    "2- Best friends/Best friends.md",
-    "2- Best friends/Alderick Mossgrove.md",
-    "2- Best friends/Robyn Cianain.md",
     "Dead/Iseabail Cianain.md",
+    "2- Best friends/Cildrh Laan.md",
+    "2- Best friends/Alderick Mossgrove.md",
+    "2- Best friends/Best friends.md",
+    "2- Best friends/Robyn Cianain.md",
     "z_Images/Possible_character_names.webp",
     "2- Best friends/Morgan.md",
     "2- Best friends/Kaili Mossgrove.md",
@@ -298,7 +299,6 @@
     "z_Templates/Character Template.md",
     "1- Hero's Party/Corelia.md",
     "ideas.md",
-    "2- Best friends/Cildrh Laan.md",
     "1- Hero's Party/Marceline.md",
     "Events/Characters/Kaili",
     "2- Best friends/Best friends.base",
