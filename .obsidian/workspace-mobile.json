@@ -126,9 +126,21 @@
               "icon": "lucide-file",
               "title": "Séimhiú"
             }
+          },
+          {
+            "id": "47ce0e1b8ef3a43f",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "z_Images/Possible_character_names.webp"
+              },
+              "icon": "lucide-image",
+              "title": "Possible_character_names"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -203,6 +215,16 @@
           "icon": "lucide-archive",
           "title": "All properties"
         }
+      },
+      {
+        "id": "3dacc37e5c8c4469",
+        "type": "leaf",
+        "state": {
+          "type": "vertical-tabs",
+          "state": {},
+          "icon": "vertical-tabs",
+          "title": "Vertical tabs"
+        }
       }
     ],
     "currentTab": 0
@@ -259,8 +281,8 @@
         "state": {
           "type": "git-view",
           "state": {},
-          "icon": "git-pull-request",
-          "title": "Source Control"
+          "icon": "lucide-ghost",
+          "title": "git-view"
         }
       }
     ],
@@ -279,15 +301,15 @@
       "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "homepage:Open homepage": false,
-      "obsidian-git:Open Git source control": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "0fa057c95fbde229",
+  "active": "47ce0e1b8ef3a43f",
   "lastOpenFiles": [
+    "z_Resources/Séimhiú.md",
     "/z_Resources/Dialogue/Tar'al meets Corelia.odt",
     "/z_Resources/Dialogue",
     "/z_Resources",
