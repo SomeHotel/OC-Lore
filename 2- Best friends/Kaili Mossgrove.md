@@ -44,14 +44,15 @@ image:
 # Appearance
 - Ginger hair that's greying with purple highlights
 - 177cm tall
-- Pink eyes
+- Pink eyes 
 - Tanned skin with vitiligo
 # Physical Characteristics
-
+- Has vitiligo
+- 
 # Background
 - Daughter of [[Alderick Mossgrove|Alderick]] and [[Jennifer Mossgrove|Jenny]] Mossgrove, older sister of [[Aiden Mossgrove]].
 - Was an accident
-- Childhood friends with [[Cildrh Laan]], [[Iseabail Cianain|Ish]] and [[Robyn Cianain]]
+- Childhood friends with [[Cildrh Laan]], [[Iseabail Cianain]] and [[Robyn Cianain]]
 - Was a field nurse during [[Major War|a war]]
 - 
 # Personality
@@ -59,7 +60,7 @@ image:
 - Soft spoken most of the time but can raise her voice when she's in an emotional pit
 - Can be more jokey or more serious depending on the situation
 - Doesn't get flustered easily
-- If she's alone, she drinks too much
+- If she's alone, she starts drinks a lot
 - Tried to keep her alcoholism hidden from her friends
 - Loves children and hopes to open an orphanage
 - Loves her dad and looks up to her mom

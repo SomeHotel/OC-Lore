@@ -51,7 +51,8 @@ image:
 - Is one of the physically strongest fighters in the group
 - Proficient in magic and most martial weapons
 # Background
-
+- Older brother of [[Iseabail Cianain]]
+- 
 # Personality
 - Doesn't talk about his feelings which can lead to him coming off as distant and apathetic/uncaring
 - Lets his problem fester and become bigger issues than they'd usually be
@@ -67,7 +68,7 @@ image:
 ### Parents
 
 ### [[Iseabail Cianain|Ish]]
-Robyn loved his sister so much. He had to raise her due to parental issues.
+Robyn loves his sister so much. He had to raise her due to parental issues.
 ## Mossgroves
 ### [[Alderick Mossgrove|Alderick]]
 
