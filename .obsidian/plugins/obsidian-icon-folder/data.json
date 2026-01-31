@@ -1,0 +1,140 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "LiHandshake",
+      "LiUsers",
+      "LiSkull",
+      "RiGroupLine",
+      "SiGithub"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [
+      {
+        "rule": ".excalidraw",
+        "icon": "SiExcalidraw",
+        "for": "files",
+        "order": 0,
+        "useFilePath": true
+      },
+      {
+        "rule": "1-",
+        "icon": "LiStar",
+        "for": "files",
+        "order": 1,
+        "useFilePath": true,
+        "color": "#fff700"
+      },
+      {
+        "rule": "2- ",
+        "icon": "LiStar",
+        "for": "files",
+        "order": 2,
+        "useFilePath": true,
+        "color": "#fff700"
+      },
+      {
+        "rule": "z_Templates/",
+        "icon": "TiTemplate",
+        "for": "everything",
+        "order": 3,
+        "useFilePath": true
+      },
+      {
+        "rule": "Dead/",
+        "icon": "TiGrave2",
+        "for": "everything",
+        "order": 4,
+        "useFilePath": true
+      },
+      {
+        "rule": "z_Images/",
+        "icon": "LiImage",
+        "for": "everything",
+        "order": 5,
+        "useFilePath": true
+      },
+      {
+        "rule": "Locations/",
+        "icon": "LiMountain",
+        "for": "everything",
+        "order": 6,
+        "useFilePath": true
+      },
+      {
+        "rule": "Family/",
+        "icon": "RiGroupLine",
+        "for": "everything",
+        "order": 7
+      },
+      {
+        "rule": "Dialogue/",
+        "icon": "IbMessageBubble",
+        "for": "everything",
+        "order": 8,
+        "useFilePath": true
+      }
+    ],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": -5
+    },
+    "iconInTabsEnabled": true,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": true,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": false,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false,
+    "useInternalPlugins": false
+  },
+  "Events/Characters/Maelis/Tar'al meets Corelia.md": "LiHandshake",
+  "Events/Characters/Maelis/Maelis Birth.md": "LiBaby",
+  "Events/Characters/Maelis/Loss of hearing.md": "LiEarOff",
+  "Events/Characters/Maelis/Escape from home.md": "LiHouse",
+  "Factions/Deities/Tuath Dé Danann/Mór-ríoghan.md": {
+    "iconName": "FasCrow",
+    "iconColor": "#5900ff"
+  },
+  "Factions/Families/Nighthollow/Alye.md": "LiUser",
+  "Factions/Families/Nighthollow/Filvrae Nighthollow.md": {
+    "iconName": "LiCrown",
+    "iconColor": "#79147b"
+  },
+  "z_Resources/Dialogue/Timeline.excalidraw.md": "SiExcalidraw",
+  "z_Resources/BG3 Drow name table.md": "LiTable",
+  "z_Resources/Séimhiú.md": "LiTable",
+  "z_Resources/Maelis Nighthollow.pdf": "FarFilePdf",
+  "ideas.md": "TiNotes",
+  "README.md": "SiGithub",
+  "Factions/Deities/Tuath Dé Danann/Tuath Dé Danann.md": {
+    "iconName": "RiGroupLine",
+    "iconColor": "#28bd32"
+  },
+  "Factions/Deities/Tuath Dé Danann/Tuath Dé Danann.base": {
+    "iconName": "RiGroupLine",
+    "iconColor": "#28bd32"
+  },
+  "Events/Characters/Colt/Colt Death.md": "LiSkull",
+  "Factions/Families/Nighthollow/Nighthollow Family.md": {
+    "iconName": "LiUsers",
+    "iconColor": "#79147b"
+  },
+  "Factions/Families/Nighthollow/Nighthollow Family.base": {
+    "iconName": "LiUsers",
+    "iconColor": "#79147b"
+  },
+  "Events/Characters/Colt/Meeting Maelis.md": "LiHandshake",
+  "Events/Characters/Jenny/Jennifer Death.md": "LiSkull"
+}

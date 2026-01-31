@@ -38,7 +38,7 @@
               "type": "markdown",
               "state": {
                 "file": "1- Party/Corelia.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -78,9 +78,69 @@
               "icon": "lucide-file",
               "title": "Character Template"
             }
+          },
+          {
+            "id": "aa29a1167045e38b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1- Party/Maelis Nighthollow.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Maelis Nighthollow"
+            }
+          },
+          {
+            "id": "0fa057c95fbde229",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "z_Resources/Séimhiú.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Séimhiú"
+            }
+          },
+          {
+            "id": "47ce0e1b8ef3a43f",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "z_Images/Possible_character_names.webp"
+              },
+              "icon": "lucide-image",
+              "title": "Possible_character_names"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -155,6 +215,16 @@
           "icon": "lucide-archive",
           "title": "All properties"
         }
+      },
+      {
+        "id": "3dacc37e5c8c4469",
+        "type": "leaf",
+        "state": {
+          "type": "vertical-tabs",
+          "state": {},
+          "icon": "vertical-tabs",
+          "title": "Vertical tabs"
+        }
       }
     ],
     "currentTab": 0
@@ -211,8 +281,8 @@
         "state": {
           "type": "git-view",
           "state": {},
-          "icon": "git-pull-request",
-          "title": "Source Control"
+          "icon": "lucide-ghost",
+          "title": "git-view"
         }
       }
     ],
@@ -231,20 +301,26 @@
       "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "homepage:Open homepage": false,
-      "obsidian-git:Open Git source control": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "omnisearch:Omnisearch": false,
-      "iconic:Open rulebook": false
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "fb319414c6dd45e0",
+  "active": "47ce0e1b8ef3a43f",
   "lastOpenFiles": [
-    "Events/Characters/Maelis/Tar'al meets Corelia.md",
+    "z_Resources/Séimhiú.md",
     "/z_Resources/Dialogue/Tar'al meets Corelia.odt",
     "/z_Resources/Dialogue",
     "/z_Resources",
+    "/1- Party/Maelis Nighthollow.md",
+    "/1- Party",
+    "1- Party/Corelia.md",
+    "1- Party/Maelis Nighthollow.md",
+    "1- Party/The Party.md",
+    "z_Templates/Character Template.md",
+    "/z_Resources/Dialogue/Colt and Tar'al.odt",
+    "Events/Characters/Maelis/Tar'al meets Corelia.md",
     "/Events/Characters/Maelis/Tar'al meets Corelia.md",
     "/Events/Characters/Maelis",
     "/Events/Characters",
@@ -253,29 +329,21 @@
     "z_Resources/BG3 Drow name table.md",
     "z_Resources/Maelis NightHollow.pdf",
     "ideas.md",
-    "1- Party/Maelis Nighthollow.md",
-    "z_Templates/Character Template.md",
     "z_Images",
     "Events/Characters/Maelis/Maelis and Corelia meet for the first time.md",
     "README.md",
-    "1- Party/The Party.md",
-    "1- Party/Corelia.md",
     "Dead/Colt.md",
-    "/1- Party/Maelis Nighthollow.md",
     "/z_Templates/Character Template.md",
     "/Dead/Colt.md",
     "/Dead/Alye.md",
     "/1- Party/Corelia.md",
     "/Factions/Families/Nighthollow/Filvrae Nighthollow.md",
     "/1- Party/The Party.md",
-    "/1- Party/The Party.base",
-    "1- Party/The Party.base",
     "/z_Templates/Event Template.md",
     "Dead/Alye.md",
     "Factions/Families/Nighthollow/Nighthollow Family.md",
     "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
     "Events/Characters/Maelis/Escape from home.md",
-    ".stversions/Events/Maelis/Maelis meets Corelia.md",
-    ".stversions/Ideas.excalidraw.md"
+    ".stversions/Events/Maelis/Maelis meets Corelia.md"
   ]
 }

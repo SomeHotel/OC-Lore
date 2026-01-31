@@ -10,9 +10,9 @@ Status: Active
 timelines:
   - Nighthollow timeline
 Age:
-Origin: "[[Menzoberranzan]]"
+Origin: "[[Dark elf place]]"
 Affiliation:
-  - "[[Shar]]"
+  - "[[Mór-ríoghan]]"
 ---
 ## Background
 Not much is known about this group of nobles.
@@ -29,12 +29,12 @@ Not much is known about this group of nobles.
 > 
 > **Status**: `= this.status`
 
-## Members
+## Current Members
 ![[Nighthollow Family.base]]
+## Planned members
 
-| **Name**                       | **Status** | Role                |
-| :----------------------------- | ---------: | ------------------- |
-| [[Nighthollow 'Heir']]         |      Alive | Heir to the dynasty |
-| [[Nighthollow Prince]]         |      Alive | Prince              |
-| [[Nighthollow Princess]]       |      Alive | Princess            |
-
+| **Name**                 | **Status** | Role                |
+| :----------------------- | ---------: | ------------------- |
+| [[Nighthollow 'Heir']]   |      Alive | Heir to the dynasty |
+| [[Nighthollow Prince]]   |      Alive | Prince              |
+| [[Nighthollow Princess]] |      Alive | Princess            |

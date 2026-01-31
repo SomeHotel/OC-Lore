@@ -1,0 +1,15 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - Origin.contains(link("Dark elf place"))
+        - '!type.contains("Group")'
+    order:
+      - file.name
+      - Profession
+      - Status
+      - Affiliation
+    sort:
+      - property: Status
+        direction: ASC

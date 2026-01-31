@@ -1,0 +1,30 @@
+properties:
+  file.name:
+    displayName: Name
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - Affiliation.contains(link("Best friends"))
+    order:
+      - file.name
+      - aliases
+      - Profession
+      - Affiliation
+      - Status
+    sort:
+      - property: file.name
+        direction: DESC
+  - type: cards
+    name: Party Members
+    filters:
+      and:
+        - Affiliation.contains(link("Best friends"))
+    image: note.image
+  - type: list
+    name: Party List
+    filters:
+      and:
+        - Affiliation.contains(link("Best friends"))
+    indentProperties: false

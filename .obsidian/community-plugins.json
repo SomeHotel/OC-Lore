@@ -10,9 +10,14 @@
   "pdf-plus",
   "omnisearch",
   "obsidian-tagfolder",
-  "iconic",
   "dataview",
   "image-converter",
   "obsidian-mind-map",
-  "excalibrain"
+  "excalibrain",
+  "obsidian-dictionary-plugin",
+  "obsidian-icon-folder",
+  "obsidian-meta-bind-plugin",
+  "highlightr-plugin",
+  "obsidian-kanban",
+  "tag-wrangler"
 ]

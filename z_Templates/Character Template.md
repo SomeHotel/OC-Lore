@@ -14,7 +14,6 @@ Language:
 image:
 ---
 >[!info] `= this.file.name`
-> ---
 >![[]]
 >**Born** `= this.birthday` (age `= this.Age`)
 >**Origin** `= this.origin`
@@ -29,3 +28,20 @@ image:
 > `= this.language`
 > 
 > **Status**: `= this.status`
+# Appearance
+
+# Physical Characteristics
+
+# Background
+
+# Personality
+
+# Relationships
+
+# Timeline
+```aat-vertical
+
+```
+# Quotes
+
+# Trivia

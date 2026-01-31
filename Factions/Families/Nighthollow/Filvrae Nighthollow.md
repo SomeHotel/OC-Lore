@@ -17,10 +17,10 @@ Profession:
   - Patriarch
   - Assassin
 Birthday:
-Origin: "[[Menzoberranzan]]"
+Origin: "[[Dark elf place]]"
 Affiliation:
   - "[[Nighthollow Family]]"
-  - "[[Shar]]"
+  - "[[Mór-ríoghan]]"
 ---
 >[!info] `= this.file.name`
 > ---
@@ -42,4 +42,6 @@ Affiliation:
 ## Background
 - Estranged father of [[Maelis Nighthollow]]
 - Patriarch of the [[Nighthollow Family]]
-- 
+- Put out a bounty for her when she escaped
+- Not very nice
+- Killed [[Colt]] so Maelis wouldn't make friends he didn't deem unworthy
