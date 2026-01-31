@@ -6,7 +6,6 @@
   "templater-obsidian",
   "obsidian-excalidraw-plugin",
   "homepage",
-  "obsidian-git",
   "pdf-plus",
   "omnisearch",
   "obsidian-tagfolder",
@@ -19,5 +18,6 @@
   "obsidian-meta-bind-plugin",
   "highlightr-plugin",
   "obsidian-kanban",
-  "tag-wrangler"
+  "tag-wrangler",
+  "pretty-properties"
 ]
