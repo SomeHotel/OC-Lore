@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3432252ecf58ea8a",
+            "id": "a2cc86482cd061d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
+                "file": "Dead/Iseabail.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,79 +28,17 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Filvrae Nighthollow"
+              "title": "Iseabail"
             }
           },
           {
-            "id": "f797d746a0cafd11",
+            "id": "8e85afd77f4055f0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ideas.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "ideas"
-            }
-          },
-          {
-            "id": "73b48d88010248a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1- Party/Corelia.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Corelia"
-            }
-          },
-          {
-            "id": "395c3a8c15fe0412",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1- Party/Corelia.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Corelia"
+              "title": "New tab"
             }
           }
         ],
@@ -136,8 +74,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "place",
-                "matchingCase": false,
+                "query": "tag:#Creator/Panycc  ",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -172,51 +110,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a0ffc2d9e09d4e4e",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Campaigns/Party/Aeliora NightHollow.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for Aeliora NightHollow"
-            }
-          },
-          {
-            "id": "aaa09f6905487831",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Party/Maelis Nighthollow.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Maelis Nighthollow"
-            }
-          },
-          {
             "id": "da2e8baa315ed6e8",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "ideas.md",
+                "file": "Dead/Jennifer Mossgrove.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ideas"
+              "title": "Outline of Jennifer Mossgrove"
             }
           },
           {
@@ -249,16 +154,6 @@
             }
           },
           {
-            "id": "d4f9d174002d39c0",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
             "id": "77d516975204939f",
             "type": "leaf",
             "state": {
@@ -273,19 +168,60 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "ideas.md"
-              },
+              "state": {},
               "icon": "lucide-info",
-              "title": "File properties for ideas"
+              "title": "File properties"
+            }
+          },
+          {
+            "id": "cf02e93c38540c5c",
+            "type": "leaf",
+            "state": {
+              "type": "dictionary-view",
+              "state": {},
+              "icon": "quote-glyph",
+              "title": "Dictionary"
+            }
+          },
+          {
+            "id": "3582974dd38bd445",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "1- Party/Maelis Nighthollow.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Maelis Nighthollow"
+            }
+          },
+          {
+            "id": "ebc19ac3d61ff3c4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "1- Party/Maelis Nighthollow.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Maelis Nighthollow"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 426.5
+    "width": 439.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -299,53 +235,58 @@
       "markdown-importer:Open format converter": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false,
-      "iconic:Open rulebook": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "homepage:Open homepage": false,
       "obsidian-git:Open Git source control": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "obsidian-kanban:Create new board": false
     }
   },
-  "active": "f797d746a0cafd11",
+  "active": "8e85afd77f4055f0",
   "lastOpenFiles": [
-    "z_Resources/Dialogue/lu7304ckorz.tmp",
-    "1- Party/Maelis Nighthollow.md",
-    "Dead/Colt.md",
-    "1- Party/Corelia.md",
+    "Locations/Menzoberranzan.md",
+    "Locations/Menzoberranzan.base",
+    "2- Best friends/Robyn Cianain.md",
     "1- Party/The Party.md",
-    "Events/Characters/Maelis/Tar'al meets Corelia.md",
+    "1- Party/The Party.base",
+    "1- Party/Maelis Nighthollow.md",
+    "1- Party/Corelia.md",
+    "1- Party",
+    "2- Best friends/Kaili Mossgrove.md",
+    "2- Best friends/Cildrh Laan.md",
+    "Dead/Iseabail Cianain.md",
+    "2- Best friends/Alderick Mossgrove.md",
+    "2- Best friends/Best friends.md",
+    "z_Images/Possible_character_names.webp",
+    "2- Best friends/Morgan.md",
+    "1- Hero's Party/Maelis Nighthollow.md",
+    "Dead/Jennifer Mossgrove.md",
+    "z_Templates/Character Template.md",
+    "1- Hero's Party/Corelia.md",
     "ideas.md",
-    "z_Resources/Dialogue/lu7124ey15r.tmp",
+    "1- Hero's Party/Marceline.md",
+    "Events/Characters/Kaili",
+    "2- Best friends/Best friends.base",
+    "1- Hero's Party/Aiden Mossgrove.md",
+    "Locations/Mossgrove Village.md",
+    "Locations/Dark elf place.base",
+    "Locations/Mossgrove Village.base",
+    "1- Hero's Party/Hero's Party.base",
+    "1- Hero's Party/Hero's Party.md",
+    "Events/Characters/Jenny/Jennifer Death.md",
+    "Events/Characters/Maelis/Escape from home.md",
+    "Events/Characters/Jenny",
+    "Dead/Colt.md",
+    "Events/Characters/Iseabail",
+    "README.md",
     "Ideas.excalidraw.md",
     "conflict-files-obsidian-git.md",
-    "z_Resources/Dialogue/lu8683gw2p.tmp",
-    "z_Resources/Dialogue/lu8683gw2i.tmp",
-    "z_Resources/Dialogue/lu8683gw23.tmp",
-    "z_Resources/Dialogue/lu78723zm6.tmp",
-    "z_Resources/Dialogue/lu178161g6x.tmp",
-    "z_Resources/Dialogue/lu178161g6n.tmp",
-    "z_Resources/Dialogue/Tar'al meets Corelia.odt",
-    "z_Resources/Dialogue/lu178161g66.tmp",
-    "z_Resources/Dialogue/lu178161g63.tmp",
-    "z_Templates/Location Template.md",
-    "Locations/Menzoberranzan.md",
-    "Factions/Families/Nighthollow/Nighthollow Family.md",
-    "z_Templates/Place Template.md",
-    "z_Templates/Character Template.md",
-    "README.md",
-    "Factions/Families/Nighthollow/Alye.md",
-    "Events/Characters/Maelis/Escape from home.md",
-    "Factions/Families/Nighthollow/Filvrae Nighthollow.md",
-    "z_Templates/Item Template.md",
-    "Events/Characters/Maelis/Loss of hearing.md",
-    "Events/Characters/Colt/Colt Death.md",
-    "z_Resources/BG3 Drow name table.md",
-    "Resources/BG3 Drow name table.md",
-    "Factions/Families/Nighthollow/Nighthollow Family.sync-conflict-20251008-151442-WRVCPBB.md",
-    "Factions/Families/Nighthollow/Filvrae Nighthollow.sync-conflict-20251008-151441-WRVCPBB.md",
-    "Events/Maelis/Maelis meets Corelia.sync-conflict-20251008-151442-M7QFWIS.md",
+    "z_Images/20251123162643_1.jpg",
+    "z_Images/Mór-ríoghan.webp",
+    "z_Images/Mór-ríoghan_spotted.webp",
+    "z_Images/mór-ríoghan.webp",
     "z_Images/Maelis_reference_cropped.webp",
     "z_Images/Corelia maybe_reference_cropped.webp"
   ]
