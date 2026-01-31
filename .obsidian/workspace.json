@@ -11,13 +11,62 @@
             "id": "a2cc86482cd061d0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2- Best friends/Kaili Mossgrove.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Kaili Mossgrove"
+            }
+          },
+          {
+            "id": "5976a273417ff0b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2- Best friends/Robyn Cianain.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Robyn Cianain"
+            }
+          },
+          {
+            "id": "73cac75d2c81565c",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,7 +98,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Creator/Panycc  ",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,13 +139,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dead/Jennifer Mossgrove.md",
+                "file": "2- Best friends/Robyn Cianain.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Jennifer Mossgrove"
+              "title": "Outline of Robyn Cianain"
             }
           },
           {
@@ -133,9 +182,11 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "2- Best friends/Robyn Cianain.md"
+              },
               "icon": "lucide-info",
-              "title": "File properties"
+              "title": "File properties for Robyn Cianain"
             }
           },
           {
@@ -149,12 +200,12 @@
             }
           },
           {
-            "id": "3582974dd38bd445",
+            "id": "4cb46c2a01324bb5",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1- Party/Maelis Nighthollow.md",
+                "file": "2- Best friends/Robyn Cianain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,21 +215,21 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Maelis Nighthollow"
+              "title": "Backlinks for Robyn Cianain"
             }
           },
           {
-            "id": "ebc19ac3d61ff3c4",
+            "id": "12601d3afb9dff74",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1- Party/Maelis Nighthollow.md",
+                "file": "2- Best friends/Robyn Cianain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Maelis Nighthollow"
+              "title": "Outgoing links from Robyn Cianain"
             }
           }
         ],
@@ -186,7 +237,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 439.5
+    "width": 414.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,18 +254,24 @@
       "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "homepage:Open homepage": false,
-      "obsidian-git:Open Git source control": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "a2cc86482cd061d0",
+  "active": "5976a273417ff0b4",
   "lastOpenFiles": [
-    "Locations/Mossgrove Village.base",
-    "Locations/Dark elf place.md",
+    "2- Best friends/Mr Cianain.md",
+    "2- Best friends/Robyn Cianain.md",
     "Locations/Mossgrove Village.md",
+    "Locations/Mossgrove Village.base",
+    "z_Images/Robyn_Placeholder.webp",
+    "2- Best friends/Morgan.md",
+    "2- Best friends/Aiden Mossgrove.md",
+    "Dead/Iseabail Cianain.md",
+    "2- Best friends/Kaili Mossgrove.md",
+    "Locations/Dark elf place.md",
     "Locations/Dark elf place.base",
     "Locations",
     "Factions/Deities/Tuath Dé Danann/Tuath Dé Danann.md",
@@ -224,10 +282,6 @@
     "Events/Characters/Jenny/Jennifer Death.md",
     "Events/Characters/Jenny",
     "Dead/Jennifer Mossgrove.md",
-    "Dead/Iseabail Cianain.md",
-    "2- Best friends/Robyn Cianain.md",
-    "2- Best friends/Morgan.md",
-    "2- Best friends/Kaili Mossgrove.md",
     "2- Best friends/Cildrh Laan.md",
     "2- Best friends/Best friends.md",
     "2- Best friends/Alderick Mossgrove.md",
@@ -237,8 +291,6 @@
     "1- Hero's Party/Hero's Party.md",
     "1- Hero's Party/Hero's Party.base",
     "1- Hero's Party/Corelia.md",
-    "1- Hero's Party/Aiden Mossgrove.md",
-    "1- Hero's Party",
     "Locations/Menzoberranzan.md",
     "1- Party/The Party.md",
     "1- Party/Maelis Nighthollow.md",
