@@ -49,7 +49,8 @@
         "icon": "TiGrave2",
         "for": "everything",
         "order": 4,
-        "useFilePath": true
+        "useFilePath": true,
+        "color": "#882525"
       },
       {
         "rule": "z_Images/",
