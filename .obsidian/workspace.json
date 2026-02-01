@@ -56,17 +56,55 @@
             }
           },
           {
+            "id": "5820d1f323f57dfc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2- Best friends/Robyn Cianain.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Robyn Cianain"
+            }
+          },
+          {
             "id": "73cac75d2c81565c",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "2- Best friends/Aiden Mossgrove.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Aiden Mossgrove"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -183,10 +221,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2- Best friends/Robyn Cianain.md"
+                "file": "2- Best friends/Aiden Mossgrove.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Robyn Cianain"
+              "title": "File properties for Aiden Mossgrove"
             }
           },
           {
@@ -260,17 +298,19 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "5976a273417ff0b4",
+  "active": "73cac75d2c81565c",
   "lastOpenFiles": [
-    "2- Best friends/Mr Cianain.md",
+    "2- Best friends/Aiden Mossgrove.md",
     "2- Best friends/Robyn Cianain.md",
+    "2- Best friends/Kaili Mossgrove.md",
+    "2- Best friends/Alderick Mossgrove.md",
+    "z_Images/Robyn_Placeholder.webp",
+    "1- Hero's Party/Aiden Mossgrove.md",
+    "2- Best friends/Mr Cianain.md",
     "Locations/Mossgrove Village.md",
     "Locations/Mossgrove Village.base",
-    "z_Images/Robyn_Placeholder.webp",
     "2- Best friends/Morgan.md",
-    "2- Best friends/Aiden Mossgrove.md",
     "Dead/Iseabail Cianain.md",
-    "2- Best friends/Kaili Mossgrove.md",
     "Locations/Dark elf place.md",
     "Locations/Dark elf place.base",
     "Locations",
@@ -284,7 +324,6 @@
     "Dead/Jennifer Mossgrove.md",
     "2- Best friends/Cildrh Laan.md",
     "2- Best friends/Best friends.md",
-    "2- Best friends/Alderick Mossgrove.md",
     "2- Best friends/Best friends.base",
     "2- Best friends",
     "1- Hero's Party/Maelis Nighthollow.md",
@@ -298,8 +337,6 @@
     "z_Images/Possible_character_names.webp",
     "z_Templates/Character Template.md",
     "ideas.md",
-    "1- Hero's Party/Marceline.md",
-    "Events/Characters/Maelis/Escape from home.md",
     "z_Images/20251123162643_1.jpg",
     "z_Images/Mór-ríoghan.webp",
     "z_Images/Mór-ríoghan_spotted.webp",
