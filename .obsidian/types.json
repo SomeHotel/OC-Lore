@@ -10,6 +10,8 @@
     "Language": "multitext",
     "Birthday": "date",
     "Affiliation": "multitext",
-    "Profession": "multitext"
+    "Profession": "multitext",
+    "dg-home": "checkbox",
+    "dg-publish": "checkbox"
   }
 }

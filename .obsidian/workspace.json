@@ -85,9 +85,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2- Best friends/Aiden Mossgrove.md",
+                "file": "README.md",
                 "mode": "source",
-                "source": false,
+                "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Aiden Mossgrove"
+              "title": "README"
             }
           }
         ],
@@ -221,10 +221,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2- Best friends/Aiden Mossgrove.md"
+                "file": "README.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Aiden Mossgrove"
+              "title": "File properties for README"
             }
           },
           {
@@ -275,8 +275,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 414.5,
-    "collapsed": true
+    "width": 414.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -295,15 +294,17 @@
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "obsidian-kanban:Create new board": false
+      "obsidian-kanban:Create new board": false,
+      "digitalgarden:Digital Garden Publication Center": false
     }
   },
   "active": "73cac75d2c81565c",
   "lastOpenFiles": [
     "2- Best friends/Aiden Mossgrove.md",
+    "README.md",
+    "2- Best friends/Alderick Mossgrove.md",
     "2- Best friends/Robyn Cianain.md",
     "2- Best friends/Kaili Mossgrove.md",
-    "2- Best friends/Alderick Mossgrove.md",
     "z_Images/Robyn_Placeholder.webp",
     "1- Hero's Party/Aiden Mossgrove.md",
     "2- Best friends/Mr Cianain.md",
