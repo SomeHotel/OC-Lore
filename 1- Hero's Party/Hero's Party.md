@@ -4,6 +4,7 @@ type:
 aliases:
 tags:
 Status: Active
+dg-publish: true
 ---
 # Members
 ![[Hero's Party.base]]

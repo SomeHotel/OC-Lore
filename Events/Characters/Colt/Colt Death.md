@@ -9,4 +9,5 @@ timelines:
   - Colt timeline
   - Maelis timeline
 aat-event-picture: none
+dg-publish: true
 ---

@@ -8,4 +8,5 @@ aat-render-enabled:
 timelines:
   - Colt timeline
 aat-event-picture: none
+dg-publish: true
 ---

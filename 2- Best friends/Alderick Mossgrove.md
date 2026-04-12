@@ -29,6 +29,7 @@ Language:
   - Common Sign Language
   - Gaeilge
 image:
+dg-publish: true
 ---
 >[!info] `= this.file.name`
 >![[]]

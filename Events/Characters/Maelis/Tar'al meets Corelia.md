@@ -9,5 +9,6 @@ timelines:
   - Maelis timeline
   - Corelia timeline
 aat-event-picture: none
+dg-publish: true
 ---
 ![[Tar'al meets Corelia.odt]]

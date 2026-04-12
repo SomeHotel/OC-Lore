@@ -24,6 +24,7 @@ Language:
   - Common
   - Elvish
 image: "[[Maelis_reference_cropped.webp]]"
+dg-publish: true
 ---
 >[!info] `= this.file.name`
 >![[Maelis_reference_cropped.webp|]]

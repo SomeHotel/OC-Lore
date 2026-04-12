@@ -20,6 +20,7 @@ Language:
   - Common
   - Common Sign Language
 image:
+dg-publish: true
 ---
 >[!info] `= this.file.name`
 >![[]]

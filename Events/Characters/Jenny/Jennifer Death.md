@@ -8,5 +8,6 @@ aat-render-enabled:
 timelines:
   - Jennifer event
 aat-event-picture: none
+dg-publish: true
 ---
 

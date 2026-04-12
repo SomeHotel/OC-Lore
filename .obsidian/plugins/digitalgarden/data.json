@@ -2,9 +2,11 @@
   "githubRepo": "oc-website",
   "githubUserName": "SomeHotel",
   "gardenBaseUrl": "",
-  "prHistory": [],
+  "prHistory": [
+    "https://github.com/SomeHotel/oc-website/pull/7"
+  ],
   "baseTheme": "dark",
-  "theme": "{\"name\":\"Wikipedia\",\"author\":\"Ha'ani Whitlock\",\"repo\":\"Bluemoondragon07/Wikipedia-Theme\",\"screenshot\":\"example.png\",\"modes\":[\"dark\",\"light\"],\"cssUrl\":\"https://raw.githubusercontent.com/Bluemoondragon07/Wikipedia-Theme/HEAD/theme.css\"}",
+  "theme": "{\"name\":\"Allium\",\"author\":\"Nullglyph\",\"repo\":\"xainapse/Allium\",\"screenshot\":\"AlliumScreenshot.png\",\"modes\":[\"dark\",\"light\"],\"cssUrl\":\"https://raw.githubusercontent.com/xainapse/Allium/HEAD/theme.css\"}",
   "faviconPath": "",
   "logoPath": "",
   "useFullResolutionImages": false,
