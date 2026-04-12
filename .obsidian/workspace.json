@@ -85,8 +85,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1- Hero's Party/Corelia.md",
-                "mode": "preview",
+                "file": "Other/Fursona.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -100,23 +100,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Corelia"
-            }
-          },
-          {
-            "id": "26a8e98f4450a0b2",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.12.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.12.4"
+              "title": "Fursona"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -232,9 +220,11 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "Other/Fursona.md"
+              },
               "icon": "lucide-info",
-              "title": "File properties"
+              "title": "File properties for Fursona"
             }
           },
           {
@@ -308,8 +298,11 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "26a8e98f4450a0b2",
+  "active": "73cac75d2c81565c",
   "lastOpenFiles": [
+    "1- Hero's Party/Corelia.md",
+    "Other/Fursona.md",
+    "Other",
     "1- Hero's Party/Hero's Party.md",
     "1- Hero's Party/Maelis Nighthollow.md",
     "2- Best friends/Aiden Mossgrove.md",
@@ -334,9 +327,7 @@
     "z_Templates/Group Template.md",
     "z_Templates/Event Template.md",
     "z_Templates/Character Template.md",
-    "1- Hero's Party/Corelia.md",
     "2- Best friends/Best friends.base",
-    "README.md",
     "z_Images/Robyn_Placeholder.webp",
     "Locations/Mossgrove Village.base",
     "Locations/Dark elf place.base",
@@ -346,7 +337,6 @@
     "Factions/Deities",
     "Events/Characters/Jenny",
     "2- Best friends",
-    "1- Hero's Party/Hero's Party.base",
     "z_Images/Possible_character_names.webp",
     "z_Images/20251123162643_1.jpg",
     "z_Images/Mór-ríoghan.webp",
