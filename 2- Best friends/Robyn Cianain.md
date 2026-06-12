@@ -22,6 +22,7 @@ Gender: Trans Man
 Language:
   - Common
 image: "[[Robyn_Placeholder.webp]]"
+dg-publish: true
 ---
 >[!info] `= this.file.name`
 >![[Robyn_Placeholder.webp|Image is a placeholder]]

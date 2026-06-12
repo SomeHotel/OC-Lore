@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2- Best friends/Aiden Mossgrove.md",
+                "file": "Other/Fursona.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Aiden Mossgrove"
+              "title": "Fursona"
             }
           }
         ],
@@ -221,10 +221,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2- Best friends/Aiden Mossgrove.md"
+                "file": "Other/Fursona.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Aiden Mossgrove"
+              "title": "File properties for Fursona"
             }
           },
           {
@@ -275,8 +275,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 414.5,
-    "collapsed": true
+    "width": 414.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -295,48 +294,50 @@
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "obsidian-kanban:Create new board": false
+      "obsidian-kanban:Create new board": false,
+      "digitalgarden:Digital Garden Publication Center": false
     }
   },
   "active": "73cac75d2c81565c",
   "lastOpenFiles": [
+    "1- Hero's Party/Corelia.md",
+    "Other/Fursona.md",
+    "Other",
+    "1- Hero's Party/Hero's Party.md",
+    "1- Hero's Party/Maelis Nighthollow.md",
     "2- Best friends/Aiden Mossgrove.md",
-    "2- Best friends/Robyn Cianain.md",
-    "2- Best friends/Kaili Mossgrove.md",
     "2- Best friends/Alderick Mossgrove.md",
-    "z_Images/Robyn_Placeholder.webp",
-    "1- Hero's Party/Aiden Mossgrove.md",
-    "2- Best friends/Mr Cianain.md",
-    "Locations/Mossgrove Village.md",
-    "Locations/Mossgrove Village.base",
+    "2- Best friends/Best friends.md",
+    "2- Best friends/Cildrh Laan.md",
+    "2- Best friends/Kaili Mossgrove.md",
     "2- Best friends/Morgan.md",
+    "2- Best friends/Robyn Cianain.md",
+    "Dead/Colt.md",
     "Dead/Iseabail Cianain.md",
-    "Locations/Dark elf place.md",
+    "Dead/Jennifer Mossgrove.md",
+    "Events/Characters/Colt/Colt Death.md",
+    "Events/Characters/Colt/Meeting Maelis.md",
+    "Events/Characters/Jenny/Jennifer Death.md",
+    "Events/Characters/Maelis/Escape from home.md",
+    "Events/Characters/Maelis/Loss of hearing.md",
+    "Events/Characters/Maelis/Maelis Birth.md",
+    "Events/Characters/Maelis/Tar'al meets Corelia.md",
+    "z_Templates/Location Template.md",
+    "z_Templates/Item Template.md",
+    "z_Templates/Group Template.md",
+    "z_Templates/Event Template.md",
+    "z_Templates/Character Template.md",
+    "2- Best friends/Best friends.base",
+    "z_Images/Robyn_Placeholder.webp",
+    "Locations/Mossgrove Village.base",
     "Locations/Dark elf place.base",
     "Locations",
-    "Factions/Deities/Tuath Dé Danann/Tuath Dé Danann.md",
     "Factions/Deities/Tuath Dé Danann/Tuath Dé Danann.base",
-    "Factions/Deities/Tuath Dé Danann/Mór-ríoghan.md",
     "Factions/Deities/Tuath Dé Danann",
     "Factions/Deities",
-    "Events/Characters/Jenny/Jennifer Death.md",
     "Events/Characters/Jenny",
-    "Dead/Jennifer Mossgrove.md",
-    "2- Best friends/Cildrh Laan.md",
-    "2- Best friends/Best friends.md",
-    "2- Best friends/Best friends.base",
     "2- Best friends",
-    "1- Hero's Party/Maelis Nighthollow.md",
-    "1- Hero's Party/Hero's Party.md",
-    "1- Hero's Party/Hero's Party.base",
-    "1- Hero's Party/Corelia.md",
-    "Locations/Menzoberranzan.md",
-    "1- Party/The Party.md",
-    "1- Party/Maelis Nighthollow.md",
-    "1- Party/Corelia.md",
     "z_Images/Possible_character_names.webp",
-    "z_Templates/Character Template.md",
-    "ideas.md",
     "z_Images/20251123162643_1.jpg",
     "z_Images/Mór-ríoghan.webp",
     "z_Images/Mór-ríoghan_spotted.webp",

@@ -7,6 +7,7 @@ Age:
 Origin:
 Affiliation:
 Status: Active
+dg-publish:
 ---
 >[!info] `= this.file.name`
 > ---

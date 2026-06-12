@@ -18,6 +18,7 @@ Language:
   - Common Sign Language
 Origin:
 image: "[[Corelia maybe_reference_cropped.webp]]"
+dg-publish: true
 ---
 >[!info] `=this.file.name`
 >![[Corelia maybe_reference_cropped.webp|]]

@@ -20,6 +20,7 @@ Gender: Cis Man
 Language:
   - Common
 image:
+dg-publish: true
 ---
 >[!info] `= this.file.name`
 >![[]]

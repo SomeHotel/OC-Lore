@@ -18,6 +18,7 @@ Origin: "[[Dark elf place]]"
 Affiliation:
   - "[[Nighthollow Family|Nighthollow Family (former)]]"
 image:
+dg-publish: true
 ---
 >[!info] `= this.file.name`
 > 

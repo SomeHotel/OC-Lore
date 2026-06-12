@@ -8,6 +8,7 @@ Origin:
 Affiliation:
 Status:
 image:
+dg-publish:
 ---
 >[!info] `= this.file.name`
 > ---

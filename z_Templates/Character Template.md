@@ -12,6 +12,7 @@ Status:
 Gender:
 Language:
 image:
+dg-publish:
 ---
 >[!info] `= this.file.name`
 >![[]]
