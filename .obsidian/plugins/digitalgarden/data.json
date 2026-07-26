@@ -1,5 +1,6 @@
 {
   "githubRepo": "oc-website",
+  "githubToken": "",
   "githubUserName": "SomeHotel",
   "gardenBaseUrl": "",
   "prHistory": [
@@ -58,5 +59,6 @@
     "searchCloseHint": "",
     "searchNoResults": "",
     "searchPreviewPlaceholder": ""
-  }
+  },
+  "localExportPath": ""
 }

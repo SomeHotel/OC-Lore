@@ -83,28 +83,28 @@
             "id": "73cac75d2c81565c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "2- Best friends/Aiden Mossgrove.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "z_Resources/Dialogue/Timeline.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "Aiden Mossgrove"
+              "icon": "excalidraw-icon",
+              "title": "Timeline.excalidraw"
+            }
+          },
+          {
+            "id": "d7f1211be284f605",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "z_Resources/Dialogue/Illios and Atara outline.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Illios and Atara outline"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -280,6 +280,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "digitalgarden:Digital Garden Publication Center": false,
       "omnisearch:Omnisearch": false,
       "graph:Open graph view": false,
       "bases:Create new base": false,
@@ -300,19 +301,31 @@
   },
   "active": "2325deaf5469eaca",
   "lastOpenFiles": [
+    "z_Resources/Dialogue/Timeline.excalidraw.md",
+    "z_Resources/Dialogue/Illios and Atara outline.md",
+    "1- Hero's Party/Maelis Nighthollow.md",
+    "Dead/Jennifer Mossgrove.md",
+    "2- Best friends/Alderick Mossgrove.md",
+    "2- Best friends/Aiden Mossgrove.md",
+    "2- Best friends/Kaili Mossgrove.md",
+    "2- Best friends/Robyn Cianain.md",
+    "z_Images/mór-ríoghan.webp",
+    "z_Images/Possible_character_names.webp",
+    "Misc/Characters/Rae Hobs.md",
+    "circle_practice_30-06-2026.webp",
+    "Misc/Characters/Claire.md",
+    "Misc/Characters/Riley.md",
+    "z_Images/More_names.jpg",
+    "Misc/Characters/Yubert.md",
+    "Misc/Characters",
+    "Misc",
     "Other/Fursona.md",
     "Other",
     "2- Best friends/Best friends.md",
     "2- Best friends/Cildrh Laan.md",
-    "2- Best friends/Kaili Mossgrove.md",
     "2- Best friends/Morgan.md",
-    "2- Best friends/Robyn Cianain.md",
     "Dead/Iseabail Cianain.md",
-    "Dead/Jennifer Mossgrove.md",
-    "z_Images/More_names.jpg",
     "z_Images/20260528091611_1.jpg",
-    "2- Best friends/Alderick Mossgrove.md",
-    "2- Best friends/Aiden Mossgrove.md",
     "2- Best friends/Best friends.base",
     "z_Images/Robyn_Placeholder.webp",
     "1- Hero's Party/Aiden Mossgrove.md",
@@ -328,23 +341,11 @@
     "Factions/Deities/Tuath Dé Danann",
     "Factions/Deities",
     "Events/Characters/Jenny/Jennifer Death.md",
-    "Events/Characters/Jenny",
-    "2- Best friends",
-    "1- Hero's Party/Maelis Nighthollow.md",
     "1- Hero's Party/Hero's Party.md",
     "1- Hero's Party/Corelia.md",
-    "Locations/Menzoberranzan.md",
-    "1- Party/The Party.md",
-    "1- Party/Maelis Nighthollow.md",
-    "1- Party/Corelia.md",
-    "z_Images/Possible_character_names.webp",
-    "z_Templates/Character Template.md",
-    "ideas.md",
     "z_Images/20251123162643_1.jpg",
     "z_Images/Mór-ríoghan.webp",
     "z_Images/Mór-ríoghan_spotted.webp",
-    "z_Images/mór-ríoghan.webp",
-    "z_Images/Maelis_reference_cropped.webp",
-    "z_Images/Corelia maybe_reference_cropped.webp"
+    "z_Images/Maelis_reference_cropped.webp"
   ]
 }

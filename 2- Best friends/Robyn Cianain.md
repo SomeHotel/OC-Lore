@@ -3,6 +3,7 @@ type:
   - Character
 aliases:
   - Robyn
+  - 7n7
 tags:
   - Creator/Gwen
   - Race/Miqote
