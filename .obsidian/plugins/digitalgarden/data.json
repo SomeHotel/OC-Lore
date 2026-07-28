@@ -1,9 +1,9 @@
 {
   "githubRepo": "oc-website",
-  "githubToken": "",
   "githubUserName": "SomeHotel",
   "gardenBaseUrl": "",
   "prHistory": [
+    "https://github.com/SomeHotel/oc-website/pull/11",
     "https://github.com/SomeHotel/oc-website/pull/7"
   ],
   "baseTheme": "dark",

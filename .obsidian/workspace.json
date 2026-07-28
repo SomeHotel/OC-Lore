@@ -80,18 +80,6 @@
             }
           },
           {
-            "id": "73cac75d2c81565c",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "z_Resources/Dialogue/Timeline.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Timeline.excalidraw"
-            }
-          },
-          {
             "id": "d7f1211be284f605",
             "type": "leaf",
             "state": {
@@ -104,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -299,10 +287,11 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "2325deaf5469eaca",
+  "active": "5820d1f323f57dfc",
   "lastOpenFiles": [
-    "z_Resources/Dialogue/Timeline.excalidraw.md",
     "z_Resources/Dialogue/Illios and Atara outline.md",
+    "z_Resources/Dialogue/Timeline.excalidraw.md",
+    "Ideas.excalidraw.md",
     "1- Hero's Party/Maelis Nighthollow.md",
     "Dead/Jennifer Mossgrove.md",
     "2- Best friends/Alderick Mossgrove.md",
@@ -342,7 +331,6 @@
     "Factions/Deities",
     "Events/Characters/Jenny/Jennifer Death.md",
     "1- Hero's Party/Hero's Party.md",
-    "1- Hero's Party/Corelia.md",
     "z_Images/20251123162643_1.jpg",
     "z_Images/Mór-ríoghan.webp",
     "z_Images/Mór-ríoghan_spotted.webp",

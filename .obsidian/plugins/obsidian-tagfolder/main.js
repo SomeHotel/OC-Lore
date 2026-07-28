@@ -36,7 +36,427 @@ __export(main_exports, {
 
 module.exports = __toCommonJS(main_exports);
 
-var _a, _b, import_obsidian8 = require("obsidian"), enumShowListIn = {
+var import_obsidian11 = require("obsidian");
+
+function invalidResponse(request, detail) {
+  const id = void 0 === request.interactionId ? "" : ` (${request.interactionId})`;
+  throw new TypeError(`Invalid automated response for ${request.kind}${id}: ${detail}`);
+}
+
+function unavailable(request) {
+  const id = void 0 === request.interactionId ? "" : ` (${request.interactionId})`;
+  throw new Error(`No UI fallback is available for ${request.kind}${id}`);
+}
+
+var DrivenUiInteractions = class {
+  constructor(options = {}) {
+    __publicField(this, "driver");
+    __publicField(this, "fallback");
+    this.driver = options.driver;
+    this.fallback = options.fallback;
+  }
+  async promptText(options, interactionId) {
+    const request = {
+      kind: "promptText",
+      interactionId,
+      options
+    }, automated = await this.handle(request);
+    if (!automated.handled) {
+      if (void 0 === this.fallback) unavailable(request);
+      return this.fallback.promptText(options, interactionId);
+    }
+    if (null !== automated.value && "string" != typeof automated.value) invalidResponse(request, "expected a string or null");
+    return automated.value;
+  }
+  async promptPassword(options, interactionId) {
+    const request = {
+      kind: "promptPassword",
+      interactionId,
+      options
+    }, automated = await this.handle(request);
+    if (!automated.handled) {
+      if (void 0 === this.fallback) unavailable(request);
+      return this.fallback.promptPassword(options, interactionId);
+    }
+    if (null !== automated.value && "string" != typeof automated.value) invalidResponse(request, "expected a string or null");
+    return automated.value;
+  }
+  async pickOne(options, interactionId) {
+    const request = {
+      kind: "pickOne",
+      interactionId,
+      options
+    }, automated = await this.handle(request);
+    if (!automated.handled) {
+      if (void 0 === this.fallback) unavailable(request);
+      return this.fallback.pickOne(options, interactionId);
+    }
+    if (null !== automated.value && !options.items.includes(automated.value)) invalidResponse(request, "expected null or one of the supplied items");
+    return automated.value;
+  }
+  async confirmAction(options, interactionId) {
+    const request = {
+      kind: "confirmAction",
+      interactionId,
+      options
+    }, automated = await this.handle(request);
+    if (!automated.handled) {
+      if (void 0 === this.fallback) unavailable(request);
+      return this.fallback.confirmAction(options, interactionId);
+    }
+    if (null !== automated.value && !options.actions.includes(automated.value)) invalidResponse(request, "expected null or one of the supplied actions");
+    return automated.value;
+  }
+  async showMessage(options, interactionId) {
+    const request = {
+      kind: "showMessage",
+      interactionId,
+      options
+    }, automated = await this.handle(request);
+    if (automated.handled) {
+      if (void 0 !== automated.value) invalidResponse(request, "expected no response value");
+    } else {
+      if (void 0 === this.fallback) unavailable(request);
+      await this.fallback.showMessage(options, interactionId);
+    }
+  }
+  async handle(request) {
+    if (void 0 === this.driver) return {
+      handled: false
+    }; else return this.driver.handle(request);
+  }
+}, import_obsidian = require("obsidian"), TextPromptModal = class extends import_obsidian.Modal {
+  constructor(app, options, resolveResult) {
+    var _a5;
+    super(app);
+    __publicField(this, "options");
+    __publicField(this, "resolveResult");
+    __publicField(this, "value");
+    __publicField(this, "input");
+    this.options = options;
+    this.resolveResult = resolveResult;
+    this.value = null != (_a5 = options.initialValue) ? _a5 : "";
+  }
+  onOpen() {
+    var _a5, _b3;
+    this.setTitle(this.options.title);
+    const inputSetting = new import_obsidian.Setting(this.contentEl);
+    if (void 0 !== this.options.label) inputSetting.setName(this.options.label);
+    if (void 0 !== this.options.description) inputSetting.setDesc(this.options.description);
+    inputSetting.addText(input => {
+      var _a6;
+      this.input = input;
+      input.setValue(this.value);
+      input.setPlaceholder(null != (_a6 = this.options.placeholder) ? _a6 : "");
+      input.inputEl.type = this.options.password ? "password" : "text";
+      input.onChange(value => {
+        this.value = value;
+      });
+      input.inputEl.addEventListener("keydown", event2 => {
+        if ("Enter" === event2.key && !event2.isComposing) {
+          event2.preventDefault();
+          this.submit();
+        }
+      });
+    });
+    new import_obsidian.Setting(this.contentEl).addButton(button => {
+      var _a6;
+      return button.setButtonText(null != (_a6 = this.options.submitLabel) ? _a6 : "OK").setCta().onClick(() => this.submit());
+    }).addButton(button => {
+      var _a6;
+      return button.setButtonText(null != (_a6 = this.options.cancelLabel) ? _a6 : "Cancel").onClick(() => this.close());
+    });
+    null == (_a5 = this.input) || _a5.inputEl.focus();
+    if (this.options.selectInitialValue && this.value.length > 0) null == (_b3 = this.input) || _b3.inputEl.select();
+  }
+  onClose() {
+    this.settle(null);
+    this.input = void 0;
+    this.contentEl.empty();
+  }
+  submit() {
+    this.settle(this.value);
+    this.close();
+  }
+  settle(result) {
+    const resolve = this.resolveResult;
+    if (void 0 !== resolve) {
+      this.resolveResult = void 0;
+      resolve(result);
+    }
+  }
+};
+
+function promptText(app, options) {
+  return new Promise(resolve => {
+    new TextPromptModal(app, {
+      ...options,
+      password: false
+    }, resolve).open();
+  });
+}
+
+function promptPassword(app, options) {
+  return new Promise(resolve => {
+    new TextPromptModal(app, {
+      ...options,
+      password: true
+    }, resolve).open();
+  });
+}
+
+var PickOneModal = class extends import_obsidian.FuzzySuggestModal {
+  constructor(app, options, resolveResult) {
+    var _a5;
+    super(app);
+    __publicField(this, "items");
+    __publicField(this, "itemText");
+    __publicField(this, "itemDescription");
+    __publicField(this, "resolveResult");
+    this.items = options.items;
+    this.itemText = options.getText;
+    this.itemDescription = options.getDescription;
+    this.resolveResult = resolveResult;
+    this.setPlaceholder(null != (_a5 = options.placeholder) ? _a5 : "Select an item");
+  }
+  getItems() {
+    return [ ...this.items ];
+  }
+  getItemText(item) {
+    return this.itemText(item);
+  }
+  renderSuggestion(match, element2) {
+    var _a5;
+    super.renderSuggestion(match, element2);
+    const description = null == (_a5 = this.itemDescription) ? void 0 : _a5.call(this, match.item);
+    if (void 0 !== description && "" !== description) element2.createDiv({
+      text: description,
+      cls: "suggestion-note"
+    });
+  }
+  onChooseItem(item, _event) {
+    this.settle(item);
+  }
+  onClose() {
+    globalThis.setTimeout(() => this.settle(null), 0);
+  }
+  settle(result) {
+    const resolve = this.resolveResult;
+    if (void 0 !== resolve) {
+      this.resolveResult = void 0;
+      resolve(result);
+    }
+  }
+};
+
+function pickOne(app, options) {
+  return new Promise(resolve => {
+    new PickOneModal(app, options, resolve).open();
+  });
+}
+
+var ActionDialog = class extends import_obsidian.Modal {
+  constructor(app, options, resolveResult) {
+    super(app);
+    __publicField(this, "options");
+    __publicField(this, "renderer", new import_obsidian.Component);
+    __publicField(this, "resolveResult");
+    __publicField(this, "timeout");
+    this.options = options;
+    this.resolveResult = resolveResult;
+  }
+  onOpen() {
+    var _a5;
+    this.setTitle(this.options.title);
+    this.renderer.load();
+    const messageEl = this.contentEl.createDiv();
+    import_obsidian.MarkdownRenderer.render(this.app, this.options.message, messageEl, null != (_a5 = this.options.sourcePath) ? _a5 : "", this.renderer);
+    const actions = new import_obsidian.Setting(this.contentEl);
+    for (const action2 of this.options.actions) actions.addButton(button => {
+      var _a6, _b3;
+      button.setButtonText(null != (_b3 = null == (_a6 = this.options.labels) ? void 0 : _a6[action2]) ? _b3 : action2).onClick(() => this.choose(action2));
+      if (action2 === this.options.defaultAction) button.setCta();
+    });
+    if (void 0 !== this.options.timeoutMs && void 0 !== this.options.defaultAction) this.timeout = globalThis.setTimeout(() => this.choose(this.options.defaultAction), this.options.timeoutMs);
+  }
+  onClose() {
+    this.clearTimeout();
+    this.renderer.unload();
+    this.settle(null);
+    this.contentEl.empty();
+  }
+  choose(action2) {
+    this.settle(action2);
+    this.close();
+  }
+  settle(result) {
+    const resolve = this.resolveResult;
+    if (void 0 !== resolve) {
+      this.resolveResult = void 0;
+      resolve(result);
+    }
+  }
+  clearTimeout() {
+    if (void 0 !== this.timeout) {
+      globalThis.clearTimeout(this.timeout);
+      this.timeout = void 0;
+    }
+  }
+};
+
+function confirmAction(app, options) {
+  return new Promise(resolve => {
+    new ActionDialog(app, options, resolve).open();
+  });
+}
+
+async function showMessage(app, options) {
+  var _a5;
+  const close = "close";
+  await confirmAction(app, {
+    title: options.title,
+    message: options.message,
+    actions: [ "close" ],
+    labels: {
+      [close]: null != (_a5 = options.closeLabel) ? _a5 : "Close"
+    },
+    defaultAction: "close",
+    sourcePath: options.sourcePath
+  });
+}
+
+function createObsidianFallback(app) {
+  return {
+    promptText: options => promptText(app, options),
+    promptPassword: options => promptPassword(app, options),
+    pickOne: options => pickOne(app, options),
+    confirmAction: options => confirmAction(app, options),
+    showMessage: options => showMessage(app, options)
+  };
+}
+
+var UiContext = class extends DrivenUiInteractions {
+  constructor(app, options = {}) {
+    super({
+      driver: options.driver,
+      fallback: createObsidianFallback(app)
+    });
+    __publicField(this, "app");
+    this.app = app;
+  }
+};
+
+function createObsidianUi(app, options = {}) {
+  return new UiContext(app, options);
+}
+
+var _vault, import_obsidian2 = require("obsidian"), VaultTextFileNotFoundError = class extends Error {
+  constructor(path) {
+    super(`Vault text file was not found: ${path}`);
+    __publicField(this, "path");
+    this.name = "VaultTextFileNotFoundError";
+    this.path = path;
+  }
+}, VaultTextFileExistsError = class extends Error {
+  constructor(path) {
+    super(`Vault path already exists: ${path}`);
+    __publicField(this, "path");
+    this.name = "VaultTextFileExistsError";
+    this.path = path;
+  }
+}, VaultFrontmatterFileNotFoundError = class extends Error {
+  constructor(path) {
+    super(`Vault frontmatter file was not found: ${path}`);
+    __publicField(this, "path");
+    this.name = "VaultFrontmatterFileNotFoundError";
+    this.path = path;
+  }
+}, VaultFrontmatterUnsupportedFileError = class extends Error {
+  constructor(path) {
+    super(`Vault frontmatter requires a Markdown file: ${path}`);
+    __publicField(this, "path");
+    this.name = "VaultFrontmatterUnsupportedFileError";
+    this.path = path;
+  }
+}, VaultFrontmatterAsyncUpdaterError = class extends Error {
+  constructor(path) {
+    super(`Vault frontmatter updater must be synchronous: ${path}`);
+    __publicField(this, "path");
+    this.name = "VaultFrontmatterAsyncUpdaterError";
+    this.path = path;
+  }
+};
+
+function isThenable(value) {
+  return ("object" == typeof value && null !== value || "function" == typeof value) && "then" in value && "function" == typeof value.then;
+}
+
+function invokeVaultFrontmatterUpdater(path, updater, frontmatter) {
+  const result = updater(frontmatter);
+  if (isThenable(result)) {
+    Promise.resolve(result).catch(() => {});
+    throw new VaultFrontmatterAsyncUpdaterError(path);
+  }
+}
+
+function requireTextFile(vault, path) {
+  const file = vault.getAbstractFileByPath(path);
+  if (!(file instanceof import_obsidian2.TFile)) throw new VaultTextFileNotFoundError(path);
+  return file;
+}
+
+var _host, ObsidianVaultTextAccess = class {
+  constructor(vault) {
+    __privateAdd(this, _vault);
+    __privateSet(this, _vault, vault);
+  }
+  async readText(path) {
+    const normalisedPath = (0, import_obsidian2.normalizePath)(path);
+    return await __privateGet(this, _vault).read(requireTextFile(__privateGet(this, _vault), normalisedPath));
+  }
+  async createText(path, content) {
+    const normalisedPath = (0, import_obsidian2.normalizePath)(path);
+    if (null !== __privateGet(this, _vault).getAbstractFileByPath(normalisedPath)) throw new VaultTextFileExistsError(normalisedPath);
+    await __privateGet(this, _vault).create(normalisedPath, content);
+  }
+  async modifyText(path, content) {
+    const normalisedPath = (0, import_obsidian2.normalizePath)(path);
+    await __privateGet(this, _vault).modify(requireTextFile(__privateGet(this, _vault), normalisedPath), content);
+  }
+  async appendText(path, content) {
+    const normalisedPath = (0, import_obsidian2.normalizePath)(path);
+    await __privateGet(this, _vault).append(requireTextFile(__privateGet(this, _vault), normalisedPath), content);
+  }
+};
+
+_vault = new WeakMap;
+
+function createObsidianVaultTextAccess(vault) {
+  return new ObsidianVaultTextAccess(vault);
+}
+
+var ObsidianVaultFrontmatterAccess = class {
+  constructor(host) {
+    __privateAdd(this, _host);
+    __privateSet(this, _host, host);
+  }
+  async updateFrontmatter(path, updater) {
+    const normalisedPath = (0, import_obsidian2.normalizePath)(path), file = __privateGet(this, _host).vault.getAbstractFileByPath(normalisedPath);
+    if (!(file instanceof import_obsidian2.TFile)) throw new VaultFrontmatterFileNotFoundError(normalisedPath);
+    if ("md" !== file.extension.toLowerCase()) throw new VaultFrontmatterUnsupportedFileError(normalisedPath);
+    await __privateGet(this, _host).fileManager.processFrontMatter(file, frontmatter => {
+      invokeVaultFrontmatterUpdater(normalisedPath, updater, frontmatter);
+    });
+  }
+};
+
+_host = new WeakMap;
+
+function createObsidianVaultFrontmatterAccess(host) {
+  return new ObsidianVaultFrontmatterAccess(host);
+}
+
+var _a, _b, enumShowListIn = {
   "": "Sidebar",
   CURRENT_PANE: "Current pane",
   SPLIT_PANE: "New pane"
@@ -1942,10 +2362,10 @@ process_fn = function() {
   __privateSet(this, _roots, []);
   this.apply();
   var effects = collected_effects = [], render_effects = [], updates = legacy_updates = [];
-  for (const root7 of roots) try {
-    __privateMethod(this, _Batch_instances, traverse_fn).call(this, root7, effects, render_effects);
+  for (const root8 of roots) try {
+    __privateMethod(this, _Batch_instances, traverse_fn).call(this, root8, effects, render_effects);
   } catch (e) {
-    reset_all(root7);
+    reset_all(root8);
     if (!__privateMethod(this, _Batch_instances, is_deferred_fn).call(this)) this.discard();
     throw e;
   }
@@ -1994,9 +2414,9 @@ process_fn = function() {
   }
 };
 
-traverse_fn = function(root7, effects, render_effects) {
-  root7.f ^= CLEAN;
-  for (var effect2 = root7.first; null !== effect2; ) {
+traverse_fn = function(root8, effects, render_effects) {
+  root8.f ^= CLEAN;
+  for (var effect2 = root8.first; null !== effect2; ) {
     var flags2 = effect2.f, is_branch = 0 !== (flags2 & (BRANCH_EFFECT | ROOT_EFFECT));
     if (!(is_branch && 0 !== (flags2 & CLEAN) || 0 !== (flags2 & INERT) || __privateGet(this, _skipped_branches).has(effect2)) && null !== effect2.fn) {
       if (is_branch) effect2.f ^= CLEAN; else if (0 !== (flags2 & EFFECT)) effects.push(effect2); else if (async_mode_flag && 0 !== (flags2 & (RENDER_EFFECT | MANAGED_EFFECT))) render_effects.push(effect2); else if (is_dirty(effect2)) {
@@ -2105,7 +2525,7 @@ commit_fn = function() {
         } else __privateGet(batch, _dirty_effects2).add(effect2);
         if (__privateGet(batch, _roots).length > 0 && !__privateGet(batch, _decrement_queued)) {
           batch.apply();
-          for (var root7 of __privateGet(batch, _roots)) __privateMethod(_a5 = batch, _Batch_instances, traverse_fn).call(_a5, root7, [], []);
+          for (var root8 of __privateGet(batch, _roots)) __privateMethod(_a5 = batch, _Batch_instances, traverse_fn).call(_a5, root8, [], []);
           __privateSet(batch, _roots, []);
         }
         batch.deactivate();
@@ -2488,12 +2908,12 @@ function is_dirty(reaction) {
   return false;
 }
 
-function schedule_possible_effect_self_invalidation(signal, effect2, root7 = true) {
+function schedule_possible_effect_self_invalidation(signal, effect2, root8 = true) {
   var reactions = signal.reactions;
   if (null !== reactions) if (async_mode_flag || null === current_sources || !current_sources.has(signal)) for (var i = 0; i < reactions.length; i++) {
     var reaction = reactions[i];
     if (0 !== (reaction.f & DERIVED)) schedule_possible_effect_self_invalidation(reaction, effect2, false); else if (effect2 === reaction) {
-      if (root7) set_signal_status(reaction, DIRTY); else if (0 !== (reaction.f & CLEAN)) set_signal_status(reaction, MAYBE_DIRTY);
+      if (root8) set_signal_status(reaction, DIRTY); else if (0 !== (reaction.f & CLEAN)) set_signal_status(reaction, MAYBE_DIRTY);
       schedule_effect(reaction);
     }
   }
@@ -3316,7 +3736,50 @@ function isSameAny(a, b) {
   }
 }
 
-var _a3, _b2, _c, import_obsidian2 = require("obsidian"), PUBLIC_VERSION = "5";
+function renderTagFolderTemplateVariables(template, expandedTagsAll, expandedTags) {
+  var _a5;
+  const plainTags = expandedTagsAll.filter(e => !isSpecialTag(e)), replacements = {
+    expandedTags,
+    tags: expandedTags,
+    tagList: plainTags.join(", "),
+    tagPath: plainTags.join("/"),
+    tagName: null != (_a5 = plainTags[plainTags.length - 1]) ? _a5 : "",
+    tagsJson: JSON.stringify(plainTags),
+    tagsYaml: plainTags.map(tag2 => `  - ${tag2}`).join("\n")
+  };
+  return template.replace(/\{\{(expandedTags|tags|tagList|tagPath|tagName|tagsJson|tagsYaml)\}\}/g, (_, key2) => replacements[key2]);
+}
+
+var NEW_NOTE_TEMPLATE_INTERACTION_ID = "new-note-template";
+
+function filterNewNoteTemplateChoices(templates, query) {
+  const normalizedQuery = query.toLowerCase();
+  return templates.filter(template => template.path.toLowerCase().includes(normalizedQuery) || template.name.toLowerCase().includes(normalizedQuery));
+}
+
+async function chooseNewNoteTemplate(ui, templates) {
+  if (0 != templates.length) return await ui.pickOne({
+    items: templates,
+    getText: template => template.name,
+    getDescription: template => template.path,
+    placeholder: "Type to search templates..."
+  }, NEW_NOTE_TEMPLATE_INTERACTION_ID);
+}
+
+async function populateNewNote(options) {
+  if (null !== options.template) {
+    const renderedTemplate = renderTagFolderTemplateVariables(await options.vault.readText(options.template.path), [ ...options.expandedTagsAll ], options.expandedTags);
+    if ("" != renderedTemplate.trim()) await options.vault.modifyText(options.notePath, renderedTemplate);
+    return;
+  }
+  if (!options.useFrontmatterTags) await options.vault.appendText(options.notePath, options.expandedTags); else await options.frontmatter.updateFrontmatter(options.notePath, value => {
+    var _a5;
+    const currentTags = null != (_a5 = value.tags) ? _a5 : [];
+    value.tags = options.frontmatterTags.filter(tag2 => currentTags.indexOf(tag2) < 0).concat(currentTags);
+  });
+}
+
+var _a3, _b2, _c, import_obsidian4 = require("obsidian"), PUBLIC_VERSION = "5";
 
 if ("undefined" != typeof window) (null != (_c = (_b2 = null != (_a3 = window.__svelte) ? _a3 : window.__svelte = {}).v) ? _c : _b2.v = new Set).add(PUBLIC_VERSION);
 
@@ -3452,11 +3915,11 @@ function from_namespace(content, flags2, ns = "svg") {
       return hydrate_node;
     }
     if (!node) {
-      var root7 = get_first_child(create_fragment_from_html(wrapped));
+      var root8 = get_first_child(create_fragment_from_html(wrapped));
       if (is_fragment) {
         node = document.createDocumentFragment();
-        for (;get_first_child(root7); ) node.appendChild(get_first_child(root7));
-      } else node = get_first_child(root7);
+        for (;get_first_child(root8); ) node.appendChild(get_first_child(root8));
+      } else node = get_first_child(root8);
     }
     var clone = node.cloneNode(true);
     if (is_fragment) assign_nodes(get_first_child(clone), clone.lastChild); else assign_nodes(clone, clone);
@@ -3555,7 +4018,7 @@ function hydrate(component2, options) {
 
 var listeners = new Map;
 
-function _mount(Component, {target, anchor, props = {}, events, context, intro = true, transformError}) {
+function _mount(Component2, {target, anchor, props = {}, events, context, intro = true, transformError}) {
   init_operations();
   var component2 = void 0, unmount2 = component_root(() => {
     var anchor_node = null != anchor ? anchor : target.appendChild(create_text());
@@ -3567,7 +4030,7 @@ function _mount(Component, {target, anchor, props = {}, events, context, intro =
       if (events) props.$$events = events;
       if (hydrating) assign_nodes(anchor_node2, null);
       should_intro = intro;
-      component2 = Component(anchor_node2, props) || {};
+      component2 = Component2(anchor_node2, props) || {};
       should_intro = true;
       if (hydrating) {
         active_effect.nodes.end = hydrate_node;
@@ -4185,7 +4648,7 @@ function html(node, get_value, is_controlled = false, svg = false, mathml = fals
 
 function append_styles(anchor, css) {
   effect(() => {
-    var _a5, root7 = anchor.getRootNode(), target = root7.host ? root7 : null != (_a5 = root7.head) ? _a5 : root7.ownerDocument.head;
+    var _a5, root8 = anchor.getRootNode(), target = root8.host ? root8 : null != (_a5 = root8.head) ? _a5 : root8.ownerDocument.head;
     if (!target.querySelector("#" + css.hash)) {
       const style = create_element("style");
       style.id = css.hash;
@@ -4778,7 +5241,7 @@ function get_custom_elements_slots(element2) {
   return result;
 }
 
-var import_obsidian = require("obsidian"), root = from_html('<div class="markdownBody svelte-164rifk" style="min-height: 1em;"></div>'), $$css = {
+var import_obsidian3 = require("obsidian"), root = from_html('<div class="markdownBody svelte-164rifk" style="min-height: 1em;"></div>'), $$css = {
   hash: "svelte-164rifk",
   code: ".markdownBody.svelte-164rifk {user-select:text;-webkit-user-select:text;}"
 };
@@ -4791,7 +5254,7 @@ function ScrollViewMarkdownComponent($$anchor, $$props) {
   })), el = state(void 0), renderedContent = state("");
   function onAppearing(_) {
     if (file().content && get(el) && get(renderedContent) != file().content) {
-      import_obsidian.MarkdownRenderer.render($$props.plugin.app, file().content, get(el), file().path, $$props.plugin);
+      import_obsidian3.MarkdownRenderer.render($$props.plugin.app, file().content, get(el), file().path, $$props.plugin);
       set(renderedContent, file().content, true);
     }
   }
@@ -4811,7 +5274,7 @@ function ScrollViewMarkdownComponent($$anchor, $$props) {
     if (get(renderedContent) && file() && file().content && get(el) && get(renderedContent) != file().content) {
       get(el).style.minHeight = `${get(el).clientHeight}px`;
       get(el).innerHTML = "";
-      import_obsidian.MarkdownRenderer.render($$props.plugin.app, file().content, get(el), file().path, $$props.plugin);
+      import_obsidian3.MarkdownRenderer.render($$props.plugin.app, file().content, get(el), file().path, $$props.plugin);
       set(renderedContent, file().content, true);
       get(el).style.minHeight = "20px";
     }
@@ -4901,7 +5364,7 @@ function ScrollViewComponent($$anchor, $$props) {
 
 delegate([ "click" ]);
 
-var ScrollView = class extends import_obsidian2.ItemView {
+var ScrollView = class extends import_obsidian4.ItemView {
   constructor(leaf, plugin) {
     super(leaf);
     this.icon = "sheets-in-box";
@@ -4955,7 +5418,7 @@ var ScrollView = class extends import_obsidian2.ItemView {
     const items = [];
     for (const item of this.state.files) if (item.content) items.push(item); else {
       const f = this.app.vault.getAbstractFileByPath(item.path);
-      if (null == f || !(f instanceof import_obsidian2.TFile)) {
+      if (null == f || !(f instanceof import_obsidian4.TFile)) {
         console.log(`File not found:${item.path}`);
         items.push(item);
         continue;
@@ -4991,7 +5454,7 @@ var ScrollView = class extends import_obsidian2.ItemView {
     }
     return await Promise.resolve();
   }
-}, import_obsidian6 = require("obsidian");
+}, import_obsidian8 = require("obsidian");
 
 function performSortExactFirst(_items, children, leftOverItems) {
   const childrenPathsArr = children.map(e => e[V2FI_IDX_CHILDREN].map(ee => ee.path)).flat(), childrenPaths = new Set(childrenPathsArr), exactHerePaths = new Set(_items.map(e => e.path));
@@ -5018,8 +5481,8 @@ async function collectChildren(previousTrail, tags, _tagInfo, _items) {
     tagPerItem.get(tagLc).push(item);
   });
   for (const tag2 of tags) {
-    const tagLC = tag2.toLowerCase(), tagNestedLC = trimPrefix(tagLC, previousTrailLC), items = [];
-    for (const [itemTag, tempItems] of tagPerItem) if (pathMatch(itemTag, tagLC)) items.push(...tempItems); else if (pathMatch(itemTag, tagNestedLC)) items.push(...tempItems);
+    const tagLC = tag2.toLowerCase(), tagNestedLC = previousTrailLC && !tagLC.startsWith(previousTrailLC) ? previousTrailLC + tagLC : "", items = [];
+    for (const [itemTag, tempItems] of tagPerItem) if (pathMatch(itemTag, tagLC)) items.push(...tempItems); else if (tagNestedLC && pathMatch(itemTag, tagNestedLC)) items.push(...tempItems);
     children.push([ tag2, ...parseTagName(tag2, _tagInfo), [ ...new Set(items) ] ]);
     delayIdx++;
     delayIdx %= 4;
@@ -5058,7 +5521,10 @@ async function collectTreeChildren({key: key2, expandLimit, depth, tags, trailLo
       }
       if (isMainTree && isRoot) {
         const archiveTags = _setting.archiveTags.toLowerCase().replace(/[\n ]/g, "").split(",");
-        wChildren = wChildren.map(e => archiveTags.some(aTag => `${aTag}//`.startsWith(e[V2FI_IDX_TAG].toLowerCase() + "/")) ? e : [ e[V2FI_IDX_TAG], e[V2FI_IDX_TAGNAME], e[V2FI_IDX_TAGDISP], e[V2FI_IDX_CHILDREN].filter(items => !items.tags.some(e2 => archiveTags.contains(e2.toLowerCase()))) ]).filter(child2 => 0 != child2[V2FI_IDX_CHILDREN].length);
+        wChildren = wChildren.map(e => {
+          const childTagPath = `${trimTrailingSlash(e[V2FI_IDX_TAG].toLowerCase())}/`;
+          return archiveTags.some(aTag => `${trimTrailingSlash(aTag)}/`.startsWith(childTagPath)) ? e : [ e[V2FI_IDX_TAG], e[V2FI_IDX_TAGNAME], e[V2FI_IDX_TAGDISP], e[V2FI_IDX_CHILDREN].filter(items => !items.tags.some(e2 => archiveTags.contains(e2.toLowerCase()))) ];
+        }).filter(child2 => 0 != child2[V2FI_IDX_CHILDREN].length);
       }
     }
     wChildren = wChildren.sort(sortFunc);
@@ -5594,7 +6060,7 @@ function V2TreeFolderComponent_1($$anchor, $$props) {
 
 delegate([ "click", "contextmenu" ]);
 
-var import_obsidian3 = require("obsidian"), root6 = from_html('<div class="clickable-icon nav-action-button" aria-label="Change sort order"></div>  <div class="clickable-icon nav-action-button" aria-label="Expand limit"></div>  <div aria-label="Search"></div>', 1), root_14 = from_html('<div class="clickable-icon nav-action-button" aria-label="Switch List/Tree"></div>'), root_22 = from_html('<div aria-label="Toggle Incoming"></div>  <div aria-label="Toggle Outgoing"></div>  <div aria-label="Toggle Incoming&amp;Outgoing"></div>  <div aria-label="Toggle Hide indirect notes"></div>', 1), root_32 = from_html('<div class="clickable-icon nav-action-button" aria-label="Collapse all"></div>'), root_42 = from_html('<div class="search-row"><div class="search-input-container global-search-input-container"><input type="search" spellcheck="false" placeholder="Type to start search..."/>  <div class="search-input-clear-button" aria-label="Clear search"></div></div></div>'), root_52 = from_html('<div hidden=""></div> <div class="nav-header"><div class="nav-buttons-container tagfolder-buttons-container"><div class="clickable-icon nav-action-button" aria-label="New note"></div> <!> <!> <!> <!></div></div> <!> <div class="nav-files-container node-insert-event svelte-10n2ssk"><!></div>', 1), $$css3 = {
+var import_obsidian5 = require("obsidian"), root6 = from_html('<div class="clickable-icon nav-action-button" aria-label="Change sort order"></div>  <div class="clickable-icon nav-action-button" aria-label="Expand limit"></div>  <div aria-label="Search"></div>', 1), root_14 = from_html('<div class="clickable-icon nav-action-button" aria-label="Switch List/Tree"></div>'), root_22 = from_html('<div aria-label="Toggle Incoming"></div>  <div aria-label="Toggle Outgoing"></div>  <div aria-label="Toggle Incoming&amp;Outgoing"></div>  <div aria-label="Toggle Hide indirect notes"></div>', 1), root_32 = from_html('<div class="clickable-icon nav-action-button" aria-label="Collapse all"></div>'), root_42 = from_html('<div class="search-row"><div class="search-input-container global-search-input-container"><input type="search" spellcheck="false" placeholder="Type to start search..."/>  <div class="search-input-clear-button" aria-label="Clear search"></div></div></div>'), root_52 = from_html('<div hidden=""></div> <div class="nav-header"><div class="nav-buttons-container tagfolder-buttons-container"><div class="clickable-icon nav-action-button" aria-label="New note"></div> <!> <!> <!> <!></div></div> <!> <div class="nav-files-container node-insert-event svelte-10n2ssk"><!></div>', 1), $$css3 = {
   hash: "svelte-10n2ssk",
   code: ".nav-files-container.svelte-10n2ssk {height:100%;}"
 };
@@ -5727,31 +6193,31 @@ function TagFolderViewComponent($$anchor, $$props) {
     });
     observeAllQueued();
     if (get(iconDivEl)) {
-      (0, import_obsidian3.setIcon)(get(iconDivEl), "right-triangle");
+      (0, import_obsidian5.setIcon)(get(iconDivEl), "right-triangle");
       set(folderIcon, `${get(iconDivEl).innerHTML}`);
-      (0, import_obsidian3.setIcon)(get(iconDivEl), "lucide-edit");
+      (0, import_obsidian5.setIcon)(get(iconDivEl), "lucide-edit");
       set(newNoteIcon, `${get(iconDivEl).innerHTML}`);
       if (get(isMainTree)) {
-        (0, import_obsidian3.setIcon)(get(iconDivEl), "lucide-sort-asc");
+        (0, import_obsidian5.setIcon)(get(iconDivEl), "lucide-sort-asc");
         set(upAndDownArrowsIcon, get(iconDivEl).innerHTML, true);
-        (0, import_obsidian3.setIcon)(get(iconDivEl), "stacked-levels");
+        (0, import_obsidian5.setIcon)(get(iconDivEl), "stacked-levels");
         set(stackedLevels, get(iconDivEl).innerHTML, true);
-        (0, import_obsidian3.setIcon)(get(iconDivEl), "search");
+        (0, import_obsidian5.setIcon)(get(iconDivEl), "search");
         set(searchIcon, get(iconDivEl).innerHTML, true);
       }
       if ("links" == viewType()) {
-        (0, import_obsidian3.setIcon)(get(iconDivEl), "links-coming-in");
+        (0, import_obsidian5.setIcon)(get(iconDivEl), "links-coming-in");
         set(incomingIcon, get(iconDivEl).innerHTML, true);
-        (0, import_obsidian3.setIcon)(get(iconDivEl), "links-going-out");
+        (0, import_obsidian5.setIcon)(get(iconDivEl), "links-going-out");
         set(outgoingIcon, get(iconDivEl).innerHTML, true);
-        (0, import_obsidian3.setIcon)(get(iconDivEl), "link");
+        (0, import_obsidian5.setIcon)(get(iconDivEl), "link");
         set(linkIcon, get(iconDivEl).innerHTML, true);
-        (0, import_obsidian3.setIcon)(get(iconDivEl), "lucide-link-2");
+        (0, import_obsidian5.setIcon)(get(iconDivEl), "lucide-link-2");
         set(bothIcon, get(iconDivEl).innerHTML, true);
       }
-      (0, import_obsidian3.setIcon)(get(iconDivEl), "lucide-arrow-left-right");
+      (0, import_obsidian5.setIcon)(get(iconDivEl), "lucide-arrow-left-right");
       set(switchIcon, get(iconDivEl).innerHTML, true);
-      (0, import_obsidian3.setIcon)(get(iconDivEl), "lucide-chevrons-down-up");
+      (0, import_obsidian5.setIcon)(get(iconDivEl), "lucide-chevrons-down-up");
       set(closeAllIcon, get(iconDivEl).innerHTML, true);
     }
     const int = window.setInterval(() => {
@@ -5935,9 +6401,9 @@ function TagFolderViewComponent($$anchor, $$props) {
 
 delegate([ "click" ]);
 
-var import_obsidian5 = require("obsidian"), import_obsidian4 = require("obsidian"), askString = (app, title, placeholder, initialText) => new Promise(res => {
+var import_obsidian7 = require("obsidian"), import_obsidian6 = require("obsidian"), askString = (app, title, placeholder, initialText) => new Promise(res => {
   new PopoverSelectString(app, title, placeholder, initialText, result => res(result)).open();
-}), PopoverSelectString = class extends import_obsidian4.SuggestModal {
+}), PopoverSelectString = class extends import_obsidian6.SuggestModal {
   constructor(app, title, placeholder, initialText, callback) {
     super(app);
     this.callback = () => {};
@@ -5994,7 +6460,7 @@ function getRenameTargetTag(expandedTagsAll) {
   if (0 != tagParts.length && !tagParts.some(part => isSpecialTag(part))) return tagParts.join("/");
 }
 
-var TagFolderViewBase = class extends import_obsidian5.ItemView {
+var TagFolderViewBase = class extends import_obsidian7.ItemView {
   constructor() {
     super(...arguments);
     this.navigation = false;
@@ -6008,10 +6474,10 @@ var TagFolderViewBase = class extends import_obsidian5.ItemView {
     this.plugin.updateFileCaches();
   }
   showOrder(evt) {
-    const menu = new import_obsidian5.Menu;
+    const menu = new import_obsidian7.Menu;
     menu.addItem(item => {
       item.setTitle("Tags").setIcon("hashtag").onClick(evt2 => {
-        const menu2 = new import_obsidian5.Menu;
+        const menu2 = new import_obsidian7.Menu;
         for (const key2 in OrderKeyTag) for (const direction in OrderDirection) menu2.addItem(item2 => {
           const newSetting = `${key2}_${direction}`;
           item2.setTitle(OrderKeyTag[key2] + " " + OrderDirection[direction]).onClick(async () => {
@@ -6030,7 +6496,7 @@ var TagFolderViewBase = class extends import_obsidian5.ItemView {
     });
     menu.addItem(item => {
       item.setTitle("Items").setIcon("document").onClick(evt2 => {
-        const menu2 = new import_obsidian5.Menu;
+        const menu2 = new import_obsidian7.Menu;
         for (const key2 in OrderKeyItem) for (const direction in OrderDirection) menu2.addItem(item2 => {
           const newSetting = `${key2}_${direction}`;
           item2.setTitle(OrderKeyItem[key2] + " " + OrderDirection[direction]).onClick(async () => {
@@ -6050,7 +6516,7 @@ var TagFolderViewBase = class extends import_obsidian5.ItemView {
     menu.showAtMouseEvent(evt);
   }
   showLevelSelect(evt) {
-    const menu = new import_obsidian5.Menu, setLevel = async level => {
+    const menu = new import_obsidian7.Menu, setLevel = async level => {
       this.plugin.settings.expandLimit = level;
       await this.plugin.saveSettings();
       maxDepth.set(level);
@@ -6072,12 +6538,12 @@ var TagFolderViewBase = class extends import_obsidian5.ItemView {
     menu.showAtMouseEvent(evt);
   }
   showMenu(evt, trail, targetTag, targetItems) {
-    const isTagTree = this.getViewType() == VIEW_TYPE_TAGFOLDER, menu = new import_obsidian5.Menu;
+    const isTagTree = this.getViewType() == VIEW_TYPE_TAGFOLDER, menu = new import_obsidian7.Menu;
     if (isTagTree) {
       const expandedTagsAll = ancestorToLongestTag(ancestorToTags(joinPartialPath(removeIntermediatePath(trail)))).map(e => trimTrailingSlash(e)), expandedTags = expandedTagsAll.map(e => e.split("/").filter(ee => !isSpecialTag(ee)).join("/")).filter(e => "" != e).map(e => "#" + e).join(" ").trim(), displayExpandedTags = expandedTagsAll.map(e => e.split("/").filter(ee => renderSpecialTag(ee)).join("/")).filter(e => "" != e).map(e => "#" + e).join(" ").trim();
       if (navigator && navigator.clipboard) menu.addItem(item => item.setTitle(`Copy tags:${expandedTags}`).setIcon("hashtag").onClick(async () => {
         await navigator.clipboard.writeText(expandedTags);
-        new import_obsidian5.Notice("Copied");
+        new import_obsidian7.Notice("Copied");
       }));
       menu.addItem(item => item.setTitle("New note " + (targetTag ? "in here" : "as like this")).setIcon("create-new").onClick(async () => {
         await this.plugin.createNewNote(trail);
@@ -6235,7 +6701,7 @@ var TagFolderViewBase = class extends import_obsidian5.ItemView {
     this.component = void 0;
     return await Promise.resolve();
   }
-}, import_obsidian7 = require("obsidian"), TagFolderList = class extends TagFolderViewBase {
+}, import_obsidian9 = require("obsidian"), TagFolderList = class extends TagFolderViewBase {
   constructor(leaf, plugin) {
     super(leaf);
     this.icon = "stacked-levels";
@@ -6312,7 +6778,538 @@ var TagFolderViewBase = class extends import_obsidian5.ItemView {
     }
     return await Promise.resolve();
   }
-}, HideItemsType = {
+};
+
+function normaliseTag(tag2) {
+  return tag2.trim().replace(/^#/, "").replace(/\/+$/, "");
+}
+
+function uniqueCaseInsensitive(values) {
+  const seen = new Set, result = [];
+  for (const value of values) {
+    const key2 = value.toLowerCase();
+    if ("" != value && !seen.has(key2)) {
+      seen.add(key2);
+      result.push(value);
+    }
+  }
+  return result;
+}
+
+function folderMatches(path, folder) {
+  const pathLower = path.toLowerCase(), folderLower = folder.trim().replace(/^\/+|\/+$/g, "").toLowerCase();
+  if ("" == folderLower) return false; else return pathLower == folderLower || pathLower.startsWith(`${folderLower}/`);
+}
+
+function normalisePolicyTags(tags) {
+  return new Set(tags.map(normaliseTag).filter(Boolean).map(tag2 => tag2.toLowerCase()));
+}
+
+function normaliseLookupTags(rawTags, policy2) {
+  const redirects = new Map(Object.entries(policy2.redirects).map(([tag2, redirect]) => [ normaliseTag(tag2).toLowerCase(), normaliseTag(redirect) ]).filter(([tag2, redirect]) => "" != tag2 && "" != redirect)), redirected = rawTags.map(normaliseTag).filter(Boolean).map(tag2 => {
+    var _a5;
+    return null != (_a5 = redirects.get(tag2.toLowerCase())) ? _a5 : tag2;
+  });
+  return uniqueCaseInsensitive((policy2.splitNestedTags ? redirected.flatMap(tag2 => tag2.split("/").map(part => part.trim()).filter(Boolean)) : redirected).map(tag2 => {
+    var _a5;
+    return null != (_a5 = redirects.get(tag2.toLowerCase())) ? _a5 : tag2;
+  }));
+}
+
+function buildNoteLookupItems(sources, policy2) {
+  const ignoredDocumentTags = normalisePolicyTags(policy2.ignoreDocumentTags), ignoredTags = normalisePolicyTags(policy2.ignoreTags);
+  return sources.flatMap(source2 => {
+    if (policy2.targetFolders.length > 0 && !policy2.targetFolders.some(folder => folderMatches(source2.path, folder))) return [];
+    if (policy2.ignoreFolders.some(folder => folderMatches(source2.path, folder))) return [];
+    const tags = normaliseLookupTags(source2.tags, policy2);
+    if (tags.some(tag2 => ignoredDocumentTags.has(tag2.toLowerCase()))) return []; else return [ {
+      path: source2.path,
+      title: source2.title,
+      tags: tags.filter(tag2 => !ignoredTags.has(tag2.toLowerCase())),
+      mtime: source2.mtime
+    } ];
+  });
+}
+
+function parseTagInput(input) {
+  let query = input.trim();
+  const excluded = query.startsWith("-");
+  if (excluded) query = query.substring(1);
+  query = query.replace(/^#/, "").trim();
+  return {
+    excluded,
+    query
+  };
+}
+
+function tagMatchesCondition(noteTag, conditionTag) {
+  const tag2 = normaliseTag(noteTag).toLowerCase(), condition = normaliseTag(conditionTag).toLowerCase();
+  if ("" == tag2 || "" == condition) return false; else return tag2 == condition || tag2.startsWith(`${condition}/`);
+}
+
+function tagAncestors(tag2) {
+  const parts = normaliseTag(tag2).split("/").filter(Boolean);
+  return parts.map((_, index2) => parts.slice(0, index2 + 1).join("/"));
+}
+
+function getTagCompletions(items, conditions, input) {
+  var _a5;
+  const {excluded, query} = parseTagInput(input), queryLower = query.toLowerCase(), selected = new Set(conditions.map(condition => normaliseTag(condition.tag).toLowerCase())), counts = new Map;
+  for (const item of items) for (const tag2 of uniqueCaseInsensitive(item.tags.flatMap(tagAncestors))) {
+    const key2 = tag2.toLowerCase();
+    if (selected.has(key2)) continue;
+    const entry = null != (_a5 = counts.get(key2)) ? _a5 : {
+      tag: tag2,
+      paths: new Set
+    };
+    entry.paths.add(item.path);
+    counts.set(key2, entry);
+  }
+  return [ ...counts.values() ].filter(({tag: tag2}) => "" == queryLower || tag2.toLowerCase().includes(queryLower)).sort((left, right) => {
+    const leftPrefix = left.tag.toLowerCase().startsWith(queryLower) ? 1 : 0, rightPrefix = right.tag.toLowerCase().startsWith(queryLower) ? 1 : 0;
+    if (leftPrefix != rightPrefix) return rightPrefix - leftPrefix;
+    if (left.paths.size != right.paths.size) return right.paths.size - left.paths.size; else return left.tag.localeCompare(right.tag, void 0, {
+      numeric: true,
+      sensitivity: "base"
+    });
+  }).map(({tag: tag2, paths}) => ({
+    tag: tag2,
+    excluded,
+    noteCount: paths.size
+  }));
+}
+
+function scoreSubsequence(needle, haystack) {
+  var _a5;
+  const exactIndex = haystack.indexOf(needle);
+  if (exactIndex >= 0) return 2e3 + (0 == exactIndex ? 500 : 0) - exactIndex - (haystack.length - needle.length) / 100;
+  let position = -1, score = 0;
+  for (const character of needle) {
+    const next2 = haystack.indexOf(character, position + 1);
+    if (next2 < 0) return null;
+    const gap = next2 - position - 1;
+    score += 20 - Math.min(gap, 19);
+    if (0 == next2 || "/-_ ".includes(null != (_a5 = haystack[next2 - 1]) ? _a5 : "")) score += 10;
+    position = next2;
+  }
+  return score;
+}
+
+function scoreNoteQuery(item, query) {
+  const words = query.toLowerCase().trim().split(/\s+/).filter(Boolean);
+  if (0 == words.length) return 0;
+  const title = item.title.toLowerCase(), path = item.path.toLowerCase();
+  let total = 0;
+  for (const word of words) {
+    const titleScore = scoreSubsequence(word, title), pathScore = scoreSubsequence(word, path);
+    if (null == titleScore && null == pathScore) return null;
+    total += Math.max(null == titleScore ? -1 / 0 : titleScore + 200, null != pathScore ? pathScore : -1 / 0);
+  }
+  return total;
+}
+
+function uniqueConditions(conditions) {
+  const seen = new Set;
+  return conditions.filter(condition => {
+    const tag2 = normaliseTag(condition.tag), key2 = `${condition.excluded ? "-" : "+"}${tag2.toLowerCase()}`;
+    if ("" == tag2 || seen.has(key2)) return false;
+    seen.add(key2);
+    return true;
+  }).map(condition => ({
+    ...condition,
+    tag: normaliseTag(condition.tag)
+  }));
+}
+
+function rankNoteLookupItems(items, conditions, noteQuery, options = {}) {
+  const normalisedConditions = uniqueConditions(conditions), positive = normalisedConditions.filter(condition => !condition.excluded), excluded = normalisedConditions.filter(condition => condition.excluded);
+  return items.flatMap(item => {
+    if (null != options.excludedPath && item.path == options.excludedPath) return [];
+    if (excluded.some(condition => item.tags.some(tag2 => tagMatchesCondition(tag2, condition.tag)))) return [];
+    const matchedTags = positive.filter(condition => item.tags.some(tag2 => tagMatchesCondition(tag2, condition.tag))).map(condition => condition.tag);
+    if (positive.length > 0 && 0 == matchedTags.length) return [];
+    const queryScore = scoreNoteQuery(item, noteQuery);
+    if (null == queryScore) return []; else return [ {
+      ...item,
+      matchedTags,
+      matchCount: matchedTags.length,
+      queryScore
+    } ];
+  }).sort((left, right) => {
+    if (left.matchCount != right.matchCount) return right.matchCount - left.matchCount;
+    if (left.queryScore != right.queryScore) return right.queryScore - left.queryScore;
+    if (left.mtime != right.mtime) return right.mtime - left.mtime; else return left.path.localeCompare(right.path, void 0, {
+      numeric: true,
+      sensitivity: "base"
+    });
+  });
+}
+
+var import_obsidian10 = require("obsidian"), root7 = from_html('<button type="button" tabindex="-1"><span class="multi-select-pill-content svelte-kazjep"> </span> <span class="multi-select-pill-remove-button" aria-hidden="true">×</span></button>'), root_15 = from_html('<button type="button" role="option" tabindex="-1"><span> </span> <span class="count svelte-kazjep"> </span></button>'), root_23 = from_html('<div class="completions suggestion-container svelte-kazjep"><div class="suggestion svelte-kazjep" id="tagfolder-note-lookup-completions" role="listbox" aria-label="Tag completions"></div></div>'), root_33 = from_html('<span class="note-parent-path svelte-kazjep"> </span>'), root_43 = from_html('<span class="note-alternative-title svelte-kazjep"> </span>'), root_53 = from_html("<span> </span>"), root_62 = from_html('<span class="suggestion-aux match-count svelte-kazjep"> </span>'), root_72 = from_html('<button type="button" role="option" tabindex="-1"><div class="suggestion-content svelte-kazjep"><span class="note-location svelte-kazjep"><span class="note-file-name svelte-kazjep"> </span> <!></span> <div class="note-detail-row svelte-kazjep"><!> <span class="note-tags svelte-kazjep"></span></div></div> <!></button>'), root_8 = from_html('<div class="empty-result svelte-kazjep">No matching notes</div>'), root_9 = from_html('<div class="note-lookup svelte-kazjep"><div class="tag-field svelte-kazjep"><label for="tagfolder-note-lookup-tag-input" class="svelte-kazjep">Tags</label> <div class="tag-input-shell svelte-kazjep"><div class="tag-chips svelte-kazjep" id="tagfolder-note-lookup-selected-tags"><!> <input id="tagfolder-note-lookup-tag-input" type="text" role="combobox" spellcheck="false" autocomplete="off" aria-label="Tag conditions" aria-controls="tagfolder-note-lookup-completions tagfolder-note-lookup-notes tagfolder-note-lookup-selected-tags" class="svelte-kazjep"/></div></div> <!></div> <label for="tagfolder-note-lookup-note-input" class="svelte-kazjep">Note</label> <input id="tagfolder-note-lookup-note-input" class="note-input svelte-kazjep" type="text" role="combobox" spellcheck="false" autocomplete="off" placeholder="Type a file name or path…" aria-label="Note name or path" aria-controls="tagfolder-note-lookup-notes" aria-expanded="true"/> <div class="result-summary svelte-kazjep" aria-hidden="true"><span class="svelte-kazjep"> </span> <span class="svelte-kazjep">Tab: switch field · ↑↓: select · Enter: open</span></div> <div class="notes prompt-results svelte-kazjep" id="tagfolder-note-lookup-notes" role="listbox" aria-label="Matching notes"><!> <!></div> <div class="sr-only svelte-kazjep" aria-live="polite"> </div></div>'), $$css4 = {
+  hash: "svelte-kazjep",
+  code: '.note-lookup.svelte-kazjep {display:flex;flex-direction:column;gap:0.45rem;flex:1;width:100%;min-width:0;min-height:0;}.tagfolder-note-lookup-modal {width:min(46rem, 90vw);max-width:90vw;height:min(46rem, calc(100dvh - 2rem));max-height:calc(100dvh - 2rem);}.tagfolder-note-lookup-modal .modal-content {display:flex;flex:1;min-height:0;}label.svelte-kazjep {color:var(--text-muted);font-size:var(--font-ui-smaller);font-weight:var(--font-semibold);}.tag-input-shell.svelte-kazjep,\n\t.note-input.svelte-kazjep {background:var(--background-modifier-form-field);border:var(--input-border-width) solid var(--background-modifier-border);border-radius:var(--input-radius);box-shadow:var(--input-shadow);}.tag-input-shell.svelte-kazjep {width:100%;max-width:100%;min-width:0;overflow:hidden;border-radius:var(--radius-s);}.tag-input-shell.svelte-kazjep:focus-within,\n\t.note-input.svelte-kazjep:focus {border-color:var(--interactive-accent);box-shadow:0 0 0 2px var(--background-modifier-border-focus);}.tag-field.svelte-kazjep {position:relative;display:flex;flex-direction:column;gap:0.45rem;z-index:2;}.tag-chips.svelte-kazjep {display:flex;align-items:center;flex-wrap:wrap;gap:0.3rem;width:100%;max-width:100%;min-width:0;min-height:2.25rem;padding:0.3rem 0.45rem;}.tag-chips.svelte-kazjep input:where(.svelte-kazjep) {flex:1 1 9rem;min-width:7rem;border:0;box-shadow:none;background:transparent;padding:0.2rem;}.tag-chips.svelte-kazjep input:where(.svelte-kazjep):focus {border:0;box-shadow:none;}.tag-chip.svelte-kazjep {--pill-color: var(--tag-color);--pill-color-hover: var(--tag-color-hover);--pill-color-remove: var(--tag-color);--pill-color-remove-hover: var(--tag-color-hover);--pill-decoration: var(--tag-decoration);--pill-decoration-hover: var(--tag-decoration-hover);--pill-background: var(--tag-background);--pill-background-hover: var(--tag-background-hover);--pill-border-color: var(--tag-border-color);--pill-border-color-hover: var(--tag-border-color-hover);--pill-border-width: var(--tag-border-width);--pill-padding-x: var(--tag-padding-x);--pill-padding-y: var(--tag-padding-y);--pill-radius: var(--tag-radius);--pill-corner-shape: var(--tag-corner-shape);--pill-weight: var(--tag-weight);font-size:var(--tag-size);min-width:0;max-width:100%;height:auto;box-shadow:none;}.tag-chip.svelte-kazjep .multi-select-pill-content:where(.svelte-kazjep) {min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}.tag-chip.excluded.svelte-kazjep {--pill-color: var(--text-error);--pill-color-hover: var(--text-error);--pill-color-remove: var(--text-error);--pill-color-remove-hover: var(--text-error);--pill-background: transparent;--pill-background-hover: var(--background-modifier-hover);--pill-border-color: var(--text-error);--pill-border-color-hover: var(--text-error);--pill-border-width: var(--border-width);border-style:dashed;}.tag-chip.active.svelte-kazjep::after {content:"";display:block;position:absolute;pointer-events:none;border-radius:var(--pill-radius);inset:0;box-shadow:0 0 0 1px var(--background-modifier-border-focus), inset 0 0 0 1px var(--background-modifier-border-focus);}.completions.svelte-kazjep {top:calc(100% + 0.25rem);left:0;right:0;max-width:none;max-height:14rem;}.completions.svelte-kazjep .suggestion:where(.svelte-kazjep) {overflow-y:auto;padding:var(--size-2-3);}.completion.svelte-kazjep,\n\t.note-result.svelte-kazjep {width:100%;border:0;background:transparent;box-shadow:none;color:var(--text-normal);text-align:left;}.completion.svelte-kazjep {display:flex;justify-content:space-between;}.completion.is-selected.svelte-kazjep,\n\t.note-result.is-selected.svelte-kazjep {background-color:var(--background-modifier-hover);}.count.svelte-kazjep,\n\t.result-summary.svelte-kazjep,\n\t.match-count.svelte-kazjep {color:var(--text-muted);font-size:var(--font-ui-smaller);}.note-input.svelte-kazjep {width:100%;padding:0.55rem 0.7rem;}.result-summary.svelte-kazjep {display:flex;justify-content:space-between;gap:1rem;}.notes.svelte-kazjep {flex:1;min-height:5rem;overflow-y:auto;border-top:1px solid var(--background-modifier-border);padding:var(--size-2-3) 0 0;}.note-result.svelte-kazjep {align-items:center;padding:var(--size-2-2) var(--size-4-2);}.note-result.svelte-kazjep .suggestion-content:where(.svelte-kazjep) {flex:1 1 auto;min-width:0;width:auto;overflow:hidden;}.note-detail-row.svelte-kazjep {display:flex;justify-content:space-between;gap:1rem;width:100%;min-width:0;}.note-result.svelte-kazjep .suggestion-aux:where(.svelte-kazjep) {flex:0 0 auto;align-self:center;}.note-location.svelte-kazjep {display:flex;align-items:baseline;gap:0.5rem;width:100%;min-width:0;overflow:hidden;}.note-file-name.svelte-kazjep {flex:0 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:var(--font-ui-small);font-weight:var(--font-semibold);}.note-parent-path.svelte-kazjep,\n\t.note-alternative-title.svelte-kazjep {color:var(--text-muted);font-size:var(--font-ui-smaller);}.note-parent-path.svelte-kazjep,\n\t.note-alternative-title.svelte-kazjep {overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}.note-parent-path.svelte-kazjep {flex:0 10 auto;min-width:0;max-width:40%;}.match-count.svelte-kazjep {white-space:nowrap;}.note-alternative-title.svelte-kazjep {min-width:0;}.note-tags.svelte-kazjep {display:flex;gap:0.4rem;flex-shrink:0;color:var(--text-accent);font-size:var(--font-ui-smaller);}.empty-result.svelte-kazjep {padding:2rem;text-align:center;color:var(--text-muted);}.sr-only.svelte-kazjep {position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0;}\n\t@media (max-width: 600px) {.tagfolder-note-lookup-modal {width:calc(100vw - 0.75rem);max-width:calc(100vw - 0.75rem);height:calc(100dvh - 0.75rem);max-height:calc(100dvh - 0.75rem);}body.is-phone .tagfolder-note-lookup-modal {width:var(--dialog-width);max-width:var(--dialog-max-width);height:100%;max-height:var(--dialog-max-height);margin-top:auto;}.note-lookup.svelte-kazjep,\n\t\t.tag-field.svelte-kazjep {gap:0.3rem;}.tag-chips.svelte-kazjep {padding:0.2rem 0.3rem;max-height:min(calc(var(--input-height) * 1.5), 15dvh);overflow-x:hidden;overflow-y:auto;align-content:flex-start;}.note-input.svelte-kazjep {padding:0.4rem 0.55rem;}.note-result.svelte-kazjep {padding:var(--size-2-2) var(--size-4-2);}.note-location.svelte-kazjep {gap:0.35rem;}.result-summary.svelte-kazjep span:where(.svelte-kazjep):last-child,\n\t\t.note-tags.svelte-kazjep {display:none;}\n\t}'
+};
+
+function NoteLookupModal($$anchor, $$props) {
+  push($$props, true);
+  append_styles($$anchor, $$css4);
+  let initialConditions = prop($$props, "initialConditions", 19, () => []), conditions = state(proxy(untrack(() => initialConditions().map(condition => ({
+    ...condition
+  }))))), tagQuery = state(""), noteQuery = state(""), activeCompletionIndex = state(0), activeNoteIndex = state(0), activeChipIndex = state(-1), tagInputFocused = state(false), announcement = state(""), tagInputEl = state(void 0), noteInputEl = state(void 0);
+  const completions = user_derived(() => getTagCompletions($$props.notes, get(conditions), get(tagQuery)).slice(0, 12)), rankedNotes = user_derived(() => rankNoteLookupItems($$props.notes, get(conditions), get(noteQuery), {
+    excludedPath: $$props.excludedPath
+  })), visibleNotes = user_derived(() => get(rankedNotes).slice(0, 100)), positiveConditionCount = user_derived(() => get(conditions).filter(condition => !condition.excluded).length), showCompletions = user_derived(() => get(tagInputFocused) && "" != get(tagQuery).trim() && get(completions).length > 0), tagActiveDescendant = user_derived(() => {
+    if (get(activeChipIndex) >= 0) return `tagfolder-note-lookup-chip-${get(activeChipIndex)}`;
+    if (get(showCompletions)) return `tagfolder-note-lookup-completion-${get(activeCompletionIndex)}`;
+    if (get(visibleNotes).length > 0) return `tagfolder-note-lookup-note-${get(activeNoteIndex)}`;
+  }), noteActiveDescendant = user_derived(() => get(visibleNotes).length > 0 ? `tagfolder-note-lookup-note-${get(activeNoteIndex)}` : void 0);
+  user_effect(() => {
+    if (get(activeCompletionIndex) >= get(completions).length) set(activeCompletionIndex, Math.max(0, get(completions).length - 1), true);
+  });
+  user_effect(() => {
+    if (get(activeNoteIndex) >= get(visibleNotes).length) set(activeNoteIndex, Math.max(0, get(visibleNotes).length - 1), true);
+  });
+  user_effect(() => {
+    if (get(activeChipIndex) >= get(conditions).length) set(activeChipIndex, get(conditions).length - 1);
+  });
+  onMount(() => {
+    null === get(tagInputEl) || void 0 === get(tagInputEl) || get(tagInputEl).focus();
+  });
+  user_effect(() => {
+    const index2 = get(activeNoteIndex);
+    if (0 != get(visibleNotes).length) null === get(tagInputEl) || void 0 === get(tagInputEl) || get(tagInputEl).win.requestAnimationFrame(() => {
+      var _a5;
+      null === (_a5 = null === get(tagInputEl) || void 0 === get(tagInputEl) ? void 0 : get(tagInputEl).ownerDocument.getElementById(`tagfolder-note-lookup-note-${index2}`)) || void 0 === _a5 || _a5.scrollIntoView({
+        block: "nearest"
+      });
+    });
+  });
+  user_effect(() => {
+    const index2 = get(activeCompletionIndex);
+    if (get(showCompletions)) null === get(tagInputEl) || void 0 === get(tagInputEl) || get(tagInputEl).win.requestAnimationFrame(() => {
+      var _a5;
+      null === (_a5 = null === get(tagInputEl) || void 0 === get(tagInputEl) ? void 0 : get(tagInputEl).ownerDocument.getElementById(`tagfolder-note-lookup-completion-${index2}`)) || void 0 === _a5 || _a5.scrollIntoView({
+        block: "nearest"
+      });
+    });
+  });
+  function moveIndex(current, length, delta) {
+    if (0 == length) return 0; else return (current + delta + length) % length;
+  }
+  function addCompletion(completion) {
+    set(conditions, [ ...get(conditions), {
+      tag: completion.tag,
+      excluded: completion.excluded
+    } ], true);
+    set(tagQuery, "");
+    set(activeCompletionIndex, 0);
+    set(activeNoteIndex, 0);
+    set(activeChipIndex, -1);
+    set(announcement, `${completion.excluded ? "Excluded" : "Added"} tag ${completion.tag}`);
+    null === get(tagInputEl) || void 0 === get(tagInputEl) || get(tagInputEl).focus();
+  }
+  function removeCondition(index2) {
+    const removed = get(conditions)[index2];
+    if (removed) {
+      set(conditions, get(conditions).filter((_, conditionIndex) => conditionIndex != index2), true);
+      set(activeNoteIndex, 0);
+      if (0 == get(conditions).length) set(activeChipIndex, -1); else if (get(activeChipIndex) >= 0) set(activeChipIndex, Math.min(index2, get(conditions).length - 1), true);
+      set(announcement, `Removed tag ${removed.tag}`);
+      null === get(tagInputEl) || void 0 === get(tagInputEl) || get(tagInputEl).focus();
+    }
+  }
+  function chooseActiveNote(newTab) {
+    const item = get(visibleNotes)[get(activeNoteIndex)];
+    if (item) $$props.openNote(item.path, newTab);
+  }
+  function noteFileName(item) {
+    var _a5;
+    return null !== (_a5 = item.path.split("/").pop()) && void 0 !== _a5 ? _a5 : item.path;
+  }
+  function noteParentPath(item) {
+    const separator = item.path.lastIndexOf("/");
+    return separator < 0 ? "" : item.path.substring(0, separator + 1);
+  }
+  function handleCommonKey(event2, current) {
+    if ("Tab" == event2.key) {
+      event2.preventDefault();
+      (function focusOtherInput(current) {
+        set(activeChipIndex, -1);
+        if ("tag" == current) null === get(noteInputEl) || void 0 === get(noteInputEl) || get(noteInputEl).focus(); else null === get(tagInputEl) || void 0 === get(tagInputEl) || get(tagInputEl).focus();
+      })(current);
+      return true;
+    }
+    if ("Escape" == event2.key) {
+      event2.preventDefault();
+      if (get(activeChipIndex) >= 0) {
+        set(activeChipIndex, -1);
+        null === get(tagInputEl) || void 0 === get(tagInputEl) || get(tagInputEl).focus();
+      } else $$props.close();
+      return true;
+    }
+    return false;
+  }
+  var div = root_9(), div_1 = child(div), div_2 = sibling(child(div_1), 2), div_3 = child(div_2), node = child(div_3);
+  each(node, 19, () => get(conditions), condition => `${condition.excluded ? "-" : "+"}${condition.tag}`, ($$anchor2, condition, index2) => {
+    var button = root7();
+    let classes;
+    var span = child(button), text2 = child(span);
+    reset(span);
+    next(2);
+    reset(button);
+    template_effect(() => {
+      var _a5;
+      set_attribute2(button, "id", `tagfolder-note-lookup-chip-${get(index2)}`);
+      classes = set_class(button, 1, "tag-chip multi-select-pill svelte-kazjep", null, classes, {
+        excluded: get(condition).excluded,
+        active: get(activeChipIndex) == get(index2)
+      });
+      set_attribute2(button, "aria-label", `Remove ${get(condition).excluded ? "excluded " : ""}tag ${get(condition).tag}`);
+      set_text(text2, `${get(condition).excluded ? "- " : ""}#${null != (_a5 = get(condition).tag) ? _a5 : ""}`);
+    });
+    delegated("click", button, () => removeCondition(get(index2)));
+    append($$anchor2, button);
+  });
+  var input = sibling(node, 2);
+  remove_input_defaults(input);
+  bind_this(input, $$value => set(tagInputEl, $$value), () => get(tagInputEl));
+  reset(div_3);
+  reset(div_2);
+  var node_1 = sibling(div_2, 2), consequent = $$anchor2 => {
+    var div_4 = root_23(), div_5 = child(div_4);
+    each(div_5, 23, () => get(completions), completion => completion.tag, ($$anchor3, completion, index2) => {
+      var button_1 = root_15();
+      let classes_1;
+      var span_1 = child(button_1), text_1 = child(span_1);
+      reset(span_1);
+      var span_2 = sibling(span_1, 2), text_2 = child(span_2);
+      reset(span_2);
+      reset(button_1);
+      template_effect(() => {
+        var _a5, _b3;
+        set_attribute2(button_1, "id", `tagfolder-note-lookup-completion-${get(index2)}`);
+        classes_1 = set_class(button_1, 1, "completion suggestion-item mod-complex svelte-kazjep", null, classes_1, {
+          "is-selected": get(activeCompletionIndex) == get(index2)
+        });
+        set_attribute2(button_1, "aria-selected", get(activeCompletionIndex) == get(index2));
+        set_text(text_1, `${get(completion).excluded ? "-" : ""}#${null != (_a5 = get(completion).tag) ? _a5 : ""}`);
+        set_text(text_2, `${null != (_b3 = get(completion).noteCount) ? _b3 : ""} ${1 == get(completion).noteCount ? "note" : "notes"}`);
+      });
+      delegated("mousedown", button_1, event2 => event2.preventDefault());
+      event("mouseenter", button_1, () => set(activeCompletionIndex, get(index2), true));
+      delegated("click", button_1, () => addCompletion(get(completion)));
+      append($$anchor3, button_1);
+    });
+    reset(div_5);
+    reset(div_4);
+    append($$anchor2, div_4);
+  };
+  if_block(node_1, $$render => {
+    if (get(showCompletions)) $$render(consequent);
+  });
+  reset(div_1);
+  var input_1 = sibling(div_1, 4);
+  remove_input_defaults(input_1);
+  bind_this(input_1, $$value => set(noteInputEl, $$value), () => get(noteInputEl));
+  var div_6 = sibling(input_1, 2), span_3 = child(div_6), text_3 = child(span_3);
+  reset(span_3);
+  next(2);
+  reset(div_6);
+  var div_7 = sibling(div_6, 2), node_2 = child(div_7);
+  each(node_2, 19, () => get(visibleNotes), item => item.path, ($$anchor2, item, index2) => {
+    var button_2 = root_72();
+    let classes_2;
+    var div_8 = child(button_2), span_4 = child(div_8), span_5 = child(span_4), text_4 = child(span_5, true);
+    reset(span_5);
+    var node_3 = sibling(span_5, 2), consequent_1 = $$anchor3 => {
+      var span_6 = root_33(), text_5 = child(span_6, true);
+      reset(span_6);
+      template_effect($0 => set_text(text_5, $0), [ () => noteParentPath(get(item)) ]);
+      append($$anchor3, span_6);
+    }, d = user_derived(() => noteParentPath(get(item)));
+    if_block(node_3, $$render => {
+      if (get(d)) $$render(consequent_1);
+    });
+    reset(span_4);
+    var div_9 = sibling(span_4, 2), node_4 = child(div_9), consequent_2 = $$anchor3 => {
+      var span_7 = root_43(), text_6 = child(span_7, true);
+      reset(span_7);
+      template_effect(() => set_text(text_6, get(item).title));
+      append($$anchor3, span_7);
+    }, d_1 = user_derived(() => function hasAlternativeTitle(item) {
+      return item.title != noteFileName(item).replace(/\.md$/i, "");
+    }(get(item)));
+    if_block(node_4, $$render => {
+      if (get(d_1)) $$render(consequent_2);
+    });
+    var span_8 = sibling(node_4, 2);
+    each(span_8, 21, () => function displayTags(item) {
+      const positive = get(conditions).filter(condition => !condition.excluded);
+      return (0 == positive.length ? [ ...item.tags ] : item.tags.filter(tag2 => positive.some(condition => tagMatchesCondition(tag2, condition.tag)))).slice(0, 5);
+    }(get(item)), index, ($$anchor3, tag2) => {
+      var span_9 = root_53(), text_7 = child(span_9);
+      reset(span_9);
+      template_effect(() => {
+        var _a5;
+        return set_text(text_7, `#${null != (_a5 = get(tag2)) ? _a5 : ""}`);
+      });
+      append($$anchor3, span_9);
+    });
+    reset(span_8);
+    reset(div_9);
+    reset(div_8);
+    var node_5 = sibling(div_8, 2), consequent_3 = $$anchor3 => {
+      var span_10 = root_62(), text_8 = child(span_10);
+      reset(span_10);
+      template_effect(() => {
+        var _a5, _b3;
+        return set_text(text_8, `${null != (_a5 = get(item).matchCount) ? _a5 : ""}/${null != (_b3 = get(positiveConditionCount)) ? _b3 : ""}`);
+      });
+      append($$anchor3, span_10);
+    };
+    if_block(node_5, $$render => {
+      if (get(positiveConditionCount) > 0) $$render(consequent_3);
+    });
+    reset(button_2);
+    template_effect($0 => {
+      set_attribute2(button_2, "id", `tagfolder-note-lookup-note-${get(index2)}`);
+      classes_2 = set_class(button_2, 1, "note-result suggestion-item mod-complex search-suggest-item svelte-kazjep", null, classes_2, {
+        "is-selected": get(activeNoteIndex) == get(index2)
+      });
+      set_attribute2(button_2, "aria-selected", get(activeNoteIndex) == get(index2));
+      set_text(text_4, $0);
+    }, [ () => noteFileName(get(item)) ]);
+    delegated("mousedown", button_2, event2 => event2.preventDefault());
+    event("mouseenter", button_2, () => set(activeNoteIndex, get(index2), true));
+    delegated("click", button_2, event2 => $$props.openNote(get(item).path, event2.ctrlKey || event2.metaKey));
+    append($$anchor2, button_2);
+  });
+  var node_6 = sibling(node_2, 2), consequent_4 = $$anchor2 => {
+    append($$anchor2, root_8());
+  };
+  if_block(node_6, $$render => {
+    if (0 == get(visibleNotes).length) $$render(consequent_4);
+  });
+  reset(div_7);
+  var div_11 = sibling(div_7, 2), text_9 = child(div_11, true);
+  reset(div_11);
+  reset(div);
+  template_effect(() => {
+    var _a5;
+    set_attribute2(input, "placeholder", 0 == get(conditions).length ? "Type a tag…" : "Add a tag…");
+    set_attribute2(input, "aria-expanded", get(showCompletions));
+    set_attribute2(input, "aria-activedescendant", get(tagActiveDescendant));
+    set_attribute2(input_1, "aria-activedescendant", get(noteActiveDescendant));
+    set_text(text_3, `${null != (_a5 = get(rankedNotes).length) ? _a5 : ""} ${1 == get(rankedNotes).length ? "note" : "notes"}`);
+    set_text(text_9, get(announcement));
+  });
+  delegated("input", input, () => {
+    set(activeCompletionIndex, 0);
+    set(activeChipIndex, -1);
+  });
+  event("focus", input, () => set(tagInputFocused, true));
+  event("blur", input, () => set(tagInputFocused, false));
+  delegated("keydown", input, function handleTagKey(event2) {
+    if (!event2.isComposing) if (!handleCommonKey(event2, "tag")) {
+      if (get(activeChipIndex) >= 0) {
+        if ("ArrowLeft" == event2.key || "ArrowRight" == event2.key) {
+          event2.preventDefault();
+          const delta = "ArrowLeft" == event2.key ? -1 : 1, next2 = get(activeChipIndex) + delta;
+          if (next2 >= get(conditions).length) set(activeChipIndex, -1); else set(activeChipIndex, Math.max(0, next2), true);
+          return;
+        }
+        if ("Backspace" == event2.key || "Delete" == event2.key) {
+          event2.preventDefault();
+          removeCondition(get(activeChipIndex));
+          return;
+        }
+        if (1 == event2.key.length && !event2.ctrlKey && !event2.metaKey && !event2.altKey) set(activeChipIndex, -1);
+      }
+      if ("" == get(tagQuery)) if (!("ArrowLeft" == event2.key && get(conditions).length > 0)) if (!("Backspace" == event2.key && get(conditions).length > 0)) if ("ArrowUp" != event2.key && "ArrowDown" != event2.key) if ("Enter" != event2.key) {
+        if (" " == event2.key) event2.preventDefault();
+      } else {
+        event2.preventDefault();
+        chooseActiveNote(event2.ctrlKey || event2.metaKey);
+      } else {
+        event2.preventDefault();
+        set(activeNoteIndex, moveIndex(get(activeNoteIndex), get(visibleNotes).length, "ArrowUp" == event2.key ? -1 : 1), true);
+      } else {
+        event2.preventDefault();
+        removeCondition(get(conditions).length - 1);
+      } else {
+        event2.preventDefault();
+        set(activeChipIndex, get(conditions).length - 1);
+      } else {
+        if ("ArrowUp" == event2.key || "ArrowDown" == event2.key) {
+          event2.preventDefault();
+          set(activeCompletionIndex, moveIndex(get(activeCompletionIndex), get(completions).length, "ArrowUp" == event2.key ? -1 : 1), true);
+          return;
+        }
+        if ("Enter" == event2.key || " " == event2.key) {
+          event2.preventDefault();
+          const completion = get(completions)[get(activeCompletionIndex)];
+          if (completion) addCompletion(completion);
+        }
+      }
+    }
+  });
+  bind_value(input, () => get(tagQuery), $$value => set(tagQuery, $$value));
+  delegated("input", input_1, () => set(activeNoteIndex, 0));
+  delegated("keydown", input_1, function handleNoteKey(event2) {
+    if (!event2.isComposing) if (!handleCommonKey(event2, "note")) if ("ArrowUp" != event2.key && "ArrowDown" != event2.key) {
+      if ("Enter" == event2.key) {
+        event2.preventDefault();
+        chooseActiveNote(event2.ctrlKey || event2.metaKey);
+      }
+    } else {
+      event2.preventDefault();
+      set(activeNoteIndex, moveIndex(get(activeNoteIndex), get(visibleNotes).length, "ArrowUp" == event2.key ? -1 : 1), true);
+    }
+  });
+  bind_value(input_1, () => get(noteQuery), $$value => set(noteQuery, $$value));
+  append($$anchor, div);
+  pop();
+}
+
+delegate([ "click", "input", "keydown", "mousedown" ]);
+
+var NoteLookupModal2 = class extends import_obsidian10.Modal {
+  constructor(app, options) {
+    super(app);
+    this.options = options;
+  }
+  onOpen() {
+    this.setTitle("Note lookup");
+    this.modalEl.addClass("tagfolder-note-lookup-modal");
+    this.contentEl.empty();
+    this.component = mount(NoteLookupModal, {
+      target: this.contentEl,
+      props: {
+        notes: this.options.notes,
+        initialConditions: this.options.initialConditions,
+        excludedPath: this.options.excludedPath,
+        openNote: (path, newTab) => {
+          this.options.openNote(path, newTab);
+          this.close();
+        },
+        close: () => this.close()
+      }
+    });
+  }
+  onClose() {
+    if (this.component) {
+      unmount(this.component);
+      this.component = void 0;
+    }
+    this.contentEl.empty();
+  }
+};
+
+function openNoteLookup(app, options) {
+  new NoteLookupModal2(app, options).open();
+}
+
+var HideItemsType = {
   NONE: "Hide nothing",
   DEDICATED_INTERMIDIATES: "Only intermediates of nested tags",
   ALL_EXCEPT_BOTTOM: "All intermediates"
@@ -6355,63 +7352,37 @@ function getCoreTemplatesFolder(app) {
   var _a5, _b3, _c2, _d, _e, _f;
   const internalPlugins = app.internalPlugins, templatesPlugin = null == (_a5 = null == internalPlugins ? void 0 : internalPlugins.getPluginById) ? void 0 : _a5.call(internalPlugins, "templates"), folder = null != (_f = null == (_c2 = null == (_b3 = null == templatesPlugin ? void 0 : templatesPlugin.instance) ? void 0 : _b3.options) ? void 0 : _c2.folder) ? _f : null == (_e = null == (_d = null == templatesPlugin ? void 0 : templatesPlugin.instance) ? void 0 : _d.options) ? void 0 : _e.templateFolder;
   if (!folder) return null;
-  const normalizedFolder = (0, import_obsidian8.normalizePath)(folder);
+  const normalizedFolder = (0, import_obsidian11.normalizePath)(folder);
   return "/" == normalizedFolder ? "" : normalizedFolder;
 }
 
 function getTemplateFiles(app) {
   const templateFolder = getCoreTemplatesFolder(app), markdownFiles = app.vault.getMarkdownFiles();
   return (null == templateFolder || "" == templateFolder ? markdownFiles : markdownFiles.filter(file => {
-    const path = (0, import_obsidian8.normalizePath)(file.path);
+    const path = (0, import_obsidian11.normalizePath)(file.path);
     return path == templateFolder || path.startsWith(`${templateFolder}/`);
   })).sort((a, b) => compare(a.path, b.path));
 }
 
-var NewNoteTemplateSuggestModal = class extends import_obsidian8.SuggestModal {
-  constructor(app, templates, callback) {
-    super(app);
+function captureNewNoteTemplates(app) {
+  return getTemplateFiles(app).map(file => ({
+    path: file.path,
+    name: file.basename
+  }));
+}
+
+var NewNoteTemplateInputSuggest = class extends import_obsidian11.AbstractInputSuggest {
+  constructor(app, inputEl, templates, callback) {
+    super(app, inputEl);
     this.templates = templates;
     this.callback = callback;
-    this.setPlaceholder("Type to search templates...");
   }
   getSuggestions(query) {
-    const normalizedQuery = query.toLowerCase();
-    return this.templates.filter(file => file.path.toLowerCase().contains(normalizedQuery));
+    return filterNewNoteTemplateChoices(this.templates, query);
   }
   renderSuggestion(template, el) {
     el.createDiv({
-      text: template.basename
-    });
-    el.createDiv({
-      text: template.path,
-      cls: "suggestion-note"
-    });
-  }
-  onChooseSuggestion(template) {
-    var _a5;
-    null == (_a5 = this.callback) || _a5.call(this, template);
-    this.callback = void 0;
-  }
-  onClose() {
-    window.setTimeout(() => {
-      if (this.callback) {
-        this.callback(false);
-        this.callback = void 0;
-      }
-    }, 100);
-  }
-}, NewNoteTemplateInputSuggest = class extends import_obsidian8.AbstractInputSuggest {
-  constructor(app, inputEl, callback) {
-    super(app, inputEl);
-    this.callback = callback;
-  }
-  getSuggestions(query) {
-    const normalizedQuery = query.toLowerCase();
-    return getTemplateFiles(this.app).filter(file => file.path.toLowerCase().contains(normalizedQuery) || file.basename.toLowerCase().contains(normalizedQuery));
-  }
-  renderSuggestion(template, el) {
-    el.createDiv({
-      text: template.basename
+      text: template.name
     });
     el.createDiv({
       text: template.path,
@@ -6425,14 +7396,10 @@ var NewNoteTemplateSuggestModal = class extends import_obsidian8.SuggestModal {
   }
 };
 
-function askNewNoteTemplate(app) {
-  return new Promise(resolve => {
-    const templates = getTemplateFiles(app);
-    if (0 != templates.length) new NewNoteTemplateSuggestModal(app, templates, resolve).open(); else {
-      new import_obsidian8.Notice("No templates found");
-      resolve(false);
-    }
-  });
+async function askNewNoteTemplate(ui, app) {
+  const templates = captureNewNoteTemplates(app), selectedTemplate = await chooseNewNoteTemplate(ui, templates);
+  if (void 0 === selectedTemplate) new import_obsidian11.Notice("No templates found. Add a template, then try again.");
+  return selectedTemplate;
 }
 
 function getConfiguredNewNoteTemplate(app, templatePath) {
@@ -6440,33 +7407,26 @@ function getConfiguredNewNoteTemplate(app, templatePath) {
   if ("" == inputPath) return null;
   const templateFolder = getCoreTemplatesFolder(app), candidatePaths = [ inputPath, inputPath.endsWith(".md") ? inputPath : `${inputPath}.md` ];
   if (null != templateFolder && "" != templateFolder && !inputPath.startsWith(`${templateFolder}/`)) candidatePaths.push(`${templateFolder}/${inputPath}`, inputPath.endsWith(".md") ? `${templateFolder}/${inputPath}` : `${templateFolder}/${inputPath}.md`);
-  const file = unique(candidatePaths).map(path => app.vault.getAbstractFileByPath(path)).find(file2 => file2 instanceof import_obsidian8.TFile && "md" == file2.extension);
+  const file = unique(candidatePaths).map(path => app.vault.getAbstractFileByPath(path)).find(file2 => file2 instanceof import_obsidian11.TFile && "md" == file2.extension);
   if (null == file) {
-    new import_obsidian8.Notice(`Template not found: ${inputPath}`);
+    new import_obsidian11.Notice(`Template not found: ${inputPath}`);
     return null;
   }
-  return file;
+  return {
+    path: file.path,
+    name: file.basename
+  };
 }
 
 function normalizeNewNoteTemplatePath(templatePath) {
   const inputPath = templatePath.trim().replace(/^\[\[/, "").replace(/\]\]$/, "");
   if ("" == inputPath) return "";
-  const normalizedPath = (0, import_obsidian8.normalizePath)(inputPath);
+  const normalizedPath = (0, import_obsidian11.normalizePath)(inputPath);
   return "/" == normalizedPath ? "" : normalizedPath;
 }
 
-function renderNewNoteTemplate(template, expandedTagsAll, expandedTags) {
-  var _a5;
-  const plainTags = expandedTagsAll.filter(e => !isSpecialTag(e)), replacements = {
-    expandedTags,
-    tags: expandedTags,
-    tagList: plainTags.join(", "),
-    tagPath: plainTags.join("/"),
-    tagName: null != (_a5 = plainTags[plainTags.length - 1]) ? _a5 : "",
-    tagsJson: JSON.stringify(plainTags),
-    tagsYaml: plainTags.map(tag2 => `  - ${tag2}`).join("\n")
-  };
-  return template.replace(/\{\{(expandedTags|tags|tagList|tagPath|tagName|tagsJson|tagsYaml)\}\}/g, (_, key2) => replacements[key2]);
+function splitSettingList(value) {
+  return value.split(/[\n,]/).map(entry => entry.trim()).filter(entry => "" != entry);
 }
 
 function onElement(el, event2, selector, callback, options) {
@@ -6474,7 +7434,7 @@ function onElement(el, event2, selector, callback, options) {
   return () => el.off(event2, selector, callback, options);
 }
 
-var TagFolderPlugin5 = class extends import_obsidian8.Plugin {
+var TagFolderPlugin5 = class extends import_obsidian11.Plugin {
   constructor() {
     super(...arguments);
     this.settings = {
@@ -6488,7 +7448,7 @@ var TagFolderPlugin5 = class extends import_obsidian8.Plugin {
     this.compareItems = (_, __) => 0;
     this.focusFile = (path, specialKey) => {
       if (this.currentOpeningFile == path) return;
-      const _targetFile = this.app.vault.getAbstractFileByPath(path), targetFile = _targetFile instanceof import_obsidian8.TFile ? _targetFile : this.app.vault.getFiles().find(f => f.path === path);
+      const _targetFile = this.app.vault.getAbstractFileByPath(path), targetFile = _targetFile instanceof import_obsidian11.TFile ? _targetFile : this.app.vault.getFiles().find(f => f.path === path);
       if (targetFile) if (specialKey) this.app.workspace.openLinkText(targetFile.path, targetFile.path, "tab"); else this.app.workspace.openLinkText(targetFile.path, targetFile.path);
     };
     this.fileCaches = [];
@@ -6553,13 +7513,60 @@ var TagFolderPlugin5 = class extends import_obsidian8.Plugin {
     if ("NAME : PATH" == this.settings.displayMethod) return `${filename} : ${displayPath}`;
     if ("PATH/NAME" == this.settings.displayMethod) return `${displayPath}/${filename}`; else return filename;
   }
+  getNoteLookupPolicy() {
+    const redirects = {};
+    if (this.settings.useTagInfo && this.tagInfo) for (const [tag2, info] of Object.entries(this.tagInfo)) if (info.redirect) redirects[tag2] = info.redirect;
+    return {
+      targetFolders: splitSettingList(this.settings.targetFolders),
+      ignoreFolders: splitSettingList(this.settings.ignoreFolders),
+      ignoreDocumentTags: splitSettingList(this.settings.ignoreDocTags),
+      ignoreTags: splitSettingList(this.settings.ignoreTags),
+      redirects,
+      splitNestedTags: this.settings.disableNestedTags
+    };
+  }
+  captureNoteLookupItems(policy2) {
+    var _a5;
+    const sources = [];
+    for (const file of this.app.vault.getMarkdownFiles()) {
+      const metadata = this.app.metadataCache.getFileCache(file);
+      if (metadata) sources.push({
+        path: file.path,
+        title: this.getFileTitle(file),
+        tags: null != (_a5 = (0, import_obsidian11.getAllTags)(metadata)) ? _a5 : [],
+        mtime: file.stat.mtime
+      });
+    }
+    return buildNoteLookupItems(sources, policy2);
+  }
+  openNoteLookupDialog(sourceFile) {
+    var _a5;
+    const policy2 = this.getNoteLookupPolicy(), notes = this.captureNoteLookupItems(policy2);
+    let initialConditions = [];
+    if (sourceFile) {
+      const metadata = this.app.metadataCache.getFileCache(sourceFile), ignoredTags = new Set([ ...policy2.ignoreTags, ...policy2.ignoreDocumentTags ].map(tag2 => tag2.trim().replace(/^#/, "").toLowerCase()));
+      initialConditions = normaliseLookupTags(metadata ? null != (_a5 = (0, import_obsidian11.getAllTags)(metadata)) ? _a5 : [] : [], policy2).filter(tag2 => !ignoredTags.has(tag2.toLowerCase())).map(tag2 => ({
+        tag: tag2,
+        excluded: false
+      }));
+    }
+    openNoteLookup(this.app, {
+      notes,
+      initialConditions,
+      excludedPath: null == sourceFile ? void 0 : sourceFile.path,
+      openNote: (path, newTab) => this.focusFile(path, newTab)
+    });
+  }
   async onload() {
     await this.loadSettings();
+    this.ui = createObsidianUi(this.app);
+    this.vaultText = createObsidianVaultTextAccess(this.app.vault);
+    this.vaultFrontmatter = createObsidianVaultFrontmatterAccess(this.app);
     this.hoverPreview = this.hoverPreview.bind(this);
     this.modifyFile = this.modifyFile.bind(this);
     this.setSearchString = this.setSearchString.bind(this);
     this.openScrollView = this.openScrollView.bind(this);
-    this.loadFileInfo = (0, import_obsidian8.debounce)(this.loadFileInfo.bind(this), this.settings.scanDelay, true);
+    this.loadFileInfo = (0, import_obsidian11.debounce)(this.loadFileInfo.bind(this), this.settings.scanDelay, true);
     pluginInstance.set(this);
     this.registerView(VIEW_TYPE_TAGFOLDER, leaf => new TagFolderView(leaf, this, "tags"));
     this.registerView(VIEW_TYPE_TAGFOLDER_LINK, leaf => new TagFolderView(leaf, this, "links"));
@@ -6603,8 +7610,23 @@ var TagFolderPlugin5 = class extends import_obsidian8.Plugin {
         if (!file) return;
         const cache = this.app.metadataCache.getFileCache(file);
         if (!cache) return;
-        const tagsWithoutPrefix = (null != (_a5 = (0, import_obsidian8.getAllTags)(cache)) ? _a5 : []).map(e => trimPrefix(e, "#"));
+        const tagsWithoutPrefix = (null != (_a5 = (0, import_obsidian11.getAllTags)(cache)) ? _a5 : []).map(e => trimPrefix(e, "#"));
         await this.createNewNote(tagsWithoutPrefix);
+      }
+    });
+    this.addCommand({
+      id: "tagfolder-open-note-by-tags",
+      name: "Open note by tags",
+      callback: () => this.openNoteLookupDialog()
+    });
+    this.addCommand({
+      id: "tagfolder-open-note-with-similar-tags",
+      name: "Open note with similar tags",
+      checkCallback: checking => {
+        const file = this.app.workspace.getActiveFile();
+        if (!(file instanceof import_obsidian11.TFile) || "md" != file.extension) return false;
+        if (!checking) this.openNoteLookupDialog(file);
+        return true;
       }
     });
     this.metadataCacheChanged = this.metadataCacheChanged.bind(this);
@@ -6729,7 +7751,7 @@ var TagFolderPlugin5 = class extends import_obsidian8.Plugin {
     if (null != this.getLinkView()) ;
   }
   refreshTree(file, oldName) {
-    if (oldName) this.refreshAllTree(); else if (file instanceof import_obsidian8.TFile) this.loadFileInfo(file);
+    if (oldName) this.refreshAllTree(); else if (file instanceof import_obsidian11.TFile) this.loadFileInfo(file);
   }
   refreshAllTree() {
     this.loadFileInfo();
@@ -6743,7 +7765,7 @@ var TagFolderPlugin5 = class extends import_obsidian8.Plugin {
     if (!metadata) return false; else return {
       file,
       links: this.getFileCacheLinks(file),
-      tags: (0, import_obsidian8.getAllTags)(metadata) || []
+      tags: (0, import_obsidian11.getAllTags)(metadata) || []
     };
   }
   updateFileCachesAll() {
@@ -6781,7 +7803,7 @@ var TagFolderPlugin5 = class extends import_obsidian8.Plugin {
             const oldLinks = (null == old ? void 0 : old.links) || [], newLinks = newCache.links, diffs2 = unique([ ...oldLinks, ...newLinks ]).filter(link2 => !oldLinks.contains(link2) || !newLinks.contains(link2));
             for (const filename of diffs2) {
               const file = this.app.vault.getAbstractFileByPath(filename);
-              if (file instanceof import_obsidian8.TFile) processDiffs.push(file);
+              if (file instanceof import_obsidian11.TFile) processDiffs.push(file);
             }
           }
           newCaches.push(newCache);
@@ -7050,11 +8072,11 @@ var TagFolderPlugin5 = class extends import_obsidian8.Plugin {
     } else this.skipOnce = false;
   }
   getTagInfoFilename() {
-    return (0, import_obsidian8.normalizePath)(this.settings.tagInfo);
+    return (0, import_obsidian11.normalizePath)(this.settings.tagInfo);
   }
   getTagInfoFile() {
     const file = this.app.vault.getAbstractFileByPath(this.getTagInfoFilename());
-    if (file instanceof import_obsidian8.TFile) return file; else return null;
+    if (file instanceof import_obsidian11.TFile) return file; else return null;
   }
   applyTagInfo() {
     if (null != this.tagInfo) if (this.settings.useTagInfo) tagInfo.set(this.tagInfo);
@@ -7068,7 +8090,7 @@ var TagFolderPlugin5 = class extends import_obsidian8.Plugin {
     try {
       const bodyStartIndex = data.indexOf("\n---");
       if (!data.startsWith("---") || -1 === bodyStartIndex) return;
-      const yaml = data.substring(3, bodyStartIndex), yamlData = (0, import_obsidian8.parseYaml)(yaml), keys = Object.keys(yamlData);
+      const yaml = data.substring(3, bodyStartIndex), yamlData = (0, import_obsidian11.parseYaml)(yaml), keys = Object.keys(yamlData);
       this.tagInfoBody = data.substring(bodyStartIndex + 5);
       this.tagInfoFrontMatterBuffer = yamlData;
       const newTagInfo = {};
@@ -7149,7 +8171,7 @@ var TagFolderPlugin5 = class extends import_obsidian8.Plugin {
 
        case "":
        default:
-        if (!import_obsidian8.Platform.isMobile) theLeaf = this.app.workspace.createLeafBySplit(parent, "horizontal", false); else theLeaf = this.app.workspace.getLeftLeaf(false);
+        if (!import_obsidian11.Platform.isMobile) theLeaf = this.app.workspace.createLeafBySplit(parent, "horizontal", false); else theLeaf = this.app.workspace.getLeftLeaf(false);
         break;
       }
     }
@@ -7165,22 +8187,29 @@ var TagFolderPlugin5 = class extends import_obsidian8.Plugin {
     await this.app.workspace.revealLeaf(theLeaf);
   }
   async createNewNote(tags) {
-    var _a5;
-    const expandedTagsAll = ancestorToLongestTag(ancestorToTags(joinPartialPath(removeIntermediatePath(null != tags ? tags : [])))).map(e => trimTrailingSlash(e)), expandedTags = expandedTagsAll.map(e => e.split("/").filter(ee => !isSpecialTag(ee)).join("/")).filter(e => "" != e).map(e => "#" + e).join(" ").trim(), configuredTemplatePath = normalizeNewNoteTemplatePath(this.settings.newNoteTemplate), selectedTemplate = "" == configuredTemplatePath ? null : null != (_a5 = getConfiguredNewNoteTemplate(this.app, configuredTemplatePath)) ? _a5 : await askNewNoteTemplate(this.app), ww = await this.app.fileManager.createAndOpenMarkdownFile();
-    if (ww instanceof import_obsidian8.TFile) {
-      if (null != selectedTemplate && false !== selectedTemplate) {
-        const renderedTemplate = renderNewNoteTemplate(await this.app.vault.read(selectedTemplate), expandedTagsAll, expandedTags);
-        if ("" != renderedTemplate.trim()) await this.app.vault.modify(ww, renderedTemplate);
-        return;
+    const expandedTagsAll = ancestorToLongestTag(ancestorToTags(joinPartialPath(removeIntermediatePath(null != tags ? tags : [])))).map(e => trimTrailingSlash(e)), expandedTags = expandedTagsAll.map(e => e.split("/").filter(ee => !isSpecialTag(ee)).join("/")).filter(e => "" != e).map(e => "#" + e).join(" ").trim(), configuredTemplatePath = normalizeNewNoteTemplatePath(this.settings.newNoteTemplate);
+    let selectedTemplate = null;
+    if ("" != configuredTemplatePath) {
+      const configuredTemplate = getConfiguredNewNoteTemplate(this.app, configuredTemplatePath);
+      if (null != configuredTemplate) selectedTemplate = configuredTemplate; else {
+        const promptedTemplate = await askNewNoteTemplate(this.ui, this.app);
+        if (void 0 === promptedTemplate) return;
+        selectedTemplate = promptedTemplate;
       }
-      if (this.settings.useFrontmatterTagsForNewNotes) await this.app.fileManager.processFrontMatter(ww, matter => {
-        var _a6;
-        matter.tags = null != (_a6 = matter.tags) ? _a6 : [];
-        matter.tags = expandedTagsAll.filter(e => !isSpecialTag(e)).filter(e => matter.tags.indexOf(e) < 0).concat(matter.tags);
-      }); else await this.app.vault.append(ww, expandedTags);
     }
+    const ww = await this.app.fileManager.createAndOpenMarkdownFile();
+    if (ww instanceof import_obsidian11.TFile) await populateNewNote({
+      vault: this.vaultText,
+      frontmatter: this.vaultFrontmatter,
+      notePath: ww.path,
+      template: selectedTemplate,
+      expandedTagsAll,
+      expandedTags,
+      frontmatterTags: expandedTagsAll.filter(e => !isSpecialTag(e)),
+      useFrontmatterTags: this.settings.useFrontmatterTagsForNewNotes
+    });
   }
-}, TagFolderSettingTab = class extends import_obsidian8.PluginSettingTab {
+}, TagFolderSettingTab = class extends import_obsidian11.PluginSettingTab {
   constructor(app, plugin) {
     super(app, plugin);
     this.plugin = plugin;
@@ -7191,12 +8220,13 @@ var TagFolderPlugin5 = class extends import_obsidian8.Plugin {
   display() {
     const {containerEl} = this;
     containerEl.empty();
-    new import_obsidian8.Setting(containerEl).setName("Behavior").setHeading();
-    new import_obsidian8.Setting(containerEl).setName("Always Open").setDesc("Place TagFolder on the left pane and activate it at every Obsidian launch").addToggle(toggle => toggle.setValue(this.plugin.settings.alwaysOpen).onChange(async value => {
+    const newNoteTemplates = captureNewNoteTemplates(this.app);
+    new import_obsidian11.Setting(containerEl).setName("Behavior").setHeading();
+    new import_obsidian11.Setting(containerEl).setName("Always Open").setDesc("Place TagFolder on the left pane and activate it at every Obsidian launch").addToggle(toggle => toggle.setValue(this.plugin.settings.alwaysOpen).onChange(async value => {
       this.plugin.settings.alwaysOpen = value;
       await this.plugin.saveSettings();
     }));
-    new import_obsidian8.Setting(containerEl).setName("Use pinning").setDesc("When this feature is enabled, the pin information is saved in the file set in the next configuration.").addToggle(toggle => {
+    new import_obsidian11.Setting(containerEl).setName("Use pinning").setDesc("When this feature is enabled, the pin information is saved in the file set in the next configuration.").addToggle(toggle => {
       toggle.setValue(this.plugin.settings.useTagInfo).onChange(async value => {
         this.plugin.settings.useTagInfo = value;
         if (this.plugin.settings.useTagInfo) await this.plugin.loadTagInfo();
@@ -7204,21 +8234,21 @@ var TagFolderPlugin5 = class extends import_obsidian8.Plugin {
         pi.setDisabled(!value);
       });
     });
-    const pi = new import_obsidian8.Setting(containerEl).setName("Pin information file").setDisabled(!this.plugin.settings.useTagInfo).addText(text2 => {
+    const pi = new import_obsidian11.Setting(containerEl).setName("Pin information file").setDisabled(!this.plugin.settings.useTagInfo).addText(text2 => {
       text2.setValue(this.plugin.settings.tagInfo).onChange(async value => {
         this.plugin.settings.tagInfo = value;
         if (this.plugin.settings.useTagInfo) await this.plugin.loadTagInfo();
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian8.Setting(containerEl).setName("Disable narrowing down").setDesc("When this feature is enabled, relevant tags will be shown with the title instead of making a sub-structure.").addToggle(toggle => {
+    new import_obsidian11.Setting(containerEl).setName("Disable narrowing down").setDesc("When this feature is enabled, relevant tags will be shown with the title instead of making a sub-structure.").addToggle(toggle => {
       toggle.setValue(this.plugin.settings.disableNarrowingDown).onChange(async value => {
         this.plugin.settings.disableNarrowingDown = value;
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian8.Setting(containerEl).setName("Files").setHeading();
-    new import_obsidian8.Setting(containerEl).setName("Display method").setDesc("How to show a title of files").addDropdown(dropdown => dropdown.addOptions({
+    new import_obsidian11.Setting(containerEl).setName("Files").setHeading();
+    new import_obsidian11.Setting(containerEl).setName("Display method").setDesc("How to show a title of files").addDropdown(dropdown => dropdown.addOptions({
       "PATH/NAME": "PATH/NAME",
       NAME: "NAME",
       "NAME : PATH": "NAME : PATH"
@@ -7234,31 +8264,31 @@ var TagFolderPlugin5 = class extends import_obsidian8.Plugin {
       this.plugin.settings.sortType = `${key2}_${order}`;
       await this.plugin.saveSettings();
     };
-    new import_obsidian8.Setting(containerEl).setName("Order method").setDesc("how to order items").addDropdown(dd => {
+    new import_obsidian11.Setting(containerEl).setName("Order method").setDesc("how to order items").addDropdown(dd => {
       dd.addOptions(OrderKeyItem).setValue(this.plugin.settings.sortType.split("_")[0]).onChange(key2 => setOrderMethod(key2, void 0));
     }).addDropdown(dd => {
       dd.addOptions(OrderDirection).setValue(this.plugin.settings.sortType.split("_")[1]).onChange(order => setOrderMethod(void 0, order));
     });
-    new import_obsidian8.Setting(containerEl).setName("Prioritize items which are not contained in sub-folder").setDesc("If this has been enabled, the items which have no more extra tags are first.").addToggle(toggle => {
+    new import_obsidian11.Setting(containerEl).setName("Prioritize items which are not contained in sub-folder").setDesc("If this has been enabled, the items which have no more extra tags are first.").addToggle(toggle => {
       toggle.setValue(this.plugin.settings.sortExactFirst).onChange(async value => {
         this.plugin.settings.sortExactFirst = value;
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian8.Setting(containerEl).setName("Use title").setDesc("Use value in the frontmatter or first level one heading for `NAME`.").addToggle(toggle => {
+    new import_obsidian11.Setting(containerEl).setName("Use title").setDesc("Use value in the frontmatter or first level one heading for `NAME`.").addToggle(toggle => {
       toggle.setValue(this.plugin.settings.useTitle).onChange(async value => {
         this.plugin.settings.useTitle = value;
         fpath.setDisabled(!value);
         await this.plugin.saveSettings();
       });
     });
-    const fpath = new import_obsidian8.Setting(containerEl).setName("Frontmatter path").setDisabled(!this.plugin.settings.useTitle).addText(text2 => {
+    const fpath = new import_obsidian11.Setting(containerEl).setName("Frontmatter path").setDisabled(!this.plugin.settings.useTitle).addText(text2 => {
       text2.setValue(this.plugin.settings.frontmatterKey).onChange(async value => {
         this.plugin.settings.frontmatterKey = value;
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian8.Setting(containerEl).setName("Tags").setHeading();
+    new import_obsidian11.Setting(containerEl).setName("Tags").setHeading();
     const setOrderMethodTag = async (key2, order) => {
       const oldSetting = this.plugin.settings.sortTypeTag.split("_");
       if (!key2) key2 = oldSetting[0];
@@ -7266,135 +8296,135 @@ var TagFolderPlugin5 = class extends import_obsidian8.Plugin {
       this.plugin.settings.sortTypeTag = `${key2}_${order}`;
       await this.plugin.saveSettings();
     };
-    new import_obsidian8.Setting(containerEl).setName("Order method").setDesc("how to order tags").addDropdown(dd => {
+    new import_obsidian11.Setting(containerEl).setName("Order method").setDesc("how to order tags").addDropdown(dd => {
       dd.addOptions(OrderKeyTag).setValue(this.plugin.settings.sortTypeTag.split("_")[0]).onChange(key2 => setOrderMethodTag(key2, void 0));
     }).addDropdown(dd => {
       dd.addOptions(OrderDirection).setValue(this.plugin.settings.sortTypeTag.split("_")[1]).onChange(order => setOrderMethodTag(void 0, order));
     });
-    new import_obsidian8.Setting(containerEl).setName("Use virtual tags").addToggle(toggle => {
+    new import_obsidian11.Setting(containerEl).setName("Use virtual tags").addToggle(toggle => {
       toggle.setValue(this.plugin.settings.useVirtualTag).onChange(async value => {
         this.plugin.settings.useVirtualTag = value;
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian8.Setting(containerEl).setName("Display folder as tag").addToggle(toggle => {
+    new import_obsidian11.Setting(containerEl).setName("Display folder as tag").addToggle(toggle => {
       toggle.setValue(this.plugin.settings.displayFolderAsTag).onChange(async value => {
         this.plugin.settings.displayFolderAsTag = value;
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian8.Setting(containerEl).setName("Store tags in frontmatter for new notes").setDesc("When enabled, tags are written to the note Properties. If no new-note template is selected, TagFolder still creates the note and stores tags here instead of as #hashtags.").addToggle(toggle => {
+    new import_obsidian11.Setting(containerEl).setName("Store tags in frontmatter for new notes").setDesc("When enabled, tags are written to the note Properties. If no new-note template is selected, TagFolder still creates the note and stores tags here instead of as #hashtags.").addToggle(toggle => {
       toggle.setValue(this.plugin.settings.useFrontmatterTagsForNewNotes).onChange(async value => {
         this.plugin.settings.useFrontmatterTagsForNewNotes = value;
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian8.Setting(containerEl).setName("Template for new notes").setDesc("When set to a valid markdown file path, new notes use this template without opening the template picker. The .md extension is optional.").addText(text2 => {
+    new import_obsidian11.Setting(containerEl).setName("Template for new notes").setDesc("When set to a valid markdown file path, new notes use this template without opening the template picker. The .md extension is optional.").addText(text2 => {
       text2.setPlaceholder("Templates/New note").setValue(this.plugin.settings.newNoteTemplate).onChange(async value => {
         this.plugin.settings.newNoteTemplate = normalizeNewNoteTemplatePath(value);
         await this.plugin.saveSettings();
       });
-      new NewNoteTemplateInputSuggest(this.app, text2.inputEl, template => {
+      new NewNoteTemplateInputSuggest(this.app, text2.inputEl, newNoteTemplates, template => {
         this.plugin.settings.newNoteTemplate = template.path;
         this.plugin.saveSettings();
       });
     });
-    new import_obsidian8.Setting(containerEl).setName("Actions").setHeading();
-    new import_obsidian8.Setting(containerEl).setName("Search tags inside TagFolder when clicking tags").addToggle(toggle => {
+    new import_obsidian11.Setting(containerEl).setName("Actions").setHeading();
+    new import_obsidian11.Setting(containerEl).setName("Search tags inside TagFolder when clicking tags").addToggle(toggle => {
       toggle.setValue(this.plugin.settings.overrideTagClicking).onChange(async value => {
         this.plugin.settings.overrideTagClicking = value;
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian8.Setting(containerEl).setName("List files in a separated pane").addToggle(toggle => {
+    new import_obsidian11.Setting(containerEl).setName("List files in a separated pane").addToggle(toggle => {
       toggle.setValue(this.plugin.settings.useMultiPaneList).onChange(async value => {
         this.plugin.settings.useMultiPaneList = value;
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian8.Setting(containerEl).setName("Show list in").setDesc("This option applies to the newly opened list").addDropdown(dropdown => {
+    new import_obsidian11.Setting(containerEl).setName("Show list in").setDesc("This option applies to the newly opened list").addDropdown(dropdown => {
       dropdown.addOptions(enumShowListIn).setValue(this.plugin.settings.showListIn).onChange(async value => {
         this.plugin.settings.showListIn = value;
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian8.Setting(containerEl).setName("Arrangements").setHeading();
-    new import_obsidian8.Setting(containerEl).setName("Hide Items").setDesc("Hide items on the landing or nested tags").addDropdown(dd => {
+    new import_obsidian11.Setting(containerEl).setName("Arrangements").setHeading();
+    new import_obsidian11.Setting(containerEl).setName("Hide Items").setDesc("Hide items on the landing or nested tags").addDropdown(dd => {
       dd.addOptions(HideItemsType).setValue(this.plugin.settings.hideItems).onChange(async key2 => {
         if ("NONE" == key2 || "DEDICATED_INTERMIDIATES" == key2 || "ALL_EXCEPT_BOTTOM" == key2) this.plugin.settings.hideItems = key2;
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian8.Setting(containerEl).setName("Merge redundant combinations").setDesc("When this feature is enabled, a/b and b/a are merged into a/b if there is no intermediates.").addToggle(toggle => {
+    new import_obsidian11.Setting(containerEl).setName("Merge redundant combinations").setDesc("When this feature is enabled, a/b and b/a are merged into a/b if there is no intermediates.").addToggle(toggle => {
       toggle.setValue(this.plugin.settings.mergeRedundantCombination).onChange(async value => {
         this.plugin.settings.mergeRedundantCombination = value;
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian8.Setting(containerEl).setName("Do not simplify empty folders").setDesc("Keep empty folders, even if they can be simplified.").addToggle(toggle => {
+    new import_obsidian11.Setting(containerEl).setName("Do not simplify empty folders").setDesc("Keep empty folders, even if they can be simplified.").addToggle(toggle => {
       toggle.setValue(this.plugin.settings.doNotSimplifyTags).onChange(async value => {
         this.plugin.settings.doNotSimplifyTags = value;
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian8.Setting(containerEl).setName("Do not treat nested tags as dedicated levels").setDesc("Treat nested tags as normal tags").addToggle(toggle => {
+    new import_obsidian11.Setting(containerEl).setName("Do not treat nested tags as dedicated levels").setDesc("Treat nested tags as normal tags").addToggle(toggle => {
       toggle.setValue(this.plugin.settings.disableNestedTags).onChange(async value => {
         this.plugin.settings.disableNestedTags = value;
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian8.Setting(containerEl).setName("Reduce duplicated parents in nested tags").setDesc("If enabled, #web/css, #web/javascript will merged into web -> css -> javascript").addToggle(toggle => {
+    new import_obsidian11.Setting(containerEl).setName("Reduce duplicated parents in nested tags").setDesc("If enabled, #web/css, #web/javascript will merged into web -> css -> javascript").addToggle(toggle => {
       toggle.setValue(this.plugin.settings.reduceNestedParent).onChange(async value => {
         this.plugin.settings.reduceNestedParent = value;
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian8.Setting(containerEl).setName("Keep untagged items on the root").addToggle(toggle => {
+    new import_obsidian11.Setting(containerEl).setName("Keep untagged items on the root").addToggle(toggle => {
       toggle.setValue(this.plugin.settings.expandUntaggedToRoot).onChange(async value => {
         this.plugin.settings.expandUntaggedToRoot = value;
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian8.Setting(containerEl).setName("Link Folder").setHeading();
-    new import_obsidian8.Setting(containerEl).setName("Use Incoming").setDesc("").addToggle(toggle => toggle.setValue(this.plugin.settings.linkConfig.incoming.enabled).onChange(async value => {
+    new import_obsidian11.Setting(containerEl).setName("Link Folder").setHeading();
+    new import_obsidian11.Setting(containerEl).setName("Use Incoming").setDesc("").addToggle(toggle => toggle.setValue(this.plugin.settings.linkConfig.incoming.enabled).onChange(async value => {
       this.plugin.settings.linkConfig.incoming.enabled = value;
       await this.plugin.saveSettings();
     }));
-    new import_obsidian8.Setting(containerEl).setName("Use Outgoing").setDesc("").addToggle(toggle => toggle.setValue(this.plugin.settings.linkConfig.outgoing.enabled).onChange(async value => {
+    new import_obsidian11.Setting(containerEl).setName("Use Outgoing").setDesc("").addToggle(toggle => toggle.setValue(this.plugin.settings.linkConfig.outgoing.enabled).onChange(async value => {
       this.plugin.settings.linkConfig.outgoing.enabled = value;
       await this.plugin.saveSettings();
     }));
-    new import_obsidian8.Setting(containerEl).setName("Hide indirectly linked notes").setDesc("").addToggle(toggle => toggle.setValue(this.plugin.settings.linkShowOnlyFDR).onChange(async value => {
+    new import_obsidian11.Setting(containerEl).setName("Hide indirectly linked notes").setDesc("").addToggle(toggle => toggle.setValue(this.plugin.settings.linkShowOnlyFDR).onChange(async value => {
       this.plugin.settings.linkShowOnlyFDR = value;
       await this.plugin.saveSettings();
     }));
-    new import_obsidian8.Setting(containerEl).setName("Connect linked tree").setDesc("").addToggle(toggle => toggle.setValue(this.plugin.settings.linkCombineOtherTree).onChange(async value => {
+    new import_obsidian11.Setting(containerEl).setName("Connect linked tree").setDesc("").addToggle(toggle => toggle.setValue(this.plugin.settings.linkCombineOtherTree).onChange(async value => {
       this.plugin.settings.linkCombineOtherTree = value;
       await this.plugin.saveSettings();
     }));
-    new import_obsidian8.Setting(containerEl).setName("Filters").setHeading();
-    new import_obsidian8.Setting(containerEl).setName("Target Folders").setDesc("If configured, the plugin will only target files in it.").addTextArea(text2 => text2.setValue(this.plugin.settings.targetFolders).setPlaceholder("study,documents/summary").onChange(async value => {
+    new import_obsidian11.Setting(containerEl).setName("Filters").setHeading();
+    new import_obsidian11.Setting(containerEl).setName("Target Folders").setDesc("If configured, the plugin will only target files in it.").addTextArea(text2 => text2.setValue(this.plugin.settings.targetFolders).setPlaceholder("study,documents/summary").onChange(async value => {
       this.plugin.settings.targetFolders = value;
       await this.plugin.saveSettings();
     }));
-    new import_obsidian8.Setting(containerEl).setName("Ignore Folders").setDesc("Ignore documents in specific folders.").addTextArea(text2 => text2.setValue(this.plugin.settings.ignoreFolders).setPlaceholder("template,list/standard_tags").onChange(async value => {
+    new import_obsidian11.Setting(containerEl).setName("Ignore Folders").setDesc("Ignore documents in specific folders.").addTextArea(text2 => text2.setValue(this.plugin.settings.ignoreFolders).setPlaceholder("template,list/standard_tags").onChange(async value => {
       this.plugin.settings.ignoreFolders = value;
       await this.plugin.saveSettings();
     }));
-    new import_obsidian8.Setting(containerEl).setName("Ignore note Tag").setDesc("If the note has the tag listed below, the note would be treated as there was not.").addTextArea(text2 => text2.setValue(this.plugin.settings.ignoreDocTags).setPlaceholder("test,test1,test2").onChange(async value => {
+    new import_obsidian11.Setting(containerEl).setName("Ignore note Tag").setDesc("If the note has the tag listed below, the note would be treated as there was not.").addTextArea(text2 => text2.setValue(this.plugin.settings.ignoreDocTags).setPlaceholder("test,test1,test2").onChange(async value => {
       this.plugin.settings.ignoreDocTags = value;
       await this.plugin.saveSettings();
     }));
-    new import_obsidian8.Setting(containerEl).setName("Ignore Tag").setDesc("Tags in the list would be treated as there were not.").addTextArea(text2 => text2.setValue(this.plugin.settings.ignoreTags).setPlaceholder("test,test1,test2").onChange(async value => {
+    new import_obsidian11.Setting(containerEl).setName("Ignore Tag").setDesc("Tags in the list would be treated as there were not.").addTextArea(text2 => text2.setValue(this.plugin.settings.ignoreTags).setPlaceholder("test,test1,test2").onChange(async value => {
       this.plugin.settings.ignoreTags = value;
       await this.plugin.saveSettings();
     }));
-    new import_obsidian8.Setting(containerEl).setName("Archive tags").setDesc("If configured, notes with these tags will be moved under the tag.").addTextArea(text2 => text2.setValue(this.plugin.settings.archiveTags).setPlaceholder("archived, discontinued").onChange(async value => {
+    new import_obsidian11.Setting(containerEl).setName("Archive tags").setDesc("If configured, notes with these tags will be moved under the tag.").addTextArea(text2 => text2.setValue(this.plugin.settings.archiveTags).setPlaceholder("archived, discontinued").onChange(async value => {
       this.plugin.settings.archiveTags = value;
       await this.plugin.saveSettings();
     }));
-    new import_obsidian8.Setting(containerEl).setName("Misc").setHeading();
-    new import_obsidian8.Setting(containerEl).setName("Tag scanning delay").setDesc("Sets the delay for reflecting metadata changes to the tag tree. (Plugin reload is required.)").addText(text2 => {
+    new import_obsidian11.Setting(containerEl).setName("Misc").setHeading();
+    new import_obsidian11.Setting(containerEl).setName("Tag scanning delay").setDesc("Sets the delay for reflecting metadata changes to the tag tree. (Plugin reload is required.)").addText(text2 => {
       (text2 = text2.setValue(this.plugin.settings.scanDelay + "").onChange(async value => {
         const newDelay = Number.parseInt(value, 10);
         if (newDelay) {
@@ -7405,24 +8435,24 @@ var TagFolderPlugin5 = class extends import_obsidian8.Plugin {
       text2.inputEl.setAttribute("min", "250");
       return text2;
     });
-    new import_obsidian8.Setting(containerEl).setName("Disable dragging tags").setDesc("The `Dragging tags` is using internal APIs. If something happens, please disable this once and try again.").addToggle(toggle => {
+    new import_obsidian11.Setting(containerEl).setName("Disable dragging tags").setDesc("The `Dragging tags` is using internal APIs. If something happens, please disable this once and try again.").addToggle(toggle => {
       toggle.setValue(this.plugin.settings.disableDragging).onChange(async value => {
         this.plugin.settings.disableDragging = value;
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian8.Setting(containerEl).setName("Utilities").setHeading();
-    new import_obsidian8.Setting(containerEl).setName("Dumping tags for reporting bugs").setDesc("If you want to open an issue to the GitHub, this information can be useful. and, also if you want to keep secrets about names of tags, you can use `disguised`.").addButton(button => button.setButtonText("Copy tags").setDisabled(false).onClick(async () => {
+    new import_obsidian11.Setting(containerEl).setName("Utilities").setHeading();
+    new import_obsidian11.Setting(containerEl).setName("Dumping tags for reporting bugs").setDesc("If you want to open an issue to the GitHub, this information can be useful. and, also if you want to keep secrets about names of tags, you can use `disguised`.").addButton(button => button.setButtonText("Copy tags").setDisabled(false).onClick(async () => {
       const items = (await this.plugin.getItemsList("tag")).map(e => e.tags.filter(e2 => "_untagged" != e2)).filter(e => e.length);
       await navigator.clipboard.writeText(items.map(e => e.map(e2 => `#${e2}`).join(", ")).join("\n"));
-      new import_obsidian8.Notice("Copied to clipboard");
+      new import_obsidian11.Notice("Copied to clipboard");
     })).addButton(button => button.setButtonText("Copy disguised tags").setDisabled(false).onClick(async () => {
       const x = new Map;
       let i = 0;
       const items = (await this.plugin.getItemsList("tag")).map(e => e.tags.filter(e2 => "_untagged" != e2).map(e2 => e2.split("/").map(e3 => e3.startsWith("_VIRTUAL") ? e3 : x.has(e3) ? x.get(e3) : (x.set(e3, "tag" + i++), 
       i)).join("/")).filter(e2 => e2.length));
       await navigator.clipboard.writeText(items.map(e => e.map(e2 => `#${e2}`).join(", ")).join("\n"));
-      new import_obsidian8.Notice("Copied to clipboard");
+      new import_obsidian11.Notice("Copied to clipboard");
     }));
   }
 };
