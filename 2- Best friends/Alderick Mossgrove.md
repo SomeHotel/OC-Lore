@@ -71,7 +71,7 @@ dg-publish: true
 - Very very rarely gets angry, but always feels guilty afterwards
 - Always tries to uplift people
 - Wears his heart on his sleeve
-- Will punch a bigot
+- Has punched bigots
 - 
 # Relationships
 ## Mossgroves
