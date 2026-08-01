@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dead/Jennifer Mossgrove.md",
+                "file": "Misc/Characters/Olivia.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,23 +76,21 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Jennifer Mossgrove"
+              "title": "Olivia"
             }
           },
           {
-            "id": "d7f1211be284f605",
+            "id": "683df3a70db624ac",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "z_Resources/Dialogue/Illios and Atara outline.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Illios and Atara outline"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -112,7 +110,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -287,8 +287,14 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "5820d1f323f57dfc",
+  "active": "683df3a70db624ac",
   "lastOpenFiles": [
+    "Misc/Characters/Olivia.md",
+    "2- Best friends/Robyn Cianain.md",
+    "Misc/Characters/Rae Hobs.md",
+    "Misc/Characters/Claire.md",
+    "Dead/Jennifer Mossgrove.md",
+    "z_Resources/Dialogue/Illios and Atara outline.md",
     "2- Best friends/Alderick Mossgrove.md",
     "1- Hero's Party/Maelis Nighthollow.md",
     "z_Resources/Dialogue/lu22620gxkq.tmp",
@@ -300,20 +306,15 @@
     "z_Images/Corelia maybe_reference_cropped.webp",
     "z_Resources/Dialogue/lu22620gxk3.tmp",
     "z_Images/Maelis_reference_cropped.webp",
-    "z_Resources/Dialogue/Illios and Atara outline.md",
     "1- Hero's Party/Corelia.md",
-    "2- Best friends/Robyn Cianain.md",
     "2- Best friends/Morgan.md",
     "z_Resources/Dialogue/Ilios and Atara.odt",
     "z_Resources/Dialogue/Timeline.excalidraw.md",
     "Ideas.excalidraw.md",
-    "Dead/Jennifer Mossgrove.md",
     "2- Best friends/Kaili Mossgrove.md",
     "z_Images/mór-ríoghan.webp",
     "z_Images/Possible_character_names.webp",
-    "Misc/Characters/Rae Hobs.md",
     "circle_practice_30-06-2026.webp",
-    "Misc/Characters/Claire.md",
     "Misc/Characters/Riley.md",
     "z_Images/More_names.jpg",
     "Misc/Characters/Yubert.md",
