@@ -37,30 +37,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2- Best friends/Robyn Cianain.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Robyn Cianain"
-            }
-          },
-          {
-            "id": "5820d1f323f57dfc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Misc/Characters/Olivia.md",
                 "mode": "source",
                 "source": false,
@@ -78,19 +54,9 @@
               "icon": "lucide-file",
               "title": "Olivia"
             }
-          },
-          {
-            "id": "683df3a70db624ac",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -287,12 +253,20 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "683df3a70db624ac",
+  "active": "5976a273417ff0b4",
   "lastOpenFiles": [
-    "Misc/Characters/Olivia.md",
     "2- Best friends/Robyn Cianain.md",
-    "Misc/Characters/Rae Hobs.md",
+    "2- Best friends/Morgan.md",
+    "Events/Characters/Colt/Meeting Maelis.md",
+    "Events/Characters/Colt/Colt Death.md",
+    "Misc/Characters/Riley.md",
+    "Misc/Characters/Yubert.md",
+    "Locations/Mossgrove Village.md",
+    "Locations/Dark elf place.md",
+    "z_Resources/Dialogue/Timeline.excalidraw.md",
     "Misc/Characters/Claire.md",
+    "Misc/Characters/Rae Hobs.md",
+    "Misc/Characters/Olivia.md",
     "Dead/Jennifer Mossgrove.md",
     "z_Resources/Dialogue/Illios and Atara outline.md",
     "2- Best friends/Alderick Mossgrove.md",
@@ -307,17 +281,13 @@
     "z_Resources/Dialogue/lu22620gxk3.tmp",
     "z_Images/Maelis_reference_cropped.webp",
     "1- Hero's Party/Corelia.md",
-    "2- Best friends/Morgan.md",
     "z_Resources/Dialogue/Ilios and Atara.odt",
-    "z_Resources/Dialogue/Timeline.excalidraw.md",
     "Ideas.excalidraw.md",
     "2- Best friends/Kaili Mossgrove.md",
     "z_Images/mór-ríoghan.webp",
     "z_Images/Possible_character_names.webp",
     "circle_practice_30-06-2026.webp",
-    "Misc/Characters/Riley.md",
     "z_Images/More_names.jpg",
-    "Misc/Characters/Yubert.md",
     "Misc/Characters",
     "Misc",
     "Other/Fursona.md",
@@ -329,10 +299,6 @@
     "z_Images/Robyn_Placeholder.webp",
     "1- Hero's Party/Aiden Mossgrove.md",
     "2- Best friends/Mr Cianain.md",
-    "Locations/Mossgrove Village.md",
-    "Locations/Dark elf place.md",
-    "Factions/Deities/Tuath Dé Danann/Tuath Dé Danann.md",
-    "Factions/Deities/Tuath Dé Danann/Mór-ríoghan.md",
     "z_Images/20251123162643_1.jpg",
     "z_Images/Mór-ríoghan.webp"
   ]

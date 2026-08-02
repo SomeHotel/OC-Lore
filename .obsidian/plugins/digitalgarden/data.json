@@ -3,9 +3,9 @@
   "githubUserName": "SomeHotel",
   "gardenBaseUrl": "",
   "prHistory": [
-    "https://github.com/SomeHotel/oc-website/pull/11",
+    "https://github.com/SomeHotel/oc-website/pull/12",
     "https://github.com/SomeHotel/oc-website/pull/7",
-    "https://github.com/SomeHotel/oc-website/pull/12"
+    "https://github.com/SomeHotel/oc-website/pull/11"
   ],
   "baseTheme": "dark",
   "theme": "{\"name\":\"Wikipedia\",\"author\":\"bluemoondragon07\",\"repo\":\"bluemoondragon07/Wikipedia-Theme\",\"screenshot\":\"example.png\",\"modes\":[\"dark\",\"light\"],\"cssUrl\":\"https://raw.githubusercontent.com/bluemoondragon07/Wikipedia-Theme/HEAD/theme.css\"}",
@@ -52,7 +52,7 @@
     "dgShowGraphDepthControl": true
   },
   "uiStrings": {
-    "backlinkHeader": "",
+    "backlinkHeader": "Related notes",
     "noBacklinksMessage": "",
     "searchButtonText": "",
     "searchPlaceholder": "",
