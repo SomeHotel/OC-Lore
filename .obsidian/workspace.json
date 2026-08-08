@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Misc/Characters/Olivia.md",
+                "file": "Misc/Characters/Olive.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Olivia"
+              "title": "Olive"
             }
           }
         ],
@@ -255,6 +255,11 @@
   },
   "active": "5976a273417ff0b4",
   "lastOpenFiles": [
+    "Misc/Characters/ol.md",
+    "Misc/Characters/Olive.md",
+    "z_Images/olive_placeholder.webp",
+    "Misc/Characters/Claire.md",
+    "Misc/Characters/Rae Hobs.md",
     "2- Best friends/Robyn Cianain.md",
     "2- Best friends/Morgan.md",
     "Events/Characters/Colt/Meeting Maelis.md",
@@ -264,9 +269,6 @@
     "Locations/Mossgrove Village.md",
     "Locations/Dark elf place.md",
     "z_Resources/Dialogue/Timeline.excalidraw.md",
-    "Misc/Characters/Claire.md",
-    "Misc/Characters/Rae Hobs.md",
-    "Misc/Characters/Olivia.md",
     "Dead/Jennifer Mossgrove.md",
     "z_Resources/Dialogue/Illios and Atara outline.md",
     "2- Best friends/Alderick Mossgrove.md",
@@ -287,7 +289,7 @@
     "z_Images/mór-ríoghan.webp",
     "z_Images/Possible_character_names.webp",
     "circle_practice_30-06-2026.webp",
-    "z_Images/More_names.jpg",
+    "z_Images/More_names.webp",
     "Misc/Characters",
     "Misc",
     "Other/Fursona.md",
@@ -298,8 +300,6 @@
     "2- Best friends/Best friends.base",
     "z_Images/Robyn_Placeholder.webp",
     "1- Hero's Party/Aiden Mossgrove.md",
-    "2- Best friends/Mr Cianain.md",
-    "z_Images/20251123162643_1.jpg",
-    "z_Images/Mór-ríoghan.webp"
+    "z_Images/20251123162643_1.jpg"
   ]
 }
